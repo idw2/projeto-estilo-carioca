@@ -1,0 +1,136 @@
+
+.modal-content {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.modal-body {
+    padding: 0;
+}
+
+.modal-dialog {
+    width: 980px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.modal .media-comment .thumbnail{
+    width: auto !important;
+    height: auto !important;
+}
+
+.modal img{ opacity: 1!important; }
+
+.white-popup {
+    position: relative;
+    background: #FFF;
+    padding: 30px;
+    width:auto;
+    max-width: 524px;
+    margin: 20px auto;
+}
+
+.comprar-popup{}
+.comprar-popup .comprar-popup-left{
+    width: 35%;
+    float: left;
+}
+.comprar-popup .comprar-popup-right{
+    width: 65%;
+    float: left;
+}
+
+.comprar-popup-footer{
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+}
+
+.comprar-popup h2{
+    font-size: 24px;
+    font-weight: 400;
+    color: #2a2a2a;
+}
+.comprar-popup h3{
+    font-size: 15px;
+    font-weight: 500;
+    color: #2a2a2a;
+    margin-bottom: 12px;
+}
+
+.checkout-panel{
+    position: relative;
+    float: right;
+    width: 250px;
+    margin-right: 16px;
+    background: #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+
+#total-tabela, #cart_voucher{
+    padding: 15px;
+    color: #1a1a1a;
+}
+
+#cart_voucher {
+    background: #F9F9F9;
+    border-top: 1px solid #EEE;
+    border-bottom: 1px solid #EEE;
+    padding: 17px 13px;
+    padding-top: 17px;
+    text-align: center;
+}
+
+#eseguro{
+    padding: 15px;
+    font-weight: 700;
+    color: #1a1a1a;
+}
+
+#eseguro h6 {
+    color: #8A8A8A;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 7px;
+}
+
+.cart-voucher-txt {
+    font-size: 10px;
+    color: #777;
+    text-align: center;
+}
+
+#voucher label {
+    font-size: 12px;
+    color: black;
+    text-transform: uppercase;
+    margin-left: 1px;
+    cursor: pointer;
+}
+
+#eseguro p{
+    font-size: 11px;
+    line-height: 20px;
+    color: #8A8A8A;
+}
+
+checkout-panel-label{
+    text-align: left;
+    font-size: 14px;
+    color: #2a2a2a;
+}
+checkout-panel-total{
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
+    color: #2a2a2a;
+}
+
+.checkout-panel.scrolling{
+    position: fixed;
+    top: 50px;
+    right: 50px;
+}

@@ -1,0 +1,106 @@
+<?php
+require("header.phtml");
+?>
+
+<table class="container" style="background-color: #fff;margin-top: 25px;box-shadow: 0 0 0 3px #e9e9e9;border-spacing: 0;border-collapse: collapse;padding: 0;vertical-align: top;text-align: inherit;width: 589px;margin: 0 auto;">
+    <tr style="padding: 0;vertical-align: top;text-align: left;">
+        <td style="word-break: break-word;-webkit-hyphens: auto;-moz-hyphens: auto;hyphens: auto;padding: 8px;vertical-align: top;text-align: left;color: #57564a;font-family: &quot;Helvetica&quot;, &quot;Arial&quot;, sans-serif;font-weight: normal;margin: 0;line-height: 19px;font-size: 14px;border-collapse: collapse !important;">
+
+            <!-- content start -->
+<table class="row" style="border-spacing: 0;border-collapse: collapse;padding: 0px;vertical-align: top;text-align: left;width: 100%;position: relative;display: block;">
+                <tr style="padding: 0;vertical-align: top;text-align: left;">
+                    <td class="wrapper last" style="word-break: break-word;-webkit-hyphens: auto;-moz-hyphens: auto;hyphens: auto;padding: 10px 20px 0px 0px;vertical-align: top;text-align: left;color: #57564a;font-family: &quot;Helvetica&quot;, &quot;Arial&quot;, sans-serif;font-weight: normal;margin: 0;line-height: 19px;font-size: 14px;position: relative;padding-right: 0px;border-collapse: collapse !important;">
+
+                        <table class="twelve columns" style="background:#1d398d; border-spacing: 0;border-collapse: collapse;padding: 5px;vertical-align: top;text-align: left;margin: 0 auto;width: 589px;">
+                            <tr style="padding: 0;vertical-align: top;text-align: left;">
+                                <td style="word-break: break-word;-webkit-hyphens: auto;-moz-hyphens: auto;hyphens: auto;padding:10px;vertical-align: top;text-align: left;color: #57564a;font-family: &quot;Helvetica&quot;, &quot;Arial&quot;, sans-serif;font-weight: normal;margin: 0;line-height: 19px;font-size: 14px;border-collapse: collapse !important;">
+                                    <img src="<?php echo $_SERVER['EMAIL_IMG_FOLDER']; ?>/logo.png" alt="" style="float: none;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;width: auto;max-width: 100%;clear: both;display: block;">
+                                </td>
+                                <td style="text-align:right;padding:20px 10px 10px 10px;"> 
+                                <a href="estilocarioca.com.br" target="_blank" style="color:#fff; text-decoration:none; display:block; margin-top: 7px;">estilocarioca.com.br</a>
+                                <div style="float:right;margin-top:5px;">
+                                <a href="estilocarioca.com.br"><img src="<?php echo $_SERVER['EMAIL_IMG_FOLDER']; ?>/ico-insta.png" alt="" style="float: none;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;width: auto;max-width: 100%;clear: both;"></a>
+                                <a href="estilocarioca.com.br"><img src="<?php echo $_SERVER['EMAIL_IMG_FOLDER']; ?>/ico-face.png" alt="" style="float: none;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;width: auto;max-width: 100%;clear: both;"></a></div>
+                                </td>
+                                <td class="expander" style="word-break: break-word;-webkit-hyphens: auto;-moz-hyphens: auto;hyphens: auto;padding: 0 !important;vertical-align: top;text-align: left;color: #57564a;font-family: &quot;Helvetica&quot;, &quot;Arial&quot;, sans-serif;font-weight: normal;margin: 0;line-height: 19px;font-size: 14px;visibility: hidden;width: 0px;border-collapse: collapse !important;"></td>
+                            </tr>
+                        </table>
+
+                    </td>
+                </tr>
+            </table>
+
+            <table class="row" style="border-spacing: 0;border-collapse: collapse;padding: 0px;vertical-align: top;text-align: left;width: 100%;position: relative;">
+                <tr style="padding: 0;vertical-align: top;text-align: left;">
+                    <td class="wrapper last" style="word-break: break-word;-webkit-hyphens: auto;-moz-hyphens: auto;hyphens: auto;padding: 10px 20px 0px 0px;vertical-align: top;text-align: left;color: #57564a;font-family: &quot;Helvetica&quot;, &quot;Arial&quot;, sans-serif;font-weight: normal;margin: 0;line-height: 19px;font-size: 14px;position: relative;padding-right: 0px;border-collapse: collapse !important;">
+
+                        <table class="eight columns" style="border-spacing: 0;border-collapse: collapse;padding: 0;vertical-align: top;text-align: left;margin: 0 auto;width: 380px;">
+                            <tr style="padding: 0;vertical-align: top;text-align: left;">
+                                <td style="word-break: break-word;-webkit-hyphens: auto;-moz-hyphens: auto;hyphens: auto;padding: 0px 0px 10px;vertical-align: top;text-align: left;color: #57564a;font-family: &quot;Helvetica&quot;, &quot;Arial&quot;, sans-serif;font-weight: normal;margin: 0;line-height: 19px;font-size: 14px;border-collapse: collapse !important;">
+                                    <div style='font-size: 14px;'>
+                                        <div>O produto solicitado já está disponivel em nossa loja!</div>
+                                        <h2><?php echo mb_strtoupper($view_nome, "UTF-8"); ?></h2><br/>
+                                        <b>Tamanho: </b> <?php echo mb_strtoupper($view_rotulo, "UTF-8"); ?> - <?php echo mb_strtoupper($view_especificacao, "UTF-8"); ?>
+                                            <table class="table" style="margin:0 auto;">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="center" colspan="2">
+                                                            <a href="http://www.estilocarioca.com.br/pt/<?php echo $view_cat; ?>/<?php echo $view_url_amigavel; ?>" target="_blank">
+                                                                <img src="http://www.estilocarioca.com.br<?php echo $view_crop268; ?>" border="0" title="<?php echo $view_nome; ?>" alt="<?php echo $view_nome; ?>">
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="center" colspan="2"><b>Referência: </b><?php echo $view_referencia; ?></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="center" colspan="2"><b>Preço: </b><?php echo $view_preco; ?></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="center" colspan="2"><b>Caregoria: </b><?php echo $view_categoria; ?></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        
+                                        <br/>
+                                        <div style="text-align:center;"><strong>* Não responder a este e-mail</strong></div><br/>
+                                    </div>
+                                </td>
+                                <td class="expander" style="word-break: break-word;-webkit-hyphens: auto;-moz-hyphens: auto;hyphens: auto;padding: 0 !important;vertical-align: top;text-align: left;color: #57564a;font-family: &quot;Helvetica&quot;, &quot;Arial&quot;, sans-serif;font-weight: normal;margin: 0;line-height: 19px;font-size: 14px;visibility: hidden;width: 0px;border-collapse: collapse !important;"></td>
+                            </tr>
+                        </table>
+
+                    </td>
+                </tr>
+            </table>
+
+           <table class="row" style="border-spacing: 0;border-collapse: collapse;padding: 0px;vertical-align: top;text-align: left;width: 100%;position: relative;display: block;">
+                <tr style="padding: 0;vertical-align: top;text-align: left;">
+                    <td class="wrapper last" style="word-break: break-word;-webkit-hyphens: auto;-moz-hyphens: auto;hyphens: auto;padding: 10px 20px 0px 0px;vertical-align: top;text-align: left;color: #57564a;font-family: &quot;Helvetica&quot;, &quot;Arial&quot;, sans-serif;font-weight: normal;margin: 0;line-height: 19px;font-size: 14px;position: relative;padding-right: 0px;border-collapse: collapse !important;">
+
+                        <table class="twelve columns" style="border-spacing: 0;border-collapse: collapse;padding: 0;vertical-align: top;text-align: left;margin: 0 auto;width: 589px;">
+                            <tr style="padding: 0;vertical-align: top;text-align: left;">
+                                <td style="padding-bottom: 0;word-break: break-word;-webkit-hyphens: auto;-moz-hyphens: auto;hyphens: auto;padding: 0px 0px 10px;vertical-align: top;text-align: left;color: #57564a;font-family: &quot;Helvetica&quot;, &quot;Arial&quot;, sans-serif;font-weight: normal;margin: 0;line-height: 19px;font-size: 14px;border-collapse: collapse !important;"> 
+                                    <div style="padding:10px;background:#1d398d;color:#fff;width: 270px;border-radius: 5px;margin: 0 auto;"><a style="color:#fff;text-decoration:none;" href="www.estilocarioca.com.br/pt/<?php echo $view_cat; ?>/<?php echo $view_url_amigavel; ?>"><strong>CLIQUE AQUI</strong> para visualizar o produto</a></div>
+                                </td>
+                            </tr>
+                        </table>
+<table class="twelve columns" style="border-spacing: 0;border-collapse: collapse;padding: 0;vertical-align: top;text-align: left;margin: 10px auto;width: 580px;">
+                                        <tr style="padding: 0;vertical-align: top;text-align: left;">
+                                            <td style="padding-bottom: 0;word-break: break-word;-webkit-hyphens: auto;-moz-hyphens: auto;hyphens: auto;padding: 0px 0px 10px;vertical-align: top;text-align: left;color: #57564a;font-family: &quot;Helvetica&quot;, &quot;Arial&quot;, sans-serif;font-weight: normal;margin: 0;line-height: 19px;font-size: 14px;border-collapse: collapse !important;"> 
+                                                <a href="https://estilocarioca.com.br" target="_blank" style="color: #2ba6cb;text-decoration: none;display:table;margin:10px auto;"><img src="<?php echo $_SERVER['EMAIL_IMG_FOLDER']; ?>/logo_footer.png" alt="" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;width: auto;max-width: 100%;margin:10px auto;clear: both;display: block;border: none;"></a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                    </td>
+                </tr>
+            </table>
+
+            <!-- container end below -->
+        </td>
+    </tr>
+</table>
+
+<?php
+require("footer.phtml");
+

@@ -1,0 +1,30 @@
+.reset-link{
+    color: inherit;
+    text-decoration: inherit;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.uppercase{
+    text-transform:uppercase;
+}
+
+$font-default: 'Open Sans', Helvetica, sans-serif;
+.font-default{
+    font-family: $font-default;
+}
+
+$font-condensed: 'Roboto Condensed', Helvetica, sans-serif;
+.font-condensed{
+    font-family: $font-condensed;
+}
+
+$font-light: 'Roboto Slab', Helvetica, sans-serif;
+.font-light{
+    font-family: $font-light;
+}
+
+.inline-middle{
+    display: inline-block;
+    vertical-align: top;
+}

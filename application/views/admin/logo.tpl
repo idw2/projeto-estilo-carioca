@@ -1,0 +1,1 @@
+<a href="/{$language}/admin/welcome"><img class="area-restrita img-responsive" src="{$web_files}/img/logo.png" alt="" border="0" title="" /></a>

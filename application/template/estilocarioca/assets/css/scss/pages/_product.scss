@@ -1,0 +1,91 @@
+/*@import '../core/_mixins.scss';*/
+
+.product{
+    $color: $primary-dark;
+
+    &-infos{
+
+        .title{
+            font-family: $font-condensed;
+            text-transform: uppercase;
+            font-weight: 400;
+            letter-spacing: 0.04rem;
+            @include font-size(38);
+            color: $color;
+            margin: 25px 0 0 .5em;
+            padding: 0 0 .5em;
+            border-bottom: solid 2px #f1f1f1;
+        }
+
+        p{
+            font-family: $font-condensed;
+            @include font(18, 32);
+            color: #7b7b7b;
+            font-weight: 300;
+            margin: 0 0 1em;
+        }
+
+        .btn-buy{
+            font-family: $font-light;
+            @include font-size(32);
+            font-weight: 300;
+            color: $color;
+            background: lighten(#8795ae, 5%);
+            padding: 20px 20px;  
+
+            &:hover{}
+            &:active,&:focus{}
+        }
+
+        .label-top{
+            margin-right: 10px;
+        }
+
+        .select-tamanho{
+            /*min-width:*/ 
+        }
+        .select-quantidade{}
+    }
+
+    &-infos-row{
+        margin: 0 0 1.75em;
+    }
+
+    .price-rating{
+        @extend .inline-middle;
+        width: 100%;
+        margin-top: 25px;
+       
+
+        .estrelas{
+            display: inline-block;
+        }
+        .price{
+            @include font-size(32);
+            font-family: $font-light;
+            font-weight: 300;
+            color: lighten($color, 10%);
+            float: right;
+        }
+
+        .price-through{
+            text-decoration: line-through;
+            font-size: 14px;
+            opacity: 0.5;
+        }
+    }
+    .share{
+        > span{
+            @include font-size(13);
+            letter-spacing: 0.04rem;
+            color: $color;
+            font-weight: bold;
+            line-height: 20px;
+            text-transform: uppercase;
+        }
+        .list-social{
+            @extend .inline-middle;
+            margin: 0 0 0 6px;
+        }
+    }
+}
