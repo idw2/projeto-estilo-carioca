@@ -8,31 +8,31 @@
 
         <div class="row footer-content">
             <div class="col-sm-6 col-md-3">
-                <h2 class="footer-title">LOGIN E CADASTRO:</h2>
+                <h2 class="footer-title">LOGIN E CADASTRO</h2>
                 <ul class="list-unstyled">
                     <li><a href="/{$language}/conta/">Acompanhe seu pedido</a></li>
                     <li><a href="/{$language}/conta/login-cadastro/">Login e Cadastro</a></li>
                 </ul>
             </div>
             <div class="col-sm-6 col-md-3">
-                <h2 class="footer-title">ATENDIMENTO AO CLIENTE:</h2>
+                <h2 class="footer-title">ATENDIMENTO AO CLIENTE</h2>
                 <ul class="list-unstyled">
                     <li><a href="/{$language}/informacoes/contato">Entre em contato</a></li>
                     <li><a href="/{$language}/informacoes/trocas-e-devolucoes">Trocas e devoluções</a></li>
                     <li><a href="/{$language}/informacoes/termos-servicos">Termos de serviço</a></li>
                 </ul>
             </div>
-            <div class="col-sm-6 col-md-2">
-                <h2 class="footer-title">SIGA A EC:</h2>
+            <div class="col-sm-6 col-md-3">
+                <h2 class="footer-title">SIGA A EC</h2>
                 <ul class="list-unstyled list-inline list-social">
                     <!--<li><a href=""><i class="sprite sprite-twitter-2"></i></a></li>-->
-                    <li><a href="https://www.facebook.com/estilocarioca" target="blank"><i class="sprite sprite-facebook-2"></i></a></li>
-                    <li><a href="https://instagram.com/estilocarioca/" target="blank"><i class="sprite sprite-instagram-2"></i></a></li>
+                    <li><a href="https://www.facebook.com/estilocarioca" target="blank"><b class="entypo-facebook"></b></a></li>
+                    <li><a href="https://instagram.com/estilocarioca/" target="blank"><b class="entypo-instagrem"></b></a></li>
                 </ul>
             </div>
-            <div class="col-sm-6 col-md-4">
+            <div class="col-sm-6 col-md-3">
 
-                <h2 class="footer-title">FIQUE POR DENTRO DA EC:</h2>
+                <h2 class="footer-title">FIQUE POR DENTRO DA EC</h2>
                 <form action="" method="post" class="newsletter-form ajax-form" novalidate="">
                     <div class="form-row">
                         <input name="nome_newsletter_2" id="nome" type="text" class="form-control" placeholder="Seu nome" required>
@@ -71,11 +71,11 @@
                         b.parentNode.insertBefore(a, b)
                     })();
                 </script>
-                
             </div>
-                
+                    
         </div>
-            <hr>        
+                <hr>
+                    
                     <div class="row footer-content text-center">
             <p style="line-height: 1.8em;font-size: 1.2rem;">
                 <strong>RMGSPORT COMERCIO EIRELI - ME</strong>
@@ -103,7 +103,7 @@
 <script language="javascript" src="{$web_files}/js/default.js"></script>
 <script language="javascript" src="{$web_files}/js/sweet-alert.js"></script>
 <script language="javascript" src="{$web_files}/js/stickyfloat.js"></script>
-<script language="javascript"> jQuery('.checkout-panel-2').stickyfloat({ duration: 0, easing:"linear",   startOffset: 60,   }); </script>
+ <script language="javascript"> jQuery('.checkout-panel-2').stickyfloat({ duration: 0, easing:"linear",   startOffset: 60,   }); </script>
 <script src='http://cdnjs.cloudflare.com/ajax/libs/es5-shim/2.3.0/es5-shim.js'></script>
 
 

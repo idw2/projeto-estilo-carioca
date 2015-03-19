@@ -3,6 +3,8 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
 @import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab:100,300);
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
 
 body{
     @extend .font-default;
@@ -16,16 +18,40 @@ body{
 
 img{ 
     max-width: 100%;
-    image-rendering: -webkit-optimize-contrast;
+    /*    image-rendering: -webkit-optimize-contrast;*/
 }
 
 a{
     color: $default;
     &:hover{
         color: lighten($primary, 10%);
+        text-decoration: none;
     }
 }
 
+/* entypo */
+[class*="entypo-"]:before {
+    font-family: 'entypo', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+/* entypo */
+[class*="entypo-"] a:hover {
+    text-decoration: none!important;
+}
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+    font-family: 'FontAwesome', sans-serif;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 100;
+    padding: 0px 25px 20px 0;
+    cursor:zoom-in;
+    font-size: 2.8rem;
+    color: #c3c3c3;
+}
 
 
 p{
@@ -41,7 +67,7 @@ p{
 .btn{
     border-radius: 2px;
     padding: 9px 12px;
-    
+
 
     &-default{
         color: #fff;
@@ -83,11 +109,11 @@ p{
 }
 
 .section{
-    $margin: 4em;
-    $padding: 5em 0 0 0;
+    $margin: 4rem;
+    $padding: 5rem 0 0 0;
 
     padding: $padding 0;
-    
+
     &-title{
         margin-bottom: $margin;
         text-align: center;
@@ -110,7 +136,7 @@ p{
     }
 
     &-gray{
-        background-color: #f8f9fa;
+        background-color: #E9EAEF;
         padding-top: 25px;
 
         .section-title{
@@ -123,71 +149,71 @@ p{
 }
 
 .theme-default .section-title3 {
-margin: 0 0 15px;
-border-bottom: solid 2px #e3e3e7;}
+    margin: 0 0 15px;
+    border-bottom: solid 2px #e3e3e7;}
 
-  
-    .section-title3 .subtitle {
-      color: #8795ae;
-      font-size: 18px;
-      font-size: 1.8rem;
-      font-weight: 300;
-      font-family: "Roboto Condensed", Helvetica, sans-serif; }
-    
-    .theme-default .section-title3 > h2 {
-display: inline-block;
-color: #57574b;
-text-transform: uppercase;
-font-size: 22px;
-font-size: 2.2rem;
-padding: 0 20px 0 0;
-height: 50px;
-line-height: 50px;
-font-weight: 300;
-border-radius: 0;
-border: none !important;
-box-shadow: 0 2px #1f3c8a;
-margin: 0;
-font-family: "Roboto Condensed", Helvetica, sans-serif; }
-    
-    .title-tag {
-font-size: 20px;
-font-size: 2rem;
-padding: 5px 11px;
-margin-right: 15px;
-color: #fff;
-background: #1f3c8a;}
-    
-     .section-title2 {
-    margin-bottom: 4em;
+
+.section-title3 .subtitle {
+    color: #8795ae;
+    font-size: 18px;
+    font-size: 1.8rem;
+    font-weight: 300;
+    font-family: "Roboto Condensed", Helvetica, sans-serif; }
+
+.theme-default .section-title3 > h2 {
+    display: inline-block;
+    color: #57574b;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-size: 2.2rem;
+    padding: 0 20px 0 0;
+    height: 50px;
+    line-height: 50px;
+    font-weight: 300;
+    border-radius: 0;
+    border: none !important;
+    box-shadow: 0 2px #1f3c8a;
+    margin: 0;
+    font-family: "Roboto Condensed", Helvetica, sans-serif; }
+
+.title-tag {
+    font-size: 20px;
+    font-size: 2rem;
+    padding: 5px 11px;
+    margin-right: 15px;
+    color: #fff;
+    background: #1f3c8a;}
+
+.section-title2 {
+    margin-bottom: 4rem;
     text-align: center;
     text-transform: uppercase; }
-    .section-title2 .title {
-      color: #8795ae;
-      font-size: 36px;
-      font-size: 3.6rem;
-      font-weight: 400;
-      letter-spacing: 0.04rem;
-      margin: 30px 0 0 4px;
-      font-family: "Roboto Condensed", Helvetica, sans-serif; }
-    .section-title2 .subtitle {
-      color: #8795ae;
-      font-size: 18px;
-      font-size: 1.8rem;
-      font-weight: 300;
-      font-family: "Roboto Condensed", Helvetica, sans-serif; }
-    
-    .form-control, input[type=text], input[type=password], input[type=email] {
-color: #4a4a4a;
-background: #fff;
-border: 1px solid #d6d6d6;;
-border-radius: 0;
-height: 40px;
-font-size: 14px;
-font-size: 1.4rem;
-font-weight: 300;
-padding: 0 15px;
-box-shadow: none;
+.section-title2 .title {
+    color: #8795ae;
+    font-size: 36px;
+    font-size: 3.6rem;
+    font-weight: 400;
+    letter-spacing: 0.04rem;
+    margin: 30px 0 0 4px;
+    font-family: "Roboto Condensed", Helvetica, sans-serif; }
+.section-title2 .subtitle {
+    color: #8795ae;
+    font-size: 18px;
+    font-size: 1.8rem;
+    font-weight: 300;
+    font-family: "Roboto Condensed", Helvetica, sans-serif; }
+
+.form-control, input[type=text], input[type=password], input[type=email] {
+    color: #4a4a4a;
+    background: #fff;
+    border: 1px solid #d6d6d6;;
+    border-radius: 0;
+    height: 40px;
+    font-size: 14px;
+    font-size: 1.4rem;
+    font-weight: 300;
+    padding: 0 15px;
+    box-shadow: none;
 }
 
 .navbar{
@@ -252,6 +278,14 @@ box-shadow: none;
                     > a{
                         display: inline-block;
                         margin: 6px 4px;
+                        color:#c7c7c7;
+
+                    }
+                    > a:hover{
+                        display: inline-block;
+                        margin: 6px 4px;
+                        color:#1F3C8A;
+
                     }
                 }
 
@@ -330,9 +364,9 @@ h2.title-lg {text-align: center; margin-bottom: 12px;}
 
     .panel{
         $bg: #8795ae; 
-        $margin: 1.4em;
+        $margin: 1.4rem;
 
-        margin: 50px 1em 0;
+        margin: 50px 1rem 0;
         padding: 50px 10px;
         background: $bg;
         box-shadow: none;
@@ -473,7 +507,7 @@ h2.title-lg {text-align: center; margin-bottom: 12px;}
 
 
 .footer{
-    $margin: 4em;
+    $margin: 4rem;
     padding: $margin 0 $margin/4;
     background: #f8f9fa;
 
@@ -515,10 +549,10 @@ h2.title-lg {text-align: center; margin-bottom: 12px;}
     }
 
     .form-row{
-        margin-bottom: .4em;
+        margin-bottom: .4rem;
     }
-    
-   
+
+
 
     .copy{
         @include font-size(14);
@@ -546,7 +580,7 @@ h2.title-lg {text-align: center; margin-bottom: 12px;}
 }
 
 .list-social li{
-    margin-right: 12px;
+    margin-right: 6px;
 }
 
 .scroll-down{
@@ -563,14 +597,14 @@ h2.title-lg {text-align: center; margin-bottom: 12px;}
 }
 
 .form-row{
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
 }
 
 .product-slider{
-    margin-bottom: 1.25em;
+    margin-bottom: 1.25rem;
 }
 .product-slider-nav{
-    margin-bottom: 1.875em;
+    margin-bottom: 1.875rem;
 }
 
 .label-top{
@@ -771,11 +805,11 @@ tr.cart_total_price {
 }
 
 body .btn-white{
-    
+
     color: #fff;
     background: #1f3c8a;
     border-color: #1f3c8a;
-box-shadow: 0 2px 0 #1a3375;
+    box-shadow: 0 2px 0 #1a3375;
 }
 
 .btn-buy[disabled]{
@@ -787,7 +821,7 @@ box-shadow: 0 2px 0 #1a3375;
     margin: 0 0 20px;
 
     p{
-        margin-bottom: 1em;
+        margin-bottom: 1rem;
     }
 }
 
@@ -804,96 +838,96 @@ box-shadow: 0 2px 0 #1a3375;
 }
 
 .btn-group, .btn-group-vertical {
-position: relative;
-display: inline-block;
-vertical-align: middle;}
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;}
 
 .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle), .theme-default .pager li.btn-group > a:first-child:not(:last-child):not(.dropdown-toggle), .theme-default .pager li.btn-group > span:first-child:not(:last-child):not(.dropdown-toggle) {
-border-top-right-radius: 0;
-border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
 }
 .theme-default .btn-default2 {
-color: #5a5a5a;
-width: 90px !important;
-border-color: transparent;
-background: #f5f5f5 !important;
--webkit-transition: background-color 0.2s;
--moz-transition: background-color 0.2s;
--ms-transition: background-color 0.2s;
--o-transition: background-color 0.2s;
-transition: background-color 0.2s;
+    color: #5a5a5a;
+    width: 90px !important;
+    border-color: transparent;
+    background: #f5f5f5 !important;
+    -webkit-transition: background-color 0.2s;
+    -moz-transition: background-color 0.2s;
+    -ms-transition: background-color 0.2s;
+    -o-transition: background-color 0.2s;
+    transition: background-color 0.2s;
 }
 
 .nav-tabs > li > a {
-  color: #3a3a3a;
-  font-family: 'Lato', Helvetica, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  padding: 0 20px;
-  height: 46px;
-  line-height: 46px;
-  font-weight: 400;
-  border-radius: 0;
-  border: solid 1px #e1e1e1 !important;
-  border-bottom: none !important;
-  background-color: #eee;
-  margin: 0;
+    color: #3a3a3a;
+    font-family: 'Lato', Helvetica, sans-serif;
+    font-size: 14px;
+    font-size: 1.4rem;
+    padding: 0 20px;
+    height: 46px;
+    line-height: 46px;
+    font-weight: 400;
+    border-radius: 0;
+    border: solid 1px #e1e1e1 !important;
+    border-bottom: none !important;
+    background-color: #eee;
+    margin: 0;
 }
 
 .theme-default .btn-default2:hover {
-background: #e8e8e8 !important;
+    background: #e8e8e8 !important;
 }
 
 .btn-group > .btn2, .theme-default .pager li.btn-group > a, .theme-default .pager li.btn-group > span, .btn-group-vertical > .btn2, .theme-default .pager li.btn-group-vertical > a, .theme-default .pager li.btn-group-vertical > span {
-position: relative;
-float: left;
+    position: relative;
+    float: left;
 }
 
 .theme-default .btn2 {
-position: relative;
-color: #555;
-text-shadow: none;
-height: 40px;
-line-height: 40px;
-padding: 0 20px;
-font-weight: 400;
-outline: none;
-letter-spacing: 1px;
-outline: 0 !important;
-background: none;
-border-radius: 2px; }
+    position: relative;
+    color: #555;
+    text-shadow: none;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    font-weight: 400;
+    outline: none;
+    letter-spacing: 1px;
+    outline: 0 !important;
+    background: none;
+    border-radius: 2px; }
 
 body .btn-default2.active{
-color: #333;
-background-color: #e6e6e6 !important;
-border-color: #adadad !important;
+    color: #333;
+    background-color: #e6e6e6 !important;
+    border-color: #adadad !important;
 }
 
 .btn2 .theme-default .pager li > a, .theme-default .pager li > span {
-display: inline-block;
-padding: 6px 12px;
-margin-bottom: 0;
-font-size: 14px;
-font-weight: 400;
-line-height: 1.42857143;
-text-align: center;
-white-space: nowrap;
-vertical-align: middle;
-cursor: pointer;
--webkit-user-select: none;
--moz-user-select: none;
--ms-user-select: none;
-user-select: none;
-background-image: none;
-border: 1px solid transparent;
-border-radius: 4px;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
 }
 
 [data-toggle=buttons] > .btn2 > input[type=radio], .theme-default .pager li[data-toggle=buttons] > a > input[type=radio], .theme-default .pager li[data-toggle=buttons] > span > input[type=radio], [data-toggle=buttons] > .btn > input[type=checkbox], .theme-default .pager li[data-toggle=buttons] > a > input[type=checkbox], .theme-default .pager li[data-toggle=buttons] > span > input[type=checkbox] {
-position: absolute;
-z-index: -1;
-filter: alpha(opacity=0);
-opacity: 0;
+    position: absolute;
+    z-index: -1;
+    filter: alpha(opacity=0);
+    opacity: 0;
 }
 
 .panel > .table-responsive:first-child > .table:first-child, .panel > .table:first-child{
@@ -1020,7 +1054,7 @@ opacity: 0;
         .content{
             display: block;
             margin-left: 60px;
-            
+
         }
         .subtitle{
             @include line-height(18);
@@ -1061,3 +1095,54 @@ body.search-open .search-popup{
 }
 
 .share {float: left; margin: 0 0 20px 0;}
+
+
+.hamburger{
+    $width: 32px;
+    $height: 2px;
+    $margin: 6px;
+    $bg: #0C2983;
+    $transition: .15s ease-out;
+
+    display: none;
+    @include opacity(0);
+    float: right;
+    height: 50px;
+    width: 50px;
+    text-align: right;
+    margin-top: 3px;
+
+    > span{
+        display: inline-block;
+        position: relative;
+        padding: 0;
+        top: 11px;
+        width: $width;
+        height: $height;
+        background:$bg;
+        text-indent: -9999em;
+
+        &::after, &::before{
+            content: '';
+            position: absolute;
+            display: inline-block;
+        }
+
+        &::after{
+            top: (-$height)-$margin;
+            left: 0;
+            width: $width;
+            height: $height;
+            background:$bg;
+            @include transition(top $transition);
+        }
+        &::before{
+            width: $width;
+            height: $height;
+            top: $height+$margin;
+            left: 0;
+            background:$bg;
+            @include transition(top $transition);
+        }
+    }
+}

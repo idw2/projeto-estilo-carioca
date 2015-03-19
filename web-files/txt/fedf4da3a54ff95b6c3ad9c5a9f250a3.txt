@@ -1,0 +1,512 @@
+Pedido: 0000000001
+Rogerio de Almeida Pontes
+Rua Coronel João Olintho n: 880,  - Recreio dos Bandeirantes
+Rio de Janeiro/RJ
+CEP: 22790-170
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000002
+Rogerio de Almeida Pontes
+Rua Coronel João Olintho n: 880,  - Recreio dos Bandeirantes
+Rio de Janeiro/RJ
+CEP: 22790-170
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000003
+Rogerio de Almeida Pontes
+Rua Coronel João Olintho n: 880,  - Recreio dos Bandeirantes
+Rio de Janeiro/RJ
+CEP: 22790-170
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000004
+Rogerio de Almeida Pontes
+Rua Coronel João Olintho n: 880,  - Recreio dos Bandeirantes
+Rio de Janeiro/RJ
+CEP: 22790-170
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000005
+Rogerio de Almeida Pontes
+Rua Coronel João Olintho n: 880,  - Recreio dos Bandeirantes
+Rio de Janeiro/RJ
+CEP: 22790-170
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000006
+Rogerio de Almeida Pontes
+Rua Coronel João Olintho n: 880,  - Recreio dos Bandeirantes
+Rio de Janeiro/RJ
+CEP: 22790-170
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000007
+Rogerio de Almeida Pontes
+Rua Coronel João Olintho n: 880,  - Recreio dos Bandeirantes
+Rio de Janeiro/RJ
+CEP: 22790-170
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000008
+Rogerio de Almeida Pontes
+Rua Coronel João Olintho n: 880,  - Recreio dos Bandeirantes
+Rio de Janeiro/RJ
+CEP: 22790-170
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000009
+Rogerio de Almeida Pontes
+Rua Coronel João Olintho n: 880,  - Recreio dos Bandeirantes
+Rio de Janeiro/RJ
+CEP: 22790-170
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000010
+Rogerio de Almeida Pontes
+Rua Coronel João Olintho n: 880,  - Recreio dos Bandeirantes
+Rio de Janeiro/RJ
+CEP: 22790-170
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000011
+Rogerio de Almeida Pontes
+Rua Coronel João Olintho n: 880,  - Recreio dos Bandeirantes
+Rio de Janeiro/RJ
+CEP: 22790-170
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000012
+Rogerio de Almeida Pontes
+Rua Coronel João Olintho n: 880,  - Recreio dos Bandeirantes
+Rio de Janeiro/RJ
+CEP: 22790-170
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000013
+João Santos
+Avenida Brasil - de 29661 a 30775 - lado ímpar n: 213,  - Realengo
+Rio de Janeiro/RJ
+CEP: 21720-000
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000014
+Rogerio de Almeida Pontes
+Rua Paulo Moreno n: 377,  - Barra da Tijuca
+Rio de Janeiro/RJ
+CEP: 22793-690
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000015
+Rogerio de Almeida Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Brasília/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000016
+Rogerio de Almeida Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Brasília/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000017
+Rogerio de Almeida Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Brasília/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000018
+Rogerio de Almeida Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Brasília/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000019
+Rogerio de Almeida Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Brasília/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000020
+Rogerio de Almeida Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Brasília/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000021
+Rogerio de Almeida Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Brasília/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000023
+Rogerio de Almeida Pontes
+Rua Paulo Moreno n: 377, Casa - Barra da Tijuca
+Rio de Janeiro/RJ
+CEP: 22793-690
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000024
+Rogerio de Almeida Pontes
+Rua Paulo Moreno n: 377, Casa - Barra da Tijuca
+Rio de Janeiro/RJ
+CEP: 22793-690
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000028
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Brasília/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000029
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Brasília/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000030
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Brasília/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000031
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Brasília/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000032
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Brasília/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000033
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Brasília/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000034
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Brasília/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000035
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Brasília/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000036
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Brasília/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000037
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Brasília/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000038
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Brasília/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000039
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Brasília/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000040
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Brasília/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000041
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Brasília/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000042
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Brasília/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000043
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Brasília/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000044
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Brasília/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000045
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Brasília/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000046
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Brasília/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000047
+João Santos
+Avenida Brasil - de 29661 a 30775 - lado ímpar n: 213,  - Realengo
+Rio de Janeiro/RJ
+CEP: 21720-000
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000048
+João Santos
+Avenida Brasil - de 29661 a 30775 - lado ímpar n: 213,  - Realengo
+Rio de Janeiro/RJ
+CEP: 21720-000
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000049
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Brasília/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000050
+Rogerio Pontes
+Avenida Brasil - de 29661 a 30775 - lado ímpar n: 10,  - Realengo
+Rio de Janeiro/RJ
+CEP: 21720-000
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000051
+Rogerio Pontes
+Avenida Brasil - de 29661 a 30775 - lado ímpar n: 10,  - Realengo
+Rio de Janeiro/RJ
+CEP: 21720-000
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000052
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Brasília/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000053
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Brasília/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000054
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Brasília/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000055
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Brasília/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000056
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Brasília/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000057
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Brasília/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000058
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Brasília/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000059
+Rogerio Pontes
+Rua Cariré n: 135, ap 632 - Farias Brito
+Fortaleza/CE
+CEP: 60010-730
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000060
+Luiz Gustavo Silva
+Avenida Di Cavalcanti n: 25, Bl 2 - Ap 206 - Barra da Tijuca
+Rio de Janeiro/RJ
+CEP: 22793-320
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000061
+Luiz Gustavo Silva
+Avenida Di Cavalcanti n: 25, Bl 2 - Ap 206 - Barra da Tijuca
+Rio de Janeiro/RJ
+CEP: 22793-320
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000062
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Brasília/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000063
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Brasília/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000064
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Brasília/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000065
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Brasília/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000066
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Brasília/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000067
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Brasília/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+Pedido: 0000000068
+JoÃ£o Ahmad
+Avenida Brasil - de 29661 a 30775 - lado ímpar n: 222,  - Realengo
+Rio de Janeiro/RJ
+CEP: 21720-000
+--
+----------------------------------------------------------------------------
+--

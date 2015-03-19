@@ -1220,3 +1220,62 @@ tr.cart_total_price {
     font-size: 14px;
     line-height: 28px !important;
 }
+
+body a.imagem-produto {cursor: zoom-in !important; }
+
+
+.hamburger{
+    $width: 32px;
+    $height: 2px;
+    $margin: 6px;
+    $bg: #fff;
+    $transition: .15s ease-out;
+
+    display: none;
+    @include opacity(0);
+
+    > span{
+        display: inline-block;
+        position: relative;
+        padding: 0;
+        top: 11px;
+        width: $width;
+        height: $height;
+        background:$bg;
+        text-indent: -9999em;
+
+        &::after, &::before{
+            content: '';
+            position: absolute;
+            display: inline-block;
+        }
+
+        &::after{
+            top: (-$height)-$margin;
+            left: 0;
+            width: $width;
+            height: $height;
+            background:$bg;
+            @include transition(top $transition);
+        }
+        &::before{
+            width: $width;
+            height: $height;
+            top: $height+$margin;
+            left: 0;
+            background:$bg;
+            @include transition(top $transition);
+        }
+    }
+
+    &:hover{
+        > span{
+            &::after{
+                top: (-$height*2)-$margin;
+            }
+            &::before{
+                top: $height*2+$margin;
+            }
+        }
+    }
+}

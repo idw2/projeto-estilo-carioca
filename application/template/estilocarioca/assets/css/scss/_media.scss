@@ -40,7 +40,7 @@
         margin-right: 10px;
     }
     .navbar .navbar-nav.navbar-right > li > a{
-          margin: 6px 14px;
+        margin: 6px 14px;
     }
 }
 
@@ -62,7 +62,7 @@
         margin-right: 10px;
     }
     .navbar .navbar-nav.navbar-right > li > a{
-          margin: 6px 14px;
+        margin: 6px 14px;
     }
 }
 
@@ -74,8 +74,8 @@
     .checkout-panel{
         display: none!important;
     }
-    
-    
+
+
 }
 
 @media screen and (max-width: $desktop-max) and (min-width: $tablet){
@@ -93,5 +93,78 @@
     }
 }
 
+@media screen and (max-width: $tablet-max){
+    .navbar{
+        border-top-width: 4px;
+        padding: 8px 0;
+    }
 
-@media screen and (max-width: $menu-break){}
+    .brand {
+        img{
+            width: 60px;
+            height: auto;
+        }
+    }
+}
+
+@media screen and (max-width: $menu-break){
+    html{
+        font-size: 8px;
+    }
+    .hamburger{
+        display: block;
+        @include opacity(1);
+    }
+    .hero .panel{
+        padding: 20px 10px;
+        margin: 20px 0 0;
+    }
+    .hero .panel h2{
+
+    }
+    .hero .panel .btn{
+        max-width: none !important;
+    }
+    body{
+        padding-top: 76px;
+    }
+
+    .footer .list-unstyled{
+        margin-bottom: 30px;
+    }
+    #nome_newsletter_2,
+    #email_newsletter_1{
+        margin-bottom: 10px;
+    }
+
+    .navbar-collapse{
+        max-height: 0 !important;
+        @include transition(max-height .33s ease-out);
+        padding: 0;
+        overflow: hidden;
+        border: none;
+
+        body.menu-open &{
+            max-height: 500px !important;
+        }
+    }
+
+    .navbar-nav{
+        .navbar-social{}
+    }
+    .navbar-nav.navbar-right{
+        text-align: right;
+        margin: 10px 0;
+        border-bottom: solid 1px #f1f1f1;
+
+        .navbar-social{
+            float: left;
+        }
+
+        > li{
+            display: inline-block;
+            vertical-align: top;
+        }
+    }
+
+}

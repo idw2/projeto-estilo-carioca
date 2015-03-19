@@ -7,29 +7,16 @@
                 <img src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/img/estilocarioca2.png" width="71" height="68">
             </a>
         </div>
-        <nav class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
-                <li {if $page eq "index"} class="active"{/if}>
-                    <a href="/{$language}/">Home</a>
-                </li>
-                <li {if $page eq "quem_somos"} class="active"{/if}>
-                    <a href="/{$language}/informacoes/quem-somos">A Estilo Carioca</a>
-                </li>
-                <li {if $page eq "junior"} class="active"{/if}>
-                    <a href="/{$language}/junior/">Junior</a>
-                </li>
-                <li {if $page eq "nilton-santos"} class="active"{/if}>
-                    <a href="/{$language}/nilton-santos">Nilton Santos</a>
-                </li>
-            </ul>
+        <nav class="navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li class="navbar-social">
-                    <a href="https://instagram.com/estilocarioca/">
-                        <i class="sprite sprite-instagram"></i>
-                    </a>
                     <a href="https://www.facebook.com/estilocarioca">
-                        <i class="sprite sprite-facebook"></i>
+                        <b class="entypo-facebook"></b>
                     </a>
+                    <a href="https://instagram.com/estilocarioca/">
+                        <b class="entypo-instagrem"></b>
+                    </a>
+                    
                     <!--<a href="">
                         <i class="sprite sprite-twitter"></i>
                     </a>-->
@@ -58,6 +45,21 @@
                         <i class="icon sprite sprite-cart"></i>
                         <span class="value">{if $total_produtos eq "" }0{else}{$total_produtos}{/if}</span>
                     </a>
+                </li>
+            </ul>
+                    
+            <ul class="nav navbar-nav">
+                <li {if $page eq "index"} class="active"{/if}>
+                    <a href="/{$language}/">Home</a>
+                </li>
+                <li {if $page eq "quem_somos"} class="active"{/if}>
+                    <a href="/{$language}/informacoes/quem-somos">A Estilo Carioca</a>
+                </li>
+                <li {if $page eq "junior"} class="active"{/if}>
+                    <a href="/{$language}/junior/">Junior</a>
+                </li>
+                <li {if $page eq "nilton-santos"} class="active"{/if}>
+                    <a href="/{$language}/nilton-santos">Nilton Santos</a>
                 </li>
             </ul>
         </nav>

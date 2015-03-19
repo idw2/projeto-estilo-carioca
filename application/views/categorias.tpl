@@ -126,7 +126,7 @@
 
             {foreach item=produto from=$arr}
                 {if $produto->CODPRODUTO != ""}
-                    <div class="col-xs-6 col-sm-3">
+                    <div class="col-xs-6 col-sm-3" style="margin-bottom: 30px;">
                         <div class="thumb">
                             <div class="thumb-img">
                                 <a href="/{$language}/{$produto->CATEGORIA}/{$produto->URL_AMIGAVEL}">
@@ -143,7 +143,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div>                                    
                 {/if}
             {/foreach}
         </div>

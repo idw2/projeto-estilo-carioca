@@ -68,6 +68,11 @@ Common = (function () {
     $('.search-popup .search-popup-inner *:not(.popup-close)').click(function (e) {
         e.stopPropagation();
     });
+    
+    $('.hamburger').click(function(e){
+        e.preventDefault();
+        $('body').toggleClass('menu-open');
+    });
 });
 
 function getMyFolderRoot() {

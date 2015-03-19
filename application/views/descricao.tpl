@@ -6,25 +6,31 @@
         <div class="row">
             <div class="col-sm-5">
                 <figure class="product-img">
-                    <div class="slider-for product-slider">
+
+                    <div class="slider-for product-slider ">
                         {counter assign=i start=0 print=false}
                         {foreach item=fful from=$fotos_full}
                             {if $i == 0}
-                                {assign var="FOTO_SM" value="{$fful->FOTO_IT}"}
+                                {assign var="FOTO_SM" value="{$fful->FOTO_LG}"}
                             {/if}
                             <div>
-                                <a href="{$fful->FOTO_HLG}" class="fancybox-gallery" rel="gallery">
-                                    <img style="min-height:550px" src="{$fful->FOTO_IT}" alt="{$nome}" border="0" title="{$nome}" />
+                                <a  href="{$fful->FOTO_LG}" class="imagem-produto" rel="gallery">
+
+                                    <img   src="{$fful->FOTO_IT}" alt="{$nome}" border="0" title="{$nome}" />
+                                </a>
+                                <a  href="{$fful->FOTO_LG}" class="imagem-produto-zoom fontawesome-zoom-in">
+
                                 </a>
                             </div>
                             {counter}
                         {/foreach}
 
-                    </div>
+                    </div> 
+
                     <div class="slider-nav product-slider-nav">
                         {counter assign=i start=0 print=false}
                         {foreach item=fful from=$fotos_full}
-                            <div>
+                            <div style="width: 130px !important;">
                                 <img style="cursor:pointer;" width="100" height='100' src="{$fful->FOTO_MD}" alt="{$nome}" border="0" title="{$nome}" />
                             </div>
                             {counter}
@@ -298,10 +304,37 @@
                                     {$descricao}
                                 </div>
                             </div>
-                                <div role="tabpanel" class="tab-pane fade" id="profile" style="padding: 1%;">
+                            <div role="tabpanel" class="tab-pane fade" id="profile" style="padding: 1%;">
                                 <div class="product-infos-row">
                                     <br/>
                                     {$especificacoes}
+                                </div>
+                            </div>
+                        </div>
+
+                        <style>
+                            .tab-content{
+                                max-width: 100%;
+                            }
+                            .tab-content table{
+                                width: 100%;
+                            }
+                            .tab-content table thead td:last-child{
+                                width: 20%;
+                            }
+                            .tab-content table thead td{
+                                width: 40%;
+                            }
+                        </style>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="share">
+                                    <span>COMPARTILHE:</span>
+                                    <ul class="list-inline list-social">
+                                        {*                        <li><a href="http://twitter.com/share?text={$titulo}&url={$url}&via=maria_de_barro" target="_blank"><i class="sprite sprite-twitter-2"></i></a></li>*}
+                                        <li style="margin: 0 !important;"><a href="http://www.facebook.com/sharer.php?u={$site}{$language}/{$ctgr}/{$url_amigavel}?news=s&utm_source=fbBTshare" target="_blank" ><b class="entypo-facebook"></b></a></li>
+                                        <li style="margin: 0 !important;"><a href=""><b class="entypo-mail"></b></a></li>    
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -311,18 +344,7 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="share">
-                    <span>COMPARTILHE:</span>
-                    <ul class="list-inline list-social">
-                        {*                        <li><a href="http://twitter.com/share?text={$titulo}&url={$url}&via=maria_de_barro" target="_blank"><i class="sprite sprite-twitter-2"></i></a></li>*}
-                        <li style="margin: 0 !important;"><a href="http://www.facebook.com/sharer.php?u={$site}{$language}/{$ctgr}/{$url_amigavel}?news=s&utm_source=fbBTshare" target="_blank" ><i class="sprite sprite-facebook-2"></i></a></li>
-                        <li style="margin: 0 !important;"><a href=""><i class="sprite sprite-email"></i></a></li>    
-                    </ul>
-                </div>
-            </div>
-        </div>
+
     </div>
 
 </section>
@@ -392,18 +414,18 @@
 
 <script>
 
-    $(document).ready(function() {
-        $("#less").click(function() {
+    $(document).ready(function () {
+        $("#less").click(function () {
             datagrid_less()
         });
-        $("#plus").click(function() {
+        $("#plus").click(function () {
             datagrid_plus()
         });
     });
 
     function datagrid_less() {
         var n = 0;
-        $("#data .datagrid").each(function(i) {
+        $("#data .datagrid").each(function (i) {
             n = i;
         });
         var qntdd = (parseInt(n) - 1);
@@ -417,7 +439,7 @@
     function datagrid_plus() {
 
         var n = 0;
-        $("#data .datagrid").each(function(i) {
+        $("#data .datagrid").each(function (i) {
             n = i;
         });
         var qntdd = (parseInt(n) + 1);
@@ -483,7 +505,7 @@
             type: 'post',
             data: "codquantidade=" + codquantidade,
             url: '{$web_files}/ajax/is-disponibilidade',
-            success: function(data) {
+            success: function (data) {
 
                 console.log(Math.random() + ": " + data + ": " + $("#" + quantidade).val() + ": " + codquantidade);
 

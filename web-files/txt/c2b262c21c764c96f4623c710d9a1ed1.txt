@@ -1,0 +1,512 @@
+(Endereço nÂº1)
+Rogerio de Almeida Pontes
+Rua Coronel Jo�o Olintho n: 880,  - Recreio dos Bandeirantes
+Rio de Janeiro/RJ
+CEP: 22790-170
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº2)
+Rogerio de Almeida Pontes
+Rua Coronel Jo�o Olintho n: 880,  - Recreio dos Bandeirantes
+Rio de Janeiro/RJ
+CEP: 22790-170
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº3)
+Rogerio de Almeida Pontes
+Rua Coronel Jo�o Olintho n: 880,  - Recreio dos Bandeirantes
+Rio de Janeiro/RJ
+CEP: 22790-170
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº4)
+Rogerio de Almeida Pontes
+Rua Coronel Jo�o Olintho n: 880,  - Recreio dos Bandeirantes
+Rio de Janeiro/RJ
+CEP: 22790-170
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº5)
+Rogerio de Almeida Pontes
+Rua Coronel Jo�o Olintho n: 880,  - Recreio dos Bandeirantes
+Rio de Janeiro/RJ
+CEP: 22790-170
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº6)
+Rogerio de Almeida Pontes
+Rua Coronel Jo�o Olintho n: 880,  - Recreio dos Bandeirantes
+Rio de Janeiro/RJ
+CEP: 22790-170
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº7)
+Rogerio de Almeida Pontes
+Rua Coronel Jo�o Olintho n: 880,  - Recreio dos Bandeirantes
+Rio de Janeiro/RJ
+CEP: 22790-170
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº8)
+Rogerio de Almeida Pontes
+Rua Coronel Jo�o Olintho n: 880,  - Recreio dos Bandeirantes
+Rio de Janeiro/RJ
+CEP: 22790-170
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº9)
+Rogerio de Almeida Pontes
+Rua Coronel Jo�o Olintho n: 880,  - Recreio dos Bandeirantes
+Rio de Janeiro/RJ
+CEP: 22790-170
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº10)
+Rogerio de Almeida Pontes
+Rua Coronel Jo�o Olintho n: 880,  - Recreio dos Bandeirantes
+Rio de Janeiro/RJ
+CEP: 22790-170
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº11)
+Rogerio de Almeida Pontes
+Rua Coronel Jo�o Olintho n: 880,  - Recreio dos Bandeirantes
+Rio de Janeiro/RJ
+CEP: 22790-170
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº12)
+Rogerio de Almeida Pontes
+Rua Coronel Jo�o Olintho n: 880,  - Recreio dos Bandeirantes
+Rio de Janeiro/RJ
+CEP: 22790-170
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº13)
+Jo�o Santos
+Avenida Brasil - de 29661 a 30775 - lado �mpar n: 213,  - Realengo
+Rio de Janeiro/RJ
+CEP: 21720-000
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº14)
+Rogerio de Almeida Pontes
+Rua Paulo Moreno n: 377,  - Barra da Tijuca
+Rio de Janeiro/RJ
+CEP: 22793-690
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº15)
+Rogerio de Almeida Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Bras�lia/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº16)
+Rogerio de Almeida Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Bras�lia/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº17)
+Rogerio de Almeida Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Bras�lia/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº18)
+Rogerio de Almeida Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Bras�lia/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº19)
+Rogerio de Almeida Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Bras�lia/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº20)
+Rogerio de Almeida Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Bras�lia/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº21)
+Rogerio de Almeida Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Bras�lia/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº22)
+Rogerio de Almeida Pontes
+Rua Paulo Moreno n: 377, Casa - Barra da Tijuca
+Rio de Janeiro/RJ
+CEP: 22793-690
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº23)
+Rogerio de Almeida Pontes
+Rua Paulo Moreno n: 377, Casa - Barra da Tijuca
+Rio de Janeiro/RJ
+CEP: 22793-690
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº24)
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Bras�lia/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº25)
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Bras�lia/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº26)
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Bras�lia/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº27)
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Bras�lia/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº28)
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Bras�lia/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº29)
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Bras�lia/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº30)
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Bras�lia/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº31)
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Bras�lia/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº32)
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Bras�lia/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº33)
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Bras�lia/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº34)
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Bras�lia/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº35)
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Bras�lia/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº36)
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Bras�lia/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº37)
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Bras�lia/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº38)
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Bras�lia/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº39)
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Bras�lia/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº40)
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Bras�lia/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº41)
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Bras�lia/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº42)
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Bras�lia/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº43)
+Jo�o Santos
+Avenida Brasil - de 29661 a 30775 - lado �mpar n: 213,  - Realengo
+Rio de Janeiro/RJ
+CEP: 21720-000
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº44)
+Jo�o Santos
+Avenida Brasil - de 29661 a 30775 - lado �mpar n: 213,  - Realengo
+Rio de Janeiro/RJ
+CEP: 21720-000
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº45)
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Bras�lia/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº46)
+Rogerio Pontes
+Avenida Brasil - de 29661 a 30775 - lado �mpar n: 10,  - Realengo
+Rio de Janeiro/RJ
+CEP: 21720-000
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº47)
+Rogerio Pontes
+Avenida Brasil - de 29661 a 30775 - lado �mpar n: 10,  - Realengo
+Rio de Janeiro/RJ
+CEP: 21720-000
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº48)
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Bras�lia/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº49)
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Bras�lia/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº50)
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Bras�lia/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº51)
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Bras�lia/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº52)
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Bras�lia/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº53)
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Bras�lia/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº54)
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Bras�lia/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº55)
+Rogerio Pontes
+Rua Carir� n: 135, ap 632 - Farias Brito
+Fortaleza/CE
+CEP: 60010-730
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº56)
+Luiz Gustavo Silva
+Avenida Di Cavalcanti n: 25, Bl 2 - Ap 206 - Barra da Tijuca
+Rio de Janeiro/RJ
+CEP: 22793-320
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº57)
+Luiz Gustavo Silva
+Avenida Di Cavalcanti n: 25, Bl 2 - Ap 206 - Barra da Tijuca
+Rio de Janeiro/RJ
+CEP: 22793-320
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº58)
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Bras�lia/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº59)
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Bras�lia/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº60)
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Bras�lia/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº61)
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Bras�lia/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº62)
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Bras�lia/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº63)
+Rogerio Pontes
+Quadra 5 n: 104,  - Setor Leste (Gama)
+Bras�lia/DF
+CEP: 72450-050
+--
+----------------------------------------------------------------------------
+--
+(Endereço nÂº64)
+João Ahmad
+Avenida Brasil - de 29661 a 30775 - lado �mpar n: 222,  - Realengo
+Rio de Janeiro/RJ
+CEP: 21720-000
+--
+----------------------------------------------------------------------------
+--
