@@ -39,138 +39,138 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'unifunc' => 'content_53f2747585e546_03855917',
   'cache_lifetime' => 120,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_53f2747585e546_03855917')) {function content_53f2747585e546_03855917($_smarty_tpl) {?><!DOCTYPE HTML>
-<html lang="pt-br">
-
-    <head>
-        <meta charset="UTF-8">
-        <title>Minha Concessionária | Bem vindo</title>
-
-
-        <link rel="icon" type="image/vnd.microsoft.icon" href="/web-files/img/favicon.ico"/>
-        <link rel="shortcut icon" type="image/x-icon" href="/web-files/img/favicon.ico"/>
-
-        <link rel="stylesheet" href="/web-files/font-awesome-4.1.0/css/font-awesome.min.css"/>
-        <link rel="stylesheet" href="/web-files/bootstrap/css/bootstrap.css"/>
-        <link rel="stylesheet" href="/web-files/bootstrap/css/bootstrap-theme.css"/>		
-        <link rel="stylesheet" href="/web-files/css/docs.min.css"/>
-        <link rel="stylesheet" href="/web-files/css/style.css"/>
-
-        <script language="javascript" src="/web-files/js/funcoes.js"></script>
-        <script language="javascript" src="/web-files/js/jquery-2.1.1.min.js"></script>
-        <script language="javascript" src="/web-files/js/jQuery-Mask-Plugin.js"></script>
-        <script language="javascript" src="/web-files/bootstrap/js/bootstrap.js"></script>
-
-        <style>
-            html,body{
-                height: 100%;
-            }
-
-            .box-login{
-                margin-top: 25%
-            }
-            .area-restrita{
-                    margin-bottom: 4%; 
-                    display: inline-block;
-            }
-            
-            .panel-heading{
-                    color: #e9c92e; 
-                    font-family: "Arial Black", Gadget, sans-serif;
-            }
-            
-            .nav > li > a:hover, .nav > li > a:focus {
-                text-decoration: none;
-                background-color: #e9c92e; 
-                color: #395aa4;
-            }
-            
-            .nav > li > a {
-                position: relative; 
-                display: block; 
-                padding: 10px 15px; 
-                color: #fff; 
-                text-transform: uppercase; 
-            }
-            
-            .nav > li.active > a{ 
-                color: #395aa4; 
-                background: #e9c92e; 
-                text-transform: uppercase
-            }
-
-            .sidebar{
-                position: absolute;
-                top:0;
-                bottom:0;
-                left:0;
-                width: 250px;
-                background: #395aa4;
-            }
-            .content{
-                position: absolute;
-                top:0;
-                bottom:0;
-                left:250px;
-                right: 0;
-                background: #fff;
-                padding: 0 15px;
-            }
-
-            .navbar-form .search-input{
-                width: 250px;
-            }
-
-            .navbar-default {
-                border: none !important; 
-            }
-            
-            .x-label{
-                color: #5d5d5d;
-                padding: 1px 0;
-            }
-            
-            .ico-default-star, .ico-default-eye, .ico-default-trash, .ico-default-photo{
-                display: inline-block;
-                width: 25px;
-                height: 21px;
-                border-radius: 27%;
-                background: #e9c92e;
-                cursor: pointer;
-                color: #fff;
-                text-align:  center;
-                
-            }
-            
-            .ico-default-trash{
-                background: #395aa4;
-            }
-            
-            .ico-default-photo{
-                background: #2ac364;
-            }
-            
-            .ico-default-star a, .ico-default-eye a, .ico-default-trash a, .ico-default-photo a{ 
-                color: #fff;
-                text-decoration: none;
-            } 
-            
-            .ico-default-star a:hover, .ico-default-eye a:hover, .ico-default-trash a:hover, .ico-default-photo a:hover{ 
-                color: #fff;
-                text-decoration: none;
-            } 
-            
-            .ico-default-star.desative, .ico-default-eye.desative, .ico-default-trash.desative, .ico-default-photo.desative{
-                background: #ad2138;
-            }
-            
-            
-            
-            
-            
-        </style>
-
-    </head>
+<?php if ($_valid && !is_callable('content_53f2747585e546_03855917')) {function content_53f2747585e546_03855917($_smarty_tpl) {?><!DOCTYPE HTML>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Minha Concessionária | Bem vindo</title>
+
+
+        <link rel="icon" type="image/vnd.microsoft.icon" href="/web-files/img/favicon.ico"/>
+        <link rel="shortcut icon" type="image/x-icon" href="/web-files/img/favicon.ico"/>
+
+        <link rel="stylesheet" href="/web-files/font-awesome-4.1.0/css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="/web-files/bootstrap/css/bootstrap.css"/>
+        <link rel="stylesheet" href="/web-files/bootstrap/css/bootstrap-theme.css"/>		
+        <link rel="stylesheet" href="/web-files/css/docs.min.css"/>
+        <link rel="stylesheet" href="/web-files/css/style.css"/>
+
+        <script language="javascript" src="/web-files/js/funcoes.js"></script>
+        <script language="javascript" src="/web-files/js/jquery-2.1.1.min.js"></script>
+        <script language="javascript" src="/web-files/js/jQuery-Mask-Plugin.js"></script>
+        <script language="javascript" src="/web-files/bootstrap/js/bootstrap.js"></script>
+
+        <style>
+            html,body{
+                height: 100%;
+            }
+
+            .box-login{
+                margin-top: 25%
+            }
+            .area-restrita{
+                    margin-bottom: 4%; 
+                    display: inline-block;
+            }
+            
+            .panel-heading{
+                    color: #e9c92e; 
+                    font-family: "Arial Black", Gadget, sans-serif;
+            }
+            
+            .nav > li > a:hover, .nav > li > a:focus {
+                text-decoration: none;
+                background-color: #e9c92e; 
+                color: #395aa4;
+            }
+            
+            .nav > li > a {
+                position: relative; 
+                display: block; 
+                padding: 10px 15px; 
+                color: #fff; 
+                text-transform: uppercase; 
+            }
+            
+            .nav > li.active > a{ 
+                color: #395aa4; 
+                background: #e9c92e; 
+                text-transform: uppercase
+            }
+
+            .sidebar{
+                position: absolute;
+                top:0;
+                bottom:0;
+                left:0;
+                width: 250px;
+                background: #395aa4;
+            }
+            .content{
+                position: absolute;
+                top:0;
+                bottom:0;
+                left:250px;
+                right: 0;
+                background: #fff;
+                padding: 0 15px;
+            }
+
+            .navbar-form .search-input{
+                width: 250px;
+            }
+
+            .navbar-default {
+                border: none !important; 
+            }
+            
+            .x-label{
+                color: #5d5d5d;
+                padding: 1px 0;
+            }
+            
+            .ico-default-star, .ico-default-eye, .ico-default-trash, .ico-default-photo{
+                display: inline-block;
+                width: 25px;
+                height: 21px;
+                border-radius: 27%;
+                background: #e9c92e;
+                cursor: pointer;
+                color: #fff;
+                text-align:  center;
+                
+            }
+            
+            .ico-default-trash{
+                background: #395aa4;
+            }
+            
+            .ico-default-photo{
+                background: #2ac364;
+            }
+            
+            .ico-default-star a, .ico-default-eye a, .ico-default-trash a, .ico-default-photo a{ 
+                color: #fff;
+                text-decoration: none;
+            } 
+            
+            .ico-default-star a:hover, .ico-default-eye a:hover, .ico-default-trash a:hover, .ico-default-photo a:hover{ 
+                color: #fff;
+                text-decoration: none;
+            } 
+            
+            .ico-default-star.desative, .ico-default-eye.desative, .ico-default-trash.desative, .ico-default-photo.desative{
+                background: #ad2138;
+            }
+            
+            
+            
+            
+            
+        </style>
+
+    </head>
     <body>
 
 <div class="sidebar">
@@ -219,5 +219,5 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     </div>
 </div>
 
-</body>
+</body>
 </html><?php }} ?>

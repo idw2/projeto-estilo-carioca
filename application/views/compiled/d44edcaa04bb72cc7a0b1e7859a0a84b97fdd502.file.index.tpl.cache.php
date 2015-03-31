@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2015-03-18 18:49:33
+<?php /* Smarty version Smarty-3.1.19, created on 2015-03-25 22:19:37
          compiled from "/home/estil450/public_html/application/views/index.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:15919278075509c8bd3428c9-59542800%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:793384286551334798caf99-86132351%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'd44edcaa04bb72cc7a0b1e7859a0a84b97fdd502' => 
     array (
       0 => '/home/estil450/public_html/application/views/index.tpl',
-      1 => 1425677667,
+      1 => 1427225173,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '15919278075509c8bd3428c9-59542800',
+  'nocache_hash' => '793384286551334798caf99-86132351',
   'function' => 
   array (
   ),
@@ -26,9 +26,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5509c8bd5e5ed3_07089284',
+  'unifunc' => 'content_55133479befda2_97149320',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5509c8bd5e5ed3_07089284')) {function content_5509c8bd5e5ed3_07089284($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ("header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 9999, null, array(), 0);?>
+<?php if ($_valid && !is_callable('content_55133479befda2_97149320')) {function content_55133479befda2_97149320($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ("header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 9999, null, array(), 0);?>
 
 
 
@@ -145,7 +145,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                 </div>
             </div>
             <div class="col-sm-6">
-                <img src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/img/hero.png" width="500">
+                <img class="img-hero" src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/img/hero.png" width="500">
             </div>
         </div>
     </div>

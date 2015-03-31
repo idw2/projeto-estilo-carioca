@@ -19,10 +19,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'version' => 'Smarty-3.1.19',
   'unifunc' => 'content_544938bfee4516_96049445',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_544938bfee4516_96049445')) {function content_544938bfee4516_96049445($_smarty_tpl) {?><script>
-    $(function() {
-        $("[data-toggle='tooltip']").tooltip();
-    });
-</script>
-</body>
+<?php if ($_valid && !is_callable('content_544938bfee4516_96049445')) {function content_544938bfee4516_96049445($_smarty_tpl) {?><script>
+    $(function() {
+        $("[data-toggle='tooltip']").tooltip();
+    });
+</script>
+</body>
 </html><?php }} ?>

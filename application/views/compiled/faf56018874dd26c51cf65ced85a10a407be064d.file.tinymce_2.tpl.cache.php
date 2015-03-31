@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2015-03-13 19:04:11
+<?php /* Smarty version Smarty-3.1.19, created on 2015-03-25 22:17:03
          compiled from "/home/estil450/public_html/application/views/admin/tinymce_2.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:271811491550334abccf5c8-41135601%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:445037789551333df855a31-71552904%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '271811491550334abccf5c8-41135601',
+  'nocache_hash' => '445037789551333df855a31-71552904',
   'function' => 
   array (
   ),
@@ -21,9 +21,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_550334abcd92a7_84829018',
+  'unifunc' => 'content_551333df85f9e1_87720559',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_550334abcd92a7_84829018')) {function content_550334abcd92a7_84829018($_smarty_tpl) {?><script type="text/javascript" src="<?php echo $_smarty_tpl->tpl_vars['web_files']->value;?>
+<?php if ($_valid && !is_callable('content_551333df85f9e1_87720559')) {function content_551333df85f9e1_87720559($_smarty_tpl) {?><script type="text/javascript" src="<?php echo $_smarty_tpl->tpl_vars['web_files']->value;?>
 /tinymce/jscripts/tiny_mce/tiny_mce.js"></script>
 
 <script type="text/javascript">

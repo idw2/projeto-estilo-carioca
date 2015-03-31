@@ -63,7 +63,7 @@
                                         {/foreach} 
                                         <tr>
                                             <td colspan="10" valign="center">
-                                                <img src="{$web_files}/img/present.png" border="0" alt="Embalagem para presente" alt="Embalagem para presente"/> <strong>Deseja que embale para presente?</strong> <span style="cursor: pointer; color: #8795ae; font-style: italic;" onclick="embalar_presente()"/>Clique aqui</span> <span {if $embalar_presente eq "1" }class="yes"{else}class="yes hide"{/if}> &nbsp;<img src="{$web_files}/img/yes.png" alt="OK" title="OK" border="0"/></span>
+                                                <img class="presente" src="{$web_files}/img/present.png" border="0" alt="Embalagem para presente" alt="Embalagem para presente"/> <strong class="txt_presente">Deseja que embale para presente?</strong> <span class="txt_presente" style="cursor: pointer; color: #8795ae; font-style: italic;" onclick="embalar_presente()"/>Clique aqui</span> <span {if $embalar_presente eq "1" }class="yes"{else}class="yes hide"{/if}> &nbsp;<img src="{$web_files}/img/yes.png" alt="OK" title="OK" border="0"/></span>
                                                 <style>
                                                     .panel-toggle{
                                                         background: #EFEDED;
@@ -159,7 +159,7 @@
                 <div class="row">
                     <div class="col-lg-12" style="text-align: center; margin-bottom: 7%;">
                         <hr style="position: relative; top: 18px; border-top: 5px solid #eee; width: 100%"/>
-                        <img src="{$web_files}/img/Lock.png" alt="Checkout seguro"  title="Checkout seguro" border="0" style="width: 7%; position: relative; bottom: 30px; border: 8px solid #fff; border-radius: 13px;"/>
+                        <img class="lock" src="{$web_files}/img/Lock.png" alt="Checkout seguro"  title="Checkout seguro" border="0" style="width: 7%; position: relative; bottom: 30px; border: 8px solid #fff; border-radius: 13px;"/>
                         <h3 style="color: #8795ae;" id="checkout_seguro">CHECKOUT SEGURO</h3>
                         <div style="font-size: 22px;">TOTAL DE 4 PASSOS</div>
                     </div>

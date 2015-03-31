@@ -19,6 +19,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'version' => 'Smarty-3.1.19',
   'unifunc' => 'content_53f34763187fa4_38976443',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_53f34763187fa4_38976443')) {function content_53f34763187fa4_38976443($_smarty_tpl) {?>
-</body>
+<?php if ($_valid && !is_callable('content_53f34763187fa4_38976443')) {function content_53f34763187fa4_38976443($_smarty_tpl) {?>
+</body>
 </html><?php }} ?>

@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:206636750155033143007386-91952642%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:349158457551333d7697a61-49364807%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -38,18 +38,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       1 => 1425487027,
       2 => 'file',
     ),
-    'd2757d9a87afd4a4ee5d3c7003eecfcc561c2f07' => 
-    array (
-      0 => '/home/estil450/public_html/application/views/admin/html_descricao.tpl',
-      1 => 1425486998,
-      2 => 'file',
-    ),
-    '07fde81a6255eb6d1646b8a5af808d99c58047ea' => 
-    array (
-      0 => '/home/estil450/public_html/application/views/admin/html_especificacao.tpl',
-      1 => 1425662847,
-      2 => 'file',
-    ),
     'd6fe851a73ae76aa30af1d73a4ad29e2ad509c14' => 
     array (
       0 => '/home/estil450/public_html/application/views/admin/btn_enviar.tpl',
@@ -69,7 +57,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '206636750155033143007386-91952642',
+  'nocache_hash' => '349158457551333d7697a61-49364807',
   'variables' => 
   array (
     'language' => 0,
@@ -87,157 +75,157 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_55033143469f24_69099491',
+  'unifunc' => 'content_551333d7a52708_22303316',
   'cache_lifetime' => 120,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_55033143469f24_69099491')) {function content_55033143469f24_69099491($_smarty_tpl) {?><!DOCTYPE HTML>
-<html lang="pt-br">
-
-    <head>
-        <meta charset="UTF-8">
-        <title>Estilo Carioca | Cadastro de Produtos</title>
-
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-
-        <link rel="shortcut icon" href="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/img/favicon.png?v=5">
-        <link rel="shortcut icon" type="image/x-icon" href="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/img/favicon.png?v=5"/>
-
-        <link rel="stylesheet" href="/web-files/font-awesome-4.1.0/css/font-awesome.min.css"/>
-        <link rel="stylesheet" href="/web-files/bootstrap/css/bootstrap.css"/>
-        <link rel="stylesheet" href="/web-files/bootstrap/css/bootstrap-theme.css"/>		
-        <link rel="stylesheet" href="/web-files/css/docs.min.css"/>
-        <link rel="stylesheet" href="/web-files/css/style.css"/>
-
-        <script language="javascript" src="/web-files/js/funcoes.js"></script>
-        <script language="javascript" src="/web-files/js/jquery-2.1.1.min.js"></script>
-        <script language="javascript" src="/web-files/js/jQuery-Mask-Plugin.js"></script>
-        <script language="javascript" src="/web-files/bootstrap/js/bootstrap.js"></script>
-        <script language="javascript" src="/web-files/bootstrap/js/bootstrap-tooltip.js"></script>
-        <!-- Add fancyBox -->
-        <link rel="stylesheet" href="/web-files/fancyapps-fancyBox-18d1712/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
-        <script type="text/javascript" src="/web-files/fancyapps-fancyBox-18d1712/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-        <!-- Upload -->
-        <script type="text/javascript" src="/web-files/js/jquery.uploadfile.js"></script>
-        <link rel="stylesheet" href="/web-files/css/uploadfile.css" type="text/css" media="screen" />
-        <!-- JQuery UI -->
-        <script type="text/javascript" src="/web-files/jquery-ui-1.11.1.custom/jquery-ui.js"></script>
-        <link rel="stylesheet" href="/web-files/jquery-ui-1.11.1.custom/jquery-ui.css"/>
-        <link rel="stylesheet" href="/web-files/jquery-ui-1.11.1.custom/jquery-ui.structure.css"/>
-        <link rel="stylesheet" href="/web-files/jquery-ui-1.11.1.custom/jquery-ui.theme.css"/>
-        <!-- Drag -->
-        <script type="text/javascript" src="/web-files/js/jquery-sortable.js"></script>
-        <!-- PLUGIN CROP -->
-        <link rel="stylesheet" href="/web-files/crop/cropper.css" type="text/css" media="screen" />
-        <script type="text/javascript" src="/web-files/crop/cropper.js"></script>
-        <script type="text/javascript" src="/web-files/js/highlight.min.js"></script>
-        <script type="text/javascript" src="/web-files/js/jquery.tablednd.0.7.js"></script>
-        <script type="text/javascript" src="/web-files/js/default.js"></script>
-
-        <!-- //COLOR PICKER BOOTSTRAP// -->
-        <link href="/web-files/bootstrap-colorpicker-master/dist/css/bootstrap-colorpicker.min.css" rel="stylesheet">
-        <link href="/web-files/bootstrap-colorpicker-master/src/css/docs.css" rel="stylesheet">
-        
-                    <!-- //CSS DO TEMA RESPONSIVO EM BOOTSTRAP -->
-            <link href="/web-files/startbootstrap-sb-admin-1.0.2/css/sb-admin.css" rel="stylesheet">
-            <link href="/web-files/startbootstrap-sb-admin-1.0.2/css/plugins/morris.css" rel="stylesheet">
-        
-
-        <script type="text/javascript">
-            if (window.hljs) {
-                hljs.tabReplace = '    ';
-                hljs.initHighlightingOnLoad();
-            }
-        </script>
-
-        <style>
-            
-            .ico-default-trophy, .ico-default-dolar, .ico-default-heart, .ico-default-star, .ico-default-eye, .ico-default-trash, .ico-default-photo, .ico-default-edit{
-                display: inline-block;
-                width: 32px;
-                height: 29px;
-                border-radius: 50%;
-                background: #e9c92e;
-                cursor: pointer;
-                color: #fff;
-                text-align:  center;
-                font-size: 14px;
-                line-height: 26px;
-                padding: 0 0 0 1px;
-
-            }
-
-            .ico-default-trash{  background: #58595A; }
-
-            .ico-default-heart{ background: #EC8ED6; color: #fff;  border: none; }            
-            .ico-default-heart i{ color: #fff; }            
-            .ico-default-heart.desative{ background: #fff; border: 1px solid #57574b; }
-            .ico-default-heart.desative i{ color: #57574b; }
-
-            .ico-default-eye{ background: #e9c92e; color: #fff;  border: none; }            
-            .ico-default-eye i{ color: #fff; }            
-            .ico-default-eye.desative{ background: #fff; border: 1px solid #57574b; }
-            .ico-default-eye.desative i{ color: #57574b; }
-
-            .ico-default-dolar{ background: #81B4D1; color: #fff;  border: none; }            
-            .ico-default-dolar i{ color: #fff; }            
-            .ico-default-dolar.desative{ background: #fff; border: 1px solid #57574b; }
-            .ico-default-dolar.desative i{ color: #57574b; }
-
-            .ico-default-trophy{ background: #D1819B; color: #fff;  border: none; }            
-            .ico-default-trophy i{ color: #fff; }            
-            .ico-default-trophy.desative{ background: #fff; border: 1px solid #57574b; }
-            .ico-default-trophy.desative i{ color: #57574b; }
-
-            .ico-default-photo{
-                background: #395aa4;                
-            }
-
-            .ico-default-edit{
-                background: #18CAEC;
-            }
-
-            .ico-default-star{ background: #2ac364; color: #fff;  border: none; }            
-            .ico-default-star i{ color: #fff; }            
-            .ico-default-star.desative{ background: #fff; border: 1px solid #57574b; }
-            .ico-default-star.desative i{ color: #57574b; }
-
-            .ico-default-eye a, .ico-default-trash a, .ico-default-photo a, .ico-default-edit a{ 
-                color: #fff;
-                text-decoration: none;
-            } 
-
-            .ico-default-star a:hover, .ico-default-eye a:hover, .ico-default-trash a:hover, .ico-default-photo a:hover{ 
-                text-decoration: none;
-            } 
-
-            .ico-default-trash.desative, .ico-default-photo.desative{
-                background: #ad2138;
-            }
-
-
-            .aviso-balao{
-                display: inline-block;
-                padding: 3px 10px;
-                position: absolute;
-                bottom: 11px;
-                right: 13px;
-            }
-            .hidex{
-                max-height: 0;
-                overflow: hidden;
-                box-shadow: none;
-                opacity: 0;
-                margin-bottom: 0;
-            }
-            
-
-        </style>
-
-    </head>
-    <body>
-        <div id="wrapper">
-            <div id="page-wrapper">
+<?php if ($_valid && !is_callable('content_551333d7a52708_22303316')) {function content_551333d7a52708_22303316($_smarty_tpl) {?><!DOCTYPE HTML>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Estilo Carioca | Cadastro de Produtos</title>
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+
+        <link rel="shortcut icon" href="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/img/favicon.png?v=5">
+        <link rel="shortcut icon" type="image/x-icon" href="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/img/favicon.png?v=5"/>
+
+        <link rel="stylesheet" href="/web-files/font-awesome-4.1.0/css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="/web-files/bootstrap/css/bootstrap.css"/>
+        <link rel="stylesheet" href="/web-files/bootstrap/css/bootstrap-theme.css"/>		
+        <link rel="stylesheet" href="/web-files/css/docs.min.css"/>
+        <link rel="stylesheet" href="/web-files/css/style.css"/>
+
+        <script language="javascript" src="/web-files/js/funcoes.js"></script>
+        <script language="javascript" src="/web-files/js/jquery-2.1.1.min.js"></script>
+        <script language="javascript" src="/web-files/js/jQuery-Mask-Plugin.js"></script>
+        <script language="javascript" src="/web-files/bootstrap/js/bootstrap.js"></script>
+        <script language="javascript" src="/web-files/bootstrap/js/bootstrap-tooltip.js"></script>
+        <!-- Add fancyBox -->
+        <link rel="stylesheet" href="/web-files/fancyapps-fancyBox-18d1712/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+        <script type="text/javascript" src="/web-files/fancyapps-fancyBox-18d1712/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+        <!-- Upload -->
+        <script type="text/javascript" src="/web-files/js/jquery.uploadfile.js"></script>
+        <link rel="stylesheet" href="/web-files/css/uploadfile.css" type="text/css" media="screen" />
+        <!-- JQuery UI -->
+        <script type="text/javascript" src="/web-files/jquery-ui-1.11.1.custom/jquery-ui.js"></script>
+        <link rel="stylesheet" href="/web-files/jquery-ui-1.11.1.custom/jquery-ui.css"/>
+        <link rel="stylesheet" href="/web-files/jquery-ui-1.11.1.custom/jquery-ui.structure.css"/>
+        <link rel="stylesheet" href="/web-files/jquery-ui-1.11.1.custom/jquery-ui.theme.css"/>
+        <!-- Drag -->
+        <script type="text/javascript" src="/web-files/js/jquery-sortable.js"></script>
+        <!-- PLUGIN CROP -->
+        <link rel="stylesheet" href="/web-files/crop/cropper.css" type="text/css" media="screen" />
+        <script type="text/javascript" src="/web-files/crop/cropper.js"></script>
+        <script type="text/javascript" src="/web-files/js/highlight.min.js"></script>
+        <script type="text/javascript" src="/web-files/js/jquery.tablednd.0.7.js"></script>
+        <script type="text/javascript" src="/web-files/js/default.js"></script>
+
+        <!-- //COLOR PICKER BOOTSTRAP// -->
+        <link href="/web-files/bootstrap-colorpicker-master/dist/css/bootstrap-colorpicker.min.css" rel="stylesheet">
+        <link href="/web-files/bootstrap-colorpicker-master/src/css/docs.css" rel="stylesheet">
+        
+                    <!-- //CSS DO TEMA RESPONSIVO EM BOOTSTRAP -->
+            <link href="/web-files/startbootstrap-sb-admin-1.0.2/css/sb-admin.css" rel="stylesheet">
+            <link href="/web-files/startbootstrap-sb-admin-1.0.2/css/plugins/morris.css" rel="stylesheet">
+        
+
+        <script type="text/javascript">
+            if (window.hljs) {
+                hljs.tabReplace = '    ';
+                hljs.initHighlightingOnLoad();
+            }
+        </script>
+
+        <style>
+            
+            .ico-default-trophy, .ico-default-dolar, .ico-default-heart, .ico-default-star, .ico-default-eye, .ico-default-trash, .ico-default-photo, .ico-default-edit{
+                display: inline-block;
+                width: 32px;
+                height: 29px;
+                border-radius: 50%;
+                background: #e9c92e;
+                cursor: pointer;
+                color: #fff;
+                text-align:  center;
+                font-size: 14px;
+                line-height: 26px;
+                padding: 0 0 0 1px;
+
+            }
+
+            .ico-default-trash{  background: #58595A; }
+
+            .ico-default-heart{ background: #EC8ED6; color: #fff;  border: none; }            
+            .ico-default-heart i{ color: #fff; }            
+            .ico-default-heart.desative{ background: #fff; border: 1px solid #57574b; }
+            .ico-default-heart.desative i{ color: #57574b; }
+
+            .ico-default-eye{ background: #e9c92e; color: #fff;  border: none; }            
+            .ico-default-eye i{ color: #fff; }            
+            .ico-default-eye.desative{ background: #fff; border: 1px solid #57574b; }
+            .ico-default-eye.desative i{ color: #57574b; }
+
+            .ico-default-dolar{ background: #81B4D1; color: #fff;  border: none; }            
+            .ico-default-dolar i{ color: #fff; }            
+            .ico-default-dolar.desative{ background: #fff; border: 1px solid #57574b; }
+            .ico-default-dolar.desative i{ color: #57574b; }
+
+            .ico-default-trophy{ background: #D1819B; color: #fff;  border: none; }            
+            .ico-default-trophy i{ color: #fff; }            
+            .ico-default-trophy.desative{ background: #fff; border: 1px solid #57574b; }
+            .ico-default-trophy.desative i{ color: #57574b; }
+
+            .ico-default-photo{
+                background: #395aa4;                
+            }
+
+            .ico-default-edit{
+                background: #18CAEC;
+            }
+
+            .ico-default-star{ background: #2ac364; color: #fff;  border: none; }            
+            .ico-default-star i{ color: #fff; }            
+            .ico-default-star.desative{ background: #fff; border: 1px solid #57574b; }
+            .ico-default-star.desative i{ color: #57574b; }
+
+            .ico-default-eye a, .ico-default-trash a, .ico-default-photo a, .ico-default-edit a{ 
+                color: #fff;
+                text-decoration: none;
+            } 
+
+            .ico-default-star a:hover, .ico-default-eye a:hover, .ico-default-trash a:hover, .ico-default-photo a:hover{ 
+                text-decoration: none;
+            } 
+
+            .ico-default-trash.desative, .ico-default-photo.desative{
+                background: #ad2138;
+            }
+
+
+            .aviso-balao{
+                display: inline-block;
+                padding: 3px 10px;
+                position: absolute;
+                bottom: 11px;
+                right: 13px;
+            }
+            .hidex{
+                max-height: 0;
+                overflow: hidden;
+                box-shadow: none;
+                opacity: 0;
+                margin-bottom: 0;
+            }
+            
+
+        </style>
+
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="page-wrapper">
                 <div class="container-fluid">
 
 <div class="sidebar">
@@ -299,14 +287,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                 <a href="/en/informacoes/newsletter-lista"><i class="fa fa-paper-plane"></i> Newsletter</a>
             </li>
             <li >
-                <a href="/en/conta/aniversariantes" style="position: relative;"><i class="fa fa-users"></i> Aniversariantes  <span class="btn btn-sm btn-danger aviso-balao">1</span> </a>
+                <a href="/en/conta/aniversariantes" style="position: relative;"><i class="fa fa-users"></i> Aniversariantes </a>
             </li>
             <li >
                 <a href="/en/pedidos/exportar"><i class="fa fa-expand"></i> Exportar Pedidos</a>
             </li>
             
             <li >
-                <a href="/en/nota-fiscal/exportar" style="position: relative;"><i class="fa fa-expand"></i> Exportar Nota Fiscal <span class="btn btn-sm btn-danger aviso-balao">10</span> </a>
+                <a href="/en/nota-fiscal/exportar" style="position: relative;"><i class="fa fa-expand"></i> Exportar Nota Fiscal <span class="btn btn-sm btn-danger aviso-balao">17</span> </a>
             </li>
             
         </ul>
@@ -354,8 +342,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
 <div class="row">
     <div class="col-md-12 text-left">
-                    <div class="alert alert-info alert-dismissable" role="alert"><strong>Atenção: </strong>Preencher todos os campos!</div>
-            </div>
+                                    <div class="alert alert-danger" role="alert"><strong>Atenção: </strong>Referência já cadastrada!</div>
+                        </div>
 </div>            
 
 <div class="row">
@@ -387,24 +375,24 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                         <div class="flot-chart">
 
                                             <div class="input-group input-group-lg" style="margin-bottom: 1%;">
-                                                <input type="text" class="form-control" id="de" name="de" value='' placeholder="De" onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)"/>
+                                                <input type="text" class="form-control" id="de" name="de" value='189,00' placeholder="De" onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)"/>
                                             </div>	
                                             <br/>
                                             <div class="input-group input-group-lg" style="margin-bottom: 1%;">
-                                                <input type="text" class="form-control" id="preco" name="preco" value='' placeholder="Para" onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)"/>
+                                                <input type="text" class="form-control" id="preco" name="preco" value='149,90' placeholder="Para" onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)"/>
                                             </div>	
                                             <br/>
                                             
                                             <div class="input-group input-group-lg" style="margin-bottom: 1%;">
-                                                <input type="text" class="form-control" id="nome" name="nome" value='' maxlength="40" placeholder="Nome"/>
+                                                <input type="text" class="form-control" id="nome" name="nome" value='Camisa Maculina' maxlength="40" placeholder="Nome"/>
                                             </div>
                                             <br/>
                                             <div class="input-group input-group-lg" style="margin-bottom: 1%;">
-                                                <input type="text" class="form-control" id="referencia" name="referencia" value='' maxlength="20" placeholder="Referência"/>
+                                                <input type="text" class="form-control" id="referencia" name="referencia" value='NS-0006' maxlength="20" placeholder="Referência"/>
                                             </div>
                                             <br/>
                                             <div class="input-group input-group-lg" style="margin-bottom: 1%;">
-                                                <input type="text" class="form-control" id="peso" name="peso" maxlength="8" value='' placeholder="Peso" onkeydown="javascript: return mascaraPeso(this, event, 5, 3);"/>
+                                                <input type="text" class="form-control" id="peso" name="peso" maxlength="8" value='0.300' placeholder="Peso" onkeydown="javascript: return mascaraPeso(this, event, 5, 3);"/>
                                             </div>
 
 
@@ -414,7 +402,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                                 <div>Categoria</div>
                                                 <select name="categoria" class="form-control">
                                                     <option value="junior" >Junior</option>
-                                                    <option value="nilton-santos" >Nilton Santos</option>
+                                                    <option value="nilton-santos" selected>Nilton Santos</option>
                                                 </select>
                                             </div>
                                         </div>
@@ -523,37 +511,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                         <div class="flot-chart">
                                             <p>
                                                 <textarea class="form-control" rows="18" style="min-width: 100%" id="descricao" name="descricao">                                
-                                                                                                            <div>
-    <h3>CAMISAS MASCULINAS</h3>
-    <p>1.	Camisa de manga curta, feita de algodão super leve, para aproveitar o clima carioca em grande estilo.</p>
-</div>
-
-<div>
-    <h3>REGATAS MASCULINAS</h3>
-    <p>1.	Regata tinturada, 100% algodão e cheia de moral. Afinal, ela combina com tudo que você imaginar.</p>
-</div>
-
-<div>
-    <h3>CASACO MASCULINO</h3>
-    <p>1.	Aqui conforto também é palavra de ordem. O casaco feito para te proteger do vento pós surfe, futebol, e outras “carioquices”.</p>
-</div>
-
-<div>
-    <h3>VESTIDO</h3>
-    <p>1.	A praticidade do vestidinho, com uma modelagem solta e confortável, 100% algodão. Mais um super trunfo pra sua coleção.</p> 
-</div>
-
-<div>
-    <h3>REGATAS FEMININAS</h3>
-    <p>1.	Regatinha perfeita pros dias de sol berrante. 100% algodão, básica pra ter no armário naquele "fico pronta em 5min!"</p>
-</div>
-
-<div>
-    <h3>BLUSAS FEMININAS</h3>
-    <p>1.	Mais uma pro clube das camisas básicas e práticas.100% algodão, daquele tipo que dá vontade de usar todo dia. Aproveita!</p>
-</div>
-
- 
+                                                                                    
+                                                        <div>
+<h3>CAMISAS MASCULINAS</h3>
+<p>Ver a descri&ccedil;&atilde;o para esse produto.</p>
+</div>
                                                                                
                                                 </textarea>
                                             </p>
@@ -570,178 +532,38 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                         <div class="flot-chart">
                                             <p>
                                                 <textarea class="form-control" rows="18" style="min-width: 100%" id="especificacoes" name="especificacoes">
-                                                                                                            <div class="panel panel-default">
-    <!-- Default panel contents -->
-    <div class="panel-heading">MASCULINO</div>
-    <!-- Table -->
-    <table class="table">
-        <thead>
-            <tr>
-                <th style="padding: 8px !important">Tamanhos</th>
-                <th style="padding: 8px !important">Dimensões</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>P – Pequena</td>
-                <td>6 / 53 X 66 / 220</td>
-            </tr>
-            <tr>
-                <td>M – Média</td>
-                <td>12 / 54 X 70 / 220</td>
-            </tr>
-            <tr>
-                <td>G – Grande</td>
-                <td>11 / 56 X 72 / 220</td>
-            </tr>
-            <tr>
-                <td>GG – Grande</td>
-                <td>6 / 59 X 73 / 220</td>
-            </tr>
-            <tr>
-                <td>XG – Extra Grande</td>
-                <td>5 / 61 X 74 / 220</td>
-            </tr>
-        </tbody>
-    </table>
-</div>
-
-<hr/>
-
-<div class="panel panel-default">
-    <!-- Default panel contents -->
-    <div class="panel-heading">FEMININO</div>
-    <!-- Table -->
-    <table class="table">
-        <thead>
-            <tr>
-                <th style="padding: 8px !important">Tamanhos</th>
-                <th style="padding: 8px !important">Dimensões</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>P – Pequena</td><td>4 / 42 X 51 / 200 </td>
-            </tr>
-            <tr>
-                <td>M – Média</td><td>4 / 45 X 54 / 200 </td>
-            </tr>
-            <tr>
-                <td>G – Grande</td><td>1 / 49 X 56 / 200 </td>
-            </tr>
-            <tr>
-                <td>GG – Grande</td><td>2 / 51 X 57 / 200 </td>
-            </tr>
-            <tr>
-                <td>XG – Extra Grande</td><td>2 / 51 X 57 / 200 </td>
-            </tr>
-        </tbody>
-    </table>
-</div>
-
-<hr/>
-
-<div class="panel panel-default">
-    <!-- Default panel contents -->
-    <div class="panel-heading">REGATA MASCULINA</div>
-    <!-- Table -->
-    <table class="table">
-        <thead>
-            <tr>
-                <th style="padding: 8px !important">Tamanhos</th>
-                <th style="padding: 8px !important">Dimensões</th>
-                <th style="padding: 8px !important">#</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>P – Pequena</td><td>2 / 50 X 78 / 200 </td><td>GR</td>
-            </tr>
-            <tr>
-                <td>M – Média</td><td>4 / 53 X 78 / 200 </td><td>GR</td>
-            </tr>
-            <tr>
-                <td>G – Grande</td><td>4 / 56 X 81 / 200 </td><td>GR</td>
-            </tr>
-            <tr>
-                <td>GG – Grande</td><td>2 / 57 X 83 / 200 </td><td>GR</td>
-            </tr>
-            <tr>
-                <td>XG – Extra Grande</td><td>1 / 62 X 87 / 200 </td><td>GR</td>
-            </tr>
-        </tbody>
-    </table>
-</div>
-
-<hr/>
-
-<div class="panel panel-default">
-    <!-- Default panel contents -->
-    <div class="panel-heading">VESTIDO</div>
-    <!-- Table -->
-    <table class="table">
-        <thead>
-            <tr>
-                <th style="padding: 8px !important">Tamanhos</th>
-                <th style="padding: 8px !important">Dimensões</th>
-                <th style="padding: 8px !important">#</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>P – Pequena</td><td>5 / 42 X 83 / 220 </td><td>GR</td>
-            </tr>
-            <tr>
-                <td>M – Média</td><td>4 / 45 X 85 / 220 </td><td>GR</td>
-            </tr>
-            <tr>
-                <td>G – Grande</td><td>2 / 47 X 88 / 220</td><td>GR</td>
-            </tr>
-            <tr>
-                <td>GG – Grande</td><td>2 / 50 X 90 / 220</td><td>GR</td>
-            </tr>
-            <tr>
-                <td>XG - Extra Grande</td><td> </td><td> </td>
-            </tr>
-        </tbody>
-    </table>
-</div>
-
-<hr/>
-
-<div class="panel panel-default">
-    <!-- Default panel contents -->
-    <div class="panel-heading">VESTIDO REGATA</div>
-    <!-- Table -->
-    <table class="table">
-        <thead>
-            <tr>
-                <th style="padding: 8px !important">Tamanhos</th>
-                <th style="padding: 8px !important">Dimensões</th>
-                <th style="padding: 8px !important">#</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>P – Pequena</td><td>3 / 39 X 79 / 200 </td><td>GR</td>
-            </tr>
-            <tr>
-                <td>M – Média</td><td>4 / 39 X 81 / 200 </td><td>GR</td>
-            </tr>
-            <tr>
-                <td>G – Grande</td><td>2 / 42 X 83 / 800 </td><td>GR</td>
-            </tr>
-            <tr>
-                <td>GG – Grande</td><td>2 / 45 X 84 / 200 </td><td>GR</td>
-            </tr>
-            <tr>
-                <td>XG – Extra Grande</td><td> </td><td> </td>
-            </tr>
-        </tbody>
-    </table>
-</div>
-
- 
+                                                                                    
+                                                        <div class="panel panel-default"><!-- Default panel contents -->
+<div class="panel-heading">MASCULINO</div>
+<!-- Table -->
+<table class="table">
+<thead>
+<tr><th style="padding: 8px !important;">Tamanhos</th><th style="padding: 8px !important;">Dimens&otilde;es</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>P &ndash; Pequena</td>
+<td>06 / 53 X 66 / 220</td>
+</tr>
+<tr>
+<td>M &ndash; M&eacute;dia</td>
+<td>12 / 54 X 70 / 220</td>
+</tr>
+<tr>
+<td>G &ndash; Grande</td>
+<td>11 / 56 X 72 / 220</td>
+</tr>
+<tr>
+<td>GG &ndash; Grande</td>
+<td>06 / 59 X 73 / 220</td>
+</tr>
+<tr>
+<td>XG &ndash; Extra Grande</td>
+<td>05 / 61 X 74 / 220</td>
+</tr>
+</tbody>
+</table>
+</div>
                                                               
                                                 </textarea>
                                             </p>
@@ -810,31 +632,31 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
 </script>
 
-</div>
-<!-- /.container-fluid -->
-</div>
-<!-- /#page-wrapper -->
-</div>
-<!-- /#wrapper -->
-
-<script>
-    $(function() {
-        $("[data-toggle='tooltip']").tooltip();
-    });
-    
-</script>
-
-<!-- //COLOR PICKER BOOTSTRAP// -->
-
-<script src="/web-files/bootstrap-colorpicker-master/dist/js/bootstrap-colorpicker.js"></script>
-<script src="/web-files/bootstrap-colorpicker-master/src/js/docs.js"></script>
-
-<!-- //JS DO TEMA RESPONSIVO EM BOOTSTRAP// -->
-<script src="/web-files/startbootstrap-sb-admin-1.0.2/js/plugins/morris/raphael.min.js"></script>
-<script src="/web-files/startbootstrap-sb-admin-1.0.2/js/plugins/morris/morris.min.js"></script>
-<script src="/web-files/startbootstrap-sb-admin-1.0.2/js/plugins/morris/morris-data.js"></script>
-
-
-
-</body>
+</div>
+<!-- /.container-fluid -->
+</div>
+<!-- /#page-wrapper -->
+</div>
+<!-- /#wrapper -->
+
+<script>
+    $(function() {
+        $("[data-toggle='tooltip']").tooltip();
+    });
+    
+</script>
+
+<!-- //COLOR PICKER BOOTSTRAP// -->
+
+<script src="/web-files/bootstrap-colorpicker-master/dist/js/bootstrap-colorpicker.js"></script>
+<script src="/web-files/bootstrap-colorpicker-master/src/js/docs.js"></script>
+
+<!-- //JS DO TEMA RESPONSIVO EM BOOTSTRAP// -->
+<script src="/web-files/startbootstrap-sb-admin-1.0.2/js/plugins/morris/raphael.min.js"></script>
+<script src="/web-files/startbootstrap-sb-admin-1.0.2/js/plugins/morris/morris.min.js"></script>
+<script src="/web-files/startbootstrap-sb-admin-1.0.2/js/plugins/morris/morris-data.js"></script>
+
+
+
+</body>
 </html><?php }} ?>

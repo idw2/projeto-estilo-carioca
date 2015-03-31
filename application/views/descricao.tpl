@@ -30,7 +30,7 @@
                     <div class="slider-nav product-slider-nav">
                         {counter assign=i start=0 print=false}
                         {foreach item=fful from=$fotos_full}
-                            <div style="width: 130px !important;">
+                            <div class="thumb_desc" {*style="width: 130px !important;"*}>
                                 <img style="cursor:pointer;" width="100" height='100' src="{$fful->FOTO_MD}" alt="{$nome}" border="0" title="{$nome}" />
                             </div>
                             {counter}
@@ -147,7 +147,7 @@
                                 <tr class="datagrid">
                                     <td>
                                         <div class='label-top inline-middle'>
-                                            <select name='tamanho_0' id='tamanho_0' class='select select-loop' onchange='javascript:is_disponibilidade(this.value, this.name);'>
+                                            <select name='tamanho_0' id='tamanho_0' class='select select-loop escolha' onchange='javascript:is_disponibilidade(this.value, this.name);'>
                                                 {counter assign=i start=0 print=false}
                                                 <option value='' selected></option>
                                                 {foreach item=rotulo from=$rotulos}
@@ -159,7 +159,7 @@
                                     </td>
                                     <td valign='left'>
                                         <div class='label-top inline-middle'>
-                                            <select name='quantidade_0' id='quantidade_0' class='select select-loop' onchange='javascript:is_disponibilidade_row(0);'/>
+                                            <select name='quantidade_0' id='quantidade_0' class='select select-loop escolha' onchange='javascript:is_disponibilidade_row(0);'/>
                                             <option value='' selected></option>
                                             {counter assign=i start=1 print=false}
                                             {while $i < 11}
@@ -169,7 +169,7 @@
                                             </select> 
                                         </div>
                                     </td>
-                                    <td id='verificar_0' style='width: 30%;'> <div style='line-height: 35px; color: #8795ae;'>VERIFICAR!</div> </td>
+                                    <td id='verificar_0' style='width: 30%;'> <div class="verificar" style='line-height: 35px; color: #8795ae;'>VERIFICAR!</div> </td>
 
                                 </tr>
                                 {* <tr class='avise-me-hide-0 hide'> 
@@ -332,7 +332,7 @@
                                     <span>COMPARTILHE:</span>
                                     <ul class="list-inline list-social">
                                         {*                        <li><a href="http://twitter.com/share?text={$titulo}&url={$url}&via=maria_de_barro" target="_blank"><i class="sprite sprite-twitter-2"></i></a></li>*}
-                                        <li style="margin: 0 !important;"><a href="http://www.facebook.com/sharer.php?u={$site}{$language}/{$ctgr}/{$url_amigavel}?news=s&utm_source=fbBTshare" target="_blank" ><b class="entypo-facebook"></b></a></li>
+                                        <li style="margin: 0 !important;"><a href="https://www.facebook.com/sharer.php?u={$site}{$language}/{$ctgr}/{$url_amigavel}?news=s&utm_source=fbBTshare" target="_blank" ><b class="entypo-facebook"></b></a></li>
                                         <li style="margin: 0 !important;"><a href=""><b class="entypo-mail"></b></a></li>    
                                     </ul>
                                 </div>

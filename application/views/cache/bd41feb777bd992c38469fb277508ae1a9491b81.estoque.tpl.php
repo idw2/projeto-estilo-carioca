@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:166407719055032f49c4b725-32000789%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1544778152550daafe762434-90482835%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -39,7 +39,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '166407719055032f49c4b725-32000789',
+  'nocache_hash' => '1544778152550daafe762434-90482835',
   'variables' => 
   array (
     'language' => 0,
@@ -53,157 +53,157 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_55032f4a2eef63_26879757',
+  'unifunc' => 'content_550daafed63f48_11086363',
   'cache_lifetime' => 120,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_55032f4a2eef63_26879757')) {function content_55032f4a2eef63_26879757($_smarty_tpl) {?><!DOCTYPE HTML>
-<html lang="pt-br">
-
-    <head>
-        <meta charset="UTF-8">
-        <title>Estilo Carioca | Lista de Estoque</title>
-
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-
-        <link rel="shortcut icon" href="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/img/favicon.png?v=5">
-        <link rel="shortcut icon" type="image/x-icon" href="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/img/favicon.png?v=5"/>
-
-        <link rel="stylesheet" href="/web-files/font-awesome-4.1.0/css/font-awesome.min.css"/>
-        <link rel="stylesheet" href="/web-files/bootstrap/css/bootstrap.css"/>
-        <link rel="stylesheet" href="/web-files/bootstrap/css/bootstrap-theme.css"/>		
-        <link rel="stylesheet" href="/web-files/css/docs.min.css"/>
-        <link rel="stylesheet" href="/web-files/css/style.css"/>
-
-        <script language="javascript" src="/web-files/js/funcoes.js"></script>
-        <script language="javascript" src="/web-files/js/jquery-2.1.1.min.js"></script>
-        <script language="javascript" src="/web-files/js/jQuery-Mask-Plugin.js"></script>
-        <script language="javascript" src="/web-files/bootstrap/js/bootstrap.js"></script>
-        <script language="javascript" src="/web-files/bootstrap/js/bootstrap-tooltip.js"></script>
-        <!-- Add fancyBox -->
-        <link rel="stylesheet" href="/web-files/fancyapps-fancyBox-18d1712/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
-        <script type="text/javascript" src="/web-files/fancyapps-fancyBox-18d1712/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-        <!-- Upload -->
-        <script type="text/javascript" src="/web-files/js/jquery.uploadfile.js"></script>
-        <link rel="stylesheet" href="/web-files/css/uploadfile.css" type="text/css" media="screen" />
-        <!-- JQuery UI -->
-        <script type="text/javascript" src="/web-files/jquery-ui-1.11.1.custom/jquery-ui.js"></script>
-        <link rel="stylesheet" href="/web-files/jquery-ui-1.11.1.custom/jquery-ui.css"/>
-        <link rel="stylesheet" href="/web-files/jquery-ui-1.11.1.custom/jquery-ui.structure.css"/>
-        <link rel="stylesheet" href="/web-files/jquery-ui-1.11.1.custom/jquery-ui.theme.css"/>
-        <!-- Drag -->
-        <script type="text/javascript" src="/web-files/js/jquery-sortable.js"></script>
-        <!-- PLUGIN CROP -->
-        <link rel="stylesheet" href="/web-files/crop/cropper.css" type="text/css" media="screen" />
-        <script type="text/javascript" src="/web-files/crop/cropper.js"></script>
-        <script type="text/javascript" src="/web-files/js/highlight.min.js"></script>
-        <script type="text/javascript" src="/web-files/js/jquery.tablednd.0.7.js"></script>
-        <script type="text/javascript" src="/web-files/js/default.js"></script>
-
-        <!-- //COLOR PICKER BOOTSTRAP// -->
-        <link href="/web-files/bootstrap-colorpicker-master/dist/css/bootstrap-colorpicker.min.css" rel="stylesheet">
-        <link href="/web-files/bootstrap-colorpicker-master/src/css/docs.css" rel="stylesheet">
-        
-                    <!-- //CSS DO TEMA RESPONSIVO EM BOOTSTRAP -->
-            <link href="/web-files/startbootstrap-sb-admin-1.0.2/css/sb-admin.css" rel="stylesheet">
-            <link href="/web-files/startbootstrap-sb-admin-1.0.2/css/plugins/morris.css" rel="stylesheet">
-        
-
-        <script type="text/javascript">
-            if (window.hljs) {
-                hljs.tabReplace = '    ';
-                hljs.initHighlightingOnLoad();
-            }
-        </script>
-
-        <style>
-            
-            .ico-default-trophy, .ico-default-dolar, .ico-default-heart, .ico-default-star, .ico-default-eye, .ico-default-trash, .ico-default-photo, .ico-default-edit{
-                display: inline-block;
-                width: 32px;
-                height: 29px;
-                border-radius: 50%;
-                background: #e9c92e;
-                cursor: pointer;
-                color: #fff;
-                text-align:  center;
-                font-size: 14px;
-                line-height: 26px;
-                padding: 0 0 0 1px;
-
-            }
-
-            .ico-default-trash{  background: #58595A; }
-
-            .ico-default-heart{ background: #EC8ED6; color: #fff;  border: none; }            
-            .ico-default-heart i{ color: #fff; }            
-            .ico-default-heart.desative{ background: #fff; border: 1px solid #57574b; }
-            .ico-default-heart.desative i{ color: #57574b; }
-
-            .ico-default-eye{ background: #e9c92e; color: #fff;  border: none; }            
-            .ico-default-eye i{ color: #fff; }            
-            .ico-default-eye.desative{ background: #fff; border: 1px solid #57574b; }
-            .ico-default-eye.desative i{ color: #57574b; }
-
-            .ico-default-dolar{ background: #81B4D1; color: #fff;  border: none; }            
-            .ico-default-dolar i{ color: #fff; }            
-            .ico-default-dolar.desative{ background: #fff; border: 1px solid #57574b; }
-            .ico-default-dolar.desative i{ color: #57574b; }
-
-            .ico-default-trophy{ background: #D1819B; color: #fff;  border: none; }            
-            .ico-default-trophy i{ color: #fff; }            
-            .ico-default-trophy.desative{ background: #fff; border: 1px solid #57574b; }
-            .ico-default-trophy.desative i{ color: #57574b; }
-
-            .ico-default-photo{
-                background: #395aa4;                
-            }
-
-            .ico-default-edit{
-                background: #18CAEC;
-            }
-
-            .ico-default-star{ background: #2ac364; color: #fff;  border: none; }            
-            .ico-default-star i{ color: #fff; }            
-            .ico-default-star.desative{ background: #fff; border: 1px solid #57574b; }
-            .ico-default-star.desative i{ color: #57574b; }
-
-            .ico-default-eye a, .ico-default-trash a, .ico-default-photo a, .ico-default-edit a{ 
-                color: #fff;
-                text-decoration: none;
-            } 
-
-            .ico-default-star a:hover, .ico-default-eye a:hover, .ico-default-trash a:hover, .ico-default-photo a:hover{ 
-                text-decoration: none;
-            } 
-
-            .ico-default-trash.desative, .ico-default-photo.desative{
-                background: #ad2138;
-            }
-
-
-            .aviso-balao{
-                display: inline-block;
-                padding: 3px 10px;
-                position: absolute;
-                bottom: 11px;
-                right: 13px;
-            }
-            .hidex{
-                max-height: 0;
-                overflow: hidden;
-                box-shadow: none;
-                opacity: 0;
-                margin-bottom: 0;
-            }
-            
-
-        </style>
-
-    </head>
-    <body>
-        <div id="wrapper">
-            <div id="page-wrapper">
+<?php if ($_valid && !is_callable('content_550daafed63f48_11086363')) {function content_550daafed63f48_11086363($_smarty_tpl) {?><!DOCTYPE HTML>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Estilo Carioca | Lista de Estoque</title>
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+
+        <link rel="shortcut icon" href="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/img/favicon.png?v=5">
+        <link rel="shortcut icon" type="image/x-icon" href="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/img/favicon.png?v=5"/>
+
+        <link rel="stylesheet" href="/web-files/font-awesome-4.1.0/css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="/web-files/bootstrap/css/bootstrap.css"/>
+        <link rel="stylesheet" href="/web-files/bootstrap/css/bootstrap-theme.css"/>		
+        <link rel="stylesheet" href="/web-files/css/docs.min.css"/>
+        <link rel="stylesheet" href="/web-files/css/style.css"/>
+
+        <script language="javascript" src="/web-files/js/funcoes.js"></script>
+        <script language="javascript" src="/web-files/js/jquery-2.1.1.min.js"></script>
+        <script language="javascript" src="/web-files/js/jQuery-Mask-Plugin.js"></script>
+        <script language="javascript" src="/web-files/bootstrap/js/bootstrap.js"></script>
+        <script language="javascript" src="/web-files/bootstrap/js/bootstrap-tooltip.js"></script>
+        <!-- Add fancyBox -->
+        <link rel="stylesheet" href="/web-files/fancyapps-fancyBox-18d1712/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+        <script type="text/javascript" src="/web-files/fancyapps-fancyBox-18d1712/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+        <!-- Upload -->
+        <script type="text/javascript" src="/web-files/js/jquery.uploadfile.js"></script>
+        <link rel="stylesheet" href="/web-files/css/uploadfile.css" type="text/css" media="screen" />
+        <!-- JQuery UI -->
+        <script type="text/javascript" src="/web-files/jquery-ui-1.11.1.custom/jquery-ui.js"></script>
+        <link rel="stylesheet" href="/web-files/jquery-ui-1.11.1.custom/jquery-ui.css"/>
+        <link rel="stylesheet" href="/web-files/jquery-ui-1.11.1.custom/jquery-ui.structure.css"/>
+        <link rel="stylesheet" href="/web-files/jquery-ui-1.11.1.custom/jquery-ui.theme.css"/>
+        <!-- Drag -->
+        <script type="text/javascript" src="/web-files/js/jquery-sortable.js"></script>
+        <!-- PLUGIN CROP -->
+        <link rel="stylesheet" href="/web-files/crop/cropper.css" type="text/css" media="screen" />
+        <script type="text/javascript" src="/web-files/crop/cropper.js"></script>
+        <script type="text/javascript" src="/web-files/js/highlight.min.js"></script>
+        <script type="text/javascript" src="/web-files/js/jquery.tablednd.0.7.js"></script>
+        <script type="text/javascript" src="/web-files/js/default.js"></script>
+
+        <!-- //COLOR PICKER BOOTSTRAP// -->
+        <link href="/web-files/bootstrap-colorpicker-master/dist/css/bootstrap-colorpicker.min.css" rel="stylesheet">
+        <link href="/web-files/bootstrap-colorpicker-master/src/css/docs.css" rel="stylesheet">
+        
+                    <!-- //CSS DO TEMA RESPONSIVO EM BOOTSTRAP -->
+            <link href="/web-files/startbootstrap-sb-admin-1.0.2/css/sb-admin.css" rel="stylesheet">
+            <link href="/web-files/startbootstrap-sb-admin-1.0.2/css/plugins/morris.css" rel="stylesheet">
+        
+
+        <script type="text/javascript">
+            if (window.hljs) {
+                hljs.tabReplace = '    ';
+                hljs.initHighlightingOnLoad();
+            }
+        </script>
+
+        <style>
+            
+            .ico-default-trophy, .ico-default-dolar, .ico-default-heart, .ico-default-star, .ico-default-eye, .ico-default-trash, .ico-default-photo, .ico-default-edit{
+                display: inline-block;
+                width: 32px;
+                height: 29px;
+                border-radius: 50%;
+                background: #e9c92e;
+                cursor: pointer;
+                color: #fff;
+                text-align:  center;
+                font-size: 14px;
+                line-height: 26px;
+                padding: 0 0 0 1px;
+
+            }
+
+            .ico-default-trash{  background: #58595A; }
+
+            .ico-default-heart{ background: #EC8ED6; color: #fff;  border: none; }            
+            .ico-default-heart i{ color: #fff; }            
+            .ico-default-heart.desative{ background: #fff; border: 1px solid #57574b; }
+            .ico-default-heart.desative i{ color: #57574b; }
+
+            .ico-default-eye{ background: #e9c92e; color: #fff;  border: none; }            
+            .ico-default-eye i{ color: #fff; }            
+            .ico-default-eye.desative{ background: #fff; border: 1px solid #57574b; }
+            .ico-default-eye.desative i{ color: #57574b; }
+
+            .ico-default-dolar{ background: #81B4D1; color: #fff;  border: none; }            
+            .ico-default-dolar i{ color: #fff; }            
+            .ico-default-dolar.desative{ background: #fff; border: 1px solid #57574b; }
+            .ico-default-dolar.desative i{ color: #57574b; }
+
+            .ico-default-trophy{ background: #D1819B; color: #fff;  border: none; }            
+            .ico-default-trophy i{ color: #fff; }            
+            .ico-default-trophy.desative{ background: #fff; border: 1px solid #57574b; }
+            .ico-default-trophy.desative i{ color: #57574b; }
+
+            .ico-default-photo{
+                background: #395aa4;                
+            }
+
+            .ico-default-edit{
+                background: #18CAEC;
+            }
+
+            .ico-default-star{ background: #2ac364; color: #fff;  border: none; }            
+            .ico-default-star i{ color: #fff; }            
+            .ico-default-star.desative{ background: #fff; border: 1px solid #57574b; }
+            .ico-default-star.desative i{ color: #57574b; }
+
+            .ico-default-eye a, .ico-default-trash a, .ico-default-photo a, .ico-default-edit a{ 
+                color: #fff;
+                text-decoration: none;
+            } 
+
+            .ico-default-star a:hover, .ico-default-eye a:hover, .ico-default-trash a:hover, .ico-default-photo a:hover{ 
+                text-decoration: none;
+            } 
+
+            .ico-default-trash.desative, .ico-default-photo.desative{
+                background: #ad2138;
+            }
+
+
+            .aviso-balao{
+                display: inline-block;
+                padding: 3px 10px;
+                position: absolute;
+                bottom: 11px;
+                right: 13px;
+            }
+            .hidex{
+                max-height: 0;
+                overflow: hidden;
+                box-shadow: none;
+                opacity: 0;
+                margin-bottom: 0;
+            }
+            
+
+        </style>
+
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="page-wrapper">
                 <div class="container-fluid">
 
 <div class="sidebar">
@@ -217,7 +217,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="/en/admin/welcome">rodrigo@estilocarioca.com.br</a>
+        <a class="navbar-brand" href="/pt/admin/welcome">admin@admin.com</a>
     </div>
     <!-- Top Menu Items -->
     <ul class="nav navbar-right top-nav">
@@ -226,11 +226,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <ul class="dropdown-menu">
                 
                 <li>
-                    <a href="/en/admin/alterar-senha"><i class="fa fa-fw fa-gear"></i> Alterar senha</a>
+                    <a href="/pt/admin/alterar-senha"><i class="fa fa-fw fa-gear"></i> Alterar senha</a>
                 </li>
                 <li class="divider"></li>
                 <li>
-                    <a href="/en/admin/logout"><i class="fa fa-fw fa-power-off"></i> Sair</a>
+                    <a href="/pt/admin/logout"><i class="fa fa-fw fa-power-off"></i> Sair</a>
                 </li>
             </ul>
         </li>
@@ -241,38 +241,38 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
 
             <li  class="" >
-                <a href="/en/admin/dashboard"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
+                <a href="/pt/admin/dashboard"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
             </li>
-            <li ><a href="/en/produtos/produtos-lista">
+            <li ><a href="/pt/produtos/produtos-lista">
                     <i class="fa fa-paper-plane"></i> Produtos</a>
             </li> 
             <li >
-                <a href="/en/pedidos/pedidos-lista"><i class="fa fa-file-text"></i> Pedidos</a>
+                <a href="/pt/pedidos/pedidos-lista"><i class="fa fa-file-text"></i> Pedidos</a>
             </li>
             <li >
-                <a href="/en/conta/lista"><i class="fa fa-users"></i> Clientes</a>
+                <a href="/pt/conta/lista"><i class="fa fa-users"></i> Clientes</a>
             </li>
             <li  class="active">
-                <a href="/en/produtos/estoque"><i class="fa fa-bars"></i> Estoque</a></li> 
+                <a href="/pt/produtos/estoque"><i class="fa fa-bars"></i> Estoque</a></li> 
             <li >
-                <a href="/en/produtos/estoque-baixo" style="position: relative;"><i class="fa fa-sort-alpha-asc"></i> Estoque Baixo  <span class="btn btn-sm btn-danger aviso-balao">35</span> </a>
+                <a href="/pt/produtos/estoque-baixo" style="position: relative;"><i class="fa fa-sort-alpha-asc"></i> Estoque Baixo  <span class="btn btn-sm btn-danger aviso-balao">34</span> </a>
             </li>
             <li >
-                <a href="/en/produtos/avise-me" style="position: relative;"><i class="fa fa-bell"></i> Avise-me  <span class="btn btn-sm btn-danger aviso-balao">1</span> </a>
+                <a href="/pt/produtos/avise-me" style="position: relative;"><i class="fa fa-bell"></i> Avise-me </a>
             </li>  
             
             <li  class="" >
-                <a href="/en/informacoes/newsletter-lista"><i class="fa fa-paper-plane"></i> Newsletter</a>
+                <a href="/pt/informacoes/newsletter-lista"><i class="fa fa-paper-plane"></i> Newsletter</a>
             </li>
             <li >
-                <a href="/en/conta/aniversariantes" style="position: relative;"><i class="fa fa-users"></i> Aniversariantes  <span class="btn btn-sm btn-danger aviso-balao">1</span> </a>
+                <a href="/pt/conta/aniversariantes" style="position: relative;"><i class="fa fa-users"></i> Aniversariantes </a>
             </li>
             <li >
-                <a href="/en/pedidos/exportar"><i class="fa fa-expand"></i> Exportar Pedidos</a>
+                <a href="/pt/pedidos/exportar"><i class="fa fa-expand"></i> Exportar Pedidos</a>
             </li>
             
             <li >
-                <a href="/en/nota-fiscal/exportar" style="position: relative;"><i class="fa fa-expand"></i> Exportar Nota Fiscal <span class="btn btn-sm btn-danger aviso-balao">10</span> </a>
+                <a href="/pt/nota-fiscal/exportar" style="position: relative;"><i class="fa fa-expand"></i> Exportar Nota Fiscal <span class="btn btn-sm btn-danger aviso-balao">13</span> </a>
             </li>
             
         </ul>
@@ -284,7 +284,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <div class="row">
     <div class="col-md-12">
         <div class="pull-left">
-            <a href="/en/admin/welcome"><img class="area-restrita img-responsive" src="/web-files/img/logo.png" alt="" border="0" title="" /></a>
+            <a href="/pt/admin/welcome"><img class="area-restrita img-responsive" src="/web-files/img/logo.png" alt="" border="0" title="" /></a>
         </div>
         <form class="navbar-form navbar-right" role="search" method="post">
     <div class="form-group">
@@ -306,7 +306,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         </h1>
         <ol class="breadcrumb">
             <li>
-                <i class="fa fa-home"></i>  <a href="/en/admin/welcome">Home</a>
+                <i class="fa fa-home"></i>  <a href="/pt/admin/welcome">Home</a>
             </li>
             <li class="active">
                 <i class="fa fa-child"></i>  Lista de Produtos em Estoque
@@ -362,7 +362,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                         <td>Nilton Santos</td><td></td>
                                     </tr>
                                     <tr>
-                                        <td><strong>Total Geral</strong></td><td>10</td>
+                                        <td><strong>Total Geral</strong></td><td>13</td>
                                     </tr>
                                 </table>
 
@@ -375,7 +375,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
 
         <br/>
-        <a href="/en/produtos/exportar-estoque-xls" class="btn btn-lg btn-success" target="_blank"><i class="fa fa-exchange"></i> Exportar estoque</a>
+        <a href="/pt/produtos/exportar-estoque-xls" class="btn btn-lg btn-success" target="_blank"><i class="fa fa-exchange"></i> Exportar estoque</a>
 
         <div class="panel-default showEstoque">
 
@@ -451,7 +451,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                             </td>
                                             <td>
                                                 <div class="input-group">
-                                                    <input type="text" class="form-control pNameImput" id="qName_45459413067B1DF9914631C764527E91" value="1" onkeyup="javascript:update_qntdd_estoque(this.name, this.value, '45459413067B1DF9914631C764527E91')" onkeypress="return formataNumDV(event, this, 6);" style="width: 120px;"/>
+                                                    <input type="text" class="form-control pNameImput" id="qName_45459413067B1DF9914631C764527E91" value="10" onkeyup="javascript:update_qntdd_estoque(this.name, this.value, '45459413067B1DF9914631C764527E91')" onkeypress="return formataNumDV(event, this, 6);" style="width: 120px;"/>
                                                     <span class="input-group-btn">
                                                         
                                                         <span class="btn btn-default" id="45459413067B1DF9914631C764527E91" type="button" onclick="javascript:eQuantidadeEstoqueUpdate('qName_45459413067B1DF9914631C764527E91', '45459413067B1DF9914631C764527E91','D6035AC02FE669D1AC9FA96170F086C8', this)"><i class="glyphicon glyphicon-refresh"></i></span>
@@ -471,7 +471,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
                                             </td>
                                             <td>
-                                                <input type="text" class="form-control PRECOCOMPRA_45459413067B1DF9914631C764527E91" name="PRECOCOMPRA_D6035AC02FE669D1AC9FA96170F086C8" id="PRECOCOMPRA_45459413067B1DF9914631C764527E91"   onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" value="50,00" readonly="readonly"/>
+                                                <input type="text" class="form-control PRECOCOMPRA_45459413067B1DF9914631C764527E91" name="PRECOCOMPRA_D6035AC02FE669D1AC9FA96170F086C8" id="PRECOCOMPRA_45459413067B1DF9914631C764527E91"   onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" value="500,00" readonly="readonly"/>
                                             </td>
                                         </tr>
                                                                            
@@ -2394,7 +2394,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                                                                 <tr class="delete-return-AC495248300239DADE219113A0265587 no">
                                             <td>
                                                 <span style="cursor: pointer; position: relative; display: block; width: 80px;" onclick="javascript:pGetImagesShow('AC495248300239DADE219113A0265587', 'NS-0001')">
-                                                                                                            <img src="/web-files/upload/thumbs/EA6B096EA965DA3A850EB3D599CAC0AF/9F8813EDFFD94B1C635B17EFF33A0147.jpg" border="0" alt="Camisa Masculina" title="Camisa Masculina">
+                                                                                                            <img src="/web-files/upload/thumbs/F45FE13EA2279D41DC77453438D053BC/54CA40915593EF4483D752CF448AEFF2.jpg" border="0" alt="Camisa Masculina" title="Camisa Masculina">
                                                                                                         <span style="display: none;min-width: 80px;position: absolute;left: 100%;bottom: 0px;cursor: default;width: 300px;zoom: 115%;background: rgb(255, 255, 255);border: 1px solid #ccc;border-radius: 20px; padding: 10px 0px 0px 15px; z-index: 1000;">teste</span>
                                                 </span>
                                             </td>
@@ -2443,7 +2443,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                                                                 <tr class="delete-return-AC495248300239DADE219113A0265587 no">
                                             <td>
                                                 <span style="cursor: pointer; position: relative; display: block; width: 80px;" onclick="javascript:pGetImagesShow('AC495248300239DADE219113A0265587', 'NS-0001')">
-                                                                                                            <img src="/web-files/upload/thumbs/EA6B096EA965DA3A850EB3D599CAC0AF/9F8813EDFFD94B1C635B17EFF33A0147.jpg" border="0" alt="Camisa Masculina" title="Camisa Masculina">
+                                                                                                            <img src="/web-files/upload/thumbs/F45FE13EA2279D41DC77453438D053BC/54CA40915593EF4483D752CF448AEFF2.jpg" border="0" alt="Camisa Masculina" title="Camisa Masculina">
                                                                                                         <span style="display: none;min-width: 80px;position: absolute;left: 100%;bottom: 0px;cursor: default;width: 300px;zoom: 115%;background: rgb(255, 255, 255);border: 1px solid #ccc;border-radius: 20px; padding: 10px 0px 0px 15px; z-index: 1000;">teste</span>
                                                 </span>
                                             </td>
@@ -2492,7 +2492,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                                                                 <tr class="delete-return-AC495248300239DADE219113A0265587 no">
                                             <td>
                                                 <span style="cursor: pointer; position: relative; display: block; width: 80px;" onclick="javascript:pGetImagesShow('AC495248300239DADE219113A0265587', 'NS-0001')">
-                                                                                                            <img src="/web-files/upload/thumbs/EA6B096EA965DA3A850EB3D599CAC0AF/9F8813EDFFD94B1C635B17EFF33A0147.jpg" border="0" alt="Camisa Masculina" title="Camisa Masculina">
+                                                                                                            <img src="/web-files/upload/thumbs/F45FE13EA2279D41DC77453438D053BC/54CA40915593EF4483D752CF448AEFF2.jpg" border="0" alt="Camisa Masculina" title="Camisa Masculina">
                                                                                                         <span style="display: none;min-width: 80px;position: absolute;left: 100%;bottom: 0px;cursor: default;width: 300px;zoom: 115%;background: rgb(255, 255, 255);border: 1px solid #ccc;border-radius: 20px; padding: 10px 0px 0px 15px; z-index: 1000;">teste</span>
                                                 </span>
                                             </td>
@@ -2541,7 +2541,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                                                                 <tr class="delete-return-AC495248300239DADE219113A0265587 no">
                                             <td>
                                                 <span style="cursor: pointer; position: relative; display: block; width: 80px;" onclick="javascript:pGetImagesShow('AC495248300239DADE219113A0265587', 'NS-0001')">
-                                                                                                            <img src="/web-files/upload/thumbs/EA6B096EA965DA3A850EB3D599CAC0AF/9F8813EDFFD94B1C635B17EFF33A0147.jpg" border="0" alt="Camisa Masculina" title="Camisa Masculina">
+                                                                                                            <img src="/web-files/upload/thumbs/F45FE13EA2279D41DC77453438D053BC/54CA40915593EF4483D752CF448AEFF2.jpg" border="0" alt="Camisa Masculina" title="Camisa Masculina">
                                                                                                         <span style="display: none;min-width: 80px;position: absolute;left: 100%;bottom: 0px;cursor: default;width: 300px;zoom: 115%;background: rgb(255, 255, 255);border: 1px solid #ccc;border-radius: 20px; padding: 10px 0px 0px 15px; z-index: 1000;">teste</span>
                                                 </span>
                                             </td>
@@ -2590,7 +2590,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                                                                 <tr class="delete-return-AC495248300239DADE219113A0265587 no">
                                             <td>
                                                 <span style="cursor: pointer; position: relative; display: block; width: 80px;" onclick="javascript:pGetImagesShow('AC495248300239DADE219113A0265587', 'NS-0001')">
-                                                                                                            <img src="/web-files/upload/thumbs/EA6B096EA965DA3A850EB3D599CAC0AF/9F8813EDFFD94B1C635B17EFF33A0147.jpg" border="0" alt="Camisa Masculina" title="Camisa Masculina">
+                                                                                                            <img src="/web-files/upload/thumbs/F45FE13EA2279D41DC77453438D053BC/54CA40915593EF4483D752CF448AEFF2.jpg" border="0" alt="Camisa Masculina" title="Camisa Masculina">
                                                                                                         <span style="display: none;min-width: 80px;position: absolute;left: 100%;bottom: 0px;cursor: default;width: 300px;zoom: 115%;background: rgb(255, 255, 255);border: 1px solid #ccc;border-radius: 20px; padding: 10px 0px 0px 15px; z-index: 1000;">teste</span>
                                                 </span>
                                             </td>
@@ -2639,7 +2639,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                                                                 <tr class="delete-return-F3DB4A121F5C51A91B26DE8048E259D3 no">
                                             <td>
                                                 <span style="cursor: pointer; position: relative; display: block; width: 80px;" onclick="javascript:pGetImagesShow('F3DB4A121F5C51A91B26DE8048E259D3', 'NS-0002')">
-                                                                                                            <img src="/web-files/upload/thumbs/9CA9DA3701B796703722B22AD91FC924/9BCB16D2DFCDF70A17C60799E1BA75EB.jpg" border="0" alt="Nilton Santos Manga Longa" title="Nilton Santos Manga Longa">
+                                                                                                            <img src="/web-files/upload/thumbs/687EE832B83F99A41CA6490C4DCE1B90/41D31ED3708BE746D48A8BBC019678D2.jpg" border="0" alt="Nilton Santos Manga Longa" title="Nilton Santos Manga Longa">
                                                                                                         <span style="display: none;min-width: 80px;position: absolute;left: 100%;bottom: 0px;cursor: default;width: 300px;zoom: 115%;background: rgb(255, 255, 255);border: 1px solid #ccc;border-radius: 20px; padding: 10px 0px 0px 15px; z-index: 1000;">teste</span>
                                                 </span>
                                             </td>
@@ -2656,10 +2656,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                             </td>
                                             <td>
                                                 <div class="input-group">
-                                                    <input type="text" class="form-control pNameImput" id="qName_40897D410A939A63E7ED3C15FED0A674" value="10" onkeyup="javascript:update_qntdd_estoque(this.name, this.value, '40897D410A939A63E7ED3C15FED0A674')" onkeypress="return formataNumDV(event, this, 6);" style="width: 120px;"/>
+                                                    <input type="text" class="form-control pNameImput" id="qName_FE8DA2BA1FB2B827C4996B714BADAF6E" value="10" onkeyup="javascript:update_qntdd_estoque(this.name, this.value, 'FE8DA2BA1FB2B827C4996B714BADAF6E')" onkeypress="return formataNumDV(event, this, 6);" style="width: 120px;"/>
                                                     <span class="input-group-btn">
                                                         
-                                                        <span class="btn btn-default" id="40897D410A939A63E7ED3C15FED0A674" type="button" onclick="javascript:eQuantidadeEstoqueUpdate('qName_40897D410A939A63E7ED3C15FED0A674', '40897D410A939A63E7ED3C15FED0A674','F3DB4A121F5C51A91B26DE8048E259D3', this)"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                        <span class="btn btn-default" id="FE8DA2BA1FB2B827C4996B714BADAF6E" type="button" onclick="javascript:eQuantidadeEstoqueUpdate('qName_FE8DA2BA1FB2B827C4996B714BADAF6E', 'FE8DA2BA1FB2B827C4996B714BADAF6E','F3DB4A121F5C51A91B26DE8048E259D3', this)"><i class="glyphicon glyphicon-refresh"></i></span>
                                                     </span>
                                                 </div>
                                             </td>
@@ -2668,15 +2668,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                             </td>
                                             <td>
                                                 <div class="input-group">
-                                                    <input type="text" class="form-control pNameImput PRECOCOMPRA_F3DB4A121F5C51A91B26DE8048E259D3" id="pName_40897D410A939A63E7ED3C15FED0A674" value="" onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" style="width: 120px;"/>
+                                                    <input type="text" class="form-control pNameImput PRECOCOMPRA_F3DB4A121F5C51A91B26DE8048E259D3" id="pName_FE8DA2BA1FB2B827C4996B714BADAF6E" value="" onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" style="width: 120px;"/>
                                                     <span class="input-group-btn">
-                                                        <span class="btn btn-default" type="button" onclick="javascript:ePrecoUnitarioEstoqueUpdate('pName_40897D410A939A63E7ED3C15FED0A674', '40897D410A939A63E7ED3C15FED0A674', 'F3DB4A121F5C51A91B26DE8048E259D3')"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                        <span class="btn btn-default" type="button" onclick="javascript:ePrecoUnitarioEstoqueUpdate('pName_FE8DA2BA1FB2B827C4996B714BADAF6E', 'FE8DA2BA1FB2B827C4996B714BADAF6E', 'F3DB4A121F5C51A91B26DE8048E259D3')"><i class="glyphicon glyphicon-refresh"></i></span>
                                                     </span>
                                                 </div>
 
                                             </td>
                                             <td>
-                                                <input type="text" class="form-control PRECOCOMPRA_40897D410A939A63E7ED3C15FED0A674" name="PRECOCOMPRA_F3DB4A121F5C51A91B26DE8048E259D3" id="PRECOCOMPRA_40897D410A939A63E7ED3C15FED0A674"   onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" value="" readonly="readonly"/>
+                                                <input type="text" class="form-control PRECOCOMPRA_FE8DA2BA1FB2B827C4996B714BADAF6E" name="PRECOCOMPRA_F3DB4A121F5C51A91B26DE8048E259D3" id="PRECOCOMPRA_FE8DA2BA1FB2B827C4996B714BADAF6E"   onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" value="" readonly="readonly"/>
                                             </td>
                                         </tr>
                                                                            
@@ -2688,7 +2688,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                                                                 <tr class="delete-return-F3DB4A121F5C51A91B26DE8048E259D3 no">
                                             <td>
                                                 <span style="cursor: pointer; position: relative; display: block; width: 80px;" onclick="javascript:pGetImagesShow('F3DB4A121F5C51A91B26DE8048E259D3', 'NS-0002')">
-                                                                                                            <img src="/web-files/upload/thumbs/9CA9DA3701B796703722B22AD91FC924/9BCB16D2DFCDF70A17C60799E1BA75EB.jpg" border="0" alt="Nilton Santos Manga Longa" title="Nilton Santos Manga Longa">
+                                                                                                            <img src="/web-files/upload/thumbs/687EE832B83F99A41CA6490C4DCE1B90/41D31ED3708BE746D48A8BBC019678D2.jpg" border="0" alt="Nilton Santos Manga Longa" title="Nilton Santos Manga Longa">
                                                                                                         <span style="display: none;min-width: 80px;position: absolute;left: 100%;bottom: 0px;cursor: default;width: 300px;zoom: 115%;background: rgb(255, 255, 255);border: 1px solid #ccc;border-radius: 20px; padding: 10px 0px 0px 15px; z-index: 1000;">teste</span>
                                                 </span>
                                             </td>
@@ -2705,10 +2705,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                             </td>
                                             <td>
                                                 <div class="input-group">
-                                                    <input type="text" class="form-control pNameImput" id="qName_E32E1076D60F07EEF30B4A548679E231" value="10" onkeyup="javascript:update_qntdd_estoque(this.name, this.value, 'E32E1076D60F07EEF30B4A548679E231')" onkeypress="return formataNumDV(event, this, 6);" style="width: 120px;"/>
+                                                    <input type="text" class="form-control pNameImput" id="qName_CF76E8030DF7A6CCC83809970DD7B292" value="10" onkeyup="javascript:update_qntdd_estoque(this.name, this.value, 'CF76E8030DF7A6CCC83809970DD7B292')" onkeypress="return formataNumDV(event, this, 6);" style="width: 120px;"/>
                                                     <span class="input-group-btn">
                                                         
-                                                        <span class="btn btn-default" id="E32E1076D60F07EEF30B4A548679E231" type="button" onclick="javascript:eQuantidadeEstoqueUpdate('qName_E32E1076D60F07EEF30B4A548679E231', 'E32E1076D60F07EEF30B4A548679E231','F3DB4A121F5C51A91B26DE8048E259D3', this)"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                        <span class="btn btn-default" id="CF76E8030DF7A6CCC83809970DD7B292" type="button" onclick="javascript:eQuantidadeEstoqueUpdate('qName_CF76E8030DF7A6CCC83809970DD7B292', 'CF76E8030DF7A6CCC83809970DD7B292','F3DB4A121F5C51A91B26DE8048E259D3', this)"><i class="glyphicon glyphicon-refresh"></i></span>
                                                     </span>
                                                 </div>
                                             </td>
@@ -2717,15 +2717,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                             </td>
                                             <td>
                                                 <div class="input-group">
-                                                    <input type="text" class="form-control pNameImput PRECOCOMPRA_F3DB4A121F5C51A91B26DE8048E259D3" id="pName_E32E1076D60F07EEF30B4A548679E231" value="" onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" style="width: 120px;"/>
+                                                    <input type="text" class="form-control pNameImput PRECOCOMPRA_F3DB4A121F5C51A91B26DE8048E259D3" id="pName_CF76E8030DF7A6CCC83809970DD7B292" value="" onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" style="width: 120px;"/>
                                                     <span class="input-group-btn">
-                                                        <span class="btn btn-default" type="button" onclick="javascript:ePrecoUnitarioEstoqueUpdate('pName_E32E1076D60F07EEF30B4A548679E231', 'E32E1076D60F07EEF30B4A548679E231', 'F3DB4A121F5C51A91B26DE8048E259D3')"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                        <span class="btn btn-default" type="button" onclick="javascript:ePrecoUnitarioEstoqueUpdate('pName_CF76E8030DF7A6CCC83809970DD7B292', 'CF76E8030DF7A6CCC83809970DD7B292', 'F3DB4A121F5C51A91B26DE8048E259D3')"><i class="glyphicon glyphicon-refresh"></i></span>
                                                     </span>
                                                 </div>
 
                                             </td>
                                             <td>
-                                                <input type="text" class="form-control PRECOCOMPRA_E32E1076D60F07EEF30B4A548679E231" name="PRECOCOMPRA_F3DB4A121F5C51A91B26DE8048E259D3" id="PRECOCOMPRA_E32E1076D60F07EEF30B4A548679E231"   onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" value="" readonly="readonly"/>
+                                                <input type="text" class="form-control PRECOCOMPRA_CF76E8030DF7A6CCC83809970DD7B292" name="PRECOCOMPRA_F3DB4A121F5C51A91B26DE8048E259D3" id="PRECOCOMPRA_CF76E8030DF7A6CCC83809970DD7B292"   onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" value="" readonly="readonly"/>
                                             </td>
                                         </tr>
                                                                            
@@ -2737,7 +2737,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                                                                 <tr class="delete-return-F3DB4A121F5C51A91B26DE8048E259D3 no">
                                             <td>
                                                 <span style="cursor: pointer; position: relative; display: block; width: 80px;" onclick="javascript:pGetImagesShow('F3DB4A121F5C51A91B26DE8048E259D3', 'NS-0002')">
-                                                                                                            <img src="/web-files/upload/thumbs/9CA9DA3701B796703722B22AD91FC924/9BCB16D2DFCDF70A17C60799E1BA75EB.jpg" border="0" alt="Nilton Santos Manga Longa" title="Nilton Santos Manga Longa">
+                                                                                                            <img src="/web-files/upload/thumbs/687EE832B83F99A41CA6490C4DCE1B90/41D31ED3708BE746D48A8BBC019678D2.jpg" border="0" alt="Nilton Santos Manga Longa" title="Nilton Santos Manga Longa">
                                                                                                         <span style="display: none;min-width: 80px;position: absolute;left: 100%;bottom: 0px;cursor: default;width: 300px;zoom: 115%;background: rgb(255, 255, 255);border: 1px solid #ccc;border-radius: 20px; padding: 10px 0px 0px 15px; z-index: 1000;">teste</span>
                                                 </span>
                                             </td>
@@ -2754,10 +2754,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                             </td>
                                             <td>
                                                 <div class="input-group">
-                                                    <input type="text" class="form-control pNameImput" id="qName_BD7D37BCECA837EB488FFC4196A5640F" value="10" onkeyup="javascript:update_qntdd_estoque(this.name, this.value, 'BD7D37BCECA837EB488FFC4196A5640F')" onkeypress="return formataNumDV(event, this, 6);" style="width: 120px;"/>
+                                                    <input type="text" class="form-control pNameImput" id="qName_5BB2454052B2D87437C79DDC93FFD71A" value="10" onkeyup="javascript:update_qntdd_estoque(this.name, this.value, '5BB2454052B2D87437C79DDC93FFD71A')" onkeypress="return formataNumDV(event, this, 6);" style="width: 120px;"/>
                                                     <span class="input-group-btn">
                                                         
-                                                        <span class="btn btn-default" id="BD7D37BCECA837EB488FFC4196A5640F" type="button" onclick="javascript:eQuantidadeEstoqueUpdate('qName_BD7D37BCECA837EB488FFC4196A5640F', 'BD7D37BCECA837EB488FFC4196A5640F','F3DB4A121F5C51A91B26DE8048E259D3', this)"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                        <span class="btn btn-default" id="5BB2454052B2D87437C79DDC93FFD71A" type="button" onclick="javascript:eQuantidadeEstoqueUpdate('qName_5BB2454052B2D87437C79DDC93FFD71A', '5BB2454052B2D87437C79DDC93FFD71A','F3DB4A121F5C51A91B26DE8048E259D3', this)"><i class="glyphicon glyphicon-refresh"></i></span>
                                                     </span>
                                                 </div>
                                             </td>
@@ -2766,15 +2766,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                             </td>
                                             <td>
                                                 <div class="input-group">
-                                                    <input type="text" class="form-control pNameImput PRECOCOMPRA_F3DB4A121F5C51A91B26DE8048E259D3" id="pName_BD7D37BCECA837EB488FFC4196A5640F" value="" onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" style="width: 120px;"/>
+                                                    <input type="text" class="form-control pNameImput PRECOCOMPRA_F3DB4A121F5C51A91B26DE8048E259D3" id="pName_5BB2454052B2D87437C79DDC93FFD71A" value="" onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" style="width: 120px;"/>
                                                     <span class="input-group-btn">
-                                                        <span class="btn btn-default" type="button" onclick="javascript:ePrecoUnitarioEstoqueUpdate('pName_BD7D37BCECA837EB488FFC4196A5640F', 'BD7D37BCECA837EB488FFC4196A5640F', 'F3DB4A121F5C51A91B26DE8048E259D3')"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                        <span class="btn btn-default" type="button" onclick="javascript:ePrecoUnitarioEstoqueUpdate('pName_5BB2454052B2D87437C79DDC93FFD71A', '5BB2454052B2D87437C79DDC93FFD71A', 'F3DB4A121F5C51A91B26DE8048E259D3')"><i class="glyphicon glyphicon-refresh"></i></span>
                                                     </span>
                                                 </div>
 
                                             </td>
                                             <td>
-                                                <input type="text" class="form-control PRECOCOMPRA_BD7D37BCECA837EB488FFC4196A5640F" name="PRECOCOMPRA_F3DB4A121F5C51A91B26DE8048E259D3" id="PRECOCOMPRA_BD7D37BCECA837EB488FFC4196A5640F"   onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" value="" readonly="readonly"/>
+                                                <input type="text" class="form-control PRECOCOMPRA_5BB2454052B2D87437C79DDC93FFD71A" name="PRECOCOMPRA_F3DB4A121F5C51A91B26DE8048E259D3" id="PRECOCOMPRA_5BB2454052B2D87437C79DDC93FFD71A"   onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" value="" readonly="readonly"/>
                                             </td>
                                         </tr>
                                                                            
@@ -2786,7 +2786,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                                                                 <tr class="delete-return-F3DB4A121F5C51A91B26DE8048E259D3 no">
                                             <td>
                                                 <span style="cursor: pointer; position: relative; display: block; width: 80px;" onclick="javascript:pGetImagesShow('F3DB4A121F5C51A91B26DE8048E259D3', 'NS-0002')">
-                                                                                                            <img src="/web-files/upload/thumbs/9CA9DA3701B796703722B22AD91FC924/9BCB16D2DFCDF70A17C60799E1BA75EB.jpg" border="0" alt="Nilton Santos Manga Longa" title="Nilton Santos Manga Longa">
+                                                                                                            <img src="/web-files/upload/thumbs/687EE832B83F99A41CA6490C4DCE1B90/41D31ED3708BE746D48A8BBC019678D2.jpg" border="0" alt="Nilton Santos Manga Longa" title="Nilton Santos Manga Longa">
                                                                                                         <span style="display: none;min-width: 80px;position: absolute;left: 100%;bottom: 0px;cursor: default;width: 300px;zoom: 115%;background: rgb(255, 255, 255);border: 1px solid #ccc;border-radius: 20px; padding: 10px 0px 0px 15px; z-index: 1000;">teste</span>
                                                 </span>
                                             </td>
@@ -2803,10 +2803,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                             </td>
                                             <td>
                                                 <div class="input-group">
-                                                    <input type="text" class="form-control pNameImput" id="qName_4E50AF47BB0C986219D0E18DFF8AAB75" value="10" onkeyup="javascript:update_qntdd_estoque(this.name, this.value, '4E50AF47BB0C986219D0E18DFF8AAB75')" onkeypress="return formataNumDV(event, this, 6);" style="width: 120px;"/>
+                                                    <input type="text" class="form-control pNameImput" id="qName_FDF8B9B382DFBACCF0D57332422E0330" value="10" onkeyup="javascript:update_qntdd_estoque(this.name, this.value, 'FDF8B9B382DFBACCF0D57332422E0330')" onkeypress="return formataNumDV(event, this, 6);" style="width: 120px;"/>
                                                     <span class="input-group-btn">
                                                         
-                                                        <span class="btn btn-default" id="4E50AF47BB0C986219D0E18DFF8AAB75" type="button" onclick="javascript:eQuantidadeEstoqueUpdate('qName_4E50AF47BB0C986219D0E18DFF8AAB75', '4E50AF47BB0C986219D0E18DFF8AAB75','F3DB4A121F5C51A91B26DE8048E259D3', this)"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                        <span class="btn btn-default" id="FDF8B9B382DFBACCF0D57332422E0330" type="button" onclick="javascript:eQuantidadeEstoqueUpdate('qName_FDF8B9B382DFBACCF0D57332422E0330', 'FDF8B9B382DFBACCF0D57332422E0330','F3DB4A121F5C51A91B26DE8048E259D3', this)"><i class="glyphicon glyphicon-refresh"></i></span>
                                                     </span>
                                                 </div>
                                             </td>
@@ -2815,15 +2815,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                             </td>
                                             <td>
                                                 <div class="input-group">
-                                                    <input type="text" class="form-control pNameImput PRECOCOMPRA_F3DB4A121F5C51A91B26DE8048E259D3" id="pName_4E50AF47BB0C986219D0E18DFF8AAB75" value="" onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" style="width: 120px;"/>
+                                                    <input type="text" class="form-control pNameImput PRECOCOMPRA_F3DB4A121F5C51A91B26DE8048E259D3" id="pName_FDF8B9B382DFBACCF0D57332422E0330" value="" onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" style="width: 120px;"/>
                                                     <span class="input-group-btn">
-                                                        <span class="btn btn-default" type="button" onclick="javascript:ePrecoUnitarioEstoqueUpdate('pName_4E50AF47BB0C986219D0E18DFF8AAB75', '4E50AF47BB0C986219D0E18DFF8AAB75', 'F3DB4A121F5C51A91B26DE8048E259D3')"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                        <span class="btn btn-default" type="button" onclick="javascript:ePrecoUnitarioEstoqueUpdate('pName_FDF8B9B382DFBACCF0D57332422E0330', 'FDF8B9B382DFBACCF0D57332422E0330', 'F3DB4A121F5C51A91B26DE8048E259D3')"><i class="glyphicon glyphicon-refresh"></i></span>
                                                     </span>
                                                 </div>
 
                                             </td>
                                             <td>
-                                                <input type="text" class="form-control PRECOCOMPRA_4E50AF47BB0C986219D0E18DFF8AAB75" name="PRECOCOMPRA_F3DB4A121F5C51A91B26DE8048E259D3" id="PRECOCOMPRA_4E50AF47BB0C986219D0E18DFF8AAB75"   onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" value="" readonly="readonly"/>
+                                                <input type="text" class="form-control PRECOCOMPRA_FDF8B9B382DFBACCF0D57332422E0330" name="PRECOCOMPRA_F3DB4A121F5C51A91B26DE8048E259D3" id="PRECOCOMPRA_FDF8B9B382DFBACCF0D57332422E0330"   onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" value="" readonly="readonly"/>
                                             </td>
                                         </tr>
                                                                            
@@ -2835,7 +2835,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                                                                 <tr class="delete-return-F3DB4A121F5C51A91B26DE8048E259D3 no">
                                             <td>
                                                 <span style="cursor: pointer; position: relative; display: block; width: 80px;" onclick="javascript:pGetImagesShow('F3DB4A121F5C51A91B26DE8048E259D3', 'NS-0002')">
-                                                                                                            <img src="/web-files/upload/thumbs/9CA9DA3701B796703722B22AD91FC924/9BCB16D2DFCDF70A17C60799E1BA75EB.jpg" border="0" alt="Nilton Santos Manga Longa" title="Nilton Santos Manga Longa">
+                                                                                                            <img src="/web-files/upload/thumbs/687EE832B83F99A41CA6490C4DCE1B90/41D31ED3708BE746D48A8BBC019678D2.jpg" border="0" alt="Nilton Santos Manga Longa" title="Nilton Santos Manga Longa">
                                                                                                         <span style="display: none;min-width: 80px;position: absolute;left: 100%;bottom: 0px;cursor: default;width: 300px;zoom: 115%;background: rgb(255, 255, 255);border: 1px solid #ccc;border-radius: 20px; padding: 10px 0px 0px 15px; z-index: 1000;">teste</span>
                                                 </span>
                                             </td>
@@ -2852,10 +2852,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                             </td>
                                             <td>
                                                 <div class="input-group">
-                                                    <input type="text" class="form-control pNameImput" id="qName_E34E1A2FED4262A839F9A0060E058127" value="10" onkeyup="javascript:update_qntdd_estoque(this.name, this.value, 'E34E1A2FED4262A839F9A0060E058127')" onkeypress="return formataNumDV(event, this, 6);" style="width: 120px;"/>
+                                                    <input type="text" class="form-control pNameImput" id="qName_E5AD3E89F9D84449622DC648C8D88871" value="10" onkeyup="javascript:update_qntdd_estoque(this.name, this.value, 'E5AD3E89F9D84449622DC648C8D88871')" onkeypress="return formataNumDV(event, this, 6);" style="width: 120px;"/>
                                                     <span class="input-group-btn">
                                                         
-                                                        <span class="btn btn-default" id="E34E1A2FED4262A839F9A0060E058127" type="button" onclick="javascript:eQuantidadeEstoqueUpdate('qName_E34E1A2FED4262A839F9A0060E058127', 'E34E1A2FED4262A839F9A0060E058127','F3DB4A121F5C51A91B26DE8048E259D3', this)"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                        <span class="btn btn-default" id="E5AD3E89F9D84449622DC648C8D88871" type="button" onclick="javascript:eQuantidadeEstoqueUpdate('qName_E5AD3E89F9D84449622DC648C8D88871', 'E5AD3E89F9D84449622DC648C8D88871','F3DB4A121F5C51A91B26DE8048E259D3', this)"><i class="glyphicon glyphicon-refresh"></i></span>
                                                     </span>
                                                 </div>
                                             </td>
@@ -2864,15 +2864,750 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                             </td>
                                             <td>
                                                 <div class="input-group">
-                                                    <input type="text" class="form-control pNameImput PRECOCOMPRA_F3DB4A121F5C51A91B26DE8048E259D3" id="pName_E34E1A2FED4262A839F9A0060E058127" value="" onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" style="width: 120px;"/>
+                                                    <input type="text" class="form-control pNameImput PRECOCOMPRA_F3DB4A121F5C51A91B26DE8048E259D3" id="pName_E5AD3E89F9D84449622DC648C8D88871" value="" onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" style="width: 120px;"/>
                                                     <span class="input-group-btn">
-                                                        <span class="btn btn-default" type="button" onclick="javascript:ePrecoUnitarioEstoqueUpdate('pName_E34E1A2FED4262A839F9A0060E058127', 'E34E1A2FED4262A839F9A0060E058127', 'F3DB4A121F5C51A91B26DE8048E259D3')"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                        <span class="btn btn-default" type="button" onclick="javascript:ePrecoUnitarioEstoqueUpdate('pName_E5AD3E89F9D84449622DC648C8D88871', 'E5AD3E89F9D84449622DC648C8D88871', 'F3DB4A121F5C51A91B26DE8048E259D3')"><i class="glyphicon glyphicon-refresh"></i></span>
                                                     </span>
                                                 </div>
 
                                             </td>
                                             <td>
-                                                <input type="text" class="form-control PRECOCOMPRA_E34E1A2FED4262A839F9A0060E058127" name="PRECOCOMPRA_F3DB4A121F5C51A91B26DE8048E259D3" id="PRECOCOMPRA_E34E1A2FED4262A839F9A0060E058127"   onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" value="" readonly="readonly"/>
+                                                <input type="text" class="form-control PRECOCOMPRA_E5AD3E89F9D84449622DC648C8D88871" name="PRECOCOMPRA_F3DB4A121F5C51A91B26DE8048E259D3" id="PRECOCOMPRA_E5AD3E89F9D84449622DC648C8D88871"   onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" value="" readonly="readonly"/>
+                                            </td>
+                                        </tr>
+                                                                           
+                                  
+                                                                                                                                                            
+                                                                                                                                                              
+                                                                                                                                                         
+                                                                                                                                                                                                                                                                                                                                                       
+                                                                                <tr class="delete-return-83E4A651E3922F43549F642A40EF69D9 no">
+                                            <td>
+                                                <span style="cursor: pointer; position: relative; display: block; width: 80px;" onclick="javascript:pGetImagesShow('83E4A651E3922F43549F642A40EF69D9', 'NS-0003')">
+                                                                                                            <img src="/web-files/upload/thumbs/6F4096CBF0B49E25B1428D81EDF8D35D/8265F3A08E2574C0F1B4AFE29A5CA8C2.jpg" border="0" alt="Baby Look" title="Baby Look">
+                                                                                                        <span style="display: none;min-width: 80px;position: absolute;left: 100%;bottom: 0px;cursor: default;width: 300px;zoom: 115%;background: rgb(255, 255, 255);border: 1px solid #ccc;border-radius: 20px; padding: 10px 0px 0px 15px; z-index: 1000;">teste</span>
+                                                </span>
+                                            </td>
+                                            <td>NS-0003</td>
+                                            <td>Baby Look<br/><b>Tamanho: </b> P - Pequena</td>
+                                            <td>Nilton Santos</td>
+                                            <td>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control pNameImput" id="psName_83E4A651E3922F43549F642A40EF69D9" value="0.300" onkeydown="javascript: return mascaraPeso(this, event, 5, 3);" style="width: 120px;"/>
+                                                    <span class="input-group-btn">
+                                                        <span class="btn btn-default" type="button" onclick="javascript:ePesoUpdate('psName_83E4A651E3922F43549F642A40EF69D9', '83E4A651E3922F43549F642A40EF69D9')"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                    </span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control pNameImput" id="qName_1FE7CCA551B739A311CAA64866F67EB8" value="5" onkeyup="javascript:update_qntdd_estoque(this.name, this.value, '1FE7CCA551B739A311CAA64866F67EB8')" onkeypress="return formataNumDV(event, this, 6);" style="width: 120px;"/>
+                                                    <span class="input-group-btn">
+                                                        
+                                                        <span class="btn btn-default" id="1FE7CCA551B739A311CAA64866F67EB8" type="button" onclick="javascript:eQuantidadeEstoqueUpdate('qName_1FE7CCA551B739A311CAA64866F67EB8', '1FE7CCA551B739A311CAA64866F67EB8','83E4A651E3922F43549F642A40EF69D9', this)"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                    </span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <input type="text" class="form-control" value="159,00" readonly="readonly"/>
+                                            </td>
+                                            <td>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control pNameImput PRECOCOMPRA_83E4A651E3922F43549F642A40EF69D9" id="pName_1FE7CCA551B739A311CAA64866F67EB8" value="" onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" style="width: 120px;"/>
+                                                    <span class="input-group-btn">
+                                                        <span class="btn btn-default" type="button" onclick="javascript:ePrecoUnitarioEstoqueUpdate('pName_1FE7CCA551B739A311CAA64866F67EB8', '1FE7CCA551B739A311CAA64866F67EB8', '83E4A651E3922F43549F642A40EF69D9')"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                    </span>
+                                                </div>
+
+                                            </td>
+                                            <td>
+                                                <input type="text" class="form-control PRECOCOMPRA_1FE7CCA551B739A311CAA64866F67EB8" name="PRECOCOMPRA_83E4A651E3922F43549F642A40EF69D9" id="PRECOCOMPRA_1FE7CCA551B739A311CAA64866F67EB8"   onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" value="" readonly="readonly"/>
+                                            </td>
+                                        </tr>
+                                                                           
+                                  
+                                                                                                                                                            
+                                                                                                                                                              
+                                                                                                                                                         
+                                                                                                                                                                                                                                                                                                                                                       
+                                                                                <tr class="delete-return-83E4A651E3922F43549F642A40EF69D9 no">
+                                            <td>
+                                                <span style="cursor: pointer; position: relative; display: block; width: 80px;" onclick="javascript:pGetImagesShow('83E4A651E3922F43549F642A40EF69D9', 'NS-0003')">
+                                                                                                            <img src="/web-files/upload/thumbs/6F4096CBF0B49E25B1428D81EDF8D35D/8265F3A08E2574C0F1B4AFE29A5CA8C2.jpg" border="0" alt="Baby Look" title="Baby Look">
+                                                                                                        <span style="display: none;min-width: 80px;position: absolute;left: 100%;bottom: 0px;cursor: default;width: 300px;zoom: 115%;background: rgb(255, 255, 255);border: 1px solid #ccc;border-radius: 20px; padding: 10px 0px 0px 15px; z-index: 1000;">teste</span>
+                                                </span>
+                                            </td>
+                                            <td>NS-0003</td>
+                                            <td>Baby Look<br/><b>Tamanho: </b> M - Média</td>
+                                            <td>Nilton Santos</td>
+                                            <td>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control pNameImput" id="psName_83E4A651E3922F43549F642A40EF69D9" value="0.300" onkeydown="javascript: return mascaraPeso(this, event, 5, 3);" style="width: 120px;"/>
+                                                    <span class="input-group-btn">
+                                                        <span class="btn btn-default" type="button" onclick="javascript:ePesoUpdate('psName_83E4A651E3922F43549F642A40EF69D9', '83E4A651E3922F43549F642A40EF69D9')"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                    </span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control pNameImput" id="qName_EB9B94E0E8F147532A38DBF6EE70D755" value="5" onkeyup="javascript:update_qntdd_estoque(this.name, this.value, 'EB9B94E0E8F147532A38DBF6EE70D755')" onkeypress="return formataNumDV(event, this, 6);" style="width: 120px;"/>
+                                                    <span class="input-group-btn">
+                                                        
+                                                        <span class="btn btn-default" id="EB9B94E0E8F147532A38DBF6EE70D755" type="button" onclick="javascript:eQuantidadeEstoqueUpdate('qName_EB9B94E0E8F147532A38DBF6EE70D755', 'EB9B94E0E8F147532A38DBF6EE70D755','83E4A651E3922F43549F642A40EF69D9', this)"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                    </span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <input type="text" class="form-control" value="159,00" readonly="readonly"/>
+                                            </td>
+                                            <td>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control pNameImput PRECOCOMPRA_83E4A651E3922F43549F642A40EF69D9" id="pName_EB9B94E0E8F147532A38DBF6EE70D755" value="" onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" style="width: 120px;"/>
+                                                    <span class="input-group-btn">
+                                                        <span class="btn btn-default" type="button" onclick="javascript:ePrecoUnitarioEstoqueUpdate('pName_EB9B94E0E8F147532A38DBF6EE70D755', 'EB9B94E0E8F147532A38DBF6EE70D755', '83E4A651E3922F43549F642A40EF69D9')"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                    </span>
+                                                </div>
+
+                                            </td>
+                                            <td>
+                                                <input type="text" class="form-control PRECOCOMPRA_EB9B94E0E8F147532A38DBF6EE70D755" name="PRECOCOMPRA_83E4A651E3922F43549F642A40EF69D9" id="PRECOCOMPRA_EB9B94E0E8F147532A38DBF6EE70D755"   onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" value="" readonly="readonly"/>
+                                            </td>
+                                        </tr>
+                                                                           
+                                  
+                                                                                                                                                            
+                                                                                                                                                              
+                                                                                                                                                         
+                                                                                                                                                                                                                                                                                                                                                       
+                                                                                <tr class="delete-return-83E4A651E3922F43549F642A40EF69D9 no">
+                                            <td>
+                                                <span style="cursor: pointer; position: relative; display: block; width: 80px;" onclick="javascript:pGetImagesShow('83E4A651E3922F43549F642A40EF69D9', 'NS-0003')">
+                                                                                                            <img src="/web-files/upload/thumbs/6F4096CBF0B49E25B1428D81EDF8D35D/8265F3A08E2574C0F1B4AFE29A5CA8C2.jpg" border="0" alt="Baby Look" title="Baby Look">
+                                                                                                        <span style="display: none;min-width: 80px;position: absolute;left: 100%;bottom: 0px;cursor: default;width: 300px;zoom: 115%;background: rgb(255, 255, 255);border: 1px solid #ccc;border-radius: 20px; padding: 10px 0px 0px 15px; z-index: 1000;">teste</span>
+                                                </span>
+                                            </td>
+                                            <td>NS-0003</td>
+                                            <td>Baby Look<br/><b>Tamanho: </b> G - Grande</td>
+                                            <td>Nilton Santos</td>
+                                            <td>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control pNameImput" id="psName_83E4A651E3922F43549F642A40EF69D9" value="0.300" onkeydown="javascript: return mascaraPeso(this, event, 5, 3);" style="width: 120px;"/>
+                                                    <span class="input-group-btn">
+                                                        <span class="btn btn-default" type="button" onclick="javascript:ePesoUpdate('psName_83E4A651E3922F43549F642A40EF69D9', '83E4A651E3922F43549F642A40EF69D9')"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                    </span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control pNameImput" id="qName_5DDD4440ABEF5012086E8B57B02DB913" value="5" onkeyup="javascript:update_qntdd_estoque(this.name, this.value, '5DDD4440ABEF5012086E8B57B02DB913')" onkeypress="return formataNumDV(event, this, 6);" style="width: 120px;"/>
+                                                    <span class="input-group-btn">
+                                                        
+                                                        <span class="btn btn-default" id="5DDD4440ABEF5012086E8B57B02DB913" type="button" onclick="javascript:eQuantidadeEstoqueUpdate('qName_5DDD4440ABEF5012086E8B57B02DB913', '5DDD4440ABEF5012086E8B57B02DB913','83E4A651E3922F43549F642A40EF69D9', this)"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                    </span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <input type="text" class="form-control" value="159,00" readonly="readonly"/>
+                                            </td>
+                                            <td>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control pNameImput PRECOCOMPRA_83E4A651E3922F43549F642A40EF69D9" id="pName_5DDD4440ABEF5012086E8B57B02DB913" value="" onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" style="width: 120px;"/>
+                                                    <span class="input-group-btn">
+                                                        <span class="btn btn-default" type="button" onclick="javascript:ePrecoUnitarioEstoqueUpdate('pName_5DDD4440ABEF5012086E8B57B02DB913', '5DDD4440ABEF5012086E8B57B02DB913', '83E4A651E3922F43549F642A40EF69D9')"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                    </span>
+                                                </div>
+
+                                            </td>
+                                            <td>
+                                                <input type="text" class="form-control PRECOCOMPRA_5DDD4440ABEF5012086E8B57B02DB913" name="PRECOCOMPRA_83E4A651E3922F43549F642A40EF69D9" id="PRECOCOMPRA_5DDD4440ABEF5012086E8B57B02DB913"   onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" value="" readonly="readonly"/>
+                                            </td>
+                                        </tr>
+                                                                           
+                                  
+                                                                                                                                                            
+                                                                                                                                                              
+                                                                                                                                                         
+                                                                                                                                                                                                                                                                                                                                                       
+                                                                                <tr class="delete-return-83E4A651E3922F43549F642A40EF69D9 no">
+                                            <td>
+                                                <span style="cursor: pointer; position: relative; display: block; width: 80px;" onclick="javascript:pGetImagesShow('83E4A651E3922F43549F642A40EF69D9', 'NS-0003')">
+                                                                                                            <img src="/web-files/upload/thumbs/6F4096CBF0B49E25B1428D81EDF8D35D/8265F3A08E2574C0F1B4AFE29A5CA8C2.jpg" border="0" alt="Baby Look" title="Baby Look">
+                                                                                                        <span style="display: none;min-width: 80px;position: absolute;left: 100%;bottom: 0px;cursor: default;width: 300px;zoom: 115%;background: rgb(255, 255, 255);border: 1px solid #ccc;border-radius: 20px; padding: 10px 0px 0px 15px; z-index: 1000;">teste</span>
+                                                </span>
+                                            </td>
+                                            <td>NS-0003</td>
+                                            <td>Baby Look<br/><b>Tamanho: </b> GG - Grande</td>
+                                            <td>Nilton Santos</td>
+                                            <td>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control pNameImput" id="psName_83E4A651E3922F43549F642A40EF69D9" value="0.300" onkeydown="javascript: return mascaraPeso(this, event, 5, 3);" style="width: 120px;"/>
+                                                    <span class="input-group-btn">
+                                                        <span class="btn btn-default" type="button" onclick="javascript:ePesoUpdate('psName_83E4A651E3922F43549F642A40EF69D9', '83E4A651E3922F43549F642A40EF69D9')"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                    </span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control pNameImput" id="qName_E7D5B61D6C5B204DA8675FADB8819D4F" value="5" onkeyup="javascript:update_qntdd_estoque(this.name, this.value, 'E7D5B61D6C5B204DA8675FADB8819D4F')" onkeypress="return formataNumDV(event, this, 6);" style="width: 120px;"/>
+                                                    <span class="input-group-btn">
+                                                        
+                                                        <span class="btn btn-default" id="E7D5B61D6C5B204DA8675FADB8819D4F" type="button" onclick="javascript:eQuantidadeEstoqueUpdate('qName_E7D5B61D6C5B204DA8675FADB8819D4F', 'E7D5B61D6C5B204DA8675FADB8819D4F','83E4A651E3922F43549F642A40EF69D9', this)"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                    </span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <input type="text" class="form-control" value="159,00" readonly="readonly"/>
+                                            </td>
+                                            <td>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control pNameImput PRECOCOMPRA_83E4A651E3922F43549F642A40EF69D9" id="pName_E7D5B61D6C5B204DA8675FADB8819D4F" value="" onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" style="width: 120px;"/>
+                                                    <span class="input-group-btn">
+                                                        <span class="btn btn-default" type="button" onclick="javascript:ePrecoUnitarioEstoqueUpdate('pName_E7D5B61D6C5B204DA8675FADB8819D4F', 'E7D5B61D6C5B204DA8675FADB8819D4F', '83E4A651E3922F43549F642A40EF69D9')"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                    </span>
+                                                </div>
+
+                                            </td>
+                                            <td>
+                                                <input type="text" class="form-control PRECOCOMPRA_E7D5B61D6C5B204DA8675FADB8819D4F" name="PRECOCOMPRA_83E4A651E3922F43549F642A40EF69D9" id="PRECOCOMPRA_E7D5B61D6C5B204DA8675FADB8819D4F"   onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" value="" readonly="readonly"/>
+                                            </td>
+                                        </tr>
+                                                                           
+                                  
+                                                                                                                                                            
+                                                                                                                                                              
+                                                                                                                                                         
+                                                                                                                                                                                                                                                                                                                                                       
+                                                                                <tr class="delete-return-83E4A651E3922F43549F642A40EF69D9 no">
+                                            <td>
+                                                <span style="cursor: pointer; position: relative; display: block; width: 80px;" onclick="javascript:pGetImagesShow('83E4A651E3922F43549F642A40EF69D9', 'NS-0003')">
+                                                                                                            <img src="/web-files/upload/thumbs/6F4096CBF0B49E25B1428D81EDF8D35D/8265F3A08E2574C0F1B4AFE29A5CA8C2.jpg" border="0" alt="Baby Look" title="Baby Look">
+                                                                                                        <span style="display: none;min-width: 80px;position: absolute;left: 100%;bottom: 0px;cursor: default;width: 300px;zoom: 115%;background: rgb(255, 255, 255);border: 1px solid #ccc;border-radius: 20px; padding: 10px 0px 0px 15px; z-index: 1000;">teste</span>
+                                                </span>
+                                            </td>
+                                            <td>NS-0003</td>
+                                            <td>Baby Look<br/><b>Tamanho: </b> XG - Extra Grande</td>
+                                            <td>Nilton Santos</td>
+                                            <td>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control pNameImput" id="psName_83E4A651E3922F43549F642A40EF69D9" value="0.300" onkeydown="javascript: return mascaraPeso(this, event, 5, 3);" style="width: 120px;"/>
+                                                    <span class="input-group-btn">
+                                                        <span class="btn btn-default" type="button" onclick="javascript:ePesoUpdate('psName_83E4A651E3922F43549F642A40EF69D9', '83E4A651E3922F43549F642A40EF69D9')"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                    </span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control pNameImput" id="qName_02691C2637F2B17384BDF9B91DBD5CB9" value="5" onkeyup="javascript:update_qntdd_estoque(this.name, this.value, '02691C2637F2B17384BDF9B91DBD5CB9')" onkeypress="return formataNumDV(event, this, 6);" style="width: 120px;"/>
+                                                    <span class="input-group-btn">
+                                                        
+                                                        <span class="btn btn-default" id="02691C2637F2B17384BDF9B91DBD5CB9" type="button" onclick="javascript:eQuantidadeEstoqueUpdate('qName_02691C2637F2B17384BDF9B91DBD5CB9', '02691C2637F2B17384BDF9B91DBD5CB9','83E4A651E3922F43549F642A40EF69D9', this)"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                    </span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <input type="text" class="form-control" value="159,00" readonly="readonly"/>
+                                            </td>
+                                            <td>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control pNameImput PRECOCOMPRA_83E4A651E3922F43549F642A40EF69D9" id="pName_02691C2637F2B17384BDF9B91DBD5CB9" value="" onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" style="width: 120px;"/>
+                                                    <span class="input-group-btn">
+                                                        <span class="btn btn-default" type="button" onclick="javascript:ePrecoUnitarioEstoqueUpdate('pName_02691C2637F2B17384BDF9B91DBD5CB9', '02691C2637F2B17384BDF9B91DBD5CB9', '83E4A651E3922F43549F642A40EF69D9')"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                    </span>
+                                                </div>
+
+                                            </td>
+                                            <td>
+                                                <input type="text" class="form-control PRECOCOMPRA_02691C2637F2B17384BDF9B91DBD5CB9" name="PRECOCOMPRA_83E4A651E3922F43549F642A40EF69D9" id="PRECOCOMPRA_02691C2637F2B17384BDF9B91DBD5CB9"   onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" value="" readonly="readonly"/>
+                                            </td>
+                                        </tr>
+                                                                           
+                                  
+                                                                                                                                                            
+                                                                                                                                                              
+                                                                                                                                                         
+                                                                                                                                                                                                                                                                                                                                                       
+                                                                                <tr class="delete-return-007389BFCD29E8C70596B125D01035A9 no">
+                                            <td>
+                                                <span style="cursor: pointer; position: relative; display: block; width: 80px;" onclick="javascript:pGetImagesShow('007389BFCD29E8C70596B125D01035A9', 'NS-0004')">
+                                                                                                            <img src="/web-files/upload/thumbs/00EE6D59F6BD27EF082991636E2FB39F/B8456F9E7D94F19AA1A7E318F7290BF6.jpg" border="0" alt="Camisa Masculina" title="Camisa Masculina">
+                                                                                                        <span style="display: none;min-width: 80px;position: absolute;left: 100%;bottom: 0px;cursor: default;width: 300px;zoom: 115%;background: rgb(255, 255, 255);border: 1px solid #ccc;border-radius: 20px; padding: 10px 0px 0px 15px; z-index: 1000;">teste</span>
+                                                </span>
+                                            </td>
+                                            <td>NS-0004</td>
+                                            <td>Camisa Masculina<br/><b>Tamanho: </b> P - Pequena</td>
+                                            <td>Nilton Santos</td>
+                                            <td>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control pNameImput" id="psName_007389BFCD29E8C70596B125D01035A9" value="0.300" onkeydown="javascript: return mascaraPeso(this, event, 5, 3);" style="width: 120px;"/>
+                                                    <span class="input-group-btn">
+                                                        <span class="btn btn-default" type="button" onclick="javascript:ePesoUpdate('psName_007389BFCD29E8C70596B125D01035A9', '007389BFCD29E8C70596B125D01035A9')"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                    </span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control pNameImput" id="qName_820BB72568CE580595FD26624E99608C" value="5" onkeyup="javascript:update_qntdd_estoque(this.name, this.value, '820BB72568CE580595FD26624E99608C')" onkeypress="return formataNumDV(event, this, 6);" style="width: 120px;"/>
+                                                    <span class="input-group-btn">
+                                                        
+                                                        <span class="btn btn-default" id="820BB72568CE580595FD26624E99608C" type="button" onclick="javascript:eQuantidadeEstoqueUpdate('qName_820BB72568CE580595FD26624E99608C', '820BB72568CE580595FD26624E99608C','007389BFCD29E8C70596B125D01035A9', this)"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                    </span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <input type="text" class="form-control" value="159,00" readonly="readonly"/>
+                                            </td>
+                                            <td>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control pNameImput PRECOCOMPRA_007389BFCD29E8C70596B125D01035A9" id="pName_820BB72568CE580595FD26624E99608C" value="" onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" style="width: 120px;"/>
+                                                    <span class="input-group-btn">
+                                                        <span class="btn btn-default" type="button" onclick="javascript:ePrecoUnitarioEstoqueUpdate('pName_820BB72568CE580595FD26624E99608C', '820BB72568CE580595FD26624E99608C', '007389BFCD29E8C70596B125D01035A9')"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                    </span>
+                                                </div>
+
+                                            </td>
+                                            <td>
+                                                <input type="text" class="form-control PRECOCOMPRA_820BB72568CE580595FD26624E99608C" name="PRECOCOMPRA_007389BFCD29E8C70596B125D01035A9" id="PRECOCOMPRA_820BB72568CE580595FD26624E99608C"   onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" value="" readonly="readonly"/>
+                                            </td>
+                                        </tr>
+                                                                           
+                                  
+                                                                                                                                                            
+                                                                                                                                                              
+                                                                                                                                                         
+                                                                                                                                                                                                                                                                                                                                                       
+                                                                                <tr class="delete-return-007389BFCD29E8C70596B125D01035A9 no">
+                                            <td>
+                                                <span style="cursor: pointer; position: relative; display: block; width: 80px;" onclick="javascript:pGetImagesShow('007389BFCD29E8C70596B125D01035A9', 'NS-0004')">
+                                                                                                            <img src="/web-files/upload/thumbs/00EE6D59F6BD27EF082991636E2FB39F/B8456F9E7D94F19AA1A7E318F7290BF6.jpg" border="0" alt="Camisa Masculina" title="Camisa Masculina">
+                                                                                                        <span style="display: none;min-width: 80px;position: absolute;left: 100%;bottom: 0px;cursor: default;width: 300px;zoom: 115%;background: rgb(255, 255, 255);border: 1px solid #ccc;border-radius: 20px; padding: 10px 0px 0px 15px; z-index: 1000;">teste</span>
+                                                </span>
+                                            </td>
+                                            <td>NS-0004</td>
+                                            <td>Camisa Masculina<br/><b>Tamanho: </b> M - Média</td>
+                                            <td>Nilton Santos</td>
+                                            <td>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control pNameImput" id="psName_007389BFCD29E8C70596B125D01035A9" value="0.300" onkeydown="javascript: return mascaraPeso(this, event, 5, 3);" style="width: 120px;"/>
+                                                    <span class="input-group-btn">
+                                                        <span class="btn btn-default" type="button" onclick="javascript:ePesoUpdate('psName_007389BFCD29E8C70596B125D01035A9', '007389BFCD29E8C70596B125D01035A9')"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                    </span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control pNameImput" id="qName_48A82DC7A4B2B50315544AE68DB7870D" value="5" onkeyup="javascript:update_qntdd_estoque(this.name, this.value, '48A82DC7A4B2B50315544AE68DB7870D')" onkeypress="return formataNumDV(event, this, 6);" style="width: 120px;"/>
+                                                    <span class="input-group-btn">
+                                                        
+                                                        <span class="btn btn-default" id="48A82DC7A4B2B50315544AE68DB7870D" type="button" onclick="javascript:eQuantidadeEstoqueUpdate('qName_48A82DC7A4B2B50315544AE68DB7870D', '48A82DC7A4B2B50315544AE68DB7870D','007389BFCD29E8C70596B125D01035A9', this)"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                    </span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <input type="text" class="form-control" value="159,00" readonly="readonly"/>
+                                            </td>
+                                            <td>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control pNameImput PRECOCOMPRA_007389BFCD29E8C70596B125D01035A9" id="pName_48A82DC7A4B2B50315544AE68DB7870D" value="" onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" style="width: 120px;"/>
+                                                    <span class="input-group-btn">
+                                                        <span class="btn btn-default" type="button" onclick="javascript:ePrecoUnitarioEstoqueUpdate('pName_48A82DC7A4B2B50315544AE68DB7870D', '48A82DC7A4B2B50315544AE68DB7870D', '007389BFCD29E8C70596B125D01035A9')"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                    </span>
+                                                </div>
+
+                                            </td>
+                                            <td>
+                                                <input type="text" class="form-control PRECOCOMPRA_48A82DC7A4B2B50315544AE68DB7870D" name="PRECOCOMPRA_007389BFCD29E8C70596B125D01035A9" id="PRECOCOMPRA_48A82DC7A4B2B50315544AE68DB7870D"   onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" value="" readonly="readonly"/>
+                                            </td>
+                                        </tr>
+                                                                           
+                                  
+                                                                                                                                                            
+                                                                                                                                                              
+                                                                                                                                                         
+                                                                                                                                                                                                                                                                                                                                                       
+                                                                                <tr class="delete-return-007389BFCD29E8C70596B125D01035A9 no">
+                                            <td>
+                                                <span style="cursor: pointer; position: relative; display: block; width: 80px;" onclick="javascript:pGetImagesShow('007389BFCD29E8C70596B125D01035A9', 'NS-0004')">
+                                                                                                            <img src="/web-files/upload/thumbs/00EE6D59F6BD27EF082991636E2FB39F/B8456F9E7D94F19AA1A7E318F7290BF6.jpg" border="0" alt="Camisa Masculina" title="Camisa Masculina">
+                                                                                                        <span style="display: none;min-width: 80px;position: absolute;left: 100%;bottom: 0px;cursor: default;width: 300px;zoom: 115%;background: rgb(255, 255, 255);border: 1px solid #ccc;border-radius: 20px; padding: 10px 0px 0px 15px; z-index: 1000;">teste</span>
+                                                </span>
+                                            </td>
+                                            <td>NS-0004</td>
+                                            <td>Camisa Masculina<br/><b>Tamanho: </b> G - Grande</td>
+                                            <td>Nilton Santos</td>
+                                            <td>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control pNameImput" id="psName_007389BFCD29E8C70596B125D01035A9" value="0.300" onkeydown="javascript: return mascaraPeso(this, event, 5, 3);" style="width: 120px;"/>
+                                                    <span class="input-group-btn">
+                                                        <span class="btn btn-default" type="button" onclick="javascript:ePesoUpdate('psName_007389BFCD29E8C70596B125D01035A9', '007389BFCD29E8C70596B125D01035A9')"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                    </span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control pNameImput" id="qName_B6FAB4E4A6D060B6276B15AE8040FA37" value="5" onkeyup="javascript:update_qntdd_estoque(this.name, this.value, 'B6FAB4E4A6D060B6276B15AE8040FA37')" onkeypress="return formataNumDV(event, this, 6);" style="width: 120px;"/>
+                                                    <span class="input-group-btn">
+                                                        
+                                                        <span class="btn btn-default" id="B6FAB4E4A6D060B6276B15AE8040FA37" type="button" onclick="javascript:eQuantidadeEstoqueUpdate('qName_B6FAB4E4A6D060B6276B15AE8040FA37', 'B6FAB4E4A6D060B6276B15AE8040FA37','007389BFCD29E8C70596B125D01035A9', this)"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                    </span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <input type="text" class="form-control" value="159,00" readonly="readonly"/>
+                                            </td>
+                                            <td>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control pNameImput PRECOCOMPRA_007389BFCD29E8C70596B125D01035A9" id="pName_B6FAB4E4A6D060B6276B15AE8040FA37" value="" onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" style="width: 120px;"/>
+                                                    <span class="input-group-btn">
+                                                        <span class="btn btn-default" type="button" onclick="javascript:ePrecoUnitarioEstoqueUpdate('pName_B6FAB4E4A6D060B6276B15AE8040FA37', 'B6FAB4E4A6D060B6276B15AE8040FA37', '007389BFCD29E8C70596B125D01035A9')"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                    </span>
+                                                </div>
+
+                                            </td>
+                                            <td>
+                                                <input type="text" class="form-control PRECOCOMPRA_B6FAB4E4A6D060B6276B15AE8040FA37" name="PRECOCOMPRA_007389BFCD29E8C70596B125D01035A9" id="PRECOCOMPRA_B6FAB4E4A6D060B6276B15AE8040FA37"   onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" value="" readonly="readonly"/>
+                                            </td>
+                                        </tr>
+                                                                           
+                                  
+                                                                                                                                                            
+                                                                                                                                                              
+                                                                                                                                                         
+                                                                                                                                                                                                                                                                                                                                                       
+                                                                                <tr class="delete-return-007389BFCD29E8C70596B125D01035A9 no">
+                                            <td>
+                                                <span style="cursor: pointer; position: relative; display: block; width: 80px;" onclick="javascript:pGetImagesShow('007389BFCD29E8C70596B125D01035A9', 'NS-0004')">
+                                                                                                            <img src="/web-files/upload/thumbs/00EE6D59F6BD27EF082991636E2FB39F/B8456F9E7D94F19AA1A7E318F7290BF6.jpg" border="0" alt="Camisa Masculina" title="Camisa Masculina">
+                                                                                                        <span style="display: none;min-width: 80px;position: absolute;left: 100%;bottom: 0px;cursor: default;width: 300px;zoom: 115%;background: rgb(255, 255, 255);border: 1px solid #ccc;border-radius: 20px; padding: 10px 0px 0px 15px; z-index: 1000;">teste</span>
+                                                </span>
+                                            </td>
+                                            <td>NS-0004</td>
+                                            <td>Camisa Masculina<br/><b>Tamanho: </b> GG - Grande</td>
+                                            <td>Nilton Santos</td>
+                                            <td>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control pNameImput" id="psName_007389BFCD29E8C70596B125D01035A9" value="0.300" onkeydown="javascript: return mascaraPeso(this, event, 5, 3);" style="width: 120px;"/>
+                                                    <span class="input-group-btn">
+                                                        <span class="btn btn-default" type="button" onclick="javascript:ePesoUpdate('psName_007389BFCD29E8C70596B125D01035A9', '007389BFCD29E8C70596B125D01035A9')"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                    </span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control pNameImput" id="qName_2F4E44AC554A43A02EF5E0D698BE1DD2" value="5" onkeyup="javascript:update_qntdd_estoque(this.name, this.value, '2F4E44AC554A43A02EF5E0D698BE1DD2')" onkeypress="return formataNumDV(event, this, 6);" style="width: 120px;"/>
+                                                    <span class="input-group-btn">
+                                                        
+                                                        <span class="btn btn-default" id="2F4E44AC554A43A02EF5E0D698BE1DD2" type="button" onclick="javascript:eQuantidadeEstoqueUpdate('qName_2F4E44AC554A43A02EF5E0D698BE1DD2', '2F4E44AC554A43A02EF5E0D698BE1DD2','007389BFCD29E8C70596B125D01035A9', this)"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                    </span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <input type="text" class="form-control" value="159,00" readonly="readonly"/>
+                                            </td>
+                                            <td>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control pNameImput PRECOCOMPRA_007389BFCD29E8C70596B125D01035A9" id="pName_2F4E44AC554A43A02EF5E0D698BE1DD2" value="" onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" style="width: 120px;"/>
+                                                    <span class="input-group-btn">
+                                                        <span class="btn btn-default" type="button" onclick="javascript:ePrecoUnitarioEstoqueUpdate('pName_2F4E44AC554A43A02EF5E0D698BE1DD2', '2F4E44AC554A43A02EF5E0D698BE1DD2', '007389BFCD29E8C70596B125D01035A9')"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                    </span>
+                                                </div>
+
+                                            </td>
+                                            <td>
+                                                <input type="text" class="form-control PRECOCOMPRA_2F4E44AC554A43A02EF5E0D698BE1DD2" name="PRECOCOMPRA_007389BFCD29E8C70596B125D01035A9" id="PRECOCOMPRA_2F4E44AC554A43A02EF5E0D698BE1DD2"   onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" value="" readonly="readonly"/>
+                                            </td>
+                                        </tr>
+                                                                           
+                                  
+                                                                                                                                                            
+                                                                                                                                                              
+                                                                                                                                                         
+                                                                                                                                                                                                                                                                                                                                                       
+                                                                                <tr class="delete-return-007389BFCD29E8C70596B125D01035A9 no">
+                                            <td>
+                                                <span style="cursor: pointer; position: relative; display: block; width: 80px;" onclick="javascript:pGetImagesShow('007389BFCD29E8C70596B125D01035A9', 'NS-0004')">
+                                                                                                            <img src="/web-files/upload/thumbs/00EE6D59F6BD27EF082991636E2FB39F/B8456F9E7D94F19AA1A7E318F7290BF6.jpg" border="0" alt="Camisa Masculina" title="Camisa Masculina">
+                                                                                                        <span style="display: none;min-width: 80px;position: absolute;left: 100%;bottom: 0px;cursor: default;width: 300px;zoom: 115%;background: rgb(255, 255, 255);border: 1px solid #ccc;border-radius: 20px; padding: 10px 0px 0px 15px; z-index: 1000;">teste</span>
+                                                </span>
+                                            </td>
+                                            <td>NS-0004</td>
+                                            <td>Camisa Masculina<br/><b>Tamanho: </b> XG - Extra Grande</td>
+                                            <td>Nilton Santos</td>
+                                            <td>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control pNameImput" id="psName_007389BFCD29E8C70596B125D01035A9" value="0.300" onkeydown="javascript: return mascaraPeso(this, event, 5, 3);" style="width: 120px;"/>
+                                                    <span class="input-group-btn">
+                                                        <span class="btn btn-default" type="button" onclick="javascript:ePesoUpdate('psName_007389BFCD29E8C70596B125D01035A9', '007389BFCD29E8C70596B125D01035A9')"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                    </span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control pNameImput" id="qName_79B9953515B45EA590BA85353CB80440" value="5" onkeyup="javascript:update_qntdd_estoque(this.name, this.value, '79B9953515B45EA590BA85353CB80440')" onkeypress="return formataNumDV(event, this, 6);" style="width: 120px;"/>
+                                                    <span class="input-group-btn">
+                                                        
+                                                        <span class="btn btn-default" id="79B9953515B45EA590BA85353CB80440" type="button" onclick="javascript:eQuantidadeEstoqueUpdate('qName_79B9953515B45EA590BA85353CB80440', '79B9953515B45EA590BA85353CB80440','007389BFCD29E8C70596B125D01035A9', this)"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                    </span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <input type="text" class="form-control" value="159,00" readonly="readonly"/>
+                                            </td>
+                                            <td>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control pNameImput PRECOCOMPRA_007389BFCD29E8C70596B125D01035A9" id="pName_79B9953515B45EA590BA85353CB80440" value="" onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" style="width: 120px;"/>
+                                                    <span class="input-group-btn">
+                                                        <span class="btn btn-default" type="button" onclick="javascript:ePrecoUnitarioEstoqueUpdate('pName_79B9953515B45EA590BA85353CB80440', '79B9953515B45EA590BA85353CB80440', '007389BFCD29E8C70596B125D01035A9')"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                    </span>
+                                                </div>
+
+                                            </td>
+                                            <td>
+                                                <input type="text" class="form-control PRECOCOMPRA_79B9953515B45EA590BA85353CB80440" name="PRECOCOMPRA_007389BFCD29E8C70596B125D01035A9" id="PRECOCOMPRA_79B9953515B45EA590BA85353CB80440"   onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" value="" readonly="readonly"/>
+                                            </td>
+                                        </tr>
+                                                                           
+                                  
+                                                                                                                                                            
+                                                                                                                                                              
+                                                                                                                                                         
+                                                                                                                                                                                                                                                                                                                                                       
+                                                                                <tr class="delete-return-55109831008FCA21AB975C2DF0604B9C no">
+                                            <td>
+                                                <span style="cursor: pointer; position: relative; display: block; width: 80px;" onclick="javascript:pGetImagesShow('55109831008FCA21AB975C2DF0604B9C', 'NS-0005')">
+                                                                                                            <img src="/web-files/upload/thumbs/E6291027FF33CA592D9F944F55BAFACA/9972D3121EE69D03B90CB89171731A48.jpg" border="0" alt="Camisa Masculina" title="Camisa Masculina">
+                                                                                                        <span style="display: none;min-width: 80px;position: absolute;left: 100%;bottom: 0px;cursor: default;width: 300px;zoom: 115%;background: rgb(255, 255, 255);border: 1px solid #ccc;border-radius: 20px; padding: 10px 0px 0px 15px; z-index: 1000;">teste</span>
+                                                </span>
+                                            </td>
+                                            <td>NS-0005</td>
+                                            <td>Camisa Masculina<br/><b>Tamanho: </b> P - Pequena</td>
+                                            <td>Nilton Santos</td>
+                                            <td>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control pNameImput" id="psName_55109831008FCA21AB975C2DF0604B9C" value="0.300" onkeydown="javascript: return mascaraPeso(this, event, 5, 3);" style="width: 120px;"/>
+                                                    <span class="input-group-btn">
+                                                        <span class="btn btn-default" type="button" onclick="javascript:ePesoUpdate('psName_55109831008FCA21AB975C2DF0604B9C', '55109831008FCA21AB975C2DF0604B9C')"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                    </span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control pNameImput" id="qName_9B9892A053543F2A33CDE3936CD79387" value="5" onkeyup="javascript:update_qntdd_estoque(this.name, this.value, '9B9892A053543F2A33CDE3936CD79387')" onkeypress="return formataNumDV(event, this, 6);" style="width: 120px;"/>
+                                                    <span class="input-group-btn">
+                                                        
+                                                        <span class="btn btn-default" id="9B9892A053543F2A33CDE3936CD79387" type="button" onclick="javascript:eQuantidadeEstoqueUpdate('qName_9B9892A053543F2A33CDE3936CD79387', '9B9892A053543F2A33CDE3936CD79387','55109831008FCA21AB975C2DF0604B9C', this)"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                    </span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <input type="text" class="form-control" value="159,00" readonly="readonly"/>
+                                            </td>
+                                            <td>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control pNameImput PRECOCOMPRA_55109831008FCA21AB975C2DF0604B9C" id="pName_9B9892A053543F2A33CDE3936CD79387" value="" onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" style="width: 120px;"/>
+                                                    <span class="input-group-btn">
+                                                        <span class="btn btn-default" type="button" onclick="javascript:ePrecoUnitarioEstoqueUpdate('pName_9B9892A053543F2A33CDE3936CD79387', '9B9892A053543F2A33CDE3936CD79387', '55109831008FCA21AB975C2DF0604B9C')"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                    </span>
+                                                </div>
+
+                                            </td>
+                                            <td>
+                                                <input type="text" class="form-control PRECOCOMPRA_9B9892A053543F2A33CDE3936CD79387" name="PRECOCOMPRA_55109831008FCA21AB975C2DF0604B9C" id="PRECOCOMPRA_9B9892A053543F2A33CDE3936CD79387"   onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" value="" readonly="readonly"/>
+                                            </td>
+                                        </tr>
+                                                                           
+                                  
+                                                                                                                                                            
+                                                                                                                                                              
+                                                                                                                                                         
+                                                                                                                                                                                                                                                                                                                                                       
+                                                                                <tr class="delete-return-55109831008FCA21AB975C2DF0604B9C no">
+                                            <td>
+                                                <span style="cursor: pointer; position: relative; display: block; width: 80px;" onclick="javascript:pGetImagesShow('55109831008FCA21AB975C2DF0604B9C', 'NS-0005')">
+                                                                                                            <img src="/web-files/upload/thumbs/E6291027FF33CA592D9F944F55BAFACA/9972D3121EE69D03B90CB89171731A48.jpg" border="0" alt="Camisa Masculina" title="Camisa Masculina">
+                                                                                                        <span style="display: none;min-width: 80px;position: absolute;left: 100%;bottom: 0px;cursor: default;width: 300px;zoom: 115%;background: rgb(255, 255, 255);border: 1px solid #ccc;border-radius: 20px; padding: 10px 0px 0px 15px; z-index: 1000;">teste</span>
+                                                </span>
+                                            </td>
+                                            <td>NS-0005</td>
+                                            <td>Camisa Masculina<br/><b>Tamanho: </b> M - Média</td>
+                                            <td>Nilton Santos</td>
+                                            <td>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control pNameImput" id="psName_55109831008FCA21AB975C2DF0604B9C" value="0.300" onkeydown="javascript: return mascaraPeso(this, event, 5, 3);" style="width: 120px;"/>
+                                                    <span class="input-group-btn">
+                                                        <span class="btn btn-default" type="button" onclick="javascript:ePesoUpdate('psName_55109831008FCA21AB975C2DF0604B9C', '55109831008FCA21AB975C2DF0604B9C')"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                    </span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control pNameImput" id="qName_58DB307AB7B74D1AAE3B8B6661ADDFC1" value="5" onkeyup="javascript:update_qntdd_estoque(this.name, this.value, '58DB307AB7B74D1AAE3B8B6661ADDFC1')" onkeypress="return formataNumDV(event, this, 6);" style="width: 120px;"/>
+                                                    <span class="input-group-btn">
+                                                        
+                                                        <span class="btn btn-default" id="58DB307AB7B74D1AAE3B8B6661ADDFC1" type="button" onclick="javascript:eQuantidadeEstoqueUpdate('qName_58DB307AB7B74D1AAE3B8B6661ADDFC1', '58DB307AB7B74D1AAE3B8B6661ADDFC1','55109831008FCA21AB975C2DF0604B9C', this)"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                    </span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <input type="text" class="form-control" value="159,00" readonly="readonly"/>
+                                            </td>
+                                            <td>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control pNameImput PRECOCOMPRA_55109831008FCA21AB975C2DF0604B9C" id="pName_58DB307AB7B74D1AAE3B8B6661ADDFC1" value="" onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" style="width: 120px;"/>
+                                                    <span class="input-group-btn">
+                                                        <span class="btn btn-default" type="button" onclick="javascript:ePrecoUnitarioEstoqueUpdate('pName_58DB307AB7B74D1AAE3B8B6661ADDFC1', '58DB307AB7B74D1AAE3B8B6661ADDFC1', '55109831008FCA21AB975C2DF0604B9C')"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                    </span>
+                                                </div>
+
+                                            </td>
+                                            <td>
+                                                <input type="text" class="form-control PRECOCOMPRA_58DB307AB7B74D1AAE3B8B6661ADDFC1" name="PRECOCOMPRA_55109831008FCA21AB975C2DF0604B9C" id="PRECOCOMPRA_58DB307AB7B74D1AAE3B8B6661ADDFC1"   onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" value="" readonly="readonly"/>
+                                            </td>
+                                        </tr>
+                                                                           
+                                  
+                                                                                                                                                            
+                                                                                                                                                              
+                                                                                                                                                         
+                                                                                                                                                                                                                                                                                                                                                       
+                                                                                <tr class="delete-return-55109831008FCA21AB975C2DF0604B9C no">
+                                            <td>
+                                                <span style="cursor: pointer; position: relative; display: block; width: 80px;" onclick="javascript:pGetImagesShow('55109831008FCA21AB975C2DF0604B9C', 'NS-0005')">
+                                                                                                            <img src="/web-files/upload/thumbs/E6291027FF33CA592D9F944F55BAFACA/9972D3121EE69D03B90CB89171731A48.jpg" border="0" alt="Camisa Masculina" title="Camisa Masculina">
+                                                                                                        <span style="display: none;min-width: 80px;position: absolute;left: 100%;bottom: 0px;cursor: default;width: 300px;zoom: 115%;background: rgb(255, 255, 255);border: 1px solid #ccc;border-radius: 20px; padding: 10px 0px 0px 15px; z-index: 1000;">teste</span>
+                                                </span>
+                                            </td>
+                                            <td>NS-0005</td>
+                                            <td>Camisa Masculina<br/><b>Tamanho: </b> G - Grande</td>
+                                            <td>Nilton Santos</td>
+                                            <td>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control pNameImput" id="psName_55109831008FCA21AB975C2DF0604B9C" value="0.300" onkeydown="javascript: return mascaraPeso(this, event, 5, 3);" style="width: 120px;"/>
+                                                    <span class="input-group-btn">
+                                                        <span class="btn btn-default" type="button" onclick="javascript:ePesoUpdate('psName_55109831008FCA21AB975C2DF0604B9C', '55109831008FCA21AB975C2DF0604B9C')"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                    </span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control pNameImput" id="qName_2A21CB02E1C83F458023E79CA037B618" value="5" onkeyup="javascript:update_qntdd_estoque(this.name, this.value, '2A21CB02E1C83F458023E79CA037B618')" onkeypress="return formataNumDV(event, this, 6);" style="width: 120px;"/>
+                                                    <span class="input-group-btn">
+                                                        
+                                                        <span class="btn btn-default" id="2A21CB02E1C83F458023E79CA037B618" type="button" onclick="javascript:eQuantidadeEstoqueUpdate('qName_2A21CB02E1C83F458023E79CA037B618', '2A21CB02E1C83F458023E79CA037B618','55109831008FCA21AB975C2DF0604B9C', this)"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                    </span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <input type="text" class="form-control" value="159,00" readonly="readonly"/>
+                                            </td>
+                                            <td>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control pNameImput PRECOCOMPRA_55109831008FCA21AB975C2DF0604B9C" id="pName_2A21CB02E1C83F458023E79CA037B618" value="" onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" style="width: 120px;"/>
+                                                    <span class="input-group-btn">
+                                                        <span class="btn btn-default" type="button" onclick="javascript:ePrecoUnitarioEstoqueUpdate('pName_2A21CB02E1C83F458023E79CA037B618', '2A21CB02E1C83F458023E79CA037B618', '55109831008FCA21AB975C2DF0604B9C')"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                    </span>
+                                                </div>
+
+                                            </td>
+                                            <td>
+                                                <input type="text" class="form-control PRECOCOMPRA_2A21CB02E1C83F458023E79CA037B618" name="PRECOCOMPRA_55109831008FCA21AB975C2DF0604B9C" id="PRECOCOMPRA_2A21CB02E1C83F458023E79CA037B618"   onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" value="" readonly="readonly"/>
+                                            </td>
+                                        </tr>
+                                                                           
+                                  
+                                                                                                                                                            
+                                                                                                                                                              
+                                                                                                                                                         
+                                                                                                                                                                                                                                                                                                                                                       
+                                                                                <tr class="delete-return-55109831008FCA21AB975C2DF0604B9C no">
+                                            <td>
+                                                <span style="cursor: pointer; position: relative; display: block; width: 80px;" onclick="javascript:pGetImagesShow('55109831008FCA21AB975C2DF0604B9C', 'NS-0005')">
+                                                                                                            <img src="/web-files/upload/thumbs/E6291027FF33CA592D9F944F55BAFACA/9972D3121EE69D03B90CB89171731A48.jpg" border="0" alt="Camisa Masculina" title="Camisa Masculina">
+                                                                                                        <span style="display: none;min-width: 80px;position: absolute;left: 100%;bottom: 0px;cursor: default;width: 300px;zoom: 115%;background: rgb(255, 255, 255);border: 1px solid #ccc;border-radius: 20px; padding: 10px 0px 0px 15px; z-index: 1000;">teste</span>
+                                                </span>
+                                            </td>
+                                            <td>NS-0005</td>
+                                            <td>Camisa Masculina<br/><b>Tamanho: </b> GG - Grande</td>
+                                            <td>Nilton Santos</td>
+                                            <td>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control pNameImput" id="psName_55109831008FCA21AB975C2DF0604B9C" value="0.300" onkeydown="javascript: return mascaraPeso(this, event, 5, 3);" style="width: 120px;"/>
+                                                    <span class="input-group-btn">
+                                                        <span class="btn btn-default" type="button" onclick="javascript:ePesoUpdate('psName_55109831008FCA21AB975C2DF0604B9C', '55109831008FCA21AB975C2DF0604B9C')"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                    </span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control pNameImput" id="qName_1043CCCAB767ECB10565962DA82633BE" value="5" onkeyup="javascript:update_qntdd_estoque(this.name, this.value, '1043CCCAB767ECB10565962DA82633BE')" onkeypress="return formataNumDV(event, this, 6);" style="width: 120px;"/>
+                                                    <span class="input-group-btn">
+                                                        
+                                                        <span class="btn btn-default" id="1043CCCAB767ECB10565962DA82633BE" type="button" onclick="javascript:eQuantidadeEstoqueUpdate('qName_1043CCCAB767ECB10565962DA82633BE', '1043CCCAB767ECB10565962DA82633BE','55109831008FCA21AB975C2DF0604B9C', this)"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                    </span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <input type="text" class="form-control" value="159,00" readonly="readonly"/>
+                                            </td>
+                                            <td>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control pNameImput PRECOCOMPRA_55109831008FCA21AB975C2DF0604B9C" id="pName_1043CCCAB767ECB10565962DA82633BE" value="" onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" style="width: 120px;"/>
+                                                    <span class="input-group-btn">
+                                                        <span class="btn btn-default" type="button" onclick="javascript:ePrecoUnitarioEstoqueUpdate('pName_1043CCCAB767ECB10565962DA82633BE', '1043CCCAB767ECB10565962DA82633BE', '55109831008FCA21AB975C2DF0604B9C')"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                    </span>
+                                                </div>
+
+                                            </td>
+                                            <td>
+                                                <input type="text" class="form-control PRECOCOMPRA_1043CCCAB767ECB10565962DA82633BE" name="PRECOCOMPRA_55109831008FCA21AB975C2DF0604B9C" id="PRECOCOMPRA_1043CCCAB767ECB10565962DA82633BE"   onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" value="" readonly="readonly"/>
+                                            </td>
+                                        </tr>
+                                                                           
+                                  
+                                                                                                                                                            
+                                                                                                                                                              
+                                                                                                                                                         
+                                                                                                                                                                                                                                                                                                                                                       
+                                                                                <tr class="delete-return-55109831008FCA21AB975C2DF0604B9C no">
+                                            <td>
+                                                <span style="cursor: pointer; position: relative; display: block; width: 80px;" onclick="javascript:pGetImagesShow('55109831008FCA21AB975C2DF0604B9C', 'NS-0005')">
+                                                                                                            <img src="/web-files/upload/thumbs/E6291027FF33CA592D9F944F55BAFACA/9972D3121EE69D03B90CB89171731A48.jpg" border="0" alt="Camisa Masculina" title="Camisa Masculina">
+                                                                                                        <span style="display: none;min-width: 80px;position: absolute;left: 100%;bottom: 0px;cursor: default;width: 300px;zoom: 115%;background: rgb(255, 255, 255);border: 1px solid #ccc;border-radius: 20px; padding: 10px 0px 0px 15px; z-index: 1000;">teste</span>
+                                                </span>
+                                            </td>
+                                            <td>NS-0005</td>
+                                            <td>Camisa Masculina<br/><b>Tamanho: </b> XG - Extra Grande</td>
+                                            <td>Nilton Santos</td>
+                                            <td>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control pNameImput" id="psName_55109831008FCA21AB975C2DF0604B9C" value="0.300" onkeydown="javascript: return mascaraPeso(this, event, 5, 3);" style="width: 120px;"/>
+                                                    <span class="input-group-btn">
+                                                        <span class="btn btn-default" type="button" onclick="javascript:ePesoUpdate('psName_55109831008FCA21AB975C2DF0604B9C', '55109831008FCA21AB975C2DF0604B9C')"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                    </span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control pNameImput" id="qName_1986D7FA5444002C40A3CF0312789DB1" value="5" onkeyup="javascript:update_qntdd_estoque(this.name, this.value, '1986D7FA5444002C40A3CF0312789DB1')" onkeypress="return formataNumDV(event, this, 6);" style="width: 120px;"/>
+                                                    <span class="input-group-btn">
+                                                        
+                                                        <span class="btn btn-default" id="1986D7FA5444002C40A3CF0312789DB1" type="button" onclick="javascript:eQuantidadeEstoqueUpdate('qName_1986D7FA5444002C40A3CF0312789DB1', '1986D7FA5444002C40A3CF0312789DB1','55109831008FCA21AB975C2DF0604B9C', this)"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                    </span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <input type="text" class="form-control" value="159,00" readonly="readonly"/>
+                                            </td>
+                                            <td>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control pNameImput PRECOCOMPRA_55109831008FCA21AB975C2DF0604B9C" id="pName_1986D7FA5444002C40A3CF0312789DB1" value="" onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" style="width: 120px;"/>
+                                                    <span class="input-group-btn">
+                                                        <span class="btn btn-default" type="button" onclick="javascript:ePrecoUnitarioEstoqueUpdate('pName_1986D7FA5444002C40A3CF0312789DB1', '1986D7FA5444002C40A3CF0312789DB1', '55109831008FCA21AB975C2DF0604B9C')"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                    </span>
+                                                </div>
+
+                                            </td>
+                                            <td>
+                                                <input type="text" class="form-control PRECOCOMPRA_1986D7FA5444002C40A3CF0312789DB1" name="PRECOCOMPRA_55109831008FCA21AB975C2DF0604B9C" id="PRECOCOMPRA_1986D7FA5444002C40A3CF0312789DB1"   onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" value="" readonly="readonly"/>
                                             </td>
                                         </tr>
                                                                            
@@ -2888,32 +3623,32 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     </div>
 </div>
 
-</div>
-<!-- /.container-fluid -->
-</div>
-<!-- /#page-wrapper -->
-</div>
-<!-- /#wrapper -->
-
-<script>
-    $(function() {
-        $("[data-toggle='tooltip']").tooltip();
-    });
-    
-</script>
-
-<!-- //COLOR PICKER BOOTSTRAP// -->
-
-<script src="/web-files/bootstrap-colorpicker-master/dist/js/bootstrap-colorpicker.js"></script>
-<script src="/web-files/bootstrap-colorpicker-master/src/js/docs.js"></script>
-
-<!-- //JS DO TEMA RESPONSIVO EM BOOTSTRAP// -->
-<script src="/web-files/startbootstrap-sb-admin-1.0.2/js/plugins/morris/raphael.min.js"></script>
-<script src="/web-files/startbootstrap-sb-admin-1.0.2/js/plugins/morris/morris.min.js"></script>
-<script src="/web-files/startbootstrap-sb-admin-1.0.2/js/plugins/morris/morris-data.js"></script>
-
-
-
-</body>
+</div>
+<!-- /.container-fluid -->
+</div>
+<!-- /#page-wrapper -->
+</div>
+<!-- /#wrapper -->
+
+<script>
+    $(function() {
+        $("[data-toggle='tooltip']").tooltip();
+    });
+    
+</script>
+
+<!-- //COLOR PICKER BOOTSTRAP// -->
+
+<script src="/web-files/bootstrap-colorpicker-master/dist/js/bootstrap-colorpicker.js"></script>
+<script src="/web-files/bootstrap-colorpicker-master/src/js/docs.js"></script>
+
+<!-- //JS DO TEMA RESPONSIVO EM BOOTSTRAP// -->
+<script src="/web-files/startbootstrap-sb-admin-1.0.2/js/plugins/morris/raphael.min.js"></script>
+<script src="/web-files/startbootstrap-sb-admin-1.0.2/js/plugins/morris/morris.min.js"></script>
+<script src="/web-files/startbootstrap-sb-admin-1.0.2/js/plugins/morris/morris-data.js"></script>
+
+
+
+</body>
 </html>
 <?php }} ?>

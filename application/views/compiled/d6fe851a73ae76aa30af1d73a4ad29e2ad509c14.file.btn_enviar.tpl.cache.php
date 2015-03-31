@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2015-03-13 18:58:34
+<?php /* Smarty version Smarty-3.1.19, created on 2015-03-25 22:16:55
          compiled from "/home/estil450/public_html/application/views/admin/btn_enviar.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:21436906745503335a9cfeb4-30385188%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:140580207551333d7a15b64-42734415%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,12 +11,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '21436906745503335a9cfeb4-30385188',
+  'nocache_hash' => '140580207551333d7a15b64-42734415',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5503335a9d1391_05232544',
+  'unifunc' => 'content_551333d7a17301_36171334',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5503335a9d1391_05232544')) {function content_5503335a9d1391_05232544($_smarty_tpl) {?><button type="submit" class="btn btn-primary btn-lg" role="button">Enviar</button><?php }} ?>
+<?php if ($_valid && !is_callable('content_551333d7a17301_36171334')) {function content_551333d7a17301_36171334($_smarty_tpl) {?><button type="submit" class="btn btn-primary btn-lg" role="button">Enviar</button><?php }} ?>

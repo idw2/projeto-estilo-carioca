@@ -1,45 +1,45 @@
-<?php 
-require("header.phtml"); 
-
-
-$mensagemHTML .= "<p style='text-align: center;'>";
-    $mensagemHTML .= "<span style='background: #57564A; color: #FFFFFF; display: inline-block; width: 50%; margin: 0 auto; padding: 1.5%; text-align: center; font-weight: bold; border-radius: 22px;'>";
-        $mensagemHTML .= "Solicitação de atualização de conta!";
-        $mensagemHTML .= "</span>";
-    $mensagemHTML .= "</p>";
-
-$mensagemHTML .= "<p>";
-    $mensagemHTML .= "<center>";
-    $mensagemHTML .= "<table>";
-        $mensagemHTML .= "<tr>";
-            $mensagemHTML .= "<td><img src='" . $_SERVER['EMAIL_ROOT'] ."/web-files/emails/document.png' border='0' alt='Relógio' title='Relógio' style='display: inline-block'/></td>";
-            $mensagemHTML .= "<td>";
-                $mensagemHTML .= "<table>";
-                    $mensagemHTML .= "<tr>";
-                        $mensagemHTML .= "<td><span style='display: inline-block; color: #E0555D;'>" . email_saudacao() . " " . $_SESSION["NOME"]."</span></td>";
-                        $mensagemHTML .= "</tr>";
-                        $mensagemHTML .= "<tr>";
-                            $mensagemHTML .= "<td>";
-                                $mensagemHTML .= "<div>Recentemente seu dados foram atualizados em nosso site..<div><br/>";
-                                $mensagemHTML .= "<div>Obrigado por utilizar nossos serviços.<div><br/>";
-                                $mensagemHTML .= "<div>O seu ID de acesso é: <strong>" . $_SESSION["EMAIL"] . "</strong><div><br/>";
-                                $mensagemHTML .= "<div>O seu lembrete de senha é a seguinte frase: <strong>" . $_SERVER["EMAIL_LEMBRETE"] . "</strong><div><br/>";
-                            $mensagemHTML .= "</td>";
-                        $mensagemHTML .= "</tr>";
-                    $mensagemHTML .= "</table>";
-                $mensagemHTML .= "</td>";
-            $mensagemHTML .= "</tr>";
-
-        $mensagemHTML .= "</table>";
-    $mensagemHTML .= "<center>";
-        $mensagemHTML .= "<br/>";
-
-    $mensagemHTML .= "<br/>";
-    $mensagemHTML .= "<div style='text-align: center;'>";
-    $mensagemHTML .= "<a href='" . $_SERVER['EMAIL_SITE'] . "/". LANGUAGE . "/' style='background: #E0555D; color: #FFFFFF; display: inline-block; width: 26%; margin: 0 auto; padding: 1.5%; text-align: center; font-weight: normal; border-radius: 9px; text-decoration: none;'>";
-    $mensagemHTML .= "<b>Ir para o site agora!</b><br/>";
-    $mensagemHTML .= "</a>";
-
-
-require("footer.phtml"); 
+<?php 
+require("header.phtml"); 
+
+
+$mensagemHTML .= "<p style='text-align: center;'>";
+    $mensagemHTML .= "<span style='background: #57564A; color: #FFFFFF; display: inline-block; width: 50%; margin: 0 auto; padding: 1.5%; text-align: center; font-weight: bold; border-radius: 22px;'>";
+        $mensagemHTML .= "Solicitação de atualização de conta!";
+        $mensagemHTML .= "</span>";
+    $mensagemHTML .= "</p>";
+
+$mensagemHTML .= "<p>";
+    $mensagemHTML .= "<center>";
+    $mensagemHTML .= "<table>";
+        $mensagemHTML .= "<tr>";
+            $mensagemHTML .= "<td><img src='" . $_SERVER['EMAIL_ROOT'] ."/web-files/emails/document.png' border='0' alt='Relógio' title='Relógio' style='display: inline-block'/></td>";
+            $mensagemHTML .= "<td>";
+                $mensagemHTML .= "<table>";
+                    $mensagemHTML .= "<tr>";
+                        $mensagemHTML .= "<td><span style='display: inline-block; color: #E0555D;'>" . email_saudacao() . " " . $_SESSION["NOME"]."</span></td>";
+                        $mensagemHTML .= "</tr>";
+                        $mensagemHTML .= "<tr>";
+                            $mensagemHTML .= "<td>";
+                                $mensagemHTML .= "<div>Recentemente seu dados foram atualizados em nosso site..<div><br/>";
+                                $mensagemHTML .= "<div>Obrigado por utilizar nossos serviços.<div><br/>";
+                                $mensagemHTML .= "<div>O seu ID de acesso é: <strong>" . $_SESSION["EMAIL"] . "</strong><div><br/>";
+                                $mensagemHTML .= "<div>O seu lembrete de senha é a seguinte frase: <strong>" . $_SERVER["EMAIL_LEMBRETE"] . "</strong><div><br/>";
+                            $mensagemHTML .= "</td>";
+                        $mensagemHTML .= "</tr>";
+                    $mensagemHTML .= "</table>";
+                $mensagemHTML .= "</td>";
+            $mensagemHTML .= "</tr>";
+
+        $mensagemHTML .= "</table>";
+    $mensagemHTML .= "<center>";
+        $mensagemHTML .= "<br/>";
+
+    $mensagemHTML .= "<br/>";
+    $mensagemHTML .= "<div style='text-align: center;'>";
+    $mensagemHTML .= "<a href='" . $_SERVER['EMAIL_SITE'] . "/". LANGUAGE . "/' style='background: #E0555D; color: #FFFFFF; display: inline-block; width: 26%; margin: 0 auto; padding: 1.5%; text-align: center; font-weight: normal; border-radius: 9px; text-decoration: none;'>";
+    $mensagemHTML .= "<b>Ir para o site agora!</b><br/>";
+    $mensagemHTML .= "</a>";
+
+
+require("footer.phtml"); 
 ?>

@@ -50,70 +50,70 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'unifunc' => 'content_54ef7390d344d8_56831822',
   'cache_lifetime' => 120,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_54ef7390d344d8_56831822')) {function content_54ef7390d344d8_56831822($_smarty_tpl) {?><!DOCTYPE HTML>
-<html lang="pt-br">
-
-    <head>
-        <meta charset="UTF-8">
-        <title>Estilo Carioca | Quem Somos</title>
-
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-
-        <link rel="shortcut icon" href="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/img/favicon.png?v=5">
-        <link rel="shortcut icon" type="image/x-icon" href="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/img/favicon.png?v=5"/>
-
-        <link rel="stylesheet" href="/web-files/font-awesome-4.1.0/css/font-awesome.min.css"/>
-        <link rel="stylesheet" href="/web-files/bootstrap/css/bootstrap.css"/>
-        <link rel="stylesheet" href="/web-files/bootstrap/css/bootstrap-theme.css"/>		
-        <link rel="stylesheet" href="/web-files/css/docs.min.css"/>
-        <link rel="stylesheet" href="/web-files/css/style.css"/>
-
-        <script language="javascript" src="/web-files/js/funcoes.js"></script>
-        <script language="javascript" src="/web-files/js/jquery-2.1.1.min.js"></script>
-        <script language="javascript" src="/web-files/js/jQuery-Mask-Plugin.js"></script>
-        <script language="javascript" src="/web-files/bootstrap/js/bootstrap.js"></script>
-        <script language="javascript" src="/web-files/bootstrap/js/bootstrap-tooltip.js"></script>
-        <!-- Add fancyBox -->
-        <link rel="stylesheet" href="/web-files/fancyapps-fancyBox-18d1712/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
-        <script type="text/javascript" src="/web-files/fancyapps-fancyBox-18d1712/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-        <!-- Upload -->
-        <script type="text/javascript" src="/web-files/js/jquery.uploadfile.js"></script>
-        <link rel="stylesheet" href="/web-files/css/uploadfile.css" type="text/css" media="screen" />
-        <!-- JQuery UI -->
-        <script type="text/javascript" src="/web-files/jquery-ui-1.11.1.custom/jquery-ui.js"></script>
-        <link rel="stylesheet" href="/web-files/jquery-ui-1.11.1.custom/jquery-ui.css"/>
-        <link rel="stylesheet" href="/web-files/jquery-ui-1.11.1.custom/jquery-ui.structure.css"/>
-        <link rel="stylesheet" href="/web-files/jquery-ui-1.11.1.custom/jquery-ui.theme.css"/>
-        <!-- Drag -->
-        <script type="text/javascript" src="/web-files/js/jquery-sortable.js"></script>
-        <!-- PLUGIN CROP -->
-        <link rel="stylesheet" href="/web-files/crop/cropper.css" type="text/css" media="screen" />
-        <script type="text/javascript" src="/web-files/crop/cropper.js"></script>
-        <script type="text/javascript" src="/web-files/js/highlight.min.js"></script>
-        <script type="text/javascript" src="/web-files/js/jquery.tablednd.0.7.js"></script>
-        <script type="text/javascript" src="/web-files/js/default.js"></script>
-        
-        <!-- //CSS DO TEMA RESPONSIVO EM BOOTSTRAP -->
-        <link href="/web-files/startbootstrap-sb-admin-1.0.2/css/sb-admin.css" rel="stylesheet">
-        <link href="/web-files/startbootstrap-sb-admin-1.0.2/css/plugins/morris.css" rel="stylesheet">
-        
-        
-
-        <script type="text/javascript">
-            if (window.hljs) {
-                hljs.tabReplace = '    ';
-                hljs.initHighlightingOnLoad();
-            }
-        </script>
-
-        <style>
-
-
-        </style>
-
-    </head>
-    <body>
+<?php if ($_valid && !is_callable('content_54ef7390d344d8_56831822')) {function content_54ef7390d344d8_56831822($_smarty_tpl) {?><!DOCTYPE HTML>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Estilo Carioca | Quem Somos</title>
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+
+        <link rel="shortcut icon" href="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/img/favicon.png?v=5">
+        <link rel="shortcut icon" type="image/x-icon" href="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/img/favicon.png?v=5"/>
+
+        <link rel="stylesheet" href="/web-files/font-awesome-4.1.0/css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="/web-files/bootstrap/css/bootstrap.css"/>
+        <link rel="stylesheet" href="/web-files/bootstrap/css/bootstrap-theme.css"/>		
+        <link rel="stylesheet" href="/web-files/css/docs.min.css"/>
+        <link rel="stylesheet" href="/web-files/css/style.css"/>
+
+        <script language="javascript" src="/web-files/js/funcoes.js"></script>
+        <script language="javascript" src="/web-files/js/jquery-2.1.1.min.js"></script>
+        <script language="javascript" src="/web-files/js/jQuery-Mask-Plugin.js"></script>
+        <script language="javascript" src="/web-files/bootstrap/js/bootstrap.js"></script>
+        <script language="javascript" src="/web-files/bootstrap/js/bootstrap-tooltip.js"></script>
+        <!-- Add fancyBox -->
+        <link rel="stylesheet" href="/web-files/fancyapps-fancyBox-18d1712/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+        <script type="text/javascript" src="/web-files/fancyapps-fancyBox-18d1712/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+        <!-- Upload -->
+        <script type="text/javascript" src="/web-files/js/jquery.uploadfile.js"></script>
+        <link rel="stylesheet" href="/web-files/css/uploadfile.css" type="text/css" media="screen" />
+        <!-- JQuery UI -->
+        <script type="text/javascript" src="/web-files/jquery-ui-1.11.1.custom/jquery-ui.js"></script>
+        <link rel="stylesheet" href="/web-files/jquery-ui-1.11.1.custom/jquery-ui.css"/>
+        <link rel="stylesheet" href="/web-files/jquery-ui-1.11.1.custom/jquery-ui.structure.css"/>
+        <link rel="stylesheet" href="/web-files/jquery-ui-1.11.1.custom/jquery-ui.theme.css"/>
+        <!-- Drag -->
+        <script type="text/javascript" src="/web-files/js/jquery-sortable.js"></script>
+        <!-- PLUGIN CROP -->
+        <link rel="stylesheet" href="/web-files/crop/cropper.css" type="text/css" media="screen" />
+        <script type="text/javascript" src="/web-files/crop/cropper.js"></script>
+        <script type="text/javascript" src="/web-files/js/highlight.min.js"></script>
+        <script type="text/javascript" src="/web-files/js/jquery.tablednd.0.7.js"></script>
+        <script type="text/javascript" src="/web-files/js/default.js"></script>
+        
+        <!-- //CSS DO TEMA RESPONSIVO EM BOOTSTRAP -->
+        <link href="/web-files/startbootstrap-sb-admin-1.0.2/css/sb-admin.css" rel="stylesheet">
+        <link href="/web-files/startbootstrap-sb-admin-1.0.2/css/plugins/morris.css" rel="stylesheet">
+        
+        
+
+        <script type="text/javascript">
+            if (window.hljs) {
+                hljs.tabReplace = '    ';
+                hljs.initHighlightingOnLoad();
+            }
+        </script>
+
+        <style>
+
+
+        </style>
+
+    </head>
+    <body>
         <div id="wrapper"><div id="page-wrapper"><div class="container-fluid">
 
 <div class="sidebar">
@@ -334,28 +334,28 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
 </script>
 
- </div>
- <!-- /.container-fluid -->
- </div>
- <!-- /#page-wrapper -->
-</div>
- <!-- /#wrapper -->
-
-<script>
-    $(function() {
-        $("[data-toggle='tooltip']").tooltip();
-    });    
-    $(document).ready(function(){
-        $(".container-fluid").css("height", screen.height);
-    });
-</script>
-
-<!-- //JS DO TEMA RESPONSIVO EM BOOTSTRAP// -->
-<script src="/web-files/startbootstrap-sb-admin-1.0.2/js/plugins/morris/raphael.min.js"></script>
-<script src="/web-files/startbootstrap-sb-admin-1.0.2/js/plugins/morris/morris.min.js"></script>
-<script src="/web-files/startbootstrap-sb-admin-1.0.2/js/plugins/morris/morris-data.js"></script>
-
-
-
-</body>
+ </div>
+ <!-- /.container-fluid -->
+ </div>
+ <!-- /#page-wrapper -->
+</div>
+ <!-- /#wrapper -->
+
+<script>
+    $(function() {
+        $("[data-toggle='tooltip']").tooltip();
+    });    
+    $(document).ready(function(){
+        $(".container-fluid").css("height", screen.height);
+    });
+</script>
+
+<!-- //JS DO TEMA RESPONSIVO EM BOOTSTRAP// -->
+<script src="/web-files/startbootstrap-sb-admin-1.0.2/js/plugins/morris/raphael.min.js"></script>
+<script src="/web-files/startbootstrap-sb-admin-1.0.2/js/plugins/morris/morris.min.js"></script>
+<script src="/web-files/startbootstrap-sb-admin-1.0.2/js/plugins/morris/morris-data.js"></script>
+
+
+
+</body>
 </html><?php }} ?>

@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:558990597550748e4ed0355-00253155%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:5852776645513347e5dc703-14179138%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -17,13 +17,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '21ad6c09fd0cb3d807b70a3f24dfe7c8b337e8c6' => 
     array (
       0 => '/home/estil450/public_html/application/views/top.tpl',
-      1 => 1425916446,
+      1 => 1427303322,
       2 => 'file',
     ),
     '176fac5985d5dc4b43edea6c0618ca1f6996d998' => 
     array (
       0 => '/home/estil450/public_html/application/views/footer.tpl',
-      1 => 1426115679,
+      1 => 1427310006,
       2 => 'file',
     ),
     'e42802b9f9225092d26556a5ec1f3ebf37f60366' => 
@@ -33,7 +33,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '558990597550748e4ed0355-00253155',
+  'nocache_hash' => '5852776645513347e5dc703-14179138',
   'variables' => 
   array (
     'btn_anterior' => 0,
@@ -53,15 +53,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_550748e5806bc0_79798000',
+  'unifunc' => 'content_5513347ecc3659_32289157',
   'cache_lifetime' => 120,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_550748e5806bc0_79798000')) {function content_550748e5806bc0_79798000($_smarty_tpl) {?><!DOCTYPE HTML>
+<?php if ($_valid && !is_callable('content_5513347ecc3659_32289157')) {function content_5513347ecc3659_32289157($_smarty_tpl) {?><!DOCTYPE HTML>
 <html lang="pt-br">
 
     <head>
         <meta charset="UTF-8">
-        <title>Estilo Carioca | Categoria | Junior</title>
+        <title>Estilo Carioca | Categoria | Nilton Santos</title>
 
         <meta name="title" content="Estilo Carioca"><meta name="description" content=""><meta name="author" content="Designlab">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -149,62 +149,64 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         </div>
 
         <section id="stt_logado_print">
-            <header id="header" class="navbar navbar-fixed-top navbar-default" role="navigation">
-    <div class="header-bar"></div>
-    <div class="container">
-        <div class="navbar-header">
-            <a href="#" class="hamburger"><span></span></a>
-            <a class="brand" href="/en/">
-                <img src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/img/estilocarioca2.png" width="71" height="68">
-            </a>
-        </div>
-        <nav class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
-                <li >
-                    <a href="/en/">Home</a>
-                </li>
-                <li >
-                    <a href="/en/informacoes/quem-somos">A Estilo Carioca</a>
-                </li>
-                <li  class="active">
-                    <a href="/en/junior/">Junior</a>
-                </li>
-                <li >
-                    <a href="/en/nilton-santos">Nilton Santos</a>
-                </li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li class="navbar-social">
-                    <a href="https://www.facebook.com/estilocarioca">
-                        <b class="entypo-facebook"></b>
-                    </a>
-                    <a href="https://instagram.com/estilocarioca/">
-                        <b class="entypo-instagrem"></b>
-                    </a>
-                    
-                    <!--<a href="">
-                        <i class="sprite sprite-twitter"></i>
-                    </a>-->
-                </li>
-                <li class="navbar-search">
-                    <a href="" class="search">
-                        <i class="sprite sprite-search"></i>
-                    </a>
-                </li>
-                                    <li>
-                        <a href="/en/conta/login-cadastro/">
-                            <i class="icon sprite sprite-user"></i>
-                        </a>
-                    </li>
-                                <li class="navbar-cart">
-                    <a href="/en/produtos/checkout/">
-                        <i class="icon sprite sprite-cart"></i>
-                        <span class="value">1</span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    </div>
+            <header id="header" class="navbar navbar-fixed-top navbar-default" role="navigation">
+    <div class="header-bar"></div>
+    <div class="container">
+        <div class="navbar-header">
+            <a href="#" class="hamburger"><span></span></a>
+            <a class="brand" href="/en/">
+                <img src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/img/estilocarioca2.png" width="71" height="68">
+            </a>
+        </div>
+        <nav class="navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="navbar-social">
+                    <a class="face" href="https://www.facebook.com/estilocarioca">
+                        <b class="entypo-facebook"></b>
+                    </a>
+                    <a class="insta" href="https://instagram.com/estilocarioca/">
+                        <b class="entypo-instagrem"></b>
+                    </a>
+                    
+                    <!--<a href="">
+                        <i class="sprite sprite-twitter"></i>
+                    </a>-->
+                </li>
+                <li class="navbar-search">
+                    <a href="" class="search">
+                        <i class="sprite sprite-search"></i>
+                    </a>
+                </li>
+                                    <li>
+                        <a href="/en/conta/" id="nav-login" style="display: inline-block;"> Minha conta</a>
+                    </li>
+                    <li>
+                        <a href="/en/conta/sair" id="nav-login" style="display: inline-block;">Sair</a>
+                    </li>   
+                                <li class="navbar-cart">
+                    <a href="/en/produtos/checkout/">
+                        <i class="icon sprite sprite-cart"></i>
+                        <span class="value">1</span>
+                    </a>
+                </li>
+            </ul>
+                    
+            <ul class="nav navbar-nav">
+                <li >
+                    <a href="/en/">Home</a>
+                </li>
+                <li >
+                    <a href="/en/informacoes/quem-somos">A Estilo Carioca</a>
+                </li>
+                <li >
+                    <a href="/en/junior/">Junior</a>
+                </li>
+                <li  class="active">
+                    <a href="/en/nilton-santos">Nilton Santos</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
 </header>  
         </section>
 
@@ -284,7 +286,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                 <option value="quantidade" >Em estoque</option>
                             </select>
                         </label>
-                                                    <input type="hidden" name="url" id="url" value="/en/junior"/>
+                                                    <input type="hidden" name="url" id="url" value="/en/nilton-santos"/>
                                                 <input type="hidden" name="pagina" id="pagina" value="1"/>
                         <input type="hidden" name="qntdd_produtos" id="qntdd_produtos" value="16"/>
                     </div>
@@ -295,7 +297,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
         <div class="row">
             <div class="col-lg-12 section-title">
-                <h2 class="title">Junior</h2>
+                <h2 class="title">Nilton Santos</h2>
                 <p class="subtitle">Produtos</p>
             </div>
         </div>            
@@ -305,34 +307,16 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                                 <div class="col-xs-6 col-sm-3" style="margin-bottom: 30px;">
                         <div class="thumb">
                             <div class="thumb-img">
-                                <a href="/en/junior/junior-regata-branca">
-                                    <img src="/web-files/upload/thumbs/A746BD1552ECC4FF45158ADA120810AD/A0F8383D9519FD53AF62363CDCE75786.jpg" alt="Junior Regata Branca " title="Junior Regata Branca " width="312" height="312">
-                                </a>
-                            </div>
-                            <div class="thumb-holder">
-                                <div class="thumb-holder-out">
-                                    <div class="thumb-holder-in">
-                                        <h2 class="price">R$ 139,00</h2>
-                                        <p class="name">Junior<br/><span style="font-size: 18px !important;">Junior Regata Branca </span></p>
-                                        <a href="/en/junior/junior-regata-branca" class="btn btn-default btn-buy">COMPRAR</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>                                    
-                                                                <div class="col-xs-6 col-sm-3" style="margin-bottom: 30px;">
-                        <div class="thumb">
-                            <div class="thumb-img">
-                                <a href="/en/junior/vestido-sem-manga">
-                                    <img src="/web-files/upload/thumbs/98395B3825EA1D9DFA2BA9CF52029DE6/2B481BDE6EBB51D8754B86DD5034553A.jpg" alt="Vestido sem Manga" title="Vestido sem Manga" width="312" height="312">
+                                <a href="/en/nilton-santos/camisa-masculina-3">
+                                    <img src="/web-files/upload/thumbs/B57D9770DDC8E281B42EDDAA76528A61/6EEA28499DD6A26FBBDAE56CB6B8A332.jpg" alt="Camisa Masculina" title="Camisa Masculina" width="312" height="312">
                                 </a>
                             </div>
                             <div class="thumb-holder">
                                 <div class="thumb-holder-out">
                                     <div class="thumb-holder-in">
                                         <h2 class="price">R$ 159,00</h2>
-                                        <p class="name">Junior<br/><span style="font-size: 18px !important;">Vestido sem Manga</span></p>
-                                        <a href="/en/junior/vestido-sem-manga" class="btn btn-default btn-buy">COMPRAR</a>
+                                        <p class="name">Nilton Santos<br/><span style="font-size: 18px !important;">Camisa Masculina</span></p>
+                                        <a href="/en/nilton-santos/camisa-masculina-3" class="btn btn-default btn-buy">COMPRAR</a>
                                     </div>
                                 </div>
                             </div>
@@ -341,16 +325,34 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                                                 <div class="col-xs-6 col-sm-3" style="margin-bottom: 30px;">
                         <div class="thumb">
                             <div class="thumb-img">
-                                <a href="/en/junior/vestido-com-manga-1">
-                                    <img src="/web-files/upload/thumbs/2589C7B5621C04ED9D8DCEE9CB7A330B/198850B2E95329E81CFEE0318A535560.jpg" alt="Vestido com Manga" title="Vestido com Manga" width="312" height="312">
+                                <a href="/en/nilton-santos/nilton-santos-manga-longa-1">
+                                    <img src="/web-files/upload/thumbs/AC529423034079FBCF30C78986410318/C0B5B61FF6B28BC796FB7C80BF9E9482.jpg" alt="Nilton Santos Manga Longa" title="Nilton Santos Manga Longa" width="312" height="312">
+                                </a>
+                            </div>
+                            <div class="thumb-holder">
+                                <div class="thumb-holder-out">
+                                    <div class="thumb-holder-in">
+                                        <h2 class="price">R$ 149,90</h2>
+                                        <p class="name">Nilton Santos<br/><span style="font-size: 18px !important;">Nilton Santos Manga Longa</span></p>
+                                        <a href="/en/nilton-santos/nilton-santos-manga-longa-1" class="btn btn-default btn-buy">COMPRAR</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                                    
+                                                                <div class="col-xs-6 col-sm-3" style="margin-bottom: 30px;">
+                        <div class="thumb">
+                            <div class="thumb-img">
+                                <a href="/en/nilton-santos/baby-look-1">
+                                    <img src="/web-files/upload/thumbs/D502690F150ADE901D99AA478472DC6B/7FC1C20D4E8D8D0A108C1806FC67959F.jpg" alt="Baby Look" title="Baby Look" width="312" height="312">
                                 </a>
                             </div>
                             <div class="thumb-holder">
                                 <div class="thumb-holder-out">
                                     <div class="thumb-holder-in">
                                         <h2 class="price">R$ 159,00</h2>
-                                        <p class="name">Junior<br/><span style="font-size: 18px !important;">Vestido com Manga</span></p>
-                                        <a href="/en/junior/vestido-com-manga-1" class="btn btn-default btn-buy">COMPRAR</a>
+                                        <p class="name">Nilton Santos<br/><span style="font-size: 18px !important;">Baby Look</span></p>
+                                        <a href="/en/nilton-santos/baby-look-1" class="btn btn-default btn-buy">COMPRAR</a>
                                     </div>
                                 </div>
                             </div>
@@ -359,16 +361,16 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                                                 <div class="col-xs-6 col-sm-3" style="margin-bottom: 30px;">
                         <div class="thumb">
                             <div class="thumb-img">
-                                <a href="/en/junior/casaco-moletom">
-                                    <img src="/web-files/upload/thumbs/F2709D160014427803A16089530BE42F/7AB97A585531D69AB265F524E2D256AD.jpg" alt="Casaco Moletom" title="Casaco Moletom" width="312" height="312">
+                                <a href="/en/nilton-santos/camisa-masculina-2">
+                                    <img src="/web-files/upload/thumbs/3EB20EA3705800DCDA50232E0C45D8DC/69D44DFC22D874536A1F71F3AC53DC54.jpg" alt="Camisa Bi Mundial" title="Camisa Bi Mundial" width="312" height="312">
                                 </a>
                             </div>
                             <div class="thumb-holder">
                                 <div class="thumb-holder-out">
                                     <div class="thumb-holder-in">
-                                        <h2 class="price">R$ 269,90</h2>
-                                        <p class="name">Junior<br/><span style="font-size: 18px !important;">Casaco Moletom</span></p>
-                                        <a href="/en/junior/casaco-moletom" class="btn btn-default btn-buy">COMPRAR</a>
+                                        <h2 class="price">R$ 129,90</h2>
+                                        <p class="name">Nilton Santos<br/><span style="font-size: 18px !important;">Camisa Bi Mundial</span></p>
+                                        <a href="/en/nilton-santos/camisa-masculina-2" class="btn btn-default btn-buy">COMPRAR</a>
                                     </div>
                                 </div>
                             </div>
@@ -377,34 +379,16 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                                                 <div class="col-xs-6 col-sm-3" style="margin-bottom: 30px;">
                         <div class="thumb">
                             <div class="thumb-img">
-                                <a href="/en/junior/camisa-masculina-1">
-                                    <img src="/web-files/upload/thumbs/BBDC8985EB1D1684197A5209BAF5B03E/285D5FACCABCD1FAEA6DBEEF02E825FB.jpg" alt="Camisa Masculina" title="Camisa Masculina" width="312" height="312">
-                                </a>
-                            </div>
-                            <div class="thumb-holder">
-                                <div class="thumb-holder-out">
-                                    <div class="thumb-holder-in">
-                                        <h2 class="price">R$ 159,00</h2>
-                                        <p class="name">Junior<br/><span style="font-size: 18px !important;">Camisa Masculina</span></p>
-                                        <a href="/en/junior/camisa-masculina-1" class="btn btn-default btn-buy">COMPRAR</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>                                    
-                                                                <div class="col-xs-6 col-sm-3" style="margin-bottom: 30px;">
-                        <div class="thumb">
-                            <div class="thumb-img">
-                                <a href="/en/junior/camisa-regata-1">
-                                    <img src="/web-files/upload/thumbs/D483012B3FFC796D2C28D4A46C73AAA0/F89257F1A9C9E4CADE9F3C7A03A8BE53.jpg" alt="Camisa Regata" title="Camisa Regata" width="312" height="312">
+                                <a href="/en/nilton-santos/camisa-masculina">
+                                    <img src="/web-files/upload/thumbs/38D0F94FF10F2B3C9AD0CBAA3BEA94C0/F2D1B7D77429934D67A442AC1463EBA7.jpg" alt="Camisa Masculina" title="Camisa Masculina" width="312" height="312">
                                 </a>
                             </div>
                             <div class="thumb-holder">
                                 <div class="thumb-holder-out">
                                     <div class="thumb-holder-in">
                                         <h2 class="price">R$ 159,00</h2>
-                                        <p class="name">Junior<br/><span style="font-size: 18px !important;">Camisa Regata</span></p>
-                                        <a href="/en/junior/camisa-regata-1" class="btn btn-default btn-buy">COMPRAR</a>
+                                        <p class="name">Nilton Santos<br/><span style="font-size: 18px !important;">Camisa Masculina</span></p>
+                                        <a href="/en/nilton-santos/camisa-masculina" class="btn btn-default btn-buy">COMPRAR</a>
                                     </div>
                                 </div>
                             </div>
@@ -413,34 +397,16 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                                                 <div class="col-xs-6 col-sm-3" style="margin-bottom: 30px;">
                         <div class="thumb">
                             <div class="thumb-img">
-                                <a href="/en/junior/camisa-60-anos-1">
-                                    <img src="/web-files/upload/thumbs/36A823AC9B17E853F36A76AB07D374E7/4E3C66D4F4BD4FE03BB12E376B3D5DF4.jpg" alt="Camisa 60 Anos" title="Camisa 60 Anos" width="312" height="312">
+                                <a href="/en/nilton-santos/camisa-maculina">
+                                    <img src="/web-files/upload/thumbs/17AF3DC07BE6F1335E750E57097CA11B/2FB1B237F9602506901ACF548150717F.jpg" alt="Camisa Maculina" title="Camisa Maculina" width="312" height="312">
                                 </a>
                             </div>
                             <div class="thumb-holder">
                                 <div class="thumb-holder-out">
                                     <div class="thumb-holder-in">
-                                        <h2 class="price">R$ 69,00</h2>
-                                        <p class="name">Junior<br/><span style="font-size: 18px !important;">Camisa 60 Anos</span></p>
-                                        <a href="/en/junior/camisa-60-anos-1" class="btn btn-default btn-buy">COMPRAR</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>                                    
-                                                                <div class="col-xs-6 col-sm-3" style="margin-bottom: 30px;">
-                        <div class="thumb">
-                            <div class="thumb-img">
-                                <a href="/en/junior/baby-look">
-                                    <img src="/web-files/upload/thumbs/3485F00DBDB2CD9489F6FB8F0C59A490/C5B7BB9B6C9331AA7140A48807D33778.jpg" alt="Baby Look" title="Baby Look" width="312" height="312">
-                                </a>
-                            </div>
-                            <div class="thumb-holder">
-                                <div class="thumb-holder-out">
-                                    <div class="thumb-holder-in">
-                                        <h2 class="price">R$ 159,00</h2>
-                                        <p class="name">Junior<br/><span style="font-size: 18px !important;">Baby Look</span></p>
-                                        <a href="/en/junior/baby-look" class="btn btn-default btn-buy">COMPRAR</a>
+                                        <h2 class="price">R$ 149,90</h2>
+                                        <p class="name">Nilton Santos<br/><span style="font-size: 18px !important;">Camisa Maculina</span></p>
+                                        <a href="/en/nilton-santos/camisa-maculina" class="btn btn-default btn-buy">COMPRAR</a>
                                     </div>
                                 </div>
                             </div>
@@ -478,7 +444,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                         </label>
 
 
-                                                    <input type="hidden" name="url" id="url" value="/en/junior"/>
+                                                    <input type="hidden" name="url" id="url" value="/en/nilton-santos"/>
                         
                         <input type="hidden" name="pagina" id="pagina" value="1"/>
                     </div>
@@ -493,114 +459,114 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     </div>
 </section>
 
-<!-- FOOTER  -->
-
-
-
-<footer class="footer ">
-    <div class="container ">
-
-        <div class="row footer-content">
-            <div class="col-sm-6 col-md-3">
-                <h2 class="footer-title">LOGIN E CADASTRO</h2>
-                <ul class="list-unstyled">
-                    <li><a href="/en/conta/">Acompanhe seu pedido</a></li>
-                    <li><a href="/en/conta/login-cadastro/">Login e Cadastro</a></li>
-                </ul>
-            </div>
-            <div class="col-sm-6 col-md-3">
-                <h2 class="footer-title">ATENDIMENTO AO CLIENTE</h2>
-                <ul class="list-unstyled">
-                    <li><a href="/en/informacoes/contato">Entre em contato</a></li>
-                    <li><a href="/en/informacoes/trocas-e-devolucoes">Trocas e devoluções</a></li>
-                    <li><a href="/en/informacoes/termos-servicos">Termos de serviço</a></li>
-                </ul>
-            </div>
-            <div class="col-sm-6 col-md-3">
-                <h2 class="footer-title">SIGA A EC</h2>
-                <ul class="list-unstyled list-inline list-social">
-                    <!--<li><a href=""><i class="sprite sprite-twitter-2"></i></a></li>-->
-                    <li><a href="https://www.facebook.com/estilocarioca" target="blank"><b class="entypo-facebook"></b></a></li>
-                    <li><a href="https://instagram.com/estilocarioca/" target="blank"><b class="entypo-instagrem"></b></a></li>
-                </ul>
-            </div>
-            <div class="col-sm-6 col-md-3">
-
-                <h2 class="footer-title">FIQUE POR DENTRO DA EC</h2>
-                <form action="" method="post" class="newsletter-form ajax-form" novalidate="">
-                    <div class="form-row">
-                        <input name="nome_newsletter_2" id="nome" type="text" class="form-control" placeholder="Seu nome" required>
-                    </div>
-                    <div class="form-row">
-                        <input name="email_newsletter_2" id="email" type="text" class="form-control" placeholder="Seu e-mail" required>
-                    </div>
-                    <div class="form-row">
-                        <button type="submit" class="btn btn-default btn-block">Enviar</button>
-                    </div>
-                    <div id="erro_newsletter_2"> </div>
-                </form>
-            </div>
-        </div>
-        <hr>
-        
-        
-        <div class="row footer-bottom">
-            <div class="col-sm-6 col-sm-push-6 text-right">
-                <span class="selo-es sprite sprite-selo-es"></span>
-                <span class="cartoes sprite sprite-cartoes"></span>
-                <img src="/web-files/img/bandeiras.png" alt=""/>
-            </div>
-            <div class="col-sm-6 col-sm-pull-6">
-                <p class="copy">Desenvolvido por <span id="dl"></span></p>
-                <script type="text/javascript">
-                    var _dl = _dl || {};
-                    _dl.width = "80";
-                    _dl.color = "gray";
-                    (function () {
-                        var a = document.createElement("script");
-                        a.type = "text/javascript";
-                        a.async = !0;
-                        a.src = "//static.designlab.com.br/js/bydl.js";
-                        var b = document.getElementsByTagName("script")[0];
-                        b.parentNode.insertBefore(a, b)
-                    })();
-                </script>
-            </div>
-                    
-        </div>
-                <hr>
-                    
-                    <div class="row footer-content text-center">
-            <p style="line-height: 1.8em;font-size: 1.2rem;">
-                <strong>RMGSPORT COMERCIO EIRELI - ME</strong>
-                <br>CNPJ: 21.468.076/0001-16
-                <br>&copy; Todos os direitos reservados - Rua Gazzi de Sá, nº17 - Lote 17 Quadra G , Barra da Tijuca / RJ - CEP: 22.793-210 
-                <br>Atendimento ao cliente: rodrigo@estilocarioca.com.br - 21 3326.1986
-            </p>
-        </div>
-    </div>
-</footer>                
-
-<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
-<script language="javascript" src="/web-files/js/funcoes.js"></script>
-<script src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/js/plugins/slick.min.js"></script>
-<script src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/js/plugins/jquery.raty.js"></script>
-<script src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/js/plugins/underscore-min.js"></script>
-<script src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/js/plugins/mustache.min.js"></script>
-<script src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/js/plugins/jquery.magnific-popup.min.js"></script>
-<script src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/js/scripts.js"></script>
-<script language="javascript" src="/web-files/bootstrap/js/bootstrap.js"></script>
-<script language="javascript" src="/web-files/js/jQuery-Mask-Plugin.js"></script>
-<script language="javascript" src="/web-files/js/vendor/jquery.payment.js"></script>
-<script language="javascript" src="/web-files/js/vendor/jquery.mask.min.js"></script>
-<script language="javascript" src="/web-files/js/joker.js"></script>
-<script language="javascript" src="/web-files/js/default.js"></script>
-<script language="javascript" src="/web-files/js/sweet-alert.js"></script>
-<script language="javascript" src="/web-files/js/stickyfloat.js"></script>
- <script language="javascript"> jQuery('.checkout-panel-2').stickyfloat({ duration: 0, easing:"linear",   startOffset: 60,   }); </script>
-<script src='http://cdnjs.cloudflare.com/ajax/libs/es5-shim/2.3.0/es5-shim.js'></script>
-
-
-
-</body>
+<!-- FOOTER  -->
+
+
+
+<footer class="footer ">
+    <div class="container ">
+
+        <div class="row footer-content">
+            <div class="col-sm-6 col-md-3">
+                <h2 class="footer-title">LOGIN E CADASTRO</h2>
+                <ul class="list-unstyled">
+                    <li><a href="/en/conta/">Acompanhe seu pedido</a></li>
+                    <li><a href="/en/conta/login-cadastro/">Login e Cadastro</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <h2 class="footer-title">ATENDIMENTO AO CLIENTE</h2>
+                <ul class="list-unstyled">
+                    <li><a href="/en/informacoes/contato">Entre em contato</a></li>
+                    <li><a href="/en/informacoes/trocas-e-devolucoes">Trocas e devoluções</a></li>
+                    <li><a href="/en/informacoes/termos-servicos">Termos de serviço</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <h2 class="footer-title">SIGA A EC</h2>
+                <ul class="list-unstyled list-inline list-social">
+                    <!--<li><a href=""><i class="sprite sprite-twitter-2"></i></a></li>-->
+                    <li><a href="https://www.facebook.com/estilocarioca" target="blank"><b class="entypo-facebook"></b></a></li>
+                    <li><a href="https://instagram.com/estilocarioca/" target="blank"><b class="entypo-instagrem"></b></a></li>
+                </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+
+                <h2 class="footer-title">FIQUE POR DENTRO DA EC</h2>
+                <form action="" method="post" class="newsletter-form ajax-form" novalidate="">
+                    <div class="form-row">
+                        <input name="nome_newsletter_2" id="nome" type="text" class="form-control" placeholder="Seu nome" required>
+                    </div>
+                    <div class="form-row">
+                        <input name="email_newsletter_2" id="email" type="text" class="form-control" placeholder="Seu e-mail" required>
+                    </div>
+                    <div class="form-row">
+                        <button type="submit" class="btn btn-default btn-block">Enviar</button>
+                    </div>
+                    <div id="erro_newsletter_2"> </div>
+                </form>
+            </div>
+        </div>
+        <hr>
+        
+        
+        <div class="row footer-bottom">
+            <div class="col-sm-6 col-sm-push-6 text-right">
+                <span class="selo-es sprite sprite-selo-es"></span>
+                <span class="cartoes sprite sprite-cartoes"></span>
+                <img src="/web-files/img/bandeiras.png" alt=""/>
+            </div>
+            <div class="col-sm-6 col-sm-pull-6">
+                <p class="copy">Desenvolvido por <span id="dl"></span></p>
+                <script type="text/javascript">
+                    var _dl = _dl || {};
+                    _dl.width = "80";
+                    _dl.color = "gray";
+                    (function () {
+                        var a = document.createElement("script");
+                        a.type = "text/javascript";
+                        a.async = !0;
+                        a.src = "//static.designlab.com.br/js/bydl.js";
+                        var b = document.getElementsByTagName("script")[0];
+                        b.parentNode.insertBefore(a, b)
+                    })();
+                </script>
+            </div>
+                    
+        </div>
+                <hr>
+                    
+                    <div class="row footer-content text-center">
+            <p style="line-height: 1.8em;font-size: 1.2rem;padding: 20px;">
+                <strong>RMGSPORT COMERCIO EIRELI - ME</strong>
+                <br>CNPJ: 21.468.076/0001-16
+                <br>&copy; Todos os direitos reservados - Rua Gazzi de Sá, nº17 - Lote 17 Quadra G , Barra da Tijuca / RJ - CEP: 22.793-210 
+                <br>Atendimento ao cliente: rodrigo@estilocarioca.com.br - 21 3326.1986
+            </p>
+        </div>
+    </div>
+</footer>                
+
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script language="javascript" src="/web-files/js/funcoes.js"></script>
+<script src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/js/plugins/slick.min.js"></script>
+<script src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/js/plugins/jquery.raty.js"></script>
+<script src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/js/plugins/underscore-min.js"></script>
+<script src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/js/plugins/mustache.min.js"></script>
+<script src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/js/plugins/jquery.magnific-popup.min.js"></script>
+<script src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/js/scripts.js"></script>
+<script language="javascript" src="/web-files/bootstrap/js/bootstrap.js"></script>
+<script language="javascript" src="/web-files/js/jQuery-Mask-Plugin.js"></script>
+<script language="javascript" src="/web-files/js/vendor/jquery.payment.js"></script>
+<script language="javascript" src="/web-files/js/vendor/jquery.mask.min.js"></script>
+<script language="javascript" src="/web-files/js/joker.js"></script>
+<script language="javascript" src="/web-files/js/default.js"></script>
+<script language="javascript" src="/web-files/js/sweet-alert.js"></script>
+<script language="javascript" src="/web-files/js/stickyfloat.js"></script>
+ <script language="javascript"> jQuery('.checkout-panel-2').stickyfloat({ duration: 0, easing:"linear",   startOffset: 60,   }); </script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/es5-shim/2.3.0/es5-shim.js'></script>
+
+
+
+</body>
 </html><?php }} ?>

@@ -8,67 +8,71 @@
         <meta name="title" content="Estilo Carioca"><meta name="description" content=""><meta name="author" content="Designlab">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-           
-{*              <link rel="stylesheet" href="{$web_files}/css/joker.css?v=2"/>*}
-        <link rel="shortcut icon" href="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/img/favicon.png?v=5">
-        <link rel="stylesheet" href="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/css/plugins/slick.css">
-        <link rel="stylesheet" href="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/css/plugins/sweet-alert.css">
-        <link rel="stylesheet" href="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/css/plugins/jquery.raty.css">
-        <link rel="stylesheet" href="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/css/plugins/magnific-popup.css">
+
+{*                      <link rel="stylesheet" href="{$web_files}/css/joker.css?v=2"/>*}
+        <link rel="shortcut icon" href="/application/template/estilocarioca/assets/img/favicon.png?v=5">
+        <link rel="stylesheet" href="/application/template/estilocarioca/assets/css/plugins/slick.css">
+        <link rel="stylesheet" href="/application/template/estilocarioca/assets/css/plugins/sweet-alert.css">
+        <link rel="stylesheet" href="/application/template/estilocarioca/assets/css/plugins/jquery.raty.css">
+        <link rel="stylesheet" href="/application/template/estilocarioca/assets/css/plugins/magnific-popup.css">
         <link rel="stylesheet" href="{$web_files}/css/sweet-alert.css?v=2"/>
-        <link rel="stylesheet" href="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/css/style.css">
-        
-        <script src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/js/modernizr.custom.js"></script>
+        <link rel="stylesheet" href="//www.estilocarioca.com.br/application/template/estilocarioca/assets/css/style.css">
+
+{*        <script src="/application/template/estilocarioca/assets/js/modernizr.custom.js"></script>*}
         <link rel="stylesheet" href="{$web_files}/font-awesome-4.1.0/css/font-awesome.min.css"/>
         <style>
-            
+
             .sugestao a  { font-size: 16px; display: block; background: #f4f4f4 !important; color:#1f3c8a !important; height: 100% !important; padding: 15px !important;margin-top: 0.3em !important; width: 100% !important;  }
-.sugestao a:hover { font-size: 16px; background: #1f3c8a !important; text-decoration: none; color:#fff !important; height: 100% !important; padding: 15px  !important; margin-top: 0.3em !important; width: 100% !important;  }
-            
-        
-        @font-face {
-            font-family: helveticaneue;
-            src: local('HelveticaNeueLTStd-UltLt.otf'), url('HelveticaNeueLTStd-UltLt.otf');
-        }
-        
-        body, .font-default, .footer-title{
-            font-family: helveticaneue, Helvetica, sans-serif !important;
-        }
-        
-        .footer-title{
-            font-weight: 600 !important;
-            color: #293751 !important;
-        }
-        
-        body{
-            line-height: 1.90rem !important;
-        }
-        
-        
-        
-        
-        .title-tag{
-            background: #8795ae !important;
-        }
-        
-        .theme-default .section-title3 > h2{
-            box-shadow: 0 2px #8795ae !important;
-        }
-        
+            .sugestao a:hover { font-size: 16px; background: #1f3c8a !important; text-decoration: none; color:#fff !important; height: 100% !important; padding: 15px  !important; margin-top: 0.3em !important; width: 100% !important;  }
+
+
+            @font-face {
+                font-family: helveticaneue;
+                src: local('HelveticaNeueLTStd-UltLt.otf'), url('HelveticaNeueLTStd-UltLt.otf');
+            }
+
+            body, .font-default, .footer-title{
+                font-family: helveticaneue, Helvetica, sans-serif !important;
+            }
+
+            .footer-title{
+                font-weight: 600 !important;
+                color: #293751 !important;
+            }
+
+            body{
+                line-height: 1.90rem !important;
+            }
+
+
+
+
+            .title-tag{
+                background: #8795ae !important;
+            }
+
+            .theme-default .section-title3 > h2{
+                box-shadow: 0 2px #8795ae !important;
+            }
+
         </style>
         <!--[if IE 8]>
-        <link rel="stylesheet" href="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/css/ie8.css" /><script src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/js/respond.js" ></script>        <![endif]-->
+        <link rel="stylesheet" href="//www.estilocarioca.com.br/application/template/estilocarioca/assets/css/ie8.css" /><script src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/js/respond.js" ></script>        <![endif]-->
 
         <script type="text/javascript">
             var App = window.App || {
                 base_path: ''
             };
         </script>
-        
-        <script>$('#myTab a').click(function (e) {
-  e.preventDefault()
-  $(this).tab('show')
-}) </script>
+
+        <script>
+            if(document.getElementById("myTab") != null){
+                $('#myTab a').click(function (e) {
+                    e.preventDefault()
+                    $(this).tab('show')
+                });
+            }
+        </script>
 
         {if $og_title != ""}<meta property="og:title" content="{$og_title}" />{/if}
         {if $og_type != ""}<meta property="og:type" content="{$og_type}" />{/if}
@@ -92,7 +96,7 @@
                             <form class="form search-popup-form" role="search" action="/{$language}/novos-produtos" method="post">
                                 <input type="search" placeholder="Buscar" name="search" class="input" autocomplete="off">
                                 <button type="submit"><i class="sprite sprite-search"></i></button>
-                                 
+
                             </form>
                             <div class="search-sugestao"></div>
                         </div>

@@ -1,5 +1,11 @@
 {include file="admin/header.tpl"}
+                        <style>
 
+                            .pNameImput.Loader{
+                                background: url(/web-files/img/Loader_small.gif) no-repeat;
+                                background-position: center right 6px;
+                            }
+                        </style>
 <div class="sidebar">
     {include file="admin/navbar.tpl"}
 </div>
@@ -49,7 +55,7 @@
 
     </div>
 </div>     
-            
+
 
 <div class="row">
     <div class="col-lg-12">
@@ -129,8 +135,17 @@
                                 <img src="{$web_files}/img/move.png" alt="Drag" data-toggle="Drag" title="Drag" border="0" style="width: 55px;"/>
                             </span>-->
 
-
+                                <div style="width:120px;">
+                                        <b>Ordem: </b> 
+                                        <div class="input-group">
+                                            <input type="text" class="form-control pNameImput" name="{$CODFOTO}" id="ORDEM_{$CODFOTO}" value="{$ORDEM}" style="width: 120px;"/>
+                                            <span class="input-group-btn">
+                                                <span class="btn btn-default" type="button" onclick="javascript:pOrdemFotoUpdate('ORDEM_{$CODFOTO}', '{$CODFOTO}')"><i class="glyphicon glyphicon-refresh"></i></span>
+                                            </span>
+                                        </div>
+                                    </div>
                                 <span style="display: inline-block;">
+                                    
                                     <strong>Nome: </strong>{$NOME}<br/>
                                     <strong>Tipo: </strong> {$TIPO}<br/>
                                     <strong>Formato: </strong>.{$FORMATO}<br/>
@@ -278,7 +293,7 @@
 
         $image1.cropper({
             aspectRatio: 0.9,
-            done: function(data) {
+            done: function (data) {
                 console.log(data.x1 + ":" + data.y1 + ":" + data.x2 + ":" + data.y2 + ":" + data.height + ":" + data.width);
                 $dataX1_1.val(data.x1);
                 $dataY1_1.val(data.y1);
@@ -299,7 +314,7 @@
 
         $image2.cropper({
             aspectRatio: 1.8,
-            done: function(data) {
+            done: function (data) {
                 console.log(data.x1 + ":" + data.y1 + ":" + data.x2 + ":" + data.y2 + ":" + data.height + ":" + data.width);
                 $dataX1_2.val(data.x1);
                 $dataY1_2.val(data.y1);

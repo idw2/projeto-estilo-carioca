@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:187656132955032ebe964c81-48394440%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:186063293255130c705f1108-57435751%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -9,7 +9,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '187656132955032ebe964c81-48394440',
+  'nocache_hash' => '186063293255130c705f1108-57435751',
   'variables' => 
   array (
     'endereco_list' => 0,
@@ -22,10 +22,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_55032ebea881f4_05187874',
+  'unifunc' => 'content_55130c706d2af7_37343165',
   'cache_lifetime' => 120,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_55032ebea881f4_05187874')) {function content_55032ebea881f4_05187874($_smarty_tpl) {?> 
+<?php if ($_valid && !is_callable('content_55130c706d2af7_37343165')) {function content_55130c706d2af7_37343165($_smarty_tpl) {?> 
                     
         
 
@@ -121,7 +121,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                     <br>
 
                     <div>
-                        <input style="margin-bottom: 30px;" type="submit" value="Pagar" class="btn btn-default" onclick="javascript:cielo('E4D614E4B75286171949B98FBE09B4D4', '1ABF748C1E730477C040784DD77923CB', 'E2E7F87B51683CD1A5C605FD00718427', 'en');">
+                        <input style="margin-bottom: 30px;" type="submit" value="Pagar" class="btn btn-default" onclick="javascript:cielo('A36E90C7563D92E9B40F04CD13E104D6', 'A556A5934A1952EE2AB524AEAB7F3B54', '27F635E2C41A4F45F231A2AC8171E4BA', 'en');">
                         <input type="hidden" name="capturarAutomaticamente" id="capturarAutomaticamente" value="true">
                         <input type="hidden" name="tentarAutenticar" id="tentarAutenticar" value="sim">
                         <input type="hidden" name="indicadorAutorizacao" id="indicadorAutorizacao" value="3">
@@ -148,7 +148,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
             <br/>
             
-            <p><button style="display:block;max-width:450px;margin: 0 auto;" type="buttom" class="btn btn-default" name="enviar" onclick="javascript:boleto('E4D614E4B75286171949B98FBE09B4D4', '1ABF748C1E730477C040784DD77923CB', 'E2E7F87B51683CD1A5C605FD00718427', 'en');">PAGAR COM BOLETO</button></p>
+            <p><button style="display:block;max-width:450px;margin: 0 auto;" type="buttom" class="btn btn-default" name="enviar" onclick="javascript:boleto('A36E90C7563D92E9B40F04CD13E104D6', 'A556A5934A1952EE2AB524AEAB7F3B54', '27F635E2C41A4F45F231A2AC8171E4BA', 'en');">PAGAR COM BOLETO</button></p>
             <h3 class='title-md'>Atenção para alguns detalhes:</h3>
             <ol>
                 <li style=" margin: 20px 0 0;">Ao solicitar o pagamento com boleto a data de vencimento é gerado pelo banco emissor. Caso seja feriado ou final de semana, pague no primeiro dia útil após o vencimento</li>
@@ -165,7 +165,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <p>Ao clicar no botão abaixo "PAGAR COM PAYPAL", você será direcionada(o) para fazer o pagamento.<br></p>
         </div>
         <div class='form-group'>
-            <button style="display:block;max-width:450px;margin: 0 auto;" type="button" id='confirm-payment-paypal' class='btn btn-default' onclick="javascript:paypal('E4D614E4B75286171949B98FBE09B4D4', '1ABF748C1E730477C040784DD77923CB', 'E2E7F87B51683CD1A5C605FD00718427', 'en');">PAGAR COM PAYPAL</button>
+            <button style="display:block;max-width:450px;margin: 0 auto;" type="button" id='confirm-payment-paypal' class='btn btn-default' onclick="javascript:paypal('A36E90C7563D92E9B40F04CD13E104D6', 'A556A5934A1952EE2AB524AEAB7F3B54', '27F635E2C41A4F45F231A2AC8171E4BA', 'en');">PAGAR COM PAYPAL</button>
         </div>
     </div>
 </div>

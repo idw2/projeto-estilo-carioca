@@ -1,11 +1,11 @@
-<?php /*%%SmartyHeaderCode:15919278075509c8bd3428c9-59542800%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:793384286551334798caf99-86132351%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'd44edcaa04bb72cc7a0b1e7859a0a84b97fdd502' => 
     array (
       0 => '/home/estil450/public_html/application/views/index.tpl',
-      1 => 1425677667,
+      1 => 1427225173,
       2 => 'file',
     ),
     '9915484c49efae1e853c1be7aa9d8b2c159a82c4' => 
@@ -17,13 +17,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '21ad6c09fd0cb3d807b70a3f24dfe7c8b337e8c6' => 
     array (
       0 => '/home/estil450/public_html/application/views/top.tpl',
-      1 => 1426628688,
+      1 => 1427303322,
       2 => 'file',
     ),
     '176fac5985d5dc4b43edea6c0618ca1f6996d998' => 
     array (
       0 => '/home/estil450/public_html/application/views/footer.tpl',
-      1 => 1426115679,
+      1 => 1427310006,
       2 => 'file',
     ),
     'e42802b9f9225092d26556a5ec1f3ebf37f60366' => 
@@ -33,7 +33,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '15919278075509c8bd3428c9-59542800',
+  'nocache_hash' => '793384286551334798caf99-86132351',
   'variables' => 
   array (
     'web_files' => 0,
@@ -45,10 +45,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5509c8bd794f41_66022282',
+  'unifunc' => 'content_55133479d9aff9_33569064',
   'cache_lifetime' => 120,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5509c8bd794f41_66022282')) {function content_5509c8bd794f41_66022282($_smarty_tpl) {?><!DOCTYPE HTML>
+<?php if ($_valid && !is_callable('content_55133479d9aff9_33569064')) {function content_55133479d9aff9_33569064($_smarty_tpl) {?><!DOCTYPE HTML>
 <html lang="pt-br">
 
     <head>
@@ -128,7 +128,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                 <div class="search-popup-inner">
                     <div class="search-popup-container">
                         <div class="relative">
-                            <form class="form search-popup-form" role="search" action="/pt/novos-produtos" method="post">
+                            <form class="form search-popup-form" role="search" action="/en/novos-produtos" method="post">
                                 <input type="search" placeholder="Buscar" name="search" class="input" autocomplete="off">
                                 <button type="submit"><i class="sprite sprite-search"></i></button>
                                  
@@ -141,63 +141,64 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         </div>
 
         <section id="stt_logado_print">
-            <header id="header" class="navbar navbar-fixed-top navbar-default" role="navigation">
-    <div class="header-bar"></div>
-    <div class="container">
-        <div class="navbar-header">
-            <a href="#" class="hamburger"><span></span></a>
-            <a class="brand" href="/pt/">
-                <img src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/img/estilocarioca2.png" width="71" height="68">
-            </a>
-        </div>
-        <nav class="navbar-collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li class="navbar-social">
-                    <a href="https://www.facebook.com/estilocarioca">
-                        <b class="entypo-facebook"></b>
-                    </a>
-                    <a href="https://instagram.com/estilocarioca/">
-                        <b class="entypo-instagrem"></b>
-                    </a>
-                    
-                    <!--<a href="">
-                        <i class="sprite sprite-twitter"></i>
-                    </a>-->
-                </li>
-                <li class="navbar-search">
-                    <a href="" class="search">
-                        <i class="sprite sprite-search"></i>
-                    </a>
-                </li>
-                                    <li>
-                        <a href="/pt/conta/login-cadastro/">
-                            <i class="icon sprite sprite-user"></i>
-                        </a>
-                    </li>
-                                <li class="navbar-cart">
-                    <a href="/pt/produtos/checkout/">
-                        <i class="icon sprite sprite-cart"></i>
-                        <span class="value">0</span>
-                    </a>
-                </li>
-            </ul>
-                    
-            <ul class="nav navbar-nav">
-                <li  class="active">
-                    <a href="/pt/">Home</a>
-                </li>
-                <li >
-                    <a href="/pt/informacoes/quem-somos">A Estilo Carioca</a>
-                </li>
-                <li >
-                    <a href="/pt/junior/">Junior</a>
-                </li>
-                <li >
-                    <a href="/pt/nilton-santos">Nilton Santos</a>
-                </li>
-            </ul>
-        </nav>
-    </div>
+            <header id="header" class="navbar navbar-fixed-top navbar-default" role="navigation">
+    <div class="header-bar"></div>
+    <div class="container">
+        <div class="navbar-header">
+            <a href="#" class="hamburger"><span></span></a>
+            <a class="brand" href="/en/">
+                <img src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/img/estilocarioca2.png" width="71" height="68">
+            </a>
+        </div>
+        <nav class="navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="navbar-social">
+                    <a class="face" href="https://www.facebook.com/estilocarioca">
+                        <b class="entypo-facebook"></b>
+                    </a>
+                    <a class="insta" href="https://instagram.com/estilocarioca/">
+                        <b class="entypo-instagrem"></b>
+                    </a>
+                    
+                    <!--<a href="">
+                        <i class="sprite sprite-twitter"></i>
+                    </a>-->
+                </li>
+                <li class="navbar-search">
+                    <a href="" class="search">
+                        <i class="sprite sprite-search"></i>
+                    </a>
+                </li>
+                                    <li>
+                        <a href="/en/conta/" id="nav-login" style="display: inline-block;"> Minha conta</a>
+                    </li>
+                    <li>
+                        <a href="/en/conta/sair" id="nav-login" style="display: inline-block;">Sair</a>
+                    </li>   
+                                <li class="navbar-cart">
+                    <a href="/en/produtos/checkout/">
+                        <i class="icon sprite sprite-cart"></i>
+                        <span class="value">1</span>
+                    </a>
+                </li>
+            </ul>
+                    
+            <ul class="nav navbar-nav">
+                <li  class="active">
+                    <a href="/en/">Home</a>
+                </li>
+                <li >
+                    <a href="/en/informacoes/quem-somos">A Estilo Carioca</a>
+                </li>
+                <li >
+                    <a href="/en/junior/">Junior</a>
+                </li>
+                <li >
+                    <a href="/en/nilton-santos">Nilton Santos</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
 </header>  
         </section>
 
@@ -294,12 +295,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                     <p style='font-family: "Roboto Condensed", Helvetica, sans-serif; font-weight: 300'>Andar para frente é fundamental na vida, traz mudanças, novidades e acompanha evolução. E, como bom carioca, ESTILO CARIOCA não se opõem a esse pensamento, nem tão pouco a evolução. </p>
                     <div class="hr"></div>
                     <p>
-                        <a style="display: inline-block; max-width: 42%;" href='/pt/nossos-produtos' class="btn btn-lg">Compre agora</a>
+                        <a style="display: inline-block; max-width: 42%;" href='/en/nossos-produtos' class="btn btn-lg">Compre agora</a>
                     </p>
                 </div>
             </div>
             <div class="col-sm-6">
-                <img src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/img/hero.png" width="500">
+                <img class="img-hero" src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/img/hero.png" width="500">
             </div>
         </div>
     </div>
@@ -350,16 +351,16 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                             <div class="col-sm-3">
                     <div class="thumb">
                         <div class="thumb-img ">
-                            <a href="/pt/junior/vestido-com-manga-1">
-                            <img src="/web-files/upload/thumbs/2589C7B5621C04ED9D8DCEE9CB7A330B/198850B2E95329E81CFEE0318A535560.jpg" alt="Vestido com Manga" title="Vestido com Manga" width="312" height="312">
+                            <a href="/en/nilton-santos/baby-look-1">
+                            <img src="/web-files/upload/thumbs/D502690F150ADE901D99AA478472DC6B/7FC1C20D4E8D8D0A108C1806FC67959F.jpg" alt="Baby Look" title="Baby Look" width="312" height="312">
                             </a>
                         </div>
                         <div class="thumb-holder">
                             <div class="thumb-holder-out">
                                 <div class="thumb-holder-in">
                                     <h2 class="price">R$ 159,00</h2>
-                                    <p class="name">Junior<br/><span style="font-size: 18px !important;">Vestido com Manga</span></p>
-                                    <a href="/pt/junior/vestido-com-manga-1" class="btn btn-default btn-buy">COMPRAR</a>
+                                    <p class="name">Junior<br/><span style="font-size: 18px !important;">Baby Look</span></p>
+                                    <a href="/en/nilton-santos/baby-look-1" class="btn btn-default btn-buy">COMPRAR</a>
                                 </div>
                             </div>
                         </div>
@@ -368,7 +369,25 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                                          <div class="col-sm-3">
                     <div class="thumb">
                         <div class="thumb-img ">
-                            <a href="/pt/junior/camisa-60-anos-1">
+                            <a href="/en/nilton-santos/camisa-masculina">
+                            <img src="/web-files/upload/thumbs/38D0F94FF10F2B3C9AD0CBAA3BEA94C0/F2D1B7D77429934D67A442AC1463EBA7.jpg" alt="Camisa Masculina" title="Camisa Masculina" width="312" height="312">
+                            </a>
+                        </div>
+                        <div class="thumb-holder">
+                            <div class="thumb-holder-out">
+                                <div class="thumb-holder-in">
+                                    <h2 class="price">R$ 159,00</h2>
+                                    <p class="name">Junior<br/><span style="font-size: 18px !important;">Camisa Masculina</span></p>
+                                    <a href="/en/nilton-santos/camisa-masculina" class="btn btn-default btn-buy">COMPRAR</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                                         <div class="col-sm-3">
+                    <div class="thumb">
+                        <div class="thumb-img ">
+                            <a href="/en/junior/camisa-60-anos-1">
                             <img src="/web-files/upload/thumbs/36A823AC9B17E853F36A76AB07D374E7/4E3C66D4F4BD4FE03BB12E376B3D5DF4.jpg" alt="Camisa 60 Anos" title="Camisa 60 Anos" width="312" height="312">
                             </a>
                         </div>
@@ -377,7 +396,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                 <div class="thumb-holder-in">
                                     <h2 class="price">R$ 69,00</h2>
                                     <p class="name">Junior<br/><span style="font-size: 18px !important;">Camisa 60 Anos</span></p>
-                                    <a href="/pt/junior/camisa-60-anos-1" class="btn btn-default btn-buy">COMPRAR</a>
+                                    <a href="/en/junior/camisa-60-anos-1" class="btn btn-default btn-buy">COMPRAR</a>
                                 </div>
                             </div>
                         </div>
@@ -386,34 +405,16 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                                          <div class="col-sm-3">
                     <div class="thumb">
                         <div class="thumb-img ">
-                            <a href="/pt/junior/junior-regata-branca">
-                            <img src="/web-files/upload/thumbs/A746BD1552ECC4FF45158ADA120810AD/A0F8383D9519FD53AF62363CDCE75786.jpg" alt="Junior Regata Branca " title="Junior Regata Branca " width="312" height="312">
-                            </a>
-                        </div>
-                        <div class="thumb-holder">
-                            <div class="thumb-holder-out">
-                                <div class="thumb-holder-in">
-                                    <h2 class="price">R$ 139,00</h2>
-                                    <p class="name">Junior<br/><span style="font-size: 18px !important;">Junior Regata Branca </span></p>
-                                    <a href="/pt/junior/junior-regata-branca" class="btn btn-default btn-buy">COMPRAR</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                                                         <div class="col-sm-3">
-                    <div class="thumb">
-                        <div class="thumb-img ">
-                            <a href="/pt/junior/camisa-masculina-1">
-                            <img src="/web-files/upload/thumbs/BBDC8985EB1D1684197A5209BAF5B03E/285D5FACCABCD1FAEA6DBEEF02E825FB.jpg" alt="Camisa Masculina" title="Camisa Masculina" width="312" height="312">
+                            <a href="/en/junior/baby-look">
+                            <img src="/web-files/upload/thumbs/3485F00DBDB2CD9489F6FB8F0C59A490/C5B7BB9B6C9331AA7140A48807D33778.jpg" alt="Baby Look" title="Baby Look" width="312" height="312">
                             </a>
                         </div>
                         <div class="thumb-holder">
                             <div class="thumb-holder-out">
                                 <div class="thumb-holder-in">
                                     <h2 class="price">R$ 159,00</h2>
-                                    <p class="name">Junior<br/><span style="font-size: 18px !important;">Camisa Masculina</span></p>
-                                    <a href="/pt/junior/camisa-masculina-1" class="btn btn-default btn-buy">COMPRAR</a>
+                                    <p class="name">Junior<br/><span style="font-size: 18px !important;">Baby Look</span></p>
+                                    <a href="/en/junior/baby-look" class="btn btn-default btn-buy">COMPRAR</a>
                                 </div>
                             </div>
                         </div>
@@ -431,7 +432,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <div class="col-lg-12">
                 <div class="section-title">
                     <h2>
-                        <a href="/pt/novos-produtos">
+                        <a href="/en/novos-produtos">
                             <strong>Novos</strong> Produtos
                         </a>
                     </h2>
@@ -443,17 +444,17 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                                 <div class="col-thumb col-xs-6 col-sm-3">
                         <div class="thumbnail">
                             <div class="thumbnail-img">
-                                <a href="/pt/junior/vestido-com-manga-1">
+                                <a href="/en/nilton-santos/baby-look-1">
                                                                             <span class="thumbnail-tag">Novo</span>
-                                                                        <img src="/web-files/upload/thumbs/2589C7B5621C04ED9D8DCEE9CB7A330B/198850B2E95329E81CFEE0318A535560.jpg" alt="Vestido com Manga" title="Vestido com Manga"/>
+                                                                        <img src="/web-files/upload/thumbs/D502690F150ADE901D99AA478472DC6B/7FC1C20D4E8D8D0A108C1806FC67959F.jpg" alt="Baby Look" title="Baby Look"/>
                                 </a>
                             </div>
                             <div class="thumbnail-infos">
-                                <a href="/pt/junior/vestido-com-manga-1">
+                                <a href="/en/nilton-santos/baby-look-1">
                                     <div class="thumbnail-title"> R$ 159,00</div>
                                 </a>
-                                <a href="/pt/junior/vestido-com-manga-1">
-                                    <div class="thumbnail-subtitle">Vestido com Manga</div>
+                                <a href="/en/nilton-santos/baby-look-1">
+                                    <div class="thumbnail-subtitle">Baby Look</div>
                                 </a>
                                 
                                 <span class="seis-vezes"><b>6x</b> de <b>R$ 26,50</b></span>
@@ -465,16 +466,38 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                                                 <div class="col-thumb col-xs-6 col-sm-3">
                         <div class="thumbnail">
                             <div class="thumbnail-img">
-                                <a href="/pt/junior/camisa-60-anos-1">
+                                <a href="/en/nilton-santos/camisa-masculina">
+                                                                            <span class="thumbnail-tag">Novo</span>
+                                                                        <img src="/web-files/upload/thumbs/38D0F94FF10F2B3C9AD0CBAA3BEA94C0/F2D1B7D77429934D67A442AC1463EBA7.jpg" alt="Camisa Masculina" title="Camisa Masculina"/>
+                                </a>
+                            </div>
+                            <div class="thumbnail-infos">
+                                <a href="/en/nilton-santos/camisa-masculina">
+                                    <div class="thumbnail-title"> R$ 159,00</div>
+                                </a>
+                                <a href="/en/nilton-santos/camisa-masculina">
+                                    <div class="thumbnail-subtitle">Camisa Masculina</div>
+                                </a>
+                                
+                                <span class="seis-vezes"><b>6x</b> de <b>R$ 26,50</b></span>
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                                                                <div class="col-thumb col-xs-6 col-sm-3">
+                        <div class="thumbnail">
+                            <div class="thumbnail-img">
+                                <a href="/en/junior/camisa-60-anos-1">
                                                                             <span class="thumbnail-tag">Novo</span>
                                                                         <img src="/web-files/upload/thumbs/36A823AC9B17E853F36A76AB07D374E7/4E3C66D4F4BD4FE03BB12E376B3D5DF4.jpg" alt="Camisa 60 Anos" title="Camisa 60 Anos"/>
                                 </a>
                             </div>
                             <div class="thumbnail-infos">
-                                <a href="/pt/junior/camisa-60-anos-1">
+                                <a href="/en/junior/camisa-60-anos-1">
                                     <div class="thumbnail-title"> R$ 69,00</div>
                                 </a>
-                                <a href="/pt/junior/camisa-60-anos-1">
+                                <a href="/en/junior/camisa-60-anos-1">
                                     <div class="thumbnail-subtitle">Camisa 60 Anos</div>
                                 </a>
                                 
@@ -487,39 +510,17 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                                                 <div class="col-thumb col-xs-6 col-sm-3">
                         <div class="thumbnail">
                             <div class="thumbnail-img">
-                                <a href="/pt/junior/junior-regata-branca">
+                                <a href="/en/junior/baby-look">
                                                                             <span class="thumbnail-tag">Novo</span>
-                                                                        <img src="/web-files/upload/thumbs/A746BD1552ECC4FF45158ADA120810AD/A0F8383D9519FD53AF62363CDCE75786.jpg" alt="Junior Regata Branca " title="Junior Regata Branca "/>
+                                                                        <img src="/web-files/upload/thumbs/3485F00DBDB2CD9489F6FB8F0C59A490/C5B7BB9B6C9331AA7140A48807D33778.jpg" alt="Baby Look" title="Baby Look"/>
                                 </a>
                             </div>
                             <div class="thumbnail-infos">
-                                <a href="/pt/junior/junior-regata-branca">
-                                    <div class="thumbnail-title"> R$ 139,00</div>
-                                </a>
-                                <a href="/pt/junior/junior-regata-branca">
-                                    <div class="thumbnail-subtitle">Junior Regata Branca </div>
-                                </a>
-                                
-                                <span class="seis-vezes"><b>6x</b> de <b>R$ 23,17</b></span>
-                                
-                                
-                            </div>
-                        </div>
-                    </div>
-                                                                <div class="col-thumb col-xs-6 col-sm-3">
-                        <div class="thumbnail">
-                            <div class="thumbnail-img">
-                                <a href="/pt/junior/camisa-masculina-1">
-                                                                            <span class="thumbnail-tag">Novo</span>
-                                                                        <img src="/web-files/upload/thumbs/BBDC8985EB1D1684197A5209BAF5B03E/285D5FACCABCD1FAEA6DBEEF02E825FB.jpg" alt="Camisa Masculina" title="Camisa Masculina"/>
-                                </a>
-                            </div>
-                            <div class="thumbnail-infos">
-                                <a href="/pt/junior/camisa-masculina-1">
+                                <a href="/en/junior/baby-look">
                                     <div class="thumbnail-title"> R$ 159,00</div>
                                 </a>
-                                <a href="/pt/junior/camisa-masculina-1">
-                                    <div class="thumbnail-subtitle">Camisa Masculina</div>
+                                <a href="/en/junior/baby-look">
+                                    <div class="thumbnail-subtitle">Baby Look</div>
                                 </a>
                                 
                                 <span class="seis-vezes"><b>6x</b> de <b>R$ 26,50</b></span>
@@ -543,7 +544,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <div class="col-lg-12">
                 <div class="section-title">
                     <h2>
-                        <a href="/pt/mais-vendidos">
+                        <a href="/en/mais-vendidos">
                             <strong>Mais</strong> Vendidos
                         </a>
                     </h2>
@@ -569,7 +570,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <div class="col-lg-12">
                 <div class="section-title">
                     <h2>
-                        <a href="/pt/promocoes">
+                        <a href="/en/promocoes">
                             <strong>Itens</strong> em Promoção
                         </a>
                     </h2>
@@ -609,114 +610,114 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
 <!-- /INSTAGRAM  -->
 
-<!-- FOOTER  -->
-
-
-
-<footer class="footer ">
-    <div class="container ">
-
-        <div class="row footer-content">
-            <div class="col-sm-6 col-md-3">
-                <h2 class="footer-title">LOGIN E CADASTRO</h2>
-                <ul class="list-unstyled">
-                    <li><a href="/pt/conta/">Acompanhe seu pedido</a></li>
-                    <li><a href="/pt/conta/login-cadastro/">Login e Cadastro</a></li>
-                </ul>
-            </div>
-            <div class="col-sm-6 col-md-3">
-                <h2 class="footer-title">ATENDIMENTO AO CLIENTE</h2>
-                <ul class="list-unstyled">
-                    <li><a href="/pt/informacoes/contato">Entre em contato</a></li>
-                    <li><a href="/pt/informacoes/trocas-e-devolucoes">Trocas e devoluções</a></li>
-                    <li><a href="/pt/informacoes/termos-servicos">Termos de serviço</a></li>
-                </ul>
-            </div>
-            <div class="col-sm-6 col-md-3">
-                <h2 class="footer-title">SIGA A EC</h2>
-                <ul class="list-unstyled list-inline list-social">
-                    <!--<li><a href=""><i class="sprite sprite-twitter-2"></i></a></li>-->
-                    <li><a href="https://www.facebook.com/estilocarioca" target="blank"><b class="entypo-facebook"></b></a></li>
-                    <li><a href="https://instagram.com/estilocarioca/" target="blank"><b class="entypo-instagrem"></b></a></li>
-                </ul>
-            </div>
-            <div class="col-sm-6 col-md-3">
-
-                <h2 class="footer-title">FIQUE POR DENTRO DA EC</h2>
-                <form action="" method="post" class="newsletter-form ajax-form" novalidate="">
-                    <div class="form-row">
-                        <input name="nome_newsletter_2" id="nome" type="text" class="form-control" placeholder="Seu nome" required>
-                    </div>
-                    <div class="form-row">
-                        <input name="email_newsletter_2" id="email" type="text" class="form-control" placeholder="Seu e-mail" required>
-                    </div>
-                    <div class="form-row">
-                        <button type="submit" class="btn btn-default btn-block">Enviar</button>
-                    </div>
-                    <div id="erro_newsletter_2"> </div>
-                </form>
-            </div>
-        </div>
-        <hr>
-        
-        
-        <div class="row footer-bottom">
-            <div class="col-sm-6 col-sm-push-6 text-right">
-                <span class="selo-es sprite sprite-selo-es"></span>
-                <span class="cartoes sprite sprite-cartoes"></span>
-                <img src="/web-files/img/bandeiras.png" alt=""/>
-            </div>
-            <div class="col-sm-6 col-sm-pull-6">
-                <p class="copy">Desenvolvido por <span id="dl"></span></p>
-                <script type="text/javascript">
-                    var _dl = _dl || {};
-                    _dl.width = "80";
-                    _dl.color = "gray";
-                    (function () {
-                        var a = document.createElement("script");
-                        a.type = "text/javascript";
-                        a.async = !0;
-                        a.src = "//static.designlab.com.br/js/bydl.js";
-                        var b = document.getElementsByTagName("script")[0];
-                        b.parentNode.insertBefore(a, b)
-                    })();
-                </script>
-            </div>
-                    
-        </div>
-                <hr>
-                    
-                    <div class="row footer-content text-center">
-            <p style="line-height: 1.8em;font-size: 1.2rem;">
-                <strong>RMGSPORT COMERCIO EIRELI - ME</strong>
-                <br>CNPJ: 21.468.076/0001-16
-                <br>&copy; Todos os direitos reservados - Rua Gazzi de Sá, nº17 - Lote 17 Quadra G , Barra da Tijuca / RJ - CEP: 22.793-210 
-                <br>Atendimento ao cliente: rodrigo@estilocarioca.com.br - 21 3326.1986
-            </p>
-        </div>
-    </div>
-</footer>                
-
-<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
-<script language="javascript" src="/web-files/js/funcoes.js"></script>
-<script src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/js/plugins/slick.min.js"></script>
-<script src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/js/plugins/jquery.raty.js"></script>
-<script src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/js/plugins/underscore-min.js"></script>
-<script src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/js/plugins/mustache.min.js"></script>
-<script src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/js/plugins/jquery.magnific-popup.min.js"></script>
-<script src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/js/scripts.js"></script>
-<script language="javascript" src="/web-files/bootstrap/js/bootstrap.js"></script>
-<script language="javascript" src="/web-files/js/jQuery-Mask-Plugin.js"></script>
-<script language="javascript" src="/web-files/js/vendor/jquery.payment.js"></script>
-<script language="javascript" src="/web-files/js/vendor/jquery.mask.min.js"></script>
-<script language="javascript" src="/web-files/js/joker.js"></script>
-<script language="javascript" src="/web-files/js/default.js"></script>
-<script language="javascript" src="/web-files/js/sweet-alert.js"></script>
-<script language="javascript" src="/web-files/js/stickyfloat.js"></script>
- <script language="javascript"> jQuery('.checkout-panel-2').stickyfloat({ duration: 0, easing:"linear",   startOffset: 60,   }); </script>
-<script src='http://cdnjs.cloudflare.com/ajax/libs/es5-shim/2.3.0/es5-shim.js'></script>
-
-
-
-</body>
+<!-- FOOTER  -->
+
+
+
+<footer class="footer ">
+    <div class="container ">
+
+        <div class="row footer-content">
+            <div class="col-sm-6 col-md-3">
+                <h2 class="footer-title">LOGIN E CADASTRO</h2>
+                <ul class="list-unstyled">
+                    <li><a href="/en/conta/">Acompanhe seu pedido</a></li>
+                    <li><a href="/en/conta/login-cadastro/">Login e Cadastro</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <h2 class="footer-title">ATENDIMENTO AO CLIENTE</h2>
+                <ul class="list-unstyled">
+                    <li><a href="/en/informacoes/contato">Entre em contato</a></li>
+                    <li><a href="/en/informacoes/trocas-e-devolucoes">Trocas e devoluções</a></li>
+                    <li><a href="/en/informacoes/termos-servicos">Termos de serviço</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <h2 class="footer-title">SIGA A EC</h2>
+                <ul class="list-unstyled list-inline list-social">
+                    <!--<li><a href=""><i class="sprite sprite-twitter-2"></i></a></li>-->
+                    <li><a href="https://www.facebook.com/estilocarioca" target="blank"><b class="entypo-facebook"></b></a></li>
+                    <li><a href="https://instagram.com/estilocarioca/" target="blank"><b class="entypo-instagrem"></b></a></li>
+                </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+
+                <h2 class="footer-title">FIQUE POR DENTRO DA EC</h2>
+                <form action="" method="post" class="newsletter-form ajax-form" novalidate="">
+                    <div class="form-row">
+                        <input name="nome_newsletter_2" id="nome" type="text" class="form-control" placeholder="Seu nome" required>
+                    </div>
+                    <div class="form-row">
+                        <input name="email_newsletter_2" id="email" type="text" class="form-control" placeholder="Seu e-mail" required>
+                    </div>
+                    <div class="form-row">
+                        <button type="submit" class="btn btn-default btn-block">Enviar</button>
+                    </div>
+                    <div id="erro_newsletter_2"> </div>
+                </form>
+            </div>
+        </div>
+        <hr>
+        
+        
+        <div class="row footer-bottom">
+            <div class="col-sm-6 col-sm-push-6 text-right">
+                <span class="selo-es sprite sprite-selo-es"></span>
+                <span class="cartoes sprite sprite-cartoes"></span>
+                <img src="/web-files/img/bandeiras.png" alt=""/>
+            </div>
+            <div class="col-sm-6 col-sm-pull-6">
+                <p class="copy">Desenvolvido por <span id="dl"></span></p>
+                <script type="text/javascript">
+                    var _dl = _dl || {};
+                    _dl.width = "80";
+                    _dl.color = "gray";
+                    (function () {
+                        var a = document.createElement("script");
+                        a.type = "text/javascript";
+                        a.async = !0;
+                        a.src = "//static.designlab.com.br/js/bydl.js";
+                        var b = document.getElementsByTagName("script")[0];
+                        b.parentNode.insertBefore(a, b)
+                    })();
+                </script>
+            </div>
+                    
+        </div>
+                <hr>
+                    
+                    <div class="row footer-content text-center">
+            <p style="line-height: 1.8em;font-size: 1.2rem;padding: 20px;">
+                <strong>RMGSPORT COMERCIO EIRELI - ME</strong>
+                <br>CNPJ: 21.468.076/0001-16
+                <br>&copy; Todos os direitos reservados - Rua Gazzi de Sá, nº17 - Lote 17 Quadra G , Barra da Tijuca / RJ - CEP: 22.793-210 
+                <br>Atendimento ao cliente: rodrigo@estilocarioca.com.br - 21 3326.1986
+            </p>
+        </div>
+    </div>
+</footer>                
+
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script language="javascript" src="/web-files/js/funcoes.js"></script>
+<script src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/js/plugins/slick.min.js"></script>
+<script src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/js/plugins/jquery.raty.js"></script>
+<script src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/js/plugins/underscore-min.js"></script>
+<script src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/js/plugins/mustache.min.js"></script>
+<script src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/js/plugins/jquery.magnific-popup.min.js"></script>
+<script src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/js/scripts.js"></script>
+<script language="javascript" src="/web-files/bootstrap/js/bootstrap.js"></script>
+<script language="javascript" src="/web-files/js/jQuery-Mask-Plugin.js"></script>
+<script language="javascript" src="/web-files/js/vendor/jquery.payment.js"></script>
+<script language="javascript" src="/web-files/js/vendor/jquery.mask.min.js"></script>
+<script language="javascript" src="/web-files/js/joker.js"></script>
+<script language="javascript" src="/web-files/js/default.js"></script>
+<script language="javascript" src="/web-files/js/sweet-alert.js"></script>
+<script language="javascript" src="/web-files/js/stickyfloat.js"></script>
+ <script language="javascript"> jQuery('.checkout-panel-2').stickyfloat({ duration: 0, easing:"linear",   startOffset: 60,   }); </script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/es5-shim/2.3.0/es5-shim.js'></script>
+
+
+
+</body>
 </html><?php }} ?>

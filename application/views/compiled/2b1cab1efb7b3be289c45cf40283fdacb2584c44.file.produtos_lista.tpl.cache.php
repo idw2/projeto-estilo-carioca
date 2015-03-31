@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2015-03-13 19:04:11
+<?php /* Smarty version Smarty-3.1.19, created on 2015-03-25 22:17:03
          compiled from "/home/estil450/public_html/application/views/admin/produtos_lista.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:2001697222550334ab30cb86-76998220%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:2115429912551333df2f27e2-45311548%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '2b1cab1efb7b3be289c45cf40283fdacb2584c44' => 
     array (
       0 => '/home/estil450/public_html/application/views/admin/produtos_lista.tpl',
-      1 => 1426114825,
+      1 => 1427121050,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '2001697222550334ab30cb86-76998220',
+  'nocache_hash' => '2115429912551333df2f27e2-45311548',
   'function' => 
   array (
   ),
@@ -20,7 +20,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'language' => 0,
     'categoria' => 0,
     'qtdd_junior' => 0,
-    'qtdd_brincos' => 0,
+    'qtdd_nilton_santos' => 0,
     'total_produtos' => 0,
     'ERRO_NAO_EXISTE_PRODUTOS' => 0,
     'meus_produtos' => 0,
@@ -32,9 +32,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_550334aba4cb68_93088114',
+  'unifunc' => 'content_551333df6568c5_40481371',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_550334aba4cb68_93088114')) {function content_550334aba4cb68_93088114($_smarty_tpl) {?><?php if (!is_callable('smarty_function_counter')) include '/home/estil450/public_html/libraries/plugins/function.counter.php';
+<?php if ($_valid && !is_callable('content_551333df6568c5_40481371')) {function content_551333df6568c5_40481371($_smarty_tpl) {?><?php if (!is_callable('smarty_function_counter')) include '/home/estil450/public_html/libraries/plugins/function.counter.php';
 ?><?php echo $_smarty_tpl->getSubTemplate ("admin/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 9999, null, array(), 0);?>
 
 
@@ -117,7 +117,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 </td>
                                     </tr>
                                     <tr>
-                                        <td>Nilton Santos</td><td><?php echo $_smarty_tpl->tpl_vars['qtdd_brincos']->value;?>
+                                        <td>Nilton Santos</td><td><?php echo $_smarty_tpl->tpl_vars['qtdd_nilton_santos']->value;?>
 </td>
                                     </tr>
                                     <tr>
@@ -232,9 +232,9 @@ $_smarty_tpl->tpl_vars['produto']->_loop = true;
                                                 <span style="cursor: pointer; position: relative; display: block; width: 80px;" onclick="javascript:pGetImagesShow('<?php echo $_smarty_tpl->tpl_vars['produto']->value->CODPRODUTO;?>
 ', '<?php echo $_smarty_tpl->tpl_vars['produto']->value->REFERENCIA;?>
 ')">
-                                                    <?php if ($_smarty_tpl->tpl_vars['produto']->value->CROP80!='') {?>
-                                                        <img src="<?php echo $_smarty_tpl->tpl_vars['produto']->value->CROP80;?>
-" border="0" alt="<?php echo $_smarty_tpl->tpl_vars['produto']->value->NOME;?>
+                                                    <?php if ($_smarty_tpl->tpl_vars['produto']->value->IMG!='') {?>
+                                                        <img src="<?php echo $_smarty_tpl->tpl_vars['produto']->value->IMG;?>
+" border="0" style="width: 80px;" alt="<?php echo $_smarty_tpl->tpl_vars['produto']->value->NOME;?>
 " title="<?php echo $_smarty_tpl->tpl_vars['produto']->value->NOME;?>
 ">
                                                     <?php } else { ?>
@@ -301,6 +301,20 @@ $_smarty_tpl->tpl_vars['produto']->_loop = true;
 ')"><i class="glyphicon glyphicon-refresh"></i></span>
                                                     </span>
                                                 </div>  
+                                                    <div class="col-xs-6">
+                                                        <b>Ordem: </b> 
+                                                        <div class="input-group">
+                                                <input type="text" class="form-control pNameImput" name="ORDEM_<?php echo $_smarty_tpl->tpl_vars['produto']->value->CODPRODUTO;?>
+" id="ORDEM_<?php echo $_smarty_tpl->tpl_vars['produto']->value->CODPRODUTO;?>
+" value="<?php echo $_smarty_tpl->tpl_vars['produto']->value->ORD;?>
+" style="width: 120px;"/>
+                                                <span class="input-group-btn">
+                                                    <span class="btn btn-default" type="button" onclick="javascript:pOrdemUpdate('ORDEM_<?php echo $_smarty_tpl->tpl_vars['produto']->value->CODPRODUTO;?>
+', '<?php echo $_smarty_tpl->tpl_vars['produto']->value->CODPRODUTO;?>
+')"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                </span>
+                                            </div>
+                                                    </div>
                                             </td>
                                             <td>
                                                 <b>Categoria: </b> <?php echo $_smarty_tpl->tpl_vars['produto']->value->CATEGORIA;?>

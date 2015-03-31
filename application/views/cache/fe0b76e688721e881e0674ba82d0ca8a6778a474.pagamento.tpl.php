@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:39602078655032ebbc29a99-84941574%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:32275987655130c7c413be5-80452773%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -9,7 +9,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '39602078655032ebbc29a99-84941574',
+  'nocache_hash' => '32275987655130c7c413be5-80452773',
   'variables' => 
   array (
     'endereco_list' => 0,
@@ -22,10 +22,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_55032ebbce8594_73953863',
+  'unifunc' => 'content_55130c7c519dc9_82173560',
   'cache_lifetime' => 120,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_55032ebbce8594_73953863')) {function content_55032ebbce8594_73953863($_smarty_tpl) {?> 
+<?php if ($_valid && !is_callable('content_55130c7c519dc9_82173560')) {function content_55130c7c519dc9_82173560($_smarty_tpl) {?> 
   
                             
         
@@ -54,9 +54,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <tbody  style="border: 0 !important">
                 <tr style="border: 0 !important">
                     <td style="border: 0">
-                        <input type="hidden" class="form-control" id="total_peso" name="total_peso" value="0.6"/>
+                        <input type="hidden" class="form-control" id="total_peso" name="total_peso" value="1.5"/>
                         <input type="hidden" class="form-control" id="cep_destinatario_2" name="cep_destinatario_2" value="22780-084"/>
-                        <input type="text" class="form-control" id="cep_destinatario" name="cep_destinatario" maxlength="8" value="22793-690" onkeypress="return formataCEP(event, this);" placeholder="Insira seu CEP" readonly="readonly"/>
+                        <input type="text" class="form-control" id="cep_destinatario" name="cep_destinatario" maxlength="8" value="22713-374" onkeypress="return formataCEP(event, this);" placeholder="Insira seu CEP" readonly="readonly"/>
                     </td>
                     <td  style="border: 0 !important">
                         <select id="forma_envio" class="select myFormaEnvio">

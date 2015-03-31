@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2015-03-13 19:03:58
+<?php /* Smarty version Smarty-3.1.19, created on 2015-03-25 22:19:28
          compiled from "/home/estil450/public_html/application/views/admin/fotos.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:15901065435503349e5791d6-88953114%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:83116639755133470dfc199-67130464%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'be8e2b951d0819dc2fdc535de9ca0c292ef515a4' => 
     array (
       0 => '/home/estil450/public_html/application/views/admin/fotos.tpl',
-      1 => 1425580744,
+      1 => 1427121258,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '15901065435503349e5791d6-88953114',
+  'nocache_hash' => '83116639755133470dfc199-67130464',
   'function' => 
   array (
   ),
@@ -29,6 +29,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'ORIGINAL' => 0,
     'NOME' => 0,
     'web_files' => 0,
+    'ORDEM' => 0,
     'TIPO' => 0,
     'FORMATO' => 0,
     'star' => 0,
@@ -39,12 +40,18 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5503349e808ed4_73619154',
+  'unifunc' => 'content_551334712687c9_02304209',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5503349e808ed4_73619154')) {function content_5503349e808ed4_73619154($_smarty_tpl) {?><?php if (!is_callable('smarty_function_counter')) include '/home/estil450/public_html/libraries/plugins/function.counter.php';
+<?php if ($_valid && !is_callable('content_551334712687c9_02304209')) {function content_551334712687c9_02304209($_smarty_tpl) {?><?php if (!is_callable('smarty_function_counter')) include '/home/estil450/public_html/libraries/plugins/function.counter.php';
 ?><?php echo $_smarty_tpl->getSubTemplate ("admin/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 9999, null, array(), 0);?>
 
+                        <style>
 
+                            .pNameImput.Loader{
+                                background: url(/web-files/img/Loader_small.gif) no-repeat;
+                                background-position: center right 6px;
+                            }
+                        </style>
 <div class="sidebar">
     <?php echo $_smarty_tpl->getSubTemplate ("admin/navbar.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 9999, null, array(), 0);?>
 
@@ -100,7 +107,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
     </div>
 </div>     
-            
+
 
 <div class="row">
     <div class="col-lg-12">
@@ -199,8 +206,22 @@ $_smarty_tpl->tpl_vars['item']->_loop = true;
 /img/move.png" alt="Drag" data-toggle="Drag" title="Drag" border="0" style="width: 55px;"/>
                             </span>-->
 
-
+                                <div style="width:120px;">
+                                        <b>Ordem: </b> 
+                                        <div class="input-group">
+                                            <input type="text" class="form-control pNameImput" name="<?php echo $_smarty_tpl->tpl_vars['CODFOTO']->value;?>
+" id="ORDEM_<?php echo $_smarty_tpl->tpl_vars['CODFOTO']->value;?>
+" value="<?php echo $_smarty_tpl->tpl_vars['ORDEM']->value;?>
+" style="width: 120px;"/>
+                                            <span class="input-group-btn">
+                                                <span class="btn btn-default" type="button" onclick="javascript:pOrdemFotoUpdate('ORDEM_<?php echo $_smarty_tpl->tpl_vars['CODFOTO']->value;?>
+', '<?php echo $_smarty_tpl->tpl_vars['CODFOTO']->value;?>
+')"><i class="glyphicon glyphicon-refresh"></i></span>
+                                            </span>
+                                        </div>
+                                    </div>
                                 <span style="display: inline-block;">
+                                    
                                     <strong>Nome: </strong><?php echo $_smarty_tpl->tpl_vars['NOME']->value;?>
 <br/>
                                     <strong>Tipo: </strong> <?php echo $_smarty_tpl->tpl_vars['TIPO']->value;?>
@@ -404,7 +425,7 @@ _preview_2', '<?php echo $_smarty_tpl->tpl_vars['CODFOTO']->value;?>
 
         $image1.cropper({
             aspectRatio: 0.9,
-            done: function(data) {
+            done: function (data) {
                 console.log(data.x1 + ":" + data.y1 + ":" + data.x2 + ":" + data.y2 + ":" + data.height + ":" + data.width);
                 $dataX1_1.val(data.x1);
                 $dataY1_1.val(data.y1);
@@ -425,7 +446,7 @@ _preview_2', '<?php echo $_smarty_tpl->tpl_vars['CODFOTO']->value;?>
 
         $image2.cropper({
             aspectRatio: 1.8,
-            done: function(data) {
+            done: function (data) {
                 console.log(data.x1 + ":" + data.y1 + ":" + data.x2 + ":" + data.y2 + ":" + data.height + ":" + data.width);
                 $dataX1_2.val(data.x1);
                 $dataY1_2.val(data.y1);

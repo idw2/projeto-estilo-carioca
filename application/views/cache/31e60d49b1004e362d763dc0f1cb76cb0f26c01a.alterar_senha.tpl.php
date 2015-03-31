@@ -51,99 +51,99 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'unifunc' => 'content_53f2511c6d51a6_07177269',
   'cache_lifetime' => 120,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_53f2511c6d51a6_07177269')) {function content_53f2511c6d51a6_07177269($_smarty_tpl) {?><!DOCTYPE HTML>
-<html lang="pt-br">
-
-    <head>
-        <meta charset="UTF-8">
-        <title>Minha Concessionária | Alterar senha</title>
-
-
-        <link rel="icon" type="image/vnd.microsoft.icon" href="/web-files/img/favicon.ico"/>
-        <link rel="shortcut icon" type="image/x-icon" href="/web-files/img/favicon.ico"/>
-
-        <link rel="stylesheet" href="/web-files/font-awesome-4.1.0/css/font-awesome.min.css"/>
-        <link rel="stylesheet" href="/web-files/bootstrap/css/bootstrap.css"/>
-        <link rel="stylesheet" href="/web-files/bootstrap/css/bootstrap-theme.css"/>		
-        <link rel="stylesheet" href="/web-files/css/docs.min.css"/>
-        <link rel="stylesheet" href="/web-files/css/style.css"/>
-
-        <script language="javascript" src="/web-files/js/funcoes.js"></script>
-        <script language="javascript" src="/web-files/js/jquery-2.1.1.min.js"></script>
-        <script language="javascript" src="/web-files/js/jQuery-Mask-Plugin.js"></script>
-        <script language="javascript" src="/web-files/bootstrap/js/bootstrap.js"></script>
-
-        <style>
-            html,body{
-                height: 100%;
-            }
-
-            .box-login{
-                margin-top: 25%
-            }
-            .area-restrita{
-                    margin-bottom: 4%; 
-                    display: inline-block;
-            }
-            
-            .panel-heading{
-                    color: #e9c92e; 
-                    font-family: "Arial Black", Gadget, sans-serif;
-            }
-            
-            .nav > li > a:hover, .nav > li > a:focus {
-                text-decoration: none;
-                background-color: #e9c92e; 
-                color: #395aa4;
-            }
-            
-            .nav > li > a {
-                position: relative; 
-                display: block; 
-                padding: 10px 15px; 
-                color: #fff; 
-                text-transform: uppercase; 
-            }
-            
-            .nav > li.active > a{ 
-                color: #395aa4; 
-                background: #e9c92e; 
-                text-transform: uppercase
-            }
-
-            .sidebar{
-                position: absolute;
-                top:0;
-                bottom:0;
-                left:0;
-                width: 250px;
-                background: #395aa4;
-            }
-            .content{
-                position: absolute;
-                top:0;
-                bottom:0;
-                left:250px;
-                right: 0;
-                background: #fff;
-                padding: 0 15px;
-            }
-
-            .navbar-form .search-input{
-                width: 250px;
-            }
-
-            .navbar-default {
-                border: none !important; 
-            }
-            
-            .x-label{
-                color: #5d5d5d;
-                padding: 1px 0;
-            }
-        </style>
-
-    </head>
+<?php if ($_valid && !is_callable('content_53f2511c6d51a6_07177269')) {function content_53f2511c6d51a6_07177269($_smarty_tpl) {?><!DOCTYPE HTML>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Minha Concessionária | Alterar senha</title>
+
+
+        <link rel="icon" type="image/vnd.microsoft.icon" href="/web-files/img/favicon.ico"/>
+        <link rel="shortcut icon" type="image/x-icon" href="/web-files/img/favicon.ico"/>
+
+        <link rel="stylesheet" href="/web-files/font-awesome-4.1.0/css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="/web-files/bootstrap/css/bootstrap.css"/>
+        <link rel="stylesheet" href="/web-files/bootstrap/css/bootstrap-theme.css"/>		
+        <link rel="stylesheet" href="/web-files/css/docs.min.css"/>
+        <link rel="stylesheet" href="/web-files/css/style.css"/>
+
+        <script language="javascript" src="/web-files/js/funcoes.js"></script>
+        <script language="javascript" src="/web-files/js/jquery-2.1.1.min.js"></script>
+        <script language="javascript" src="/web-files/js/jQuery-Mask-Plugin.js"></script>
+        <script language="javascript" src="/web-files/bootstrap/js/bootstrap.js"></script>
+
+        <style>
+            html,body{
+                height: 100%;
+            }
+
+            .box-login{
+                margin-top: 25%
+            }
+            .area-restrita{
+                    margin-bottom: 4%; 
+                    display: inline-block;
+            }
+            
+            .panel-heading{
+                    color: #e9c92e; 
+                    font-family: "Arial Black", Gadget, sans-serif;
+            }
+            
+            .nav > li > a:hover, .nav > li > a:focus {
+                text-decoration: none;
+                background-color: #e9c92e; 
+                color: #395aa4;
+            }
+            
+            .nav > li > a {
+                position: relative; 
+                display: block; 
+                padding: 10px 15px; 
+                color: #fff; 
+                text-transform: uppercase; 
+            }
+            
+            .nav > li.active > a{ 
+                color: #395aa4; 
+                background: #e9c92e; 
+                text-transform: uppercase
+            }
+
+            .sidebar{
+                position: absolute;
+                top:0;
+                bottom:0;
+                left:0;
+                width: 250px;
+                background: #395aa4;
+            }
+            .content{
+                position: absolute;
+                top:0;
+                bottom:0;
+                left:250px;
+                right: 0;
+                background: #fff;
+                padding: 0 15px;
+            }
+
+            .navbar-form .search-input{
+                width: 250px;
+            }
+
+            .navbar-default {
+                border: none !important; 
+            }
+            
+            .x-label{
+                color: #5d5d5d;
+                padding: 1px 0;
+            }
+        </style>
+
+    </head>
     <body>
 
 <div class="sidebar">
@@ -265,5 +265,5 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
 </script>
 
-</body>
+</body>
 </html><?php }} ?>

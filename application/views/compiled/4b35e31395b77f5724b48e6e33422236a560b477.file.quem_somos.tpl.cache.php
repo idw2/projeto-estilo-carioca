@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2015-03-17 21:54:57
+<?php /* Smarty version Smarty-3.1.19, created on 2015-03-25 17:29:30
          compiled from "/home/estil450/public_html/application/views/quem_somos.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:10545281515508a2b1554015-14539566%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:11766379185512f07a17c379-27008930%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '10545281515508a2b1554015-14539566',
+  'nocache_hash' => '11766379185512f07a17c379-27008930',
   'function' => 
   array (
   ),
@@ -21,9 +21,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5508a2b15b67b2_72487025',
+  'unifunc' => 'content_5512f07a1dcce1_58991741',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5508a2b15b67b2_72487025')) {function content_5508a2b15b67b2_72487025($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ("header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 9999, null, array(), 0);?>
+<?php if ($_valid && !is_callable('content_5512f07a1dcce1_58991741')) {function content_5512f07a1dcce1_58991741($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ("header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 9999, null, array(), 0);?>
 
 
 <section class="section">

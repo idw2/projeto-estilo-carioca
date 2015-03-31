@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:1598211699550334e5b6d7d6-56215111%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1973293962551324446b1013-49726401%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -9,7 +9,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1598211699550334e5b6d7d6-56215111',
+  'nocache_hash' => '1973293962551324446b1013-49726401',
   'variables' => 
   array (
     'web_files' => 0,
@@ -20,10 +20,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_550334e5ce2510_32045191',
+  'unifunc' => 'content_5513244474ced2_41401568',
   'cache_lifetime' => 120,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_550334e5ce2510_32045191')) {function content_550334e5ce2510_32045191($_smarty_tpl) {?><!DOCTYPE HTML>
+<?php if ($_valid && !is_callable('content_5513244474ced2_41401568')) {function content_5513244474ced2_41401568($_smarty_tpl) {?><!DOCTYPE HTML>
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
@@ -49,7 +49,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
                     
                     <img class="area-restrita img-responsive center-block" src="/web-files/img/logo.png" alt="" border="0" title="" style="margin: 0 auto;"/><br/>
-                    <form class="form-horizontal" role="form" novalidate="" method="post" action="/pt/admin/login">
+                    <form class="form-horizontal" role="form" novalidate="" method="post" action="/en/admin/login">
                         <div class="input-group input-group-lg">
                             <input type="text" class="form-control" id="email" name="email" placeholder="E-mail" value="" required/>
                             <span class="input-group-addon"><i class="fa fa-reply-all">&nbsp</i></span>

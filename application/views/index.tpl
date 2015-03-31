@@ -97,7 +97,7 @@
                 </div>
             </div>
             <div class="col-sm-6">
-                <img src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/img/hero.png" width="500">
+                <img class="img-hero" src="//www.estilocarioca.com.br/application/template/estilocarioca/assets/img/hero.png" width="500">
             </div>
         </div>
     </div>

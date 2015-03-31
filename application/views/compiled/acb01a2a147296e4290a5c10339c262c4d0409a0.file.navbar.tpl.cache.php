@@ -24,24 +24,24 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'version' => 'Smarty-3.1.19',
   'unifunc' => 'content_53f2a01dda1e68_60403839',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_53f2a01dda1e68_60403839')) {function content_53f2a01dda1e68_60403839($_smarty_tpl) {?><!-- Collect the nav links, forms, and other content for toggling -->
-<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-    <ul class="nav navbar-nav">
-
+<?php if ($_valid && !is_callable('content_53f2a01dda1e68_60403839')) {function content_53f2a01dda1e68_60403839($_smarty_tpl) {?><!-- Collect the nav links, forms, and other content for toggling -->
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav">
+
         <li <?php if ($_smarty_tpl->tpl_vars['page']->value=="index") {?> class="active" <?php } else { ?> class="" <?php }?>><a href="/<?php echo $_smarty_tpl->tpl_vars['language']->value;?>
-/">Home</a></li>
+/">Home</a></li>
         <li <?php if ($_smarty_tpl->tpl_vars['page']->value=="empresa") {?> class="active" <?php } else { ?> class="" <?php }?>><a href="/<?php echo $_smarty_tpl->tpl_vars['language']->value;?>
-/informacoes/empresa/">Empresa</a></li>            
+/informacoes/empresa/">Empresa</a></li>            
         <li <?php if ($_smarty_tpl->tpl_vars['page']->value=="zero_km") {?> class="active" <?php } else { ?> class="" <?php }?>><a href="/<?php echo $_smarty_tpl->tpl_vars['language']->value;?>
-/informacoes/zero_km/">Zero KM</a></li>           
+/informacoes/zero_km/">Zero KM</a></li>           
         <li <?php if ($_smarty_tpl->tpl_vars['page']->value=="seminovos") {?> class="active" <?php } else { ?> class="" <?php }?>><a href="/<?php echo $_smarty_tpl->tpl_vars['language']->value;?>
-/informacoes/seminovos/">Seminovos</a></li>           
+/informacoes/seminovos/">Seminovos</a></li>           
         <li <?php if ($_smarty_tpl->tpl_vars['page']->value=="financiamento") {?> class="active" <?php } else { ?> class="" <?php }?>><a href="/<?php echo $_smarty_tpl->tpl_vars['language']->value;?>
-/informacoes/financiamento/">Financie</a></li>            
+/informacoes/financiamento/">Financie</a></li>            
         <li <?php if ($_smarty_tpl->tpl_vars['page']->value=="vender_carro") {?> class="active" <?php } else { ?> class="" <?php }?>><a href="/<?php echo $_smarty_tpl->tpl_vars['language']->value;?>
-/informacoes/vender_carro/">Venda seu carro</a></li>            
+/informacoes/vender_carro/">Venda seu carro</a></li>            
         <li <?php if ($_smarty_tpl->tpl_vars['page']->value=="contato") {?> class="active" <?php } else { ?> class="" <?php }?>><a href="/<?php echo $_smarty_tpl->tpl_vars['language']->value;?>
-/informacoes/contato/">Contato</a></li>           
-
-    </ul>
+/informacoes/contato/">Contato</a></li>           
+
+    </ul>
 </div><?php }} ?>

@@ -76,7 +76,7 @@
                                         <td>Junior</td><td>{$qtdd_junior}</td>
                                     </tr>
                                     <tr>
-                                        <td>Nilton Santos</td><td>{$qtdd_brincos}</td>
+                                        <td>Nilton Santos</td><td>{$qtdd_nilton_santos}</td>
                                     </tr>
                                     <tr>
                                         <td><strong>Total Geral</strong></td><td>{$total_produtos}</td>
@@ -241,8 +241,8 @@
                                         <tr  class="delete-return-{$produto->CODPRODUTO} no">
                                             <td>
                                                 <span style="cursor: pointer; position: relative; display: block; width: 80px;" onclick="javascript:pGetImagesShow('{$produto->CODPRODUTO}', '{$produto->REFERENCIA}')">
-                                                    {if $produto->CROP80 != ""}
-                                                        <img src="{$produto->CROP80}" border="0" alt="{$produto->NOME}" title="{$produto->NOME}">
+                                                    {if $produto->IMG != ""}
+                                                        <img src="{$produto->IMG}" border="0" style="width: 80px;" alt="{$produto->NOME}" title="{$produto->NOME}">
                                                     {else}
                                                         <img src="/web-files/img/no-image.png" style="width: 80px;" border="0" alt="{$produto->NOME}" title="{$produto->NOME}">
                                                     {/if}
@@ -284,6 +284,15 @@
                                                         <span class="btn btn-default" type="button" onclick="javascript:pNameUpdate('pName_{$produto->CODPRODUTO}', '{$produto->CODPRODUTO}')"><i class="glyphicon glyphicon-refresh"></i></span>
                                                     </span>
                                                 </div>  
+                                                    <div class="col-xs-6">
+                                                        <b>Ordem: </b> 
+                                                        <div class="input-group">
+                                                <input type="text" class="form-control pNameImput" name="ORDEM_{$produto->CODPRODUTO}" id="ORDEM_{$produto->CODPRODUTO}" value="{$produto->ORD}" style="width: 120px;"/>
+                                                <span class="input-group-btn">
+                                                    <span class="btn btn-default" type="button" onclick="javascript:pOrdemUpdate('ORDEM_{$produto->CODPRODUTO}', '{$produto->CODPRODUTO}')"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                </span>
+                                            </div>
+                                                    </div>
                                             </td>
                                             <td>
                                                 <b>Categoria: </b> {$produto->CATEGORIA}<br/>
