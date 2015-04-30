@@ -278,7 +278,6 @@ Class Nota_Fiscal extends Controller {
                     echo "<script>alert('Arquivo gravado com sucesso!')</script>";
                     echo "<script>window.location='" . MEU_SITE . "nota-fiscal/exportar'</script>";
                     die();
-                    
                 } else {
                     echo "<script>alert('Ocorreu um erro ao tentar exportar clientes para .CSV!')</script>";
                     echo "<script>window.location='" . MEU_SITE . "nota-fiscal/exportar'</script>";
@@ -385,8 +384,34 @@ Class Nota_Fiscal extends Controller {
             $d["WAS_EXPORTED"] = "sim";
 
             $menos = (int) $clientes->num_get_produto();
+
             $c = $clientes->get_produto();
             $csv = "";
+
+
+//            CAMISA E REGATA MASC 100% ALGO 61051000
+//            CASACO FEMININO 61022000
+//            CASACO MASCULINO 61012000
+//            CASACO VESTIDO 61044200
+
+
+//            $str = 'CAS';
+//            $padrao = "//g";
+//
+//            if (!preg_match("/^CASA+$/", $str)) {
+//                print 'passou'; 
+//            } else {
+//                print 'não passou';
+//                
+//            }
+//            
+//            if (ereg($padrao, $str)) {
+//            } else {
+//            }
+            
+//            die();
+
+
 
             if ($menos != 0) {
 
@@ -406,21 +431,19 @@ Class Nota_Fiscal extends Controller {
                 $objPHPExcel->getActiveSheet()->getStyle('J1')->getFont()->setBold(true);
                 $objPHPExcel->getActiveSheet()->getStyle('L1')->getFont()->setBold(true);
 
-                // Criamos as colunas
-                $objPHPExcel->setActiveSheetIndex(0)
-                        ->setCellValue("A1", "Código")
-                        ->setCellValue("B1", "Quantidade")
-                        ->setCellValue("C1", "Descrição do produto *")
-                        ->setCellValue("D1", "Preço de Compra")
-                        ->setCellValue("E1", "Preço de Venda")
-                        ->setCellValue("F1", "Código de barras (GTIN/EAN)")
-                        ->setCellValue("G1", "Unidade")
-                        ->setCellValue("H1", "NCM")
-                        ->setCellValue("I1", "Categoria do produto")
-                        ->setCellValue("J1", "Peso Bruto (quilos)")
-                        ->setCellValue("L1", "Peso Líquido (quilos)");
-
-
+//                // Criamos as colunas
+//                $objPHPExcel->setActiveSheetIndex(0)
+//                        ->setCellValue("A1", "Código")
+//                        ->setCellValue("B1", "Quantidade")
+//                        ->setCellValue("C1", "Descrição do produto *")
+//                        ->setCellValue("D1", "Preço de Compra")
+//                        ->setCellValue("E1", "Preço de Venda")
+//                        ->setCellValue("F1", "Código de barras (GTIN/EAN)")
+//                        ->setCellValue("G1", "Unidade")
+//                        ->setCellValue("H1", "NCM")
+//                        ->setCellValue("I1", "Categoria do produto")
+//                        ->setCellValue("J1", "Peso Bruto (quilos)")
+//                        ->setCellValue("L1", "Peso Líquido (quilos)");
                 // Podemos configurar diferentes larguras paras as colunas como padrão
                 $objPHPExcel->getActiveSheet()->getColumnDimension('A')->setWidth(40);
                 $objPHPExcel->getActiveSheet()->getColumnDimension('B')->setWidth(40);
@@ -435,15 +458,15 @@ Class Nota_Fiscal extends Controller {
                 $objPHPExcel->getActiveSheet()->getColumnDimension('L')->setWidth(40);
 
                 // Adicionamos um estilo de A1 até D1 
-                $objPHPExcel->getActiveSheet()->getStyle('A1:L1')->applyFromArray(
-                        array('fill' => array(
-                                'type' => PHPExcel_Style_Fill::FILL_SOLID,
-                                'color' => array('rgb' => 'E0EEEE')
-                            ),
-                        )
-                );
+//                $objPHPExcel->getActiveSheet()->getStyle('A1:L1')->applyFromArray(
+//                        array('fill' => array(
+//                                'type' => PHPExcel_Style_Fill::FILL_SOLID,
+//                                'color' => array('rgb' => 'E0EEEE')
+//                            ),
+//                        )
+//                );
 
-                $i = 1;
+                $i = 0;
                 foreach ($c as $obj) {
 
                     ##Código	
@@ -475,7 +498,13 @@ Class Nota_Fiscal extends Controller {
 
                     $csv .= $obj->CODIGO_BARRAS . ",";
                     $csv .= $obj->UNIDADE . "kg,";
-                    $csv .= "71171900,";
+
+
+
+
+
+
+                    $csv .= "";#"6105100 A,";
 
                     $csv .= utf8_decode($obj->CATEGORIA) . ",";
                     $csv .= $obj->PESO . ",";
@@ -485,19 +514,18 @@ Class Nota_Fiscal extends Controller {
                     }
 
                     // Criamos as colunas
-                    $objPHPExcel->setActiveSheetIndex(0)
-                            ->setCellValue("A1", "Código")
-                            ->setCellValue("B1", "Quantidade")
-                            ->setCellValue("C1", "Descrição do produto *")
-                            ->setCellValue("D1", "Preço de Compra")
-                            ->setCellValue("E1", "Preço de Venda")
-                            ->setCellValue("F1", "Código de barras (GTIN/EAN)")
-                            ->setCellValue("G1", "Unidade")
-                            ->setCellValue("H1", "NCM")
-                            ->setCellValue("I1", "Categoria do produto")
-                            ->setCellValue("J1", "Peso Bruto (quilos)")
-                            ->setCellValue("L1", "Peso Líquido (quilos)");
-
+//                    $objPHPExcel->setActiveSheetIndex(0)
+//                            ->setCellValue("A1", "Código")
+//                            ->setCellValue("B1", "Quantidade")
+//                            ->setCellValue("C1", "Descrição do produto *")
+//                            ->setCellValue("D1", "Preço de Compra")
+//                            ->setCellValue("E1", "Preço de Venda")
+//                            ->setCellValue("F1", "Código de barras (GTIN/EAN)")
+//                            ->setCellValue("G1", "Unidade")
+//                            ->setCellValue("H1", "NCM")
+//                            ->setCellValue("I1", "Categoria do produto")
+//                            ->setCellValue("J1", "Peso Bruto (quilos)")
+//                            ->setCellValue("L1", "Peso Líquido (quilos)");
                     // Também podemos escolher a posição exata aonde o dado será inserido (coluna, linha, dado);    
                     $objPHPExcel->getActiveSheet()->setCellValueByColumnAndRow(0, ($i + 1), $obj->CODIGO);
                     $objPHPExcel->getActiveSheet()->setCellValueByColumnAndRow(1, ($i + 1), $obj->QUANTIDADE);
@@ -506,7 +534,8 @@ Class Nota_Fiscal extends Controller {
                     $objPHPExcel->getActiveSheet()->setCellValueByColumnAndRow(4, ($i + 1), $obj->PRECO_VENDA);
                     $objPHPExcel->getActiveSheet()->setCellValueByColumnAndRow(5, ($i + 1), $obj->CODIGO_BARRAS);
                     $objPHPExcel->getActiveSheet()->setCellValueByColumnAndRow(6, ($i + 1), $obj->UNIDADE . "kg");
-                    $objPHPExcel->getActiveSheet()->setCellValueByColumnAndRow(7, ($i + 1), "71171900");
+                    #$objPHPExcel->getActiveSheet()->setCellValueByColumnAndRow(7, ($i + 1), "6105100 A");
+                    $objPHPExcel->getActiveSheet()->setCellValueByColumnAndRow(7, ($i + 1), "");
                     $objPHPExcel->getActiveSheet()->setCellValueByColumnAndRow(8, ($i + 1), $obj->CATEGORIA);
                     $objPHPExcel->getActiveSheet()->setCellValueByColumnAndRow(9, ($i + 1), $obj->PESO);
                     $objPHPExcel->getActiveSheet()->setCellValueByColumnAndRow(10, ($i + 1), "");

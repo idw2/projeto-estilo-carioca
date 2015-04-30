@@ -21,9 +21,9 @@ Class Querys extends Model {
 
 //$indice = $_POST["indice"];
 $indice = 1;
-$x1 = $_POST["x1"];
-$y1 = $_POST["y1"];
-$x2 = $_POST["x2"];
+$x1 = $_POST["x1"];
+$y1 = $_POST["y1"];
+$x2 = $_POST["x2"];
 $y2 = $_POST["y2"];
 $codfoto = strtoupper($_POST["codfoto"]);
 

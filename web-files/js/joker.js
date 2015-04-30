@@ -529,7 +529,11 @@ var ajax = null;
                     data: "search=" + search,
                     url: getMyFolderRoot() + "/pt/produtos/sugestao",
                     success: function(data) {
+                        console.log(data);
                         $(".search-sugestao").html(data);
+                    },
+                    error: function(data){
+                        console.log(data);
                     }
                 });
             }, 250));

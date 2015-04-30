@@ -1750,6 +1750,8 @@ XML;
                 $erro .= $xml->mensagem . '.';
                 //$erro .= "Por favor, verifique se seus dados então preenchidos corretamente!";
             }
+            
+            echo $erro;
         }
     }
 
@@ -1811,12 +1813,13 @@ XML;
 //            $pessoa->STATUS] => 1 )
 
             $dias_de_prazo_para_pagamento = 5;
-            $taxa_boleto = 2.95;
+            $taxa_boleto = 0;
             $data_venc = date("d/m/Y", time() + ($dias_de_prazo_para_pagamento * 86400));  // Prazo de X dias OU informe data: "13/04/2006";
             $valor_cobrado = $compra->TOTAL_GERAL; // Valor - REGRA: Sem pontos na milhar e tanto faz com "." ou "," ou com 1 ou 2 ou sem casa decimal
             $valor_cobrado = str_replace(",", ".", $valor_cobrado);
             // $valor_cobrado = 1;
             $valor_boleto = number_format($valor_cobrado + $taxa_boleto, 2, ',', '');
+            $valor_boleto = number_format(5, 2, ',', '');
 
             $dadosboleto["nosso_numero"] = "1234567";  // Nosso numero sem o DV - REGRA: Máximo de 7 caracteres!
             //$dadosboleto["numero_documento"] = "12345"; // Num do pedido ou nosso numero
@@ -1835,7 +1838,8 @@ XML;
             $dadosboleto["data_vencimento"] = $data_venc; // Data de Vencimento do Boleto - REGRA: Formato DD/MM/AAAA
             $dadosboleto["data_documento"] = date("d/m/Y"); // Data de emissão do Boleto
             $dadosboleto["data_processamento"] = date("d/m/Y"); // Data de processamento do boleto (opcional)
-            $dadosboleto["valor_boleto"] = $valor_boleto;  // Valor do Boleto - REGRA: Com vírgula e sempre com duas casas depois da virgula
+            $dadosboleto["valor_boleto"] = $valor_boleto; 
+            // Valor do Boleto - REGRA: Com vírgula e sempre com duas casas depois da virgula
             // DADOS DO SEU CLIENTE
             $dadosboleto["sacado"] = "{$pessoa->NOME} - {$pessoa->EMAIL}";
             if ($endereco->COMPLEMENTO != '')
@@ -1868,13 +1872,15 @@ XML;
             $dadosboleto["ponto_venda"] = "0124"; // Ponto de Venda = Agencia
             $dadosboleto["carteira"] = "102";  // Cobrança Simples - SEM Registro
             $dadosboleto["carteira_descricao"] = "COBRANÇA SIMPLES - CSR";  // Descrição da Carteira
+            
             // DADOS DA SUA CONTA - CEF
             //$dadosboleto["agencia"] = "4749"; // Num da agencia, sem digito
             //$dadosboleto["conta"] = "269";  // Num da conta, sem digito
             // $dadosboleto["conta_dv"] = "9";  // Digito do Num da conta
             // DADOS PERSONALIZADOS - CEF
             //$dadosboleto["conta_cedente"] = "542845"; // Código Cedente do Cliente, com 6 digitos (Somente Números)
-            //$dadosboleto["carteira"] = "SR";  // Código da Carteira: pode ser SR (Sem Registro) ou CR (Com Registro) - (Confirmar com gerente qual usar)
+            //$dadosboleto["carteira"] = "SR";  // Código da Carteira: pode ser SR (Sem Registro) ou CR (Com Registro)
+            // - (Confirmar com gerente qual usar)
             // SEUS DADOS
             $dadosboleto["identificacao"] = "www.estilocarioca.com.br";
             $dadosboleto["cpf_cnpj"] = "21.468.076/0001-16";
@@ -2112,7 +2118,7 @@ XML;
                 $_SERVER['EMAIL_CRIACAO'] = base64_encode($email);
 
                 header('Content-Type: application/json');
-                $data["url"] = "https://www.mariadebarro.com.br/pt/conta/criar-conta/email/" . $_SERVER['EMAIL_CRIACAO'];
+                $data["url"] = "https://www.estilocarioca.com.br/pt/conta/criar-conta/email/" . $_SERVER['EMAIL_CRIACAO'];
                 echo json_encode($data);
 
                 die();

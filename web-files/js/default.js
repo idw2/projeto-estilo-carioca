@@ -1313,7 +1313,7 @@ function get_soma_peso2() {
         var total_impostos = $("#total_impostos").html();
     }
 
-
+    //alert(cd.length);
 
     if (cd.length == 8) {
 
@@ -1497,11 +1497,14 @@ function finalizar_pedido(client_hidden, codcadastro, codendereco, language, pgt
 
 //        alert(ticket_desconto);
 
+
+
         $.ajax({
             type: 'post',
             data: "LANGUAGE=" + language + "&FORMA_PGTO=" + form_pgto + "&CLIENT_HIDDEN=" + client_hidden + "&CODCADASTRO=" + codcadastro + "&CODENDERECO=" + codendereco + "&FORMA_ENVIO=" + f_envio + "&TAXA_ENTREGA=" + taxa_entrega.html() + "&TOTAL_GERAL=" + total_geral + "&TOTAL_PARCIAL=" + total_parcial + "&BONUS=" + bonus + "&IMPOSTOS=" + impostos + "&TICKET_DESCONTO=" + ticket_desconto,
             url: getMyFolderRoot() + '/web-files/server/add_pedido.php',
             success: function (data) {
+              console.log('ajax2');
 
                 //alert(data) ; return; 
 
