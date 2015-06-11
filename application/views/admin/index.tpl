@@ -7,8 +7,8 @@
         <link rel="stylesheet" href="{$web_files}/bootstrap/css/bootstrap.css"/>
         <link rel="stylesheet" href="{$web_files}/bootstrap/css/bootstrap-theme.css"/>	
         <link rel="stylesheet" href="{$web_files}/css/sweet-alert.css?v=2"/>
-        <link rel="shortcut icon" href="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/img/favicon.png?v=5">
-        <link rel="shortcut icon" type="image/x-icon" href="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/img/favicon.png?v=5"/>
+        <link rel="shortcut icon" href="http://homolog.estilocarioca.com.br/application/template/estilocarioca/assets/img/favicon.png?v=5">
+        <link rel="shortcut icon" type="image/x-icon" href="http://homolog.estilocarioca.com.br/application/template/estilocarioca/assets/img/favicon.png?v=5"/>
         <title></title>
     </head>
     <body>

@@ -25,58 +25,58 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'unifunc' => 'content_53ea25788af222_54897882',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_53ea25788af222_54897882')) {function content_53ea25788af222_54897882($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ("header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 9999, null, array(), 0);?>
-
-
-
-<div class="col-md-6">
-
-    <div class="jumbotron">
-        <div class="container">
-
-            <!-- h1 e p que já tínhamos -->
-            <h2>Bem-vindo a sua conta administrativa!</h2>
-            <br/>
-            <p>Informe o seu <b>ID</b> e <b>Senha</b> para ter acesso aos nossos serviços.</p><br/>
-        
-        </div>
-    </div>
-</div> 
-
-<div class="col-md-6">
-    
-    <form class="navbar-form navbar-left" role="search" action="/conta/login" method="post">
-
-            <?php if ($_smarty_tpl->tpl_vars['erro']->value=='') {?>
-            <div class="alert alert-success" role="alert"><strong>Atenção: </strong>Preencher todos os campos!</div>
-            <?php } else { ?>
+
+
+
+<div class="col-md-6">
+
+    <div class="jumbotron">
+        <div class="container">
+
+            <!-- h1 e p que já tínhamos -->
+            <h2>Bem-vindo a sua conta administrativa!</h2>
+            <br/>
+            <p>Informe o seu <b>ID</b> e <b>Senha</b> para ter acesso aos nossos serviços.</p><br/>
+        
+        </div>
+    </div>
+</div> 
+
+<div class="col-md-6">
+    
+    <form class="navbar-form navbar-left" role="search" action="/conta/login" method="post">
+
+            <?php if ($_smarty_tpl->tpl_vars['erro']->value=='') {?>
+            <div class="alert alert-success" role="alert"><strong>Atenção: </strong>Preencher todos os campos!</div>
+            <?php } else { ?>
             <div class="alert alert-danger" role="alert"><strong>Atenção: </strong><?php echo $_smarty_tpl->tpl_vars['erro']->value;?>
-</div>
-            <?php }?>
-
-            <h2><span class="label label-default">Acessar Conta</span></h2>
-            <br/>				
-            <p>
-                    <div class="input-group">
+</div>
+            <?php }?>
+
+            <h2><span class="label label-default">Acessar Conta</span></h2>
+            <br/>				
+            <p>
+                    <div class="input-group">
                       <input type="text" class="form-control" id="login" name="login" value="<?php echo $_smarty_tpl->tpl_vars['id']->value;?>
-" autofocus="1" placeholder="Informe o seu ID"/>
-                      <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
-                    </div>
-                    <div class="input-group"><a href="/conta/nao_lembro" class="text-link">» Não lembro</a></div>			
-            </p>
-            <p>
-                    <div class="input-group">
-                     <input type="password" class="form-control" id="password" name="password"  placeholder="Senha"/>
-                      <span class="input-group-addon"><span class="glyphicon glyphicon-ok"></span></span>
-                    </div>
-                    <div class="input-group"><a href="/conta/recuperar_senha">» Esqueci ou não tenho a senha</a></div>			
-            <p>
-            <p><button type="submit" class="btn btn-primary" name="enviar">ENTRAR</button></p>
-
-            <div class="alert alert-warning" role="alert">Ainda não sou usuário <strong><span onclick="javascript:window.location='/conta/cadastro'" style="cursor: pointer;">CRIAR CONTA</span></strong></div>
-
-    </form>
-                      
-</div>	
-                      
+" autofocus="1" placeholder="Informe o seu ID"/>
+                      <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+                    </div>
+                    <div class="input-group"><a href="/conta/nao_lembro" class="text-link">» Não lembro</a></div>			
+            </p>
+            <p>
+                    <div class="input-group">
+                     <input type="password" class="form-control" id="password" name="password"  placeholder="Senha"/>
+                      <span class="input-group-addon"><span class="glyphicon glyphicon-ok"></span></span>
+                    </div>
+                    <div class="input-group"><a href="/conta/recuperar_senha">» Esqueci ou não tenho a senha</a></div>			
+            <p>
+            <p><button type="submit" class="btn btn-primary" name="enviar">ENTRAR</button></p>
+
+            <div class="alert alert-warning" role="alert">Ainda não sou usuário <strong><span onclick="javascript:window.location='/conta/cadastro'" style="cursor: pointer;">CRIAR CONTA</span></strong></div>
+
+    </form>
+                      
+</div>	
+                      
 <?php echo $_smarty_tpl->getSubTemplate ("footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 9999, null, array(), 0);?>
 <?php }} ?>

@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2015-03-25 19:28:56
+<?php /* Smarty version Smarty-3.1.19, created on 2015-03-17 21:57:04
          compiled from "/home/estil450/public_html/application/views/autenticacao.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:147652576955130c78877951-34589541%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:15590054655508a33002ca74-52461513%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '1d40273047f6b072abfa22acef9d90f93bfcfd65' => 
     array (
       0 => '/home/estil450/public_html/application/views/autenticacao.tpl',
-      1 => 1427308590,
+      1 => 1425511154,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '147652576955130c78877951-34589541',
+  'nocache_hash' => '15590054655508a33002ca74-52461513',
   'function' => 
   array (
   ),
@@ -29,9 +29,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_55130c7891bf10_93838902',
+  'unifunc' => 'content_5508a3300d67d5_94329958',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_55130c7891bf10_93838902')) {function content_55130c7891bf10_93838902($_smarty_tpl) {?><?php if ($_smarty_tpl->tpl_vars['controle']->value) {?>   
+<?php if ($_valid && !is_callable('content_5508a3300d67d5_94329958')) {function content_5508a3300d67d5_94329958($_smarty_tpl) {?><?php if ($_smarty_tpl->tpl_vars['controle']->value) {?>   
     <div class="row">       
         <div class="col-lg-12">    
             <form class="form" onsubmit="return false" method="post">
@@ -40,7 +40,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 </div>
                 <?php }?>
                 <input type="hidden" name="actionType" value="criar_conta"/>
-                <h3 class="nome" style="margin-top: 15px; margin-left: 20px; text-align: left;"><?php echo $_smarty_tpl->tpl_vars['saudacao']->value;?>
+                <h3 style="margin-top: 15px; margin-left: 20px; text-align: left;"><?php echo $_smarty_tpl->tpl_vars['saudacao']->value;?>
  <?php echo $_smarty_tpl->tpl_vars['nome']->value;?>
 !</h3>
                 <p style="margin-top: -5px; margin-left: 20px; text-align: left;">Veja como é fácil adquirir nossos produtos e serviços.</p>

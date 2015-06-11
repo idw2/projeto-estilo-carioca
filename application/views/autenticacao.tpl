@@ -6,7 +6,7 @@
                     <div class="alert alert-info" role="alert" style="font-size: 15px;">{$msg_erro}</div>
                 {/if}
                 <input type="hidden" name="actionType" value="criar_conta"/>
-                <h3 class="nome" style="margin-top: 15px; margin-left: 20px; text-align: left;">{$saudacao} {$nome}!</h3>
+                <h3 style="margin-top: 15px; margin-left: 20px; text-align: left;">{$saudacao} {$nome}!</h3>
                 <p style="margin-top: -5px; margin-left: 20px; text-align: left;">Veja como é fácil adquirir nossos produtos e serviços.</p>
                 {*                        <p><input type="text" class="form-control" style="min-width: 40%" id="email" name="email" maxlength="70" value="{$email}" placeholder="E-mail" readonly="readonly"/></p>*}
                 <p>

@@ -10,7 +10,7 @@
 <ul class="nav nav-tabs nav-tabs-2" role="tablist"> 
     <li class="active"><a href="#tabs-1" role="tab" data-toggle="tab">Cartão de <strong>crédito</strong></a></li>
     <li><a href="#tabs-2" role="tab" data-toggle="tab">Boleto <strong>bancário</strong></a></li>
-    <li><a href="#tabs-3" role="tab" data-toggle="tab"><img style="position: relative; top: 0px;" src="{$web_files}/img/assets/paypal-logo.png?v=2"></a></li>
+        {*    <li><a href="#tabs-3" role="tab" data-toggle="tab"><img style="position: relative; top: 0px;" src="{$web_files}/img/assets/paypal-logo.png?v=2"></a></li>*}
 </ul>
 <div class="tab-content">
 
@@ -20,10 +20,10 @@
         <br/>
         <form name="CieloForm" id="CieloForm" onsubmit="return false" class="form-cielo" style="display:block;max-width:450px;margin: 0 auto;text-align: left;">
 
-            <div class="alert alert-danger" role="alert">
-                <div style="margin-bottom: 3px;"><strong><u>ATENÇÃO</u></strong></div>Este produto irá finalizar em R$ <strong>1,00</strong> para homologação do sistema junto a Cielo.
+            {*            <div class="alert alert-danger" role="alert">
+            <div style="margin-bottom: 3px;"><strong><u>ATENÇÃO</u></strong></div>Este produto irá finalizar em R$ <strong>1,00</strong> para homologação do sistema junto a Cielo.
             </div>
-
+            *}
             <div id="tableCielo" style="display: block;">
                 <h2 style="margin-bottom: 45px;">
                     <img src="{$web_files}/img/cielo.jpg" alt="Cielo" title="Cielo" border="0"/>
@@ -116,30 +116,52 @@
     </div>
     <div id="tabs-2" class="tab-pane">
 
-        <div>
-            <h2 class='title-lg' style="text-align: left;">PAGAMENTO COM BOLETO 5% DE DESCONTO</h2>
+        <h2 class='title-lg' style="text-align: left;">PAGAMENTO COM BOLETO 5% DE DESCONTO</h2>
 
-            <br/>
-            <img src="{$web_files}/img/santander.png" style="" border="0" alt="Santander" title="Santander"/>
-            <br/>
-            
-            <ul>
-                <li style=" margin: 20px 0 0;">Ao clicar no botão abaixo "PAGAR COM BOLETO", você será direcionada(o) para fazer o pagamento.</li>
-                <li style=" margin: 20px 0 0;">Pagável preferêncialmente nas Casas Lotérias ou na InternetBank até a data do vencimento.</li>
-            </ul>
+        <br/>
+        <img src="{$web_files}/img/logocaixa.jpg" style="height: 40px; width: 150px;" border="0" alt="Caixa Economica Federal" title="Caixa Economica Federal"/>
+        <br/>
+        <ul>
+            <li style=" margin: 20px 0 0;">Ao clicar no botão abaixo "PAGAR COM BOLETO", você será direcionada(o) para fazer o pagamento.</li>
+            <li style=" margin: 20px 0 0;">Pagável preferêncialmente nas Casas Lotérias ou na InternetBank até a data do vencimento.</li>
+        </ul>
 
-            <br/>
-            
-            <p><button style="display:block;max-width:450px;margin: 0 auto;" type="buttom" class="btn btn-default" name="enviar" onclick="javascript:boleto('{$CLIENT_HIDDEN}', '{$CODCADASTRO}', '{$CODENDERECO}', '{$language}');">PAGAR COM BOLETO</button></p>
-            <h3 class='title-md'>Atenção para alguns detalhes:</h3>
-            <ol>
-                <li style=" margin: 20px 0 0;">Ao solicitar o pagamento com boleto a data de vencimento é gerado pelo banco emissor. Caso seja feriado ou final de semana, pague no primeiro dia útil após o vencimento</li>
-                <li style=" margin: 20px 0 0;">Esgotado o prazo de pagamento do boleto você deverá observar seus e-mails que contém explicações de como gerar a segunda via da compra</li>
-                <li style=" margin: 20px 0 0;">A identificação de pagamento do boleto não é imediata, leva de 1 a 3 Santander ou nas Casas Lotéricas, em outros bancos pode ocorrer a compensação até 5 dias úteis após a realização do pagamento.</li>
-                <li style=" margin: 20px 0 0;">Após a identificação de pagamento em nosso sistema, o seu pedido será preparado e enviado para o endereço de entrega cadastrado</li>
-            </ol>
+        <br/>
 
-        </div>
+        <p><button style="display:block;max-width:450px;margin: 0 auto;" type="buttom" class="btn btn-default" name="enviar" onclick="javascript:boleto('{$CLIENT_HIDDEN}', '{$CODCADASTRO}', '{$CODENDERECO}', '{$language}');">PAGAR COM BOLETO</button></p>
+        <h3 class='title-md'>Atenção para alguns detalhes:</h3>
+        <ol>
+            <li style=" margin: 20px 0 0;">Ao solicitar o pagamento com boleto a data de vencimento é gerado pelo banco emissor. Caso seja feriado ou final de semana, pague no primeiro dia útil após o vencimento</li>
+            <li style=" margin: 20px 0 0;">Esgotado o prazo de pagamento do boleto você deverá observar seus e-mails que contém explicações de como gerar a segunda via da compra</li>
+            <li style=" margin: 20px 0 0;">A identificação de pagamento do boleto não é imediata, leva de 1 a 3 Santander ou nas Casas Lotéricas, em outros bancos pode ocorrer a compensação até 5 dias úteis após a realização do pagamento.</li>
+            <li style=" margin: 20px 0 0;">Após a identificação de pagamento em nosso sistema, o seu pedido será preparado e enviado para o endereço de entrega cadastrado</li>
+        </ol>
+
+
+        {*<div>
+        <h2 class='title-lg' style="text-align: left;">PAGAMENTO COM BOLETO 5% DE DESCONTO</h2>
+
+        <br/>
+        <img src="{$web_files}/img/santander.png" style="" border="0" alt="Santander" title="Santander"/>
+        <br/>
+        
+        <ul>
+        <li style=" margin: 20px 0 0;">Ao clicar no botão abaixo "PAGAR COM BOLETO", você será direcionada(o) para fazer o pagamento.</li>
+        <li style=" margin: 20px 0 0;">Pagável preferêncialmente nas Casas Lotérias ou na InternetBank até a data do vencimento.</li>
+        </ul>
+
+        <br/>
+        
+        <p><button style="display:block;max-width:450px;margin: 0 auto;" type="buttom" class="btn btn-default" name="enviar" onclick="javascript:boleto('{$CLIENT_HIDDEN}', '{$CODCADASTRO}', '{$CODENDERECO}', '{$language}');">PAGAR COM BOLETO</button></p>
+        <h3 class='title-md'>Atenção para alguns detalhes:</h3>
+        <ol>
+        <li style=" margin: 20px 0 0;">Ao solicitar o pagamento com boleto a data de vencimento é gerado pelo banco emissor. Caso seja feriado ou final de semana, pague no primeiro dia útil após o vencimento</li>
+        <li style=" margin: 20px 0 0;">Esgotado o prazo de pagamento do boleto você deverá observar seus e-mails que contém explicações de como gerar a segunda via da compra</li>
+        <li style=" margin: 20px 0 0;">A identificação de pagamento do boleto não é imediata, leva de 1 a 3 Santander ou nas Casas Lotéricas, em outros bancos pode ocorrer a compensação até 5 dias úteis após a realização do pagamento.</li>
+        <li style=" margin: 20px 0 0;">Após a identificação de pagamento em nosso sistema, o seu pedido será preparado e enviado para o endereço de entrega cadastrado</li>
+        </ol>
+
+        </div>*}
     </div>
     <div id="tabs-3" class="tab-pane">
         <div class='form-group'>
@@ -151,7 +173,7 @@
         </div>
     </div>
 </div>
-            
+
 {*        </form>*}
 
 

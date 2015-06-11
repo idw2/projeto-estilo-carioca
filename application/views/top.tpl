@@ -4,16 +4,16 @@
         <div class="navbar-header">
             <a href="#" class="hamburger"><span></span></a>
             <a class="brand" href="/{$language}/">
-                <img src="https://www.estilocarioca.com.br/application/template/estilocarioca/assets/img/estilocarioca2.png" width="71" height="68">
+                <img src="http://homolog.estilocarioca.com.br/application/template/estilocarioca/assets/img/estilocarioca2.png" width="71" height="68">
             </a>
         </div>
         <nav class="navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li class="navbar-social">
-                    <a class="face" href="https://www.facebook.com/estilocarioca">
+                    <a href="https://www.facebook.com/estilocarioca">
                         <b class="entypo-facebook"></b>
                     </a>
-                    <a class="insta" href="https://instagram.com/estilocarioca/">
+                    <a href="https://instagram.com/estilocarioca/">
                         <b class="entypo-instagrem"></b>
                     </a>
                     

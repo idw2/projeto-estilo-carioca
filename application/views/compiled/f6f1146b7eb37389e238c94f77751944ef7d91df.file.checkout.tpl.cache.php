@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2015-03-25 19:28:54
+<?php /* Smarty version Smarty-3.1.19, created on 2015-03-17 21:57:03
          compiled from "/home/estil450/public_html/application/views/checkout.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:195150767555130c7676db06-07732750%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:16798008745508a32f574392-33283854%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'f6f1146b7eb37389e238c94f77751944ef7d91df' => 
     array (
       0 => '/home/estil450/public_html/application/views/checkout.tpl',
-      1 => 1427307982,
+      1 => 1425673073,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '195150767555130c7676db06-07732750',
+  'nocache_hash' => '16798008745508a32f574392-33283854',
   'function' => 
   array (
   ),
@@ -38,9 +38,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_55130c76b1d401_24587742',
+  'unifunc' => 'content_5508a32f82fef0_71393098',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_55130c76b1d401_24587742')) {function content_55130c76b1d401_24587742($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ("header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 9999, null, array(), 0);?>
+<?php if ($_valid && !is_callable('content_5508a32f82fef0_71393098')) {function content_5508a32f82fef0_71393098($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ("header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 9999, null, array(), 0);?>
 
 
 <section class="section">
@@ -142,8 +142,8 @@ $_smarty_tpl->tpl_vars['lista_desejo']->_loop = true;
                                         <?php } ?> 
                                         <tr>
                                             <td colspan="10" valign="center">
-                                                <img class="presente" src="<?php echo $_smarty_tpl->tpl_vars['web_files']->value;?>
-/img/present.png" border="0" alt="Embalagem para presente" alt="Embalagem para presente"/> <strong class="txt_presente">Deseja que embale para presente?</strong> <span class="txt_presente" style="cursor: pointer; color: #8795ae; font-style: italic;" onclick="embalar_presente()"/>Clique aqui</span> <span <?php if ($_smarty_tpl->tpl_vars['embalar_presente']->value=="1") {?>class="yes"<?php } else { ?>class="yes hide"<?php }?>> &nbsp;<img src="<?php echo $_smarty_tpl->tpl_vars['web_files']->value;?>
+                                                <img src="<?php echo $_smarty_tpl->tpl_vars['web_files']->value;?>
+/img/present.png" border="0" alt="Embalagem para presente" alt="Embalagem para presente"/> <strong>Deseja que embale para presente?</strong> <span style="cursor: pointer; color: #8795ae; font-style: italic;" onclick="embalar_presente()"/>Clique aqui</span> <span <?php if ($_smarty_tpl->tpl_vars['embalar_presente']->value=="1") {?>class="yes"<?php } else { ?>class="yes hide"<?php }?>> &nbsp;<img src="<?php echo $_smarty_tpl->tpl_vars['web_files']->value;?>
 /img/yes.png" alt="OK" title="OK" border="0"/></span>
                                                 <style>
                                                     .panel-toggle{
@@ -247,7 +247,7 @@ $_smarty_tpl->tpl_vars['lista_desejo']->_loop = true;
                 <div class="row">
                     <div class="col-lg-12" style="text-align: center; margin-bottom: 7%;">
                         <hr style="position: relative; top: 18px; border-top: 5px solid #eee; width: 100%"/>
-                        <img class="lock" src="<?php echo $_smarty_tpl->tpl_vars['web_files']->value;?>
+                        <img src="<?php echo $_smarty_tpl->tpl_vars['web_files']->value;?>
 /img/Lock.png" alt="Checkout seguro"  title="Checkout seguro" border="0" style="width: 7%; position: relative; bottom: 30px; border: 8px solid #fff; border-radius: 13px;"/>
                         <h3 style="color: #8795ae;" id="checkout_seguro">CHECKOUT SEGURO</h3>
                         <div style="font-size: 22px;">TOTAL DE 4 PASSOS</div>

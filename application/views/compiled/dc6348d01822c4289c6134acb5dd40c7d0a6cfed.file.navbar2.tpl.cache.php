@@ -25,23 +25,23 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'version' => 'Smarty-3.1.19',
   'unifunc' => 'content_54fa1aa750b873_26077240',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_54fa1aa750b873_26077240')) {function content_54fa1aa750b873_26077240($_smarty_tpl) {?><?php if ($_smarty_tpl->tpl_vars['controle']->value) {?>   
-
-    <div class="row">
-        <div class="col-lg-12">
-            <ul class="nav nav-tabs nav-justified navbar-checkout" role="tablist" style="font-size: 14px">
+<?php if ($_valid && !is_callable('content_54fa1aa750b873_26077240')) {function content_54fa1aa750b873_26077240($_smarty_tpl) {?><?php if ($_smarty_tpl->tpl_vars['controle']->value) {?>   
+
+    <div class="row">
+        <div class="col-lg-12">
+            <ul class="nav nav-tabs nav-justified navbar-checkout" role="tablist" style="font-size: 14px">
                 <li <?php if ($_smarty_tpl->tpl_vars['page']->value=="meus-pedidos") {?>class="active"<?php }?>><a href="/<?php echo $_smarty_tpl->tpl_vars['language']->value;?>
-/conta/meus-pedidos/">Meus Pedidos</a></li>
+/conta/meus-pedidos/">Meus Pedidos</a></li>
                 <li <?php if ($_smarty_tpl->tpl_vars['page']->value=="meus-enderecos") {?>class="active"<?php }?>><a href="/<?php echo $_smarty_tpl->tpl_vars['language']->value;?>
-/conta/endereco/">Meus Endereços</a></li>
+/conta/endereco/">Meus Endereços</a></li>
                 <li <?php if ($_smarty_tpl->tpl_vars['page']->value=="meus-dados") {?>class="active"<?php }?>><a href="/<?php echo $_smarty_tpl->tpl_vars['language']->value;?>
-/conta/meus-dados/">Meus Dados</a></li>
+/conta/meus-dados/">Meus Dados</a></li>
                 <li <?php if ($_smarty_tpl->tpl_vars['page']->value=="wishlist") {?>class="active"<?php }?>><a href='/<?php echo $_smarty_tpl->tpl_vars['language']->value;?>
-/conta/wishlist'>Wishlist</a></li>
-                    
-            </ul>
-            
-        </div>
-    </div>
-
+/conta/wishlist'>Wishlist</a></li>
+                    
+            </ul>
+            
+        </div>
+    </div>
+
 <?php }?><?php }} ?>

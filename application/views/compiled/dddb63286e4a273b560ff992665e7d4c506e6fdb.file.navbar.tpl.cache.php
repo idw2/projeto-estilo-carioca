@@ -24,27 +24,27 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'version' => 'Smarty-3.1.19',
   'unifunc' => 'content_544a7ba51fb8e4_52789362',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_544a7ba51fb8e4_52789362')) {function content_544a7ba51fb8e4_52789362($_smarty_tpl) {?><div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-  <ul class="nav navbar-nav">
-
+<?php if ($_valid && !is_callable('content_544a7ba51fb8e4_52789362')) {function content_544a7ba51fb8e4_52789362($_smarty_tpl) {?><div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+  <ul class="nav navbar-nav">
+
     <li <?php if ($_smarty_tpl->tpl_vars['page']->value=="index") {?> class="active" <?php } else { ?> class="" <?php }?>><a href="/<?php echo $_smarty_tpl->tpl_vars['language']->value;?>
-/">Home</a></li>
+/">Home</a></li>
     <li <?php if ($_smarty_tpl->tpl_vars['page']->value=="aneis") {?> class="active" <?php } else { ?> class="" <?php }?>><a href="/<?php echo $_smarty_tpl->tpl_vars['language']->value;?>
-/aneis/">Anéis</a></li>            
+/aneis/">Anéis</a></li>            
     <li <?php if ($_smarty_tpl->tpl_vars['page']->value=="brincos") {?> class="active" <?php } else { ?> class="" <?php }?>><a href="/<?php echo $_smarty_tpl->tpl_vars['language']->value;?>
-/brincos/">Brincos</a></li>           
+/brincos/">Brincos</a></li>           
     <li <?php if ($_smarty_tpl->tpl_vars['page']->value=="colares") {?> class="active" <?php } else { ?> class="" <?php }?>><a href="/<?php echo $_smarty_tpl->tpl_vars['language']->value;?>
-/colares/">Colares</a></li>           
+/colares/">Colares</a></li>           
     <li <?php if ($_smarty_tpl->tpl_vars['page']->value=="pulseiras") {?> class="active" <?php } else { ?> class="" <?php }?>><a href="/<?php echo $_smarty_tpl->tpl_vars['language']->value;?>
-/pulseiras/">Pulseiras</a></li>                       
+/pulseiras/">Pulseiras</a></li>                       
     <li <?php if ($_smarty_tpl->tpl_vars['page']->value=="conjuntos") {?> class="active" <?php } else { ?> class="" <?php }?>><a href="/<?php echo $_smarty_tpl->tpl_vars['language']->value;?>
-/conjuntos/">Conjuntos</a></li>                       
+/conjuntos/">Conjuntos</a></li>                       
     <li <?php if ($_smarty_tpl->tpl_vars['page']->value=="promocoes") {?> class="active" <?php } else { ?> class="" <?php }?>><a href="/<?php echo $_smarty_tpl->tpl_vars['language']->value;?>
-/promocoes/">Promoções</a></li>                       
-
-  </ul>
-  <form class="navbar-form pull-right search-wrap" role="search">
-    <input type="search" class="form-control" placeholder="BUSCAR">
-    <button type="submit" class="btn eu-quero"><span class="fa fa-search"></span></button>
-  </form>  
+/promocoes/">Promoções</a></li>                       
+
+  </ul>
+  <form class="navbar-form pull-right search-wrap" role="search">
+    <input type="search" class="form-control" placeholder="BUSCAR">
+    <button type="submit" class="btn eu-quero"><span class="fa fa-search"></span></button>
+  </form>  
 </div><?php }} ?>

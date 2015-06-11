@@ -50,138 +50,138 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'unifunc' => 'content_53f27482bb4120_33744717',
   'cache_lifetime' => 120,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_53f27482bb4120_33744717')) {function content_53f27482bb4120_33744717($_smarty_tpl) {?><!DOCTYPE HTML>
-<html lang="pt-br">
-
-    <head>
-        <meta charset="UTF-8">
-        <title>Minha Concessionária | Financiamento</title>
-
-
-        <link rel="icon" type="image/vnd.microsoft.icon" href="/web-files/img/favicon.ico"/>
-        <link rel="shortcut icon" type="image/x-icon" href="/web-files/img/favicon.ico"/>
-
-        <link rel="stylesheet" href="/web-files/font-awesome-4.1.0/css/font-awesome.min.css"/>
-        <link rel="stylesheet" href="/web-files/bootstrap/css/bootstrap.css"/>
-        <link rel="stylesheet" href="/web-files/bootstrap/css/bootstrap-theme.css"/>		
-        <link rel="stylesheet" href="/web-files/css/docs.min.css"/>
-        <link rel="stylesheet" href="/web-files/css/style.css"/>
-
-        <script language="javascript" src="/web-files/js/funcoes.js"></script>
-        <script language="javascript" src="/web-files/js/jquery-2.1.1.min.js"></script>
-        <script language="javascript" src="/web-files/js/jQuery-Mask-Plugin.js"></script>
-        <script language="javascript" src="/web-files/bootstrap/js/bootstrap.js"></script>
-
-        <style>
-            html,body{
-                height: 100%;
-            }
-
-            .box-login{
-                margin-top: 25%
-            }
-            .area-restrita{
-                    margin-bottom: 4%; 
-                    display: inline-block;
-            }
-            
-            .panel-heading{
-                    color: #e9c92e; 
-                    font-family: "Arial Black", Gadget, sans-serif;
-            }
-            
-            .nav > li > a:hover, .nav > li > a:focus {
-                text-decoration: none;
-                background-color: #e9c92e; 
-                color: #395aa4;
-            }
-            
-            .nav > li > a {
-                position: relative; 
-                display: block; 
-                padding: 10px 15px; 
-                color: #fff; 
-                text-transform: uppercase; 
-            }
-            
-            .nav > li.active > a{ 
-                color: #395aa4; 
-                background: #e9c92e; 
-                text-transform: uppercase
-            }
-
-            .sidebar{
-                position: absolute;
-                top:0;
-                bottom:0;
-                left:0;
-                width: 250px;
-                background: #395aa4;
-            }
-            .content{
-                position: absolute;
-                top:0;
-                bottom:0;
-                left:250px;
-                right: 0;
-                background: #fff;
-                padding: 0 15px;
-            }
-
-            .navbar-form .search-input{
-                width: 250px;
-            }
-
-            .navbar-default {
-                border: none !important; 
-            }
-            
-            .x-label{
-                color: #5d5d5d;
-                padding: 1px 0;
-            }
-            
-            .ico-default-star, .ico-default-eye, .ico-default-trash, .ico-default-photo{
-                display: inline-block;
-                width: 25px;
-                height: 21px;
-                border-radius: 27%;
-                background: #e9c92e;
-                cursor: pointer;
-                color: #fff;
-                text-align:  center;
-                
-            }
-            
-            .ico-default-trash{
-                background: #395aa4;
-            }
-            
-            .ico-default-photo{
-                background: #2ac364;
-            }
-            
-            .ico-default-star a, .ico-default-eye a, .ico-default-trash a, .ico-default-photo a{ 
-                color: #fff;
-                text-decoration: none;
-            } 
-            
-            .ico-default-star a:hover, .ico-default-eye a:hover, .ico-default-trash a:hover, .ico-default-photo a:hover{ 
-                color: #fff;
-                text-decoration: none;
-            } 
-            
-            .ico-default-star.desative, .ico-default-eye.desative, .ico-default-trash.desative, .ico-default-photo.desative{
-                background: #ad2138;
-            }
-            
-            
-            
-            
-            
-        </style>
-
-    </head>
+<?php if ($_valid && !is_callable('content_53f27482bb4120_33744717')) {function content_53f27482bb4120_33744717($_smarty_tpl) {?><!DOCTYPE HTML>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Minha Concessionária | Financiamento</title>
+
+
+        <link rel="icon" type="image/vnd.microsoft.icon" href="/web-files/img/favicon.ico"/>
+        <link rel="shortcut icon" type="image/x-icon" href="/web-files/img/favicon.ico"/>
+
+        <link rel="stylesheet" href="/web-files/font-awesome-4.1.0/css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="/web-files/bootstrap/css/bootstrap.css"/>
+        <link rel="stylesheet" href="/web-files/bootstrap/css/bootstrap-theme.css"/>		
+        <link rel="stylesheet" href="/web-files/css/docs.min.css"/>
+        <link rel="stylesheet" href="/web-files/css/style.css"/>
+
+        <script language="javascript" src="/web-files/js/funcoes.js"></script>
+        <script language="javascript" src="/web-files/js/jquery-2.1.1.min.js"></script>
+        <script language="javascript" src="/web-files/js/jQuery-Mask-Plugin.js"></script>
+        <script language="javascript" src="/web-files/bootstrap/js/bootstrap.js"></script>
+
+        <style>
+            html,body{
+                height: 100%;
+            }
+
+            .box-login{
+                margin-top: 25%
+            }
+            .area-restrita{
+                    margin-bottom: 4%; 
+                    display: inline-block;
+            }
+            
+            .panel-heading{
+                    color: #e9c92e; 
+                    font-family: "Arial Black", Gadget, sans-serif;
+            }
+            
+            .nav > li > a:hover, .nav > li > a:focus {
+                text-decoration: none;
+                background-color: #e9c92e; 
+                color: #395aa4;
+            }
+            
+            .nav > li > a {
+                position: relative; 
+                display: block; 
+                padding: 10px 15px; 
+                color: #fff; 
+                text-transform: uppercase; 
+            }
+            
+            .nav > li.active > a{ 
+                color: #395aa4; 
+                background: #e9c92e; 
+                text-transform: uppercase
+            }
+
+            .sidebar{
+                position: absolute;
+                top:0;
+                bottom:0;
+                left:0;
+                width: 250px;
+                background: #395aa4;
+            }
+            .content{
+                position: absolute;
+                top:0;
+                bottom:0;
+                left:250px;
+                right: 0;
+                background: #fff;
+                padding: 0 15px;
+            }
+
+            .navbar-form .search-input{
+                width: 250px;
+            }
+
+            .navbar-default {
+                border: none !important; 
+            }
+            
+            .x-label{
+                color: #5d5d5d;
+                padding: 1px 0;
+            }
+            
+            .ico-default-star, .ico-default-eye, .ico-default-trash, .ico-default-photo{
+                display: inline-block;
+                width: 25px;
+                height: 21px;
+                border-radius: 27%;
+                background: #e9c92e;
+                cursor: pointer;
+                color: #fff;
+                text-align:  center;
+                
+            }
+            
+            .ico-default-trash{
+                background: #395aa4;
+            }
+            
+            .ico-default-photo{
+                background: #2ac364;
+            }
+            
+            .ico-default-star a, .ico-default-eye a, .ico-default-trash a, .ico-default-photo a{ 
+                color: #fff;
+                text-decoration: none;
+            } 
+            
+            .ico-default-star a:hover, .ico-default-eye a:hover, .ico-default-trash a:hover, .ico-default-photo a:hover{ 
+                color: #fff;
+                text-decoration: none;
+            } 
+            
+            .ico-default-star.desative, .ico-default-eye.desative, .ico-default-trash.desative, .ico-default-photo.desative{
+                background: #ad2138;
+            }
+            
+            
+            
+            
+            
+        </style>
+
+    </head>
     <body>
 
 <div class="sidebar">
@@ -229,10 +229,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <form class="navbar-form navbar-left" style="width: 100%" action="/en/html/financiamento" method="post">
                 <h2><span class="label label-default">Financie</span></h2>
                 <br/>
-                <p><textarea class="form-control" rows="25" style="min-width: 100%" id="conteudo" name="conteudo"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce venenatis fringilla pharetra. Integer viverra, massa non blandit tempus, erat lacus lobortis diam, a varius ante metus pellentesque leo. Sed a sodales nunc. Donec et posuere sem, a faucibus arcu. Phasellus nec justo in nibh pretium sollicitudin id ac quam. Nam pharetra mauris eget commodo hendrerit. Fusce pellentesque ac lectus sed dapibus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis quis turpis sit amet nulla mattis facilisis eu ut diam. Pellentesque ut adipiscing dui. Quisque ultrices mollis lectus ut feugiat. Vestibulum vitae ipsum nisi.</p>
-<p>Fusce scelerisque augue sit amet metus feugiat, eu euismod quam tristique. Mauris aliquet elit lectus, ac posuere turpis venenatis et. Cras commodo quis nibh nec dignissim. Nunc porta libero at lorem auctor feugiat. Vestibulum accumsan commodo tortor sit amet ullamcorper. Ut eu ultricies augue. Nam nec justo magna. Sed interdum lacus nec quam faucibus, in luctus odio vulputate. Duis sed mattis diam. In euismod non turpis non imperdiet.</p>
-<p>Donec nec eros facilisis, vulputate sem in, scelerisque diam. Vestibulum convallis porta mauris et ornare. Ut sit amet porta nunc. Proin rutrum mattis purus auctor volutpat. Nunc facilisis commodo odio, at lobortis neque dictum ut. Vivamus ac pulvinar metus. Nulla non faucibus nisl, vitae laoreet lorem. Morbi et nisi ipsum. Duis ac felis ut ante feugiat gravida. Integer malesuada vitae justo sollicitudin vestibulum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent malesuada dignissim arcu vitae consequat. Maecenas ut turpis felis. Donec vel enim et leo porttitor sollicitudin. Integer pharetra risus dolor, sit amet consectetur massa ultrices quis. Suspendisse potenti.</p>
-<p>Sed semper dignissim pellentesque. Nullam mattis lobortis mauris, ac ullamcorper dui dapibus et. Suspendisse volutpat bibendum orci, non dapibus sapien rhoncus eget. Aenean nec feugiat nisl. Morbi pretium lacus ac diam sodales, in semper enim rhoncus. Phasellus imperdiet ipsum eget aliquam lobortis. Etiam cursus, turpis aliquet tempor elementum, dolor libero eleifend velit, non congue sapien felis id magna. Vestibulum iaculis dui velit, eget dapibus eros ultrices et. Donec nec libero ac sem convallis faucibus.</p>
+                <p><textarea class="form-control" rows="25" style="min-width: 100%" id="conteudo" name="conteudo"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce venenatis fringilla pharetra. Integer viverra, massa non blandit tempus, erat lacus lobortis diam, a varius ante metus pellentesque leo. Sed a sodales nunc. Donec et posuere sem, a faucibus arcu. Phasellus nec justo in nibh pretium sollicitudin id ac quam. Nam pharetra mauris eget commodo hendrerit. Fusce pellentesque ac lectus sed dapibus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis quis turpis sit amet nulla mattis facilisis eu ut diam. Pellentesque ut adipiscing dui. Quisque ultrices mollis lectus ut feugiat. Vestibulum vitae ipsum nisi.</p>
+<p>Fusce scelerisque augue sit amet metus feugiat, eu euismod quam tristique. Mauris aliquet elit lectus, ac posuere turpis venenatis et. Cras commodo quis nibh nec dignissim. Nunc porta libero at lorem auctor feugiat. Vestibulum accumsan commodo tortor sit amet ullamcorper. Ut eu ultricies augue. Nam nec justo magna. Sed interdum lacus nec quam faucibus, in luctus odio vulputate. Duis sed mattis diam. In euismod non turpis non imperdiet.</p>
+<p>Donec nec eros facilisis, vulputate sem in, scelerisque diam. Vestibulum convallis porta mauris et ornare. Ut sit amet porta nunc. Proin rutrum mattis purus auctor volutpat. Nunc facilisis commodo odio, at lobortis neque dictum ut. Vivamus ac pulvinar metus. Nulla non faucibus nisl, vitae laoreet lorem. Morbi et nisi ipsum. Duis ac felis ut ante feugiat gravida. Integer malesuada vitae justo sollicitudin vestibulum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent malesuada dignissim arcu vitae consequat. Maecenas ut turpis felis. Donec vel enim et leo porttitor sollicitudin. Integer pharetra risus dolor, sit amet consectetur massa ultrices quis. Suspendisse potenti.</p>
+<p>Sed semper dignissim pellentesque. Nullam mattis lobortis mauris, ac ullamcorper dui dapibus et. Suspendisse volutpat bibendum orci, non dapibus sapien rhoncus eget. Aenean nec feugiat nisl. Morbi pretium lacus ac diam sodales, in semper enim rhoncus. Phasellus imperdiet ipsum eget aliquam lobortis. Etiam cursus, turpis aliquet tempor elementum, dolor libero eleifend velit, non congue sapien felis id magna. Vestibulum iaculis dui velit, eget dapibus eros ultrices et. Donec nec libero ac sem convallis faucibus.</p>
 <p>Nulla eu lacinia dui. Nam porttitor convallis libero, ac tincidunt urna accumsan ut. Cras sit amet imperdiet est. Pellentesque porttitor malesuada leo vitae egestas. Sed eget magna vel mauris consequat imperdiet et ut est. Quisque adipiscing varius odio, vel sodales justo varius sit amet. Integer vitae adipiscing purus. In eu magna at justo hendrerit lacinia. Nulla consequat mi placerat ante mattis pulvinar. Duis bibendum, libero sit amet sollicitudin iaculis, ante eros dapibus nisi, in fringilla ante leo id neque. Donec vitae urna at quam commodo vestibulum. Proin ac sagittis massa. Aenean adipiscing lacus scelerisque porttitor vulputate.</p></textarea></p>
                 <p><button type="submit" class="btn btn-primary" name="enviar">ENVIAR</button></p>
 
@@ -286,5 +286,5 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
 </script>
 
-</body>
+</body>
 </html><?php }} ?>

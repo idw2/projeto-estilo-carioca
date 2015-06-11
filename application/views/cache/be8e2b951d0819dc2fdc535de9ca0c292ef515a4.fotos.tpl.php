@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:83116639755133470dfc199-67130464%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:106981693955106198a97ec8-71354023%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -45,7 +45,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '83116639755133470dfc199-67130464',
+  'nocache_hash' => '106981693955106198a97ec8-71354023',
   'variables' => 
   array (
     'language' => 0,
@@ -71,157 +71,157 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_55133471494836_19905143',
+  'unifunc' => 'content_551061994987a3_06727781',
   'cache_lifetime' => 120,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_55133471494836_19905143')) {function content_55133471494836_19905143($_smarty_tpl) {?><!DOCTYPE HTML>
-<html lang="pt-br">
-
-    <head>
-        <meta charset="UTF-8">
-        <title>Estilo Carioca | Lista de fotos</title>
-
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-
-        <link rel="shortcut icon" href="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/img/favicon.png?v=5">
-        <link rel="shortcut icon" type="image/x-icon" href="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/img/favicon.png?v=5"/>
-
-        <link rel="stylesheet" href="/web-files/font-awesome-4.1.0/css/font-awesome.min.css"/>
-        <link rel="stylesheet" href="/web-files/bootstrap/css/bootstrap.css"/>
-        <link rel="stylesheet" href="/web-files/bootstrap/css/bootstrap-theme.css"/>		
-        <link rel="stylesheet" href="/web-files/css/docs.min.css"/>
-        <link rel="stylesheet" href="/web-files/css/style.css"/>
-
-        <script language="javascript" src="/web-files/js/funcoes.js"></script>
-        <script language="javascript" src="/web-files/js/jquery-2.1.1.min.js"></script>
-        <script language="javascript" src="/web-files/js/jQuery-Mask-Plugin.js"></script>
-        <script language="javascript" src="/web-files/bootstrap/js/bootstrap.js"></script>
-        <script language="javascript" src="/web-files/bootstrap/js/bootstrap-tooltip.js"></script>
-        <!-- Add fancyBox -->
-        <link rel="stylesheet" href="/web-files/fancyapps-fancyBox-18d1712/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
-        <script type="text/javascript" src="/web-files/fancyapps-fancyBox-18d1712/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-        <!-- Upload -->
-        <script type="text/javascript" src="/web-files/js/jquery.uploadfile.js"></script>
-        <link rel="stylesheet" href="/web-files/css/uploadfile.css" type="text/css" media="screen" />
-        <!-- JQuery UI -->
-        <script type="text/javascript" src="/web-files/jquery-ui-1.11.1.custom/jquery-ui.js"></script>
-        <link rel="stylesheet" href="/web-files/jquery-ui-1.11.1.custom/jquery-ui.css"/>
-        <link rel="stylesheet" href="/web-files/jquery-ui-1.11.1.custom/jquery-ui.structure.css"/>
-        <link rel="stylesheet" href="/web-files/jquery-ui-1.11.1.custom/jquery-ui.theme.css"/>
-        <!-- Drag -->
-        <script type="text/javascript" src="/web-files/js/jquery-sortable.js"></script>
-        <!-- PLUGIN CROP -->
-        <link rel="stylesheet" href="/web-files/crop/cropper.css" type="text/css" media="screen" />
-        <script type="text/javascript" src="/web-files/crop/cropper.js"></script>
-        <script type="text/javascript" src="/web-files/js/highlight.min.js"></script>
-        <script type="text/javascript" src="/web-files/js/jquery.tablednd.0.7.js"></script>
-        <script type="text/javascript" src="/web-files/js/default.js"></script>
-
-        <!-- //COLOR PICKER BOOTSTRAP// -->
-        <link href="/web-files/bootstrap-colorpicker-master/dist/css/bootstrap-colorpicker.min.css" rel="stylesheet">
-        <link href="/web-files/bootstrap-colorpicker-master/src/css/docs.css" rel="stylesheet">
-        
-                    <!-- //CSS DO TEMA RESPONSIVO EM BOOTSTRAP -->
-            <link href="/web-files/startbootstrap-sb-admin-1.0.2/css/sb-admin.css" rel="stylesheet">
-            <link href="/web-files/startbootstrap-sb-admin-1.0.2/css/plugins/morris.css" rel="stylesheet">
-        
-
-        <script type="text/javascript">
-            if (window.hljs) {
-                hljs.tabReplace = '    ';
-                hljs.initHighlightingOnLoad();
-            }
-        </script>
-
-        <style>
-            
-            .ico-default-trophy, .ico-default-dolar, .ico-default-heart, .ico-default-star, .ico-default-eye, .ico-default-trash, .ico-default-photo, .ico-default-edit{
-                display: inline-block;
-                width: 32px;
-                height: 29px;
-                border-radius: 50%;
-                background: #e9c92e;
-                cursor: pointer;
-                color: #fff;
-                text-align:  center;
-                font-size: 14px;
-                line-height: 26px;
-                padding: 0 0 0 1px;
-
-            }
-
-            .ico-default-trash{  background: #58595A; }
-
-            .ico-default-heart{ background: #EC8ED6; color: #fff;  border: none; }            
-            .ico-default-heart i{ color: #fff; }            
-            .ico-default-heart.desative{ background: #fff; border: 1px solid #57574b; }
-            .ico-default-heart.desative i{ color: #57574b; }
-
-            .ico-default-eye{ background: #e9c92e; color: #fff;  border: none; }            
-            .ico-default-eye i{ color: #fff; }            
-            .ico-default-eye.desative{ background: #fff; border: 1px solid #57574b; }
-            .ico-default-eye.desative i{ color: #57574b; }
-
-            .ico-default-dolar{ background: #81B4D1; color: #fff;  border: none; }            
-            .ico-default-dolar i{ color: #fff; }            
-            .ico-default-dolar.desative{ background: #fff; border: 1px solid #57574b; }
-            .ico-default-dolar.desative i{ color: #57574b; }
-
-            .ico-default-trophy{ background: #D1819B; color: #fff;  border: none; }            
-            .ico-default-trophy i{ color: #fff; }            
-            .ico-default-trophy.desative{ background: #fff; border: 1px solid #57574b; }
-            .ico-default-trophy.desative i{ color: #57574b; }
-
-            .ico-default-photo{
-                background: #395aa4;                
-            }
-
-            .ico-default-edit{
-                background: #18CAEC;
-            }
-
-            .ico-default-star{ background: #2ac364; color: #fff;  border: none; }            
-            .ico-default-star i{ color: #fff; }            
-            .ico-default-star.desative{ background: #fff; border: 1px solid #57574b; }
-            .ico-default-star.desative i{ color: #57574b; }
-
-            .ico-default-eye a, .ico-default-trash a, .ico-default-photo a, .ico-default-edit a{ 
-                color: #fff;
-                text-decoration: none;
-            } 
-
-            .ico-default-star a:hover, .ico-default-eye a:hover, .ico-default-trash a:hover, .ico-default-photo a:hover{ 
-                text-decoration: none;
-            } 
-
-            .ico-default-trash.desative, .ico-default-photo.desative{
-                background: #ad2138;
-            }
-
-
-            .aviso-balao{
-                display: inline-block;
-                padding: 3px 10px;
-                position: absolute;
-                bottom: 11px;
-                right: 13px;
-            }
-            .hidex{
-                max-height: 0;
-                overflow: hidden;
-                box-shadow: none;
-                opacity: 0;
-                margin-bottom: 0;
-            }
-            
-
-        </style>
-
-    </head>
-    <body>
-        <div id="wrapper">
-            <div id="page-wrapper">
+<?php if ($_valid && !is_callable('content_551061994987a3_06727781')) {function content_551061994987a3_06727781($_smarty_tpl) {?><!DOCTYPE HTML>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Estilo Carioca | Lista de fotos</title>
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+
+        <link rel="shortcut icon" href="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/img/favicon.png?v=5">
+        <link rel="shortcut icon" type="image/x-icon" href="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/img/favicon.png?v=5"/>
+
+        <link rel="stylesheet" href="/web-files/font-awesome-4.1.0/css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="/web-files/bootstrap/css/bootstrap.css"/>
+        <link rel="stylesheet" href="/web-files/bootstrap/css/bootstrap-theme.css"/>		
+        <link rel="stylesheet" href="/web-files/css/docs.min.css"/>
+        <link rel="stylesheet" href="/web-files/css/style.css"/>
+
+        <script language="javascript" src="/web-files/js/funcoes.js"></script>
+        <script language="javascript" src="/web-files/js/jquery-2.1.1.min.js"></script>
+        <script language="javascript" src="/web-files/js/jQuery-Mask-Plugin.js"></script>
+        <script language="javascript" src="/web-files/bootstrap/js/bootstrap.js"></script>
+        <script language="javascript" src="/web-files/bootstrap/js/bootstrap-tooltip.js"></script>
+        <!-- Add fancyBox -->
+        <link rel="stylesheet" href="/web-files/fancyapps-fancyBox-18d1712/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+        <script type="text/javascript" src="/web-files/fancyapps-fancyBox-18d1712/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+        <!-- Upload -->
+        <script type="text/javascript" src="/web-files/js/jquery.uploadfile.js"></script>
+        <link rel="stylesheet" href="/web-files/css/uploadfile.css" type="text/css" media="screen" />
+        <!-- JQuery UI -->
+        <script type="text/javascript" src="/web-files/jquery-ui-1.11.1.custom/jquery-ui.js"></script>
+        <link rel="stylesheet" href="/web-files/jquery-ui-1.11.1.custom/jquery-ui.css"/>
+        <link rel="stylesheet" href="/web-files/jquery-ui-1.11.1.custom/jquery-ui.structure.css"/>
+        <link rel="stylesheet" href="/web-files/jquery-ui-1.11.1.custom/jquery-ui.theme.css"/>
+        <!-- Drag -->
+        <script type="text/javascript" src="/web-files/js/jquery-sortable.js"></script>
+        <!-- PLUGIN CROP -->
+        <link rel="stylesheet" href="/web-files/crop/cropper.css" type="text/css" media="screen" />
+        <script type="text/javascript" src="/web-files/crop/cropper.js"></script>
+        <script type="text/javascript" src="/web-files/js/highlight.min.js"></script>
+        <script type="text/javascript" src="/web-files/js/jquery.tablednd.0.7.js"></script>
+        <script type="text/javascript" src="/web-files/js/default.js"></script>
+
+        <!-- //COLOR PICKER BOOTSTRAP// -->
+        <link href="/web-files/bootstrap-colorpicker-master/dist/css/bootstrap-colorpicker.min.css" rel="stylesheet">
+        <link href="/web-files/bootstrap-colorpicker-master/src/css/docs.css" rel="stylesheet">
+        
+                    <!-- //CSS DO TEMA RESPONSIVO EM BOOTSTRAP -->
+            <link href="/web-files/startbootstrap-sb-admin-1.0.2/css/sb-admin.css" rel="stylesheet">
+            <link href="/web-files/startbootstrap-sb-admin-1.0.2/css/plugins/morris.css" rel="stylesheet">
+        
+
+        <script type="text/javascript">
+            if (window.hljs) {
+                hljs.tabReplace = '    ';
+                hljs.initHighlightingOnLoad();
+            }
+        </script>
+
+        <style>
+            
+            .ico-default-trophy, .ico-default-dolar, .ico-default-heart, .ico-default-star, .ico-default-eye, .ico-default-trash, .ico-default-photo, .ico-default-edit{
+                display: inline-block;
+                width: 32px;
+                height: 29px;
+                border-radius: 50%;
+                background: #e9c92e;
+                cursor: pointer;
+                color: #fff;
+                text-align:  center;
+                font-size: 14px;
+                line-height: 26px;
+                padding: 0 0 0 1px;
+
+            }
+
+            .ico-default-trash{  background: #58595A; }
+
+            .ico-default-heart{ background: #EC8ED6; color: #fff;  border: none; }            
+            .ico-default-heart i{ color: #fff; }            
+            .ico-default-heart.desative{ background: #fff; border: 1px solid #57574b; }
+            .ico-default-heart.desative i{ color: #57574b; }
+
+            .ico-default-eye{ background: #e9c92e; color: #fff;  border: none; }            
+            .ico-default-eye i{ color: #fff; }            
+            .ico-default-eye.desative{ background: #fff; border: 1px solid #57574b; }
+            .ico-default-eye.desative i{ color: #57574b; }
+
+            .ico-default-dolar{ background: #81B4D1; color: #fff;  border: none; }            
+            .ico-default-dolar i{ color: #fff; }            
+            .ico-default-dolar.desative{ background: #fff; border: 1px solid #57574b; }
+            .ico-default-dolar.desative i{ color: #57574b; }
+
+            .ico-default-trophy{ background: #D1819B; color: #fff;  border: none; }            
+            .ico-default-trophy i{ color: #fff; }            
+            .ico-default-trophy.desative{ background: #fff; border: 1px solid #57574b; }
+            .ico-default-trophy.desative i{ color: #57574b; }
+
+            .ico-default-photo{
+                background: #395aa4;                
+            }
+
+            .ico-default-edit{
+                background: #18CAEC;
+            }
+
+            .ico-default-star{ background: #2ac364; color: #fff;  border: none; }            
+            .ico-default-star i{ color: #fff; }            
+            .ico-default-star.desative{ background: #fff; border: 1px solid #57574b; }
+            .ico-default-star.desative i{ color: #57574b; }
+
+            .ico-default-eye a, .ico-default-trash a, .ico-default-photo a, .ico-default-edit a{ 
+                color: #fff;
+                text-decoration: none;
+            } 
+
+            .ico-default-star a:hover, .ico-default-eye a:hover, .ico-default-trash a:hover, .ico-default-photo a:hover{ 
+                text-decoration: none;
+            } 
+
+            .ico-default-trash.desative, .ico-default-photo.desative{
+                background: #ad2138;
+            }
+
+
+            .aviso-balao{
+                display: inline-block;
+                padding: 3px 10px;
+                position: absolute;
+                bottom: 11px;
+                right: 13px;
+            }
+            .hidex{
+                max-height: 0;
+                overflow: hidden;
+                box-shadow: none;
+                opacity: 0;
+                margin-bottom: 0;
+            }
+            
+
+        </style>
+
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="page-wrapper">
                 <div class="container-fluid">
                         <style>
 
@@ -296,7 +296,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             </li>
             
             <li >
-                <a href="/en/nota-fiscal/exportar" style="position: relative;"><i class="fa fa-expand"></i> Exportar Nota Fiscal <span class="btn btn-sm btn-danger aviso-balao">17</span> </a>
+                <a href="/en/nota-fiscal/exportar" style="position: relative;"><i class="fa fa-expand"></i> Exportar Nota Fiscal <span class="btn btn-sm btn-danger aviso-balao">16</span> </a>
             </li>
             
         </ul>
@@ -365,9 +365,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         <div class="panel panel-default">
             <div class="panel-body">
                 <div class="page-header">
-                    <h1>Preview - Camisa Maculina - R$ 149,90 </h1>
+                    <h1>Preview - Camisa Mangueira - R$ 159,00 </h1>
                 </div>
-                                    <img src="/web-files/upload/thumbs/17AF3DC07BE6F1335E750E57097CA11B/2FB1B237F9602506901ACF548150717F.jpg" alt="" border="0" title="" class="img-thumbnail"/>
+                                    <img src="/web-files/upload/thumbs/D1AD4CFF68975E9DC67F746259AAE380/AD6EA553B3B9C78F94DD67FD0A14AE72.jpg" alt="" border="0" title="" class="img-thumbnail"/>
                  
             </div>
         </div>
@@ -432,9 +432,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                               
                                                     
                         
-                        <tr id="c4434a98e1aa29555d9d78ffb8e3e3c0" style="border-radius: 0;">
+                        <tr id="30e9202d4b57dcdcd41b3633cfeae2d5" style="border-radius: 0;">
                             <td>    
-                                <img src="/web-files/upload/0D48EBF389FEE12B13B22A1942F40299/AAE0D75403D127BC77BE329406DDCD13.jpg" alt="camisa_bota_mas_1.jpg" data-toggle="tooltip" title="camisa_bota_mas_1.jpg" border="0" style="width: 150px;"/>
+                                <img src="/web-files/upload/2C7799D788E37AE2C260894C53CE4A5F/135AFCE10E2CBF3915A636EAF94C97B9.jpg" alt="jr_mangueira_mas_0.jpg" data-toggle="tooltip" title="jr_mangueira_mas_0.jpg" border="0" style="width: 150px;"/>
                             </td>    
                             <td>
 
@@ -445,26 +445,26 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                 <div style="width:120px;">
                                         <b>Ordem: </b> 
                                         <div class="input-group">
-                                            <input type="text" class="form-control pNameImput" name="c4434a98e1aa29555d9d78ffb8e3e3c0" id="ORDEM_c4434a98e1aa29555d9d78ffb8e3e3c0" value="1" style="width: 120px;"/>
+                                            <input type="text" class="form-control pNameImput" name="30e9202d4b57dcdcd41b3633cfeae2d5" id="ORDEM_30e9202d4b57dcdcd41b3633cfeae2d5" value="1" style="width: 120px;"/>
                                             <span class="input-group-btn">
-                                                <span class="btn btn-default" type="button" onclick="javascript:pOrdemFotoUpdate('ORDEM_c4434a98e1aa29555d9d78ffb8e3e3c0', 'c4434a98e1aa29555d9d78ffb8e3e3c0')"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                <span class="btn btn-default" type="button" onclick="javascript:pOrdemFotoUpdate('ORDEM_30e9202d4b57dcdcd41b3633cfeae2d5', '30e9202d4b57dcdcd41b3633cfeae2d5')"><i class="glyphicon glyphicon-refresh"></i></span>
                                             </span>
                                         </div>
                                     </div>
                                 <span style="display: inline-block;">
                                     
-                                    <strong>Nome: </strong>camisa_bota_mas_1.jpg<br/>
+                                    <strong>Nome: </strong>jr_mangueira_mas_0.jpg<br/>
                                     <strong>Tipo: </strong> image/jpeg<br/>
                                     <strong>Formato: </strong>.jpg<br/>
-                                    <strong>Abrir imagem em uma nova janela: </strong><a href="/web-files/upload/0D48EBF389FEE12B13B22A1942F40299/AAE0D75403D127BC77BE329406DDCD13.jpg" target="_blank" class="fa fa-camera"></a><br/>
+                                    <strong>Abrir imagem em uma nova janela: </strong><a href="/web-files/upload/2C7799D788E37AE2C260894C53CE4A5F/135AFCE10E2CBF3915A636EAF94C97B9.jpg" target="_blank" class="fa fa-camera"></a><br/>
                                 </span>
                             </td>    
 
                             <td>
                                 <span style="display: inline-block; margin-right: 10px">
 
-                                    <a href="/en/produtos/foto_destaque/url/camisa-maculina/codfoto/c4434a98e1aa29555d9d78ffb8e3e3c0"><span class="ico-default-star " data-toggle="tooltip" title="Destaque"><i class="fa fa-star"></i></span></a>
-                                    <a href="/en/produtos/foto_status/status/0/url/camisa-maculina/codfoto/c4434a98e1aa29555d9d78ffb8e3e3c0"><span class="ico-default-eye " data-toggle="tooltip" title="Status"><i class="fa fa-eye"></i></span></a>
+                                    <a href="/en/produtos/foto_destaque/url/camisa-mangueira/codfoto/30e9202d4b57dcdcd41b3633cfeae2d5"><span class="ico-default-star " data-toggle="tooltip" title="Destaque"><i class="fa fa-star"></i></span></a>
+                                    <a href="/en/produtos/foto_status/status/0/url/camisa-mangueira/codfoto/30e9202d4b57dcdcd41b3633cfeae2d5"><span class="ico-default-eye " data-toggle="tooltip" title="Status"><i class="fa fa-eye"></i></span></a>
                                     <a href="#crop_1" class="fancybox-crop" data-id="1" onclick="javascript:getCrop('crop_1');"><span class="ico-default-edit" data-toggle="tooltip" title="Crop"><i class="fa fa-crop"></i></span></a>
                                     <div id="crop_1" style="display: none !important; display: inline-block;">
                                         <form method='post' id='FormSendImage_1' onsubmit='return false' enctype='multipart/form-data'>   
@@ -493,7 +493,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
                                             <div class="panel panel-default show_crop_1_1">
                                                 <div class="panel-body pn1_crop_1">
-                                                    <img class='crop_1_preview_1' src='/web-files/upload/0D48EBF389FEE12B13B22A1942F40299/AAE0D75403D127BC77BE329406DDCD13.jpg' alt='Preview' title='Preview' border='0'/>
+                                                    <img class='crop_1_preview_1' src='/web-files/upload/2C7799D788E37AE2C260894C53CE4A5F/135AFCE10E2CBF3915A636EAF94C97B9.jpg' alt='Preview' title='Preview' border='0'/>
                                                 </div>
                                                 <br/>
                                                 <div class="panel-footer" style="text-align: right;">
@@ -503,7 +503,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                                         </div>
                                                         <div class="col-md-6" style="text-align: right;">
                                                             <span class="LoaderCrop hide"><img src="/web-files/img/Loader.GIF" alt="Carregando..." title="Carregando..." border="0" style="width: 7%;"/></span>
-                                                            <a id="m-btn" onclick="release_crop('crop_1', 'crop_1_preview_1', 'c4434a98e1aa29555d9d78ffb8e3e3c0', 1, 'retrato', 'crop_1')" class="btn btn-default navbar-btn"><i class="fa fa-crop"></i> Crop</a>
+                                                            <a id="m-btn" onclick="release_crop('crop_1', 'crop_1_preview_1', '30e9202d4b57dcdcd41b3633cfeae2d5', 1, 'retrato', 'crop_1')" class="btn btn-default navbar-btn"><i class="fa fa-crop"></i> Crop</a>
 
                                                             
 
@@ -515,7 +515,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
                                             <div class="panel panel-default show_crop_1_2 hidex">  
                                                 <div class="panel-body pn2_crop_1">
-                                                    <img class='crop_1_preview_2' src='/web-files/upload/0D48EBF389FEE12B13B22A1942F40299/AAE0D75403D127BC77BE329406DDCD13.jpg' alt='Preview' title='Preview' border='0'/>
+                                                    <img class='crop_1_preview_2' src='/web-files/upload/2C7799D788E37AE2C260894C53CE4A5F/135AFCE10E2CBF3915A636EAF94C97B9.jpg' alt='Preview' title='Preview' border='0'/>
                                                 </div>
                                                 <br/>
                                                 <div class="panel-footer" style="text-align: right;">
@@ -525,7 +525,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                                         </div>
                                                         <div class="col-md-6" style="text-align: right;">
                                                             <span class="LoaderCrop hide"><img src="/web-files/img/Loader.GIF" alt="Carregando..." title="Carregando..." border="0" style="width: 7%;"/></span>
-                                                            <a id="m-btn" onclick="release_crop('crop_1', 'crop_1_preview_2', 'c4434a98e1aa29555d9d78ffb8e3e3c0', 2, 'paisagem', 'crop_1')" class="btn btn-default navbar-btn"><i class="fa fa-crop"></i> Crop</a>
+                                                            <a id="m-btn" onclick="release_crop('crop_1', 'crop_1_preview_2', '30e9202d4b57dcdcd41b3633cfeae2d5', 2, 'paisagem', 'crop_1')" class="btn btn-default navbar-btn"><i class="fa fa-crop"></i> Crop</a>
 
                                                             
                                                         </div>
@@ -536,7 +536,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                         </form>                                    
 
                                     </div>                 
-                                    <a onclick="delete_foto('/en/produtos/delete_foto/url/camisa-maculina/codfoto/c4434a98e1aa29555d9d78ffb8e3e3c0')"><span class="ico-default-trash" data-toggle="tooltip" title="Excluir"><i class="fa fa-trash-o"></i></span></a>
+                                    <a onclick="delete_foto('/en/produtos/delete_foto/url/camisa-mangueira/codfoto/30e9202d4b57dcdcd41b3633cfeae2d5')"><span class="ico-default-trash" data-toggle="tooltip" title="Excluir"><i class="fa fa-trash-o"></i></span></a>
                                 </span>    
                             </td>    
                         </tr>
@@ -580,9 +580,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                               
                                                     
                         
-                        <tr id="2bec8099aa9dcf9ce761267815056f7b" style="border-radius: 0;">
+                        <tr id="65754d8c245038db6354bc2bea1e0f09" style="border-radius: 0;">
                             <td>    
-                                <img src="/web-files/upload/33A8BE9B169C6931E0A13BEAB36EFAAB/7F0C880A227F195EC8A4E1446EA627E9.jpg" alt="camisa_bota_mas_0.jpg" data-toggle="tooltip" title="camisa_bota_mas_0.jpg" border="0" style="width: 150px;"/>
+                                <img src="/web-files/upload/54C9E2125A9AC37C9755230E06A6FF11/325DD7359BB98161CDD5BF45152E8FA9.jpg" alt="jr_mangueira_mas_1.jpg" data-toggle="tooltip" title="jr_mangueira_mas_1.jpg" border="0" style="width: 150px;"/>
                             </td>    
                             <td>
 
@@ -593,26 +593,26 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                 <div style="width:120px;">
                                         <b>Ordem: </b> 
                                         <div class="input-group">
-                                            <input type="text" class="form-control pNameImput" name="2bec8099aa9dcf9ce761267815056f7b" id="ORDEM_2bec8099aa9dcf9ce761267815056f7b" value="2" style="width: 120px;"/>
+                                            <input type="text" class="form-control pNameImput" name="65754d8c245038db6354bc2bea1e0f09" id="ORDEM_65754d8c245038db6354bc2bea1e0f09" value="2" style="width: 120px;"/>
                                             <span class="input-group-btn">
-                                                <span class="btn btn-default" type="button" onclick="javascript:pOrdemFotoUpdate('ORDEM_2bec8099aa9dcf9ce761267815056f7b', '2bec8099aa9dcf9ce761267815056f7b')"><i class="glyphicon glyphicon-refresh"></i></span>
+                                                <span class="btn btn-default" type="button" onclick="javascript:pOrdemFotoUpdate('ORDEM_65754d8c245038db6354bc2bea1e0f09', '65754d8c245038db6354bc2bea1e0f09')"><i class="glyphicon glyphicon-refresh"></i></span>
                                             </span>
                                         </div>
                                     </div>
                                 <span style="display: inline-block;">
                                     
-                                    <strong>Nome: </strong>camisa_bota_mas_0.jpg<br/>
+                                    <strong>Nome: </strong>jr_mangueira_mas_1.jpg<br/>
                                     <strong>Tipo: </strong> image/jpeg<br/>
                                     <strong>Formato: </strong>.jpg<br/>
-                                    <strong>Abrir imagem em uma nova janela: </strong><a href="/web-files/upload/33A8BE9B169C6931E0A13BEAB36EFAAB/7F0C880A227F195EC8A4E1446EA627E9.jpg" target="_blank" class="fa fa-camera"></a><br/>
+                                    <strong>Abrir imagem em uma nova janela: </strong><a href="/web-files/upload/54C9E2125A9AC37C9755230E06A6FF11/325DD7359BB98161CDD5BF45152E8FA9.jpg" target="_blank" class="fa fa-camera"></a><br/>
                                 </span>
                             </td>    
 
                             <td>
                                 <span style="display: inline-block; margin-right: 10px">
 
-                                    <a href="/en/produtos/foto_destaque/url/camisa-maculina/codfoto/2bec8099aa9dcf9ce761267815056f7b"><span class="ico-default-star desative" data-toggle="tooltip" title="Destaque"><i class="fa fa-star"></i></span></a>
-                                    <a href="/en/produtos/foto_status/status/0/url/camisa-maculina/codfoto/2bec8099aa9dcf9ce761267815056f7b"><span class="ico-default-eye " data-toggle="tooltip" title="Status"><i class="fa fa-eye"></i></span></a>
+                                    <a href="/en/produtos/foto_destaque/url/camisa-mangueira/codfoto/65754d8c245038db6354bc2bea1e0f09"><span class="ico-default-star desative" data-toggle="tooltip" title="Destaque"><i class="fa fa-star"></i></span></a>
+                                    <a href="/en/produtos/foto_status/status/0/url/camisa-mangueira/codfoto/65754d8c245038db6354bc2bea1e0f09"><span class="ico-default-eye " data-toggle="tooltip" title="Status"><i class="fa fa-eye"></i></span></a>
                                     <a href="#crop_2" class="fancybox-crop" data-id="2" onclick="javascript:getCrop('crop_2');"><span class="ico-default-edit" data-toggle="tooltip" title="Crop"><i class="fa fa-crop"></i></span></a>
                                     <div id="crop_2" style="display: none !important; display: inline-block;">
                                         <form method='post' id='FormSendImage_2' onsubmit='return false' enctype='multipart/form-data'>   
@@ -641,7 +641,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
                                             <div class="panel panel-default show_crop_2_1">
                                                 <div class="panel-body pn1_crop_2">
-                                                    <img class='crop_2_preview_1' src='/web-files/upload/33A8BE9B169C6931E0A13BEAB36EFAAB/7F0C880A227F195EC8A4E1446EA627E9.jpg' alt='Preview' title='Preview' border='0'/>
+                                                    <img class='crop_2_preview_1' src='/web-files/upload/54C9E2125A9AC37C9755230E06A6FF11/325DD7359BB98161CDD5BF45152E8FA9.jpg' alt='Preview' title='Preview' border='0'/>
                                                 </div>
                                                 <br/>
                                                 <div class="panel-footer" style="text-align: right;">
@@ -651,7 +651,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                                         </div>
                                                         <div class="col-md-6" style="text-align: right;">
                                                             <span class="LoaderCrop hide"><img src="/web-files/img/Loader.GIF" alt="Carregando..." title="Carregando..." border="0" style="width: 7%;"/></span>
-                                                            <a id="m-btn" onclick="release_crop('crop_2', 'crop_2_preview_1', '2bec8099aa9dcf9ce761267815056f7b', 1, 'retrato', 'crop_2')" class="btn btn-default navbar-btn"><i class="fa fa-crop"></i> Crop</a>
+                                                            <a id="m-btn" onclick="release_crop('crop_2', 'crop_2_preview_1', '65754d8c245038db6354bc2bea1e0f09', 1, 'retrato', 'crop_2')" class="btn btn-default navbar-btn"><i class="fa fa-crop"></i> Crop</a>
 
                                                             
 
@@ -663,7 +663,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
                                             <div class="panel panel-default show_crop_2_2 hidex">  
                                                 <div class="panel-body pn2_crop_2">
-                                                    <img class='crop_2_preview_2' src='/web-files/upload/33A8BE9B169C6931E0A13BEAB36EFAAB/7F0C880A227F195EC8A4E1446EA627E9.jpg' alt='Preview' title='Preview' border='0'/>
+                                                    <img class='crop_2_preview_2' src='/web-files/upload/54C9E2125A9AC37C9755230E06A6FF11/325DD7359BB98161CDD5BF45152E8FA9.jpg' alt='Preview' title='Preview' border='0'/>
                                                 </div>
                                                 <br/>
                                                 <div class="panel-footer" style="text-align: right;">
@@ -673,7 +673,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                                         </div>
                                                         <div class="col-md-6" style="text-align: right;">
                                                             <span class="LoaderCrop hide"><img src="/web-files/img/Loader.GIF" alt="Carregando..." title="Carregando..." border="0" style="width: 7%;"/></span>
-                                                            <a id="m-btn" onclick="release_crop('crop_2', 'crop_2_preview_2', '2bec8099aa9dcf9ce761267815056f7b', 2, 'paisagem', 'crop_2')" class="btn btn-default navbar-btn"><i class="fa fa-crop"></i> Crop</a>
+                                                            <a id="m-btn" onclick="release_crop('crop_2', 'crop_2_preview_2', '65754d8c245038db6354bc2bea1e0f09', 2, 'paisagem', 'crop_2')" class="btn btn-default navbar-btn"><i class="fa fa-crop"></i> Crop</a>
 
                                                             
                                                         </div>
@@ -684,7 +684,155 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                         </form>                                    
 
                                     </div>                 
-                                    <a onclick="delete_foto('/en/produtos/delete_foto/url/camisa-maculina/codfoto/2bec8099aa9dcf9ce761267815056f7b')"><span class="ico-default-trash" data-toggle="tooltip" title="Excluir"><i class="fa fa-trash-o"></i></span></a>
+                                    <a onclick="delete_foto('/en/produtos/delete_foto/url/camisa-mangueira/codfoto/65754d8c245038db6354bc2bea1e0f09')"><span class="ico-default-trash" data-toggle="tooltip" title="Excluir"><i class="fa fa-trash-o"></i></span></a>
+                                </span>    
+                            </td>    
+                        </tr>
+
+
+                        
+                    
+                                                                                                                                                                                                                                 
+                              
+                                                                                                                                                                                                                                                             
+                              
+                                                                                                                                                                                                                                                            
+                              
+                                                                                                                                                                                                                                                             
+                              
+                                                                                                                                                                                                                                                             
+                              
+                                                                                                                                                                                                                                                             
+                              
+                                                                                                                                                                                                                                                             
+                              
+                                                                                                                                                                                                                                                            
+                              
+                                                                                                                                                                                                                                                            
+                              
+                                                                                                                                                                                                                                                            
+                              
+                                                                                                                                                                                                                                                            
+                              
+                                                                                                                                                                                                                                                            
+                              
+                                                                                                                                                                                                                                                            
+                              
+                                                                                                                                                                                                                                                            
+                                                                                                                                                                      
+                              
+                                                                                                                                                                                                                                                            
+                              
+                                                                                                                                                                                                                                                                                                                                                               
+                                
+                              
+                                                    
+                        
+                        <tr id="e0e245d5741a97216870db368be38b9d" style="border-radius: 0;">
+                            <td>    
+                                <img src="/web-files/upload/E38E2EAA38F4AE9963D8E408FA2B0E9D/F86D7AD0990E5989CF665A133FA56D7E.jpg" alt="jr_camisa_manga_2.jpg" data-toggle="tooltip" title="jr_camisa_manga_2.jpg" border="0" style="width: 150px;"/>
+                            </td>    
+                            <td>
+
+                                <!--<span style="display: inline-block; margin-right: 10px; margin-left: 10px; cursor: move; float: left;">
+                                <img src="/web-files/img/move.png" alt="Drag" data-toggle="Drag" title="Drag" border="0" style="width: 55px;"/>
+                            </span>-->
+
+                                <div style="width:120px;">
+                                        <b>Ordem: </b> 
+                                        <div class="input-group">
+                                            <input type="text" class="form-control pNameImput" name="e0e245d5741a97216870db368be38b9d" id="ORDEM_e0e245d5741a97216870db368be38b9d" value="3" style="width: 120px;"/>
+                                            <span class="input-group-btn">
+                                                <span class="btn btn-default" type="button" onclick="javascript:pOrdemFotoUpdate('ORDEM_e0e245d5741a97216870db368be38b9d', 'e0e245d5741a97216870db368be38b9d')"><i class="glyphicon glyphicon-refresh"></i></span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                <span style="display: inline-block;">
+                                    
+                                    <strong>Nome: </strong>jr_camisa_manga_2.jpg<br/>
+                                    <strong>Tipo: </strong> image/jpeg<br/>
+                                    <strong>Formato: </strong>.jpg<br/>
+                                    <strong>Abrir imagem em uma nova janela: </strong><a href="/web-files/upload/E38E2EAA38F4AE9963D8E408FA2B0E9D/F86D7AD0990E5989CF665A133FA56D7E.jpg" target="_blank" class="fa fa-camera"></a><br/>
+                                </span>
+                            </td>    
+
+                            <td>
+                                <span style="display: inline-block; margin-right: 10px">
+
+                                    <a href="/en/produtos/foto_destaque/url/camisa-mangueira/codfoto/e0e245d5741a97216870db368be38b9d"><span class="ico-default-star desative" data-toggle="tooltip" title="Destaque"><i class="fa fa-star"></i></span></a>
+                                    <a href="/en/produtos/foto_status/status/0/url/camisa-mangueira/codfoto/e0e245d5741a97216870db368be38b9d"><span class="ico-default-eye " data-toggle="tooltip" title="Status"><i class="fa fa-eye"></i></span></a>
+                                    <a href="#crop_3" class="fancybox-crop" data-id="3" onclick="javascript:getCrop('crop_3');"><span class="ico-default-edit" data-toggle="tooltip" title="Crop"><i class="fa fa-crop"></i></span></a>
+                                    <div id="crop_3" style="display: none !important; display: inline-block;">
+                                        <form method='post' id='FormSendImage_3' onsubmit='return false' enctype='multipart/form-data'>   
+
+                                            <input type="hidden" id="crop_3_dataX1_1"/>
+                                            <input type="hidden" id="crop_3_dataY1_1"/>
+                                            <input type="hidden" id="crop_3_dataX2_1"/>
+                                            <input type="hidden" id="crop_3_dataY2_1"/>
+                                            <input type="hidden" id="crop_3_dataWidth_1" />
+                                            <input type="hidden" id="crop_3_dataHeight_1"/>
+
+                                            <input type="hidden" id="crop_3_dataX1_2"/>
+                                            <input type="hidden" id="crop_3_dataY1_2"/>
+                                            <input type="hidden" id="crop_3_dataX2_2"/>
+                                            <input type="hidden" id="crop_3_dataY2_2"/>
+                                            <input type="hidden" id="crop_3_dataWidth_2" />
+                                            <input type="hidden" id="crop_3_dataHeight_2"/>
+
+                                            <input type="hidden" id="crop_3_dataX1_3"/>
+                                            <input type="hidden" id="crop_3_dataY1_3"/>
+                                            <input type="hidden" id="crop_3_dataX2_3"/>
+                                            <input type="hidden" id="crop_3_dataY2_3"/>
+                                            <input type="hidden" id="crop_3_dataWidth_3" />
+                                            <input type="hidden" id="crop_3_dataHeight_3"/>
+
+
+                                            <div class="panel panel-default show_crop_3_1">
+                                                <div class="panel-body pn1_crop_3">
+                                                    <img class='crop_3_preview_1' src='/web-files/upload/E38E2EAA38F4AE9963D8E408FA2B0E9D/F86D7AD0990E5989CF665A133FA56D7E.jpg' alt='Preview' title='Preview' border='0'/>
+                                                </div>
+                                                <br/>
+                                                <div class="panel-footer" style="text-align: right;">
+                                                    <div class="row">
+                                                        <div class="col-md-6" style="text-align: left;"> <strong>Foto: </strong> Retrato. <br/> <br/> 
+                                                            <div class="myload_crop_3"></div>
+                                                        </div>
+                                                        <div class="col-md-6" style="text-align: right;">
+                                                            <span class="LoaderCrop hide"><img src="/web-files/img/Loader.GIF" alt="Carregando..." title="Carregando..." border="0" style="width: 7%;"/></span>
+                                                            <a id="m-btn" onclick="release_crop('crop_3', 'crop_3_preview_1', 'e0e245d5741a97216870db368be38b9d', 1, 'retrato', 'crop_3')" class="btn btn-default navbar-btn"><i class="fa fa-crop"></i> Crop</a>
+
+                                                            
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>   
+
+
+                                            <div class="panel panel-default show_crop_3_2 hidex">  
+                                                <div class="panel-body pn2_crop_3">
+                                                    <img class='crop_3_preview_2' src='/web-files/upload/E38E2EAA38F4AE9963D8E408FA2B0E9D/F86D7AD0990E5989CF665A133FA56D7E.jpg' alt='Preview' title='Preview' border='0'/>
+                                                </div>
+                                                <br/>
+                                                <div class="panel-footer" style="text-align: right;">
+                                                    <div class="row">
+                                                        <div class="col-md-6" style="text-align: left;"> <strong>Foto: </strong> Paisagem.  <br/> <br/> 
+                                                            <div class="myload_crop_3"></div>
+                                                        </div>
+                                                        <div class="col-md-6" style="text-align: right;">
+                                                            <span class="LoaderCrop hide"><img src="/web-files/img/Loader.GIF" alt="Carregando..." title="Carregando..." border="0" style="width: 7%;"/></span>
+                                                            <a id="m-btn" onclick="release_crop('crop_3', 'crop_3_preview_2', 'e0e245d5741a97216870db368be38b9d', 2, 'paisagem', 'crop_3')" class="btn btn-default navbar-btn"><i class="fa fa-crop"></i> Crop</a>
+
+                                                            
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </form>                                    
+
+                                    </div>                 
+                                    <a onclick="delete_foto('/en/produtos/delete_foto/url/camisa-mangueira/codfoto/e0e245d5741a97216870db368be38b9d')"><span class="ico-default-trash" data-toggle="tooltip" title="Excluir"><i class="fa fa-trash-o"></i></span></a>
                                 </span>    
                             </td>    
                         </tr>
@@ -709,7 +857,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <div id="mulitplefileuploader">Upload</div>
-                    <input type="hidden" id="url_amigavel" value="camisa-maculina"/>
+                    <input type="hidden" id="url_amigavel" value="camisa-mangueira"/>
                 </div>
                 <div class="panel-body">
                     <div id="status"></div>
@@ -727,33 +875,33 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 </div>
 
 
-</div>
-<!-- /.container-fluid -->
-</div>
-<!-- /#page-wrapper -->
-</div>
-<!-- /#wrapper -->
-
-<script>
-    $(function() {
-        $("[data-toggle='tooltip']").tooltip();
-    });
-    
-</script>
-
-<!-- //COLOR PICKER BOOTSTRAP// -->
-
-<script src="/web-files/bootstrap-colorpicker-master/dist/js/bootstrap-colorpicker.js"></script>
-<script src="/web-files/bootstrap-colorpicker-master/src/js/docs.js"></script>
-
-<!-- //JS DO TEMA RESPONSIVO EM BOOTSTRAP// -->
-<script src="/web-files/startbootstrap-sb-admin-1.0.2/js/plugins/morris/raphael.min.js"></script>
-<script src="/web-files/startbootstrap-sb-admin-1.0.2/js/plugins/morris/morris.min.js"></script>
-<script src="/web-files/startbootstrap-sb-admin-1.0.2/js/plugins/morris/morris-data.js"></script>
-
-
-
-</body>
+</div>
+<!-- /.container-fluid -->
+</div>
+<!-- /#page-wrapper -->
+</div>
+<!-- /#wrapper -->
+
+<script>
+    $(function() {
+        $("[data-toggle='tooltip']").tooltip();
+    });
+    
+</script>
+
+<!-- //COLOR PICKER BOOTSTRAP// -->
+
+<script src="/web-files/bootstrap-colorpicker-master/dist/js/bootstrap-colorpicker.js"></script>
+<script src="/web-files/bootstrap-colorpicker-master/src/js/docs.js"></script>
+
+<!-- //JS DO TEMA RESPONSIVO EM BOOTSTRAP// -->
+<script src="/web-files/startbootstrap-sb-admin-1.0.2/js/plugins/morris/raphael.min.js"></script>
+<script src="/web-files/startbootstrap-sb-admin-1.0.2/js/plugins/morris/morris.min.js"></script>
+<script src="/web-files/startbootstrap-sb-admin-1.0.2/js/plugins/morris/morris-data.js"></script>
+
+
+
+</body>
 </html>
 
 <script>

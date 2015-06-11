@@ -24,17 +24,17 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'version' => 'Smarty-3.1.19',
   'unifunc' => 'content_543eeff9020862_08608434',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_543eeff9020862_08608434')) {function content_543eeff9020862_08608434($_smarty_tpl) {?><div class="col-lg-12">
-    <ul class="nav nav-tabs nav-justified navbar-checkout" role="tablist" style="font-size: 14px">
+<?php if ($_valid && !is_callable('content_543eeff9020862_08608434')) {function content_543eeff9020862_08608434($_smarty_tpl) {?><div class="col-lg-12">
+    <ul class="nav nav-tabs nav-justified navbar-checkout" role="tablist" style="font-size: 14px">
         <li <?php if ($_smarty_tpl->tpl_vars['page']->value=="resumo") {?>class="active"<?php }?>><a href="/<?php echo $_smarty_tpl->tpl_vars['language']->value;?>
-/produtos/checkout/">Resumo</a></li>
+/produtos/checkout/">Resumo</a></li>
         <li <?php if ($_smarty_tpl->tpl_vars['page']->value=="login") {?>class="active"<?php }?>><a href="/<?php echo $_smarty_tpl->tpl_vars['language']->value;?>
-/produtos/autenticacao/">Login</a></li>
+/produtos/autenticacao/">Login</a></li>
         <li <?php if ($_smarty_tpl->tpl_vars['page']->value=="endereco") {?>class="active"<?php }?>><a href="/<?php echo $_smarty_tpl->tpl_vars['language']->value;?>
-/produtos/endereco/">Endereço</a></li>
+/produtos/endereco/">Endereço</a></li>
         <li <?php if ($_smarty_tpl->tpl_vars['page']->value=="pagamento") {?>class="active"<?php }?>><a href='/<?php echo $_smarty_tpl->tpl_vars['language']->value;?>
-/produtos/pagamento'>Pagamento</a></li>
+/produtos/pagamento'>Pagamento</a></li>
         <li <?php if ($_smarty_tpl->tpl_vars['page']->value=="confirmacao") {?>class="active"<?php }?>><a href='/<?php echo $_smarty_tpl->tpl_vars['language']->value;?>
-/produtos/confirmacao'>Confirmação</a></li>
-    </ul>
+/produtos/confirmacao'>Confirmação</a></li>
+    </ul>
 </div><?php }} ?>

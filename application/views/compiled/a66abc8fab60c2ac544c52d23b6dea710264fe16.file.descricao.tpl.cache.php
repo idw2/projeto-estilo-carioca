@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2015-03-25 22:19:47
+<?php /* Smarty version Smarty-3.1.19, created on 2015-03-23 20:26:00
          compiled from "/home/estil450/public_html/application/views/descricao.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:211767352555133483f3be75-54334808%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1190093103551076d884ee29-78902219%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'a66abc8fab60c2ac544c52d23b6dea710264fe16' => 
     array (
       0 => '/home/estil450/public_html/application/views/descricao.tpl',
-      1 => 1427302232,
+      1 => 1426116894,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '211767352555133483f3be75-54334808',
+  'nocache_hash' => '1190093103551076d884ee29-78902219',
   'function' => 
   array (
   ),
@@ -45,9 +45,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_551334842b2923_41647959',
+  'unifunc' => 'content_551076d8c6f3f0_64846079',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_551334842b2923_41647959')) {function content_551334842b2923_41647959($_smarty_tpl) {?><?php if (!is_callable('smarty_function_counter')) include '/home/estil450/public_html/libraries/plugins/function.counter.php';
+<?php if ($_valid && !is_callable('content_551076d8c6f3f0_64846079')) {function content_551076d8c6f3f0_64846079($_smarty_tpl) {?><?php if (!is_callable('smarty_function_counter')) include '/home/estil450/public_html/libraries/plugins/function.counter.php';
 ?><?php echo $_smarty_tpl->getSubTemplate ("header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 9999, null, array(), 0);?>
 
 
@@ -97,7 +97,7 @@ $_smarty_tpl->tpl_vars['fful']->_loop = true;
 foreach ($_from as $_smarty_tpl->tpl_vars['fful']->key => $_smarty_tpl->tpl_vars['fful']->value) {
 $_smarty_tpl->tpl_vars['fful']->_loop = true;
 ?>
-                            <div class="thumb_desc" >
+                            <div style="width: 130px !important;">
                                 <img style="cursor:pointer;" width="100" height='100' src="<?php echo $_smarty_tpl->tpl_vars['fful']->value->FOTO_MD;?>
 " alt="<?php echo $_smarty_tpl->tpl_vars['nome']->value;?>
 " border="0" title="<?php echo $_smarty_tpl->tpl_vars['nome']->value;?>
@@ -173,7 +173,7 @@ $_smarty_tpl->tpl_vars['fful']->_loop = true;
                                 <tr class="datagrid">
                                     <td>
                                         <div class='label-top inline-middle'>
-                                            <select name='tamanho_0' id='tamanho_0' class='select select-loop escolha' onchange='javascript:is_disponibilidade(this.value, this.name);'>
+                                            <select name='tamanho_0' id='tamanho_0' class='select select-loop' onchange='javascript:is_disponibilidade(this.value, this.name);'>
                                                 <?php echo smarty_function_counter(array('assign'=>'i','start'=>0,'print'=>false),$_smarty_tpl);?>
 
                                                 <option value='' selected></option>
@@ -194,7 +194,7 @@ $_smarty_tpl->tpl_vars['rotulo']->_loop = true;
                                     </td>
                                     <td valign='left'>
                                         <div class='label-top inline-middle'>
-                                            <select name='quantidade_0' id='quantidade_0' class='select select-loop escolha' onchange='javascript:is_disponibilidade_row(0);'/>
+                                            <select name='quantidade_0' id='quantidade_0' class='select select-loop' onchange='javascript:is_disponibilidade_row(0);'/>
                                             <option value='' selected></option>
                                             <?php echo smarty_function_counter(array('assign'=>'i','start'=>1,'print'=>false),$_smarty_tpl);?>
 
@@ -209,7 +209,7 @@ $_smarty_tpl->tpl_vars['rotulo']->_loop = true;
                                             </select> 
                                         </div>
                                     </td>
-                                    <td id='verificar_0' style='width: 30%;'> <div class="verificar" style='line-height: 35px; color: #8795ae;'>VERIFICAR!</div> </td>
+                                    <td id='verificar_0' style='width: 30%;'> <div style='line-height: 35px; color: #8795ae;'>VERIFICAR!</div> </td>
 
                                 </tr>
                                 

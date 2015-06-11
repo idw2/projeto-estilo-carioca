@@ -1,11 +1,11 @@
-<?php /*%%SmartyHeaderCode:195150767555130c7676db06-07732750%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:16798008745508a32f574392-33283854%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'f6f1146b7eb37389e238c94f77751944ef7d91df' => 
     array (
       0 => '/home/estil450/public_html/application/views/checkout.tpl',
-      1 => 1427307982,
+      1 => 1425673073,
       2 => 'file',
     ),
     '9915484c49efae1e853c1be7aa9d8b2c159a82c4' => 
@@ -17,13 +17,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '21ad6c09fd0cb3d807b70a3f24dfe7c8b337e8c6' => 
     array (
       0 => '/home/estil450/public_html/application/views/top.tpl',
-      1 => 1427303322,
+      1 => 1426628688,
       2 => 'file',
     ),
     '176fac5985d5dc4b43edea6c0618ca1f6996d998' => 
     array (
       0 => '/home/estil450/public_html/application/views/footer.tpl',
-      1 => 1427310006,
+      1 => 1426115679,
       2 => 'file',
     ),
     'e42802b9f9225092d26556a5ec1f3ebf37f60366' => 
@@ -33,7 +33,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '195150767555130c7676db06-07732750',
+  'nocache_hash' => '16798008745508a32f574392-33283854',
   'variables' => 
   array (
     'nenhum_produto' => 0,
@@ -57,10 +57,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_55130c76ee5c06_47715672',
+  'unifunc' => 'content_5508a32fabe9e2_40012587',
   'cache_lifetime' => 120,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_55130c76ee5c06_47715672')) {function content_55130c76ee5c06_47715672($_smarty_tpl) {?><!DOCTYPE HTML>
+<?php if ($_valid && !is_callable('content_5508a32fabe9e2_40012587')) {function content_5508a32fabe9e2_40012587($_smarty_tpl) {?><!DOCTYPE HTML>
 <html lang="pt-br">
 
     <head>
@@ -140,7 +140,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                 <div class="search-popup-inner">
                     <div class="search-popup-container">
                         <div class="relative">
-                            <form class="form search-popup-form" role="search" action="/en/novos-produtos" method="post">
+                            <form class="form search-popup-form" role="search" action="/pt/novos-produtos" method="post">
                                 <input type="search" placeholder="Buscar" name="search" class="input" autocomplete="off">
                                 <button type="submit"><i class="sprite sprite-search"></i></button>
                                  
@@ -153,64 +153,63 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         </div>
 
         <section id="stt_logado_print">
-            <header id="header" class="navbar navbar-fixed-top navbar-default" role="navigation">
-    <div class="header-bar"></div>
-    <div class="container">
-        <div class="navbar-header">
-            <a href="#" class="hamburger"><span></span></a>
-            <a class="brand" href="/en/">
-                <img src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/img/estilocarioca2.png" width="71" height="68">
-            </a>
-        </div>
-        <nav class="navbar-collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li class="navbar-social">
-                    <a class="face" href="https://www.facebook.com/estilocarioca">
-                        <b class="entypo-facebook"></b>
-                    </a>
-                    <a class="insta" href="https://instagram.com/estilocarioca/">
-                        <b class="entypo-instagrem"></b>
-                    </a>
-                    
-                    <!--<a href="">
-                        <i class="sprite sprite-twitter"></i>
-                    </a>-->
-                </li>
-                <li class="navbar-search">
-                    <a href="" class="search">
-                        <i class="sprite sprite-search"></i>
-                    </a>
-                </li>
-                                    <li>
-                        <a href="/en/conta/" id="nav-login" style="display: inline-block;"> Minha conta</a>
-                    </li>
-                    <li>
-                        <a href="/en/conta/sair" id="nav-login" style="display: inline-block;">Sair</a>
-                    </li>   
-                                <li class="navbar-cart">
-                    <a href="/en/produtos/checkout/">
-                        <i class="icon sprite sprite-cart"></i>
-                        <span class="value">6</span>
-                    </a>
-                </li>
-            </ul>
-                    
-            <ul class="nav navbar-nav">
-                <li >
-                    <a href="/en/">Home</a>
-                </li>
-                <li >
-                    <a href="/en/informacoes/quem-somos">A Estilo Carioca</a>
-                </li>
-                <li >
-                    <a href="/en/junior/">Junior</a>
-                </li>
-                <li >
-                    <a href="/en/nilton-santos">Nilton Santos</a>
-                </li>
-            </ul>
-        </nav>
-    </div>
+            <header id="header" class="navbar navbar-fixed-top navbar-default" role="navigation">
+    <div class="header-bar"></div>
+    <div class="container">
+        <div class="navbar-header">
+            <a href="#" class="hamburger"><span></span></a>
+            <a class="brand" href="/pt/">
+                <img src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/img/estilocarioca2.png" width="71" height="68">
+            </a>
+        </div>
+        <nav class="navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="navbar-social">
+                    <a href="https://www.facebook.com/estilocarioca">
+                        <b class="entypo-facebook"></b>
+                    </a>
+                    <a href="https://instagram.com/estilocarioca/">
+                        <b class="entypo-instagrem"></b>
+                    </a>
+                    
+                    <!--<a href="">
+                        <i class="sprite sprite-twitter"></i>
+                    </a>-->
+                </li>
+                <li class="navbar-search">
+                    <a href="" class="search">
+                        <i class="sprite sprite-search"></i>
+                    </a>
+                </li>
+                                    <li>
+                        <a href="/pt/conta/login-cadastro/">
+                            <i class="icon sprite sprite-user"></i>
+                        </a>
+                    </li>
+                                <li class="navbar-cart">
+                    <a href="/pt/produtos/checkout/">
+                        <i class="icon sprite sprite-cart"></i>
+                        <span class="value">7</span>
+                    </a>
+                </li>
+            </ul>
+                    
+            <ul class="nav navbar-nav">
+                <li >
+                    <a href="/pt/">Home</a>
+                </li>
+                <li >
+                    <a href="/pt/informacoes/quem-somos">A Estilo Carioca</a>
+                </li>
+                <li >
+                    <a href="/pt/junior/">Junior</a>
+                </li>
+                <li >
+                    <a href="/pt/nilton-santos">Nilton Santos</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
 </header>  
         </section>
 
@@ -249,88 +248,28 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                         
                                           
                                                                                         <tr style="border-bottom: solid 2px #e7e7e7; margin-bottom: 15px;">
-                                                <td><a href="/en/descricao/categoria/junior/casaco-moletom"><img src="/web-files/upload/thumbs/53E05C2C75867DBCCE5ED527B278DA80/3E5659D1B46B46C588AE648BF735AAE9.jpg" alt="CASACO MOLETOM" title="CASACO MOLETOM" border="0"/></a><br/></td>
+                                                <td><a href="/pt/descricao/categoria/nilton-santos/camisa-masculina-2"><img src="/web-files/upload/thumbs/19EFCAF637AEBF944F3D4195714DF96C/3992902BA52B6C84B657A99CD39F09F2.jpg" alt="CAMISA MASCULINA" title="CAMISA MASCULINA" border="0"/></a><br/></td>
                                                 <td style="text-transform: uppercase;">
-                                                    CASACO MOLETOM<br/><b>Tamanho: </b> P - Pequena
+                                                    CAMISA MASCULINA<br/><b>Tamanho: </b> G - Grande
                                                                                                     </td>
-                                                <td>J-0005</td>
-                                                <td>269,90</td>
+                                                <td>NS-0001</td>
+                                                <td>129,90</td>
                                                 <td id="n_input">
                                                     <table>
                                                         <tr>
-                                                            <td><span style="cursor: pointer;" class="minus" onclick="javascript:plus_wishlist_checkout('CLIENT_HIDDEN=A36E90C7563D92E9B40F04CD13E104D6&CODPRODUTO=984A47DDA59A6362B1AD83631457C561&COMANDO=menos&CODLISTADESEJOS=DF5A2DB8EC72C05D0C6ADA1F53AFA487&imposto=0.92&CODQUANTIDADE=54C315513D5A0B2C05165BEE9F4F49FC', 'DF5A2DB8EC72C05D0C6ADA1F53AFA487');" title="Menos item"><i class="fa fa-minus-square"></i></span>&nbsp;</td>
-                                                            <td><input type="text" name="quantidade" id="input_DF5A2DB8EC72C05D0C6ADA1F53AFA487"  style="width: 44px; text-align: center;" value="1" readonly="readonly"/></td>
-                                                            <td>&nbsp;<span style="cursor: pointer;" class="plus" onclick="javascript:plus_wishlist_checkout('CLIENT_HIDDEN=A36E90C7563D92E9B40F04CD13E104D6&CODPRODUTO=984A47DDA59A6362B1AD83631457C561&COMANDO=mais&CODLISTADESEJOS=DF5A2DB8EC72C05D0C6ADA1F53AFA487&imposto=0.92&CODQUANTIDADE=54C315513D5A0B2C05165BEE9F4F49FC', 'DF5A2DB8EC72C05D0C6ADA1F53AFA487');" title="Mais item"><i class="fa fa-plus-square"></i></span></td>
+                                                            <td><span style="cursor: pointer;" class="minus" onclick="javascript:plus_wishlist_checkout('CLIENT_HIDDEN=1A9C1DAE4855AF45065535B4AA384C55&CODPRODUTO=AC495248300239DADE219113A0265587&COMANDO=menos&CODLISTADESEJOS=822DA1F5A17A1745324FEC5E51E44C27&imposto=0.92&CODQUANTIDADE=E359395E40B591BFB5145023D76ABB08', '822DA1F5A17A1745324FEC5E51E44C27');" title="Menos item"><i class="fa fa-minus-square"></i></span>&nbsp;</td>
+                                                            <td><input type="text" name="quantidade" id="input_822DA1F5A17A1745324FEC5E51E44C27"  style="width: 44px; text-align: center;" value="7" readonly="readonly"/></td>
+                                                            <td>&nbsp;<span style="cursor: pointer;" class="plus" onclick="javascript:plus_wishlist_checkout('CLIENT_HIDDEN=1A9C1DAE4855AF45065535B4AA384C55&CODPRODUTO=AC495248300239DADE219113A0265587&COMANDO=mais&CODLISTADESEJOS=822DA1F5A17A1745324FEC5E51E44C27&imposto=0.92&CODQUANTIDADE=E359395E40B591BFB5145023D76ABB08', '822DA1F5A17A1745324FEC5E51E44C27');" title="Mais item"><i class="fa fa-plus-square"></i></span></td>
                                                         </tr>
                                                     </table>                
                                                 </td>
-                                                <td  id="preco_total_produto_DF5A2DB8EC72C05D0C6ADA1F53AFA487"> 269,90</td>
-                                                <td><span onclick="javascript:del_row_wishlist('CLIENT_HIDDEN=A36E90C7563D92E9B40F04CD13E104D6&CODPRODUTO=984A47DDA59A6362B1AD83631457C561&CODQUANTIDADE=984A47DDA59A6362B1AD83631457C561&CODQUANTIDADE=54C315513D5A0B2C05165BEE9F4F49FC')"><i class="fa fa-times"></i></span></td>
-                                            </tr>
-                                          
-                                                                                        <tr style="border-bottom: solid 2px #e7e7e7; margin-bottom: 15px;">
-                                                <td><a href="/en/descricao/categoria/junior/camisa-60-anos-1"><img src="/web-files/upload/thumbs/77FD5C72D8192944A293169A5EEFCDBD/156D0FDEF94A679B9093C1629B8764D0.jpg" alt="CAMISA 60 ANOS" title="CAMISA 60 ANOS" border="0"/></a><br/></td>
-                                                <td style="text-transform: uppercase;">
-                                                    CAMISA 60 ANOS<br/><b>Tamanho: </b> P - Pequena
-                                                                                                    </td>
-                                                <td>J-0001</td>
-                                                <td>69,00</td>
-                                                <td id="n_input">
-                                                    <table>
-                                                        <tr>
-                                                            <td><span style="cursor: pointer;" class="minus" onclick="javascript:plus_wishlist_checkout('CLIENT_HIDDEN=A36E90C7563D92E9B40F04CD13E104D6&CODPRODUTO=D6035AC02FE669D1AC9FA96170F086C8&COMANDO=menos&CODLISTADESEJOS=769BF7353CF018CC3E5436121A445B17&imposto=0.92&CODQUANTIDADE=45459413067B1DF9914631C764527E91', '769BF7353CF018CC3E5436121A445B17');" title="Menos item"><i class="fa fa-minus-square"></i></span>&nbsp;</td>
-                                                            <td><input type="text" name="quantidade" id="input_769BF7353CF018CC3E5436121A445B17"  style="width: 44px; text-align: center;" value="2" readonly="readonly"/></td>
-                                                            <td>&nbsp;<span style="cursor: pointer;" class="plus" onclick="javascript:plus_wishlist_checkout('CLIENT_HIDDEN=A36E90C7563D92E9B40F04CD13E104D6&CODPRODUTO=D6035AC02FE669D1AC9FA96170F086C8&COMANDO=mais&CODLISTADESEJOS=769BF7353CF018CC3E5436121A445B17&imposto=0.92&CODQUANTIDADE=45459413067B1DF9914631C764527E91', '769BF7353CF018CC3E5436121A445B17');" title="Mais item"><i class="fa fa-plus-square"></i></span></td>
-                                                        </tr>
-                                                    </table>                
-                                                </td>
-                                                <td  id="preco_total_produto_769BF7353CF018CC3E5436121A445B17"> 138,00</td>
-                                                <td><span onclick="javascript:del_row_wishlist('CLIENT_HIDDEN=A36E90C7563D92E9B40F04CD13E104D6&CODPRODUTO=D6035AC02FE669D1AC9FA96170F086C8&CODQUANTIDADE=D6035AC02FE669D1AC9FA96170F086C8&CODQUANTIDADE=45459413067B1DF9914631C764527E91')"><i class="fa fa-times"></i></span></td>
-                                            </tr>
-                                          
-                                                                                        <tr style="border-bottom: solid 2px #e7e7e7; margin-bottom: 15px;">
-                                                <td><a href="/en/descricao/categoria/junior/baby-look"><img src="/web-files/upload/thumbs/616CDCBAC564EB9335531B53288FAF3F/FA8BFE356132835889E2A23C1AE58D70.jpg" alt="BABY LOOK" title="BABY LOOK" border="0"/></a><br/></td>
-                                                <td style="text-transform: uppercase;">
-                                                    BABY LOOK<br/><b>Tamanho: </b> M - Média
-                                                                                                    </td>
-                                                <td>J-0002</td>
-                                                <td>159,00</td>
-                                                <td id="n_input">
-                                                    <table>
-                                                        <tr>
-                                                            <td><span style="cursor: pointer;" class="minus" onclick="javascript:plus_wishlist_checkout('CLIENT_HIDDEN=A36E90C7563D92E9B40F04CD13E104D6&CODPRODUTO=2A5B5F9F7B309CC071BEE1D49CE92998&COMANDO=menos&CODLISTADESEJOS=4E0106D7B55FF3A629EF4B3DF748841F&imposto=0.92&CODQUANTIDADE=BE6A1D6217903F6D25B4D5BA2B634EDF', '4E0106D7B55FF3A629EF4B3DF748841F');" title="Menos item"><i class="fa fa-minus-square"></i></span>&nbsp;</td>
-                                                            <td><input type="text" name="quantidade" id="input_4E0106D7B55FF3A629EF4B3DF748841F"  style="width: 44px; text-align: center;" value="1" readonly="readonly"/></td>
-                                                            <td>&nbsp;<span style="cursor: pointer;" class="plus" onclick="javascript:plus_wishlist_checkout('CLIENT_HIDDEN=A36E90C7563D92E9B40F04CD13E104D6&CODPRODUTO=2A5B5F9F7B309CC071BEE1D49CE92998&COMANDO=mais&CODLISTADESEJOS=4E0106D7B55FF3A629EF4B3DF748841F&imposto=0.92&CODQUANTIDADE=BE6A1D6217903F6D25B4D5BA2B634EDF', '4E0106D7B55FF3A629EF4B3DF748841F');" title="Mais item"><i class="fa fa-plus-square"></i></span></td>
-                                                        </tr>
-                                                    </table>                
-                                                </td>
-                                                <td  id="preco_total_produto_4E0106D7B55FF3A629EF4B3DF748841F"> 159,00</td>
-                                                <td><span onclick="javascript:del_row_wishlist('CLIENT_HIDDEN=A36E90C7563D92E9B40F04CD13E104D6&CODPRODUTO=2A5B5F9F7B309CC071BEE1D49CE92998&CODQUANTIDADE=2A5B5F9F7B309CC071BEE1D49CE92998&CODQUANTIDADE=BE6A1D6217903F6D25B4D5BA2B634EDF')"><i class="fa fa-times"></i></span></td>
-                                            </tr>
-                                          
-                                                                                        <tr style="border-bottom: solid 2px #e7e7e7; margin-bottom: 15px;">
-                                                <td><a href="/en/descricao/categoria/junior/camisa-60-anos-1"><img src="/web-files/upload/thumbs/77FD5C72D8192944A293169A5EEFCDBD/156D0FDEF94A679B9093C1629B8764D0.jpg" alt="CAMISA 60 ANOS" title="CAMISA 60 ANOS" border="0"/></a><br/></td>
-                                                <td style="text-transform: uppercase;">
-                                                    CAMISA 60 ANOS<br/><b>Tamanho: </b> M - Média
-                                                                                                    </td>
-                                                <td>J-0001</td>
-                                                <td>69,00</td>
-                                                <td id="n_input">
-                                                    <table>
-                                                        <tr>
-                                                            <td><span style="cursor: pointer;" class="minus" onclick="javascript:plus_wishlist_checkout('CLIENT_HIDDEN=A36E90C7563D92E9B40F04CD13E104D6&CODPRODUTO=D6035AC02FE669D1AC9FA96170F086C8&COMANDO=menos&CODLISTADESEJOS=68C36793EBE255E2E613F64AE82FC8D0&imposto=0.92&CODQUANTIDADE=5B32BB8001295BF4F752EA400A458E41', '68C36793EBE255E2E613F64AE82FC8D0');" title="Menos item"><i class="fa fa-minus-square"></i></span>&nbsp;</td>
-                                                            <td><input type="text" name="quantidade" id="input_68C36793EBE255E2E613F64AE82FC8D0"  style="width: 44px; text-align: center;" value="2" readonly="readonly"/></td>
-                                                            <td>&nbsp;<span style="cursor: pointer;" class="plus" onclick="javascript:plus_wishlist_checkout('CLIENT_HIDDEN=A36E90C7563D92E9B40F04CD13E104D6&CODPRODUTO=D6035AC02FE669D1AC9FA96170F086C8&COMANDO=mais&CODLISTADESEJOS=68C36793EBE255E2E613F64AE82FC8D0&imposto=0.92&CODQUANTIDADE=5B32BB8001295BF4F752EA400A458E41', '68C36793EBE255E2E613F64AE82FC8D0');" title="Mais item"><i class="fa fa-plus-square"></i></span></td>
-                                                        </tr>
-                                                    </table>                
-                                                </td>
-                                                <td  id="preco_total_produto_68C36793EBE255E2E613F64AE82FC8D0"> 138,00</td>
-                                                <td><span onclick="javascript:del_row_wishlist('CLIENT_HIDDEN=A36E90C7563D92E9B40F04CD13E104D6&CODPRODUTO=D6035AC02FE669D1AC9FA96170F086C8&CODQUANTIDADE=D6035AC02FE669D1AC9FA96170F086C8&CODQUANTIDADE=5B32BB8001295BF4F752EA400A458E41')"><i class="fa fa-times"></i></span></td>
+                                                <td  id="preco_total_produto_822DA1F5A17A1745324FEC5E51E44C27"> 909,30</td>
+                                                <td><span onclick="javascript:del_row_wishlist('CLIENT_HIDDEN=1A9C1DAE4855AF45065535B4AA384C55&CODPRODUTO=AC495248300239DADE219113A0265587&CODQUANTIDADE=AC495248300239DADE219113A0265587&CODQUANTIDADE=E359395E40B591BFB5145023D76ABB08')"><i class="fa fa-times"></i></span></td>
                                             </tr>
                                          
                                         <tr>
                                             <td colspan="10" valign="center">
-                                                <img class="presente" src="/web-files/img/present.png" border="0" alt="Embalagem para presente" alt="Embalagem para presente"/> <strong class="txt_presente">Deseja que embale para presente?</strong> <span class="txt_presente" style="cursor: pointer; color: #8795ae; font-style: italic;" onclick="embalar_presente()"/>Clique aqui</span> <span class="yes"> &nbsp;<img src="/web-files/img/yes.png" alt="OK" title="OK" border="0"/></span>
+                                                <img src="/web-files/img/present.png" border="0" alt="Embalagem para presente" alt="Embalagem para presente"/> <strong>Deseja que embale para presente?</strong> <span style="cursor: pointer; color: #8795ae; font-style: italic;" onclick="embalar_presente()"/>Clique aqui</span> <span class="yes hide"> &nbsp;<img src="/web-files/img/yes.png" alt="OK" title="OK" border="0"/></span>
                                                 <style>
                                                     .panel-toggle{
                                                         background: #EFEDED;
@@ -355,7 +294,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                             <td style='width: 35%; border: 0 !important;'>
                                                 <input type="hidden" class="form-control" id="codproduto" name="codproduto" value=""/>
                                                 <input type="hidden" class="form-control" id="codcadastro" name="codcadastro" value=""/>
-                                                <input type="hidden" class="form-control" id="total_peso" name="total_peso" value="1.5"/>
+                                                <input type="hidden" class="form-control" id="total_peso" name="total_peso" value="2.1"/>
                                                 <input type="hidden" class="form-control" id="cep_remetente" name="cep_remetente" value="22780-084"/>
                                                 <input type="text" class="input" id="cep_destinatario" name="cep_destinatario" maxlength="8" value="" onkeypress="return formataCEP(event, this);" placeholder="CEP" style="width: 95%;"/>
                                             </td>
@@ -414,7 +353,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                 </div>
                 <div>
                     <ul class="list-unstyled">
-                        <li class="previous pull-left" ><a href="/en/nossos-produtos" >&larr; Continuar comprando</a></li>
+                        <li class="previous pull-left" ><a href="/pt/nossos-produtos" >&larr; Continuar comprando</a></li>
                                                         <li class="next pull-right"><a onclick="javascript:scrollToAnchor('step-1')" class="btn btn-primary">Finalizar compra &rarr;</a></li>
                                 
                                                 </ul>
@@ -422,7 +361,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                 <div class="row">
                     <div class="col-lg-12" style="text-align: center; margin-bottom: 7%;">
                         <hr style="position: relative; top: 18px; border-top: 5px solid #eee; width: 100%"/>
-                        <img class="lock" src="/web-files/img/Lock.png" alt="Checkout seguro"  title="Checkout seguro" border="0" style="width: 7%; position: relative; bottom: 30px; border: 8px solid #fff; border-radius: 13px;"/>
+                        <img src="/web-files/img/Lock.png" alt="Checkout seguro"  title="Checkout seguro" border="0" style="width: 7%; position: relative; bottom: 30px; border: 8px solid #fff; border-radius: 13px;"/>
                         <h3 style="color: #8795ae;" id="checkout_seguro">CHECKOUT SEGURO</h3>
                         <div style="font-size: 22px;">TOTAL DE 4 PASSOS</div>
                     </div>
@@ -474,7 +413,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                 <tr class="cart_total_price_product" style="font-weight: normal; display: none">
                                     <td colspan="6" style="width: 105px;">Produtos sem impostos :</td>
                                     <td class="sta-right-text" id="total_parcial">
-                                                                                    704,90    
+                                                                                    909,30    
                                                                         
                                     </td>
                                 </tr>
@@ -508,7 +447,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                         Total de Produtos:
                                     </td>
                                     <td class="sta-right-text">
-                                                                                    704,90    
+                                                                                    909,30    
                                                                         
                                     </td>
                                 </tr>
@@ -518,7 +457,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                         Quantidade:
                                     </td>
                                     <td class="sta-right-text">
-                                                                                    6 Itens                                                                         
+                                                                                    7 Itens                                                                         
                                     </td>
                                 </tr>
 
@@ -543,7 +482,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                         Total:
                                     </td>
                                     <td class="sta-right-text" id="total_geral">
-                                                                                    704,90    
+                                                                                    909,30    
                                                                         
                                     </td>
                                 </tr>
@@ -592,116 +531,116 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     </div>
 </section>
 
-<!-- FOOTER  -->
-
-
-
-<footer class="footer ">
-    <div class="container ">
-
-        <div class="row footer-content">
-            <div class="col-sm-6 col-md-3">
-                <h2 class="footer-title">LOGIN E CADASTRO</h2>
-                <ul class="list-unstyled">
-                    <li><a href="/en/conta/">Acompanhe seu pedido</a></li>
-                    <li><a href="/en/conta/login-cadastro/">Login e Cadastro</a></li>
-                </ul>
-            </div>
-            <div class="col-sm-6 col-md-3">
-                <h2 class="footer-title">ATENDIMENTO AO CLIENTE</h2>
-                <ul class="list-unstyled">
-                    <li><a href="/en/informacoes/contato">Entre em contato</a></li>
-                    <li><a href="/en/informacoes/trocas-e-devolucoes">Trocas e devoluções</a></li>
-                    <li><a href="/en/informacoes/termos-servicos">Termos de serviço</a></li>
-                </ul>
-            </div>
-            <div class="col-sm-6 col-md-3">
-                <h2 class="footer-title">SIGA A EC</h2>
-                <ul class="list-unstyled list-inline list-social">
-                    <!--<li><a href=""><i class="sprite sprite-twitter-2"></i></a></li>-->
-                    <li><a href="https://www.facebook.com/estilocarioca" target="blank"><b class="entypo-facebook"></b></a></li>
-                    <li><a href="https://instagram.com/estilocarioca/" target="blank"><b class="entypo-instagrem"></b></a></li>
-                </ul>
-            </div>
-            <div class="col-sm-6 col-md-3">
-
-                <h2 class="footer-title">FIQUE POR DENTRO DA EC</h2>
-                <form action="" method="post" class="newsletter-form ajax-form" novalidate="">
-                    <div class="form-row">
-                        <input name="nome_newsletter_2" id="nome" type="text" class="form-control" placeholder="Seu nome" required>
-                    </div>
-                    <div class="form-row">
-                        <input name="email_newsletter_2" id="email" type="text" class="form-control" placeholder="Seu e-mail" required>
-                    </div>
-                    <div class="form-row">
-                        <button type="submit" class="btn btn-default btn-block">Enviar</button>
-                    </div>
-                    <div id="erro_newsletter_2"> </div>
-                </form>
-            </div>
-        </div>
-        <hr>
-        
-        
-        <div class="row footer-bottom">
-            <div class="col-sm-6 col-sm-push-6 text-right">
-                <span class="selo-es sprite sprite-selo-es"></span>
-                <span class="cartoes sprite sprite-cartoes"></span>
-                <img src="/web-files/img/bandeiras.png" alt=""/>
-            </div>
-            <div class="col-sm-6 col-sm-pull-6">
-                <p class="copy">Desenvolvido por <span id="dl"></span></p>
-                <script type="text/javascript">
-                    var _dl = _dl || {};
-                    _dl.width = "80";
-                    _dl.color = "gray";
-                    (function () {
-                        var a = document.createElement("script");
-                        a.type = "text/javascript";
-                        a.async = !0;
-                        a.src = "//static.designlab.com.br/js/bydl.js";
-                        var b = document.getElementsByTagName("script")[0];
-                        b.parentNode.insertBefore(a, b)
-                    })();
-                </script>
-            </div>
-                    
-        </div>
-                <hr>
-                    
-                    <div class="row footer-content text-center">
-            <p style="line-height: 1.8em;font-size: 1.2rem;padding: 20px;">
-                <strong>RMGSPORT COMERCIO EIRELI - ME</strong>
-                <br>CNPJ: 21.468.076/0001-16
-                <br>&copy; Todos os direitos reservados - Rua Gazzi de Sá, nº17 - Lote 17 Quadra G , Barra da Tijuca / RJ - CEP: 22.793-210 
-                <br>Atendimento ao cliente: rodrigo@estilocarioca.com.br - 21 3326.1986
-            </p>
-        </div>
-    </div>
-</footer>                
-
-<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
-<script language="javascript" src="/web-files/js/funcoes.js"></script>
-<script src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/js/plugins/slick.min.js"></script>
-<script src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/js/plugins/jquery.raty.js"></script>
-<script src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/js/plugins/underscore-min.js"></script>
-<script src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/js/plugins/mustache.min.js"></script>
-<script src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/js/plugins/jquery.magnific-popup.min.js"></script>
-<script src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/js/scripts.js"></script>
-<script language="javascript" src="/web-files/bootstrap/js/bootstrap.js"></script>
-<script language="javascript" src="/web-files/js/jQuery-Mask-Plugin.js"></script>
-<script language="javascript" src="/web-files/js/vendor/jquery.payment.js"></script>
-<script language="javascript" src="/web-files/js/vendor/jquery.mask.min.js"></script>
-<script language="javascript" src="/web-files/js/joker.js"></script>
-<script language="javascript" src="/web-files/js/default.js"></script>
-<script language="javascript" src="/web-files/js/sweet-alert.js"></script>
-<script language="javascript" src="/web-files/js/stickyfloat.js"></script>
- <script language="javascript"> jQuery('.checkout-panel-2').stickyfloat({ duration: 0, easing:"linear",   startOffset: 60,   }); </script>
-<script src='http://cdnjs.cloudflare.com/ajax/libs/es5-shim/2.3.0/es5-shim.js'></script>
-
-
-
-</body>
+<!-- FOOTER  -->
+
+
+
+<footer class="footer ">
+    <div class="container ">
+
+        <div class="row footer-content">
+            <div class="col-sm-6 col-md-3">
+                <h2 class="footer-title">LOGIN E CADASTRO</h2>
+                <ul class="list-unstyled">
+                    <li><a href="/pt/conta/">Acompanhe seu pedido</a></li>
+                    <li><a href="/pt/conta/login-cadastro/">Login e Cadastro</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <h2 class="footer-title">ATENDIMENTO AO CLIENTE</h2>
+                <ul class="list-unstyled">
+                    <li><a href="/pt/informacoes/contato">Entre em contato</a></li>
+                    <li><a href="/pt/informacoes/trocas-e-devolucoes">Trocas e devoluções</a></li>
+                    <li><a href="/pt/informacoes/termos-servicos">Termos de serviço</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <h2 class="footer-title">SIGA A EC</h2>
+                <ul class="list-unstyled list-inline list-social">
+                    <!--<li><a href=""><i class="sprite sprite-twitter-2"></i></a></li>-->
+                    <li><a href="https://www.facebook.com/estilocarioca" target="blank"><b class="entypo-facebook"></b></a></li>
+                    <li><a href="https://instagram.com/estilocarioca/" target="blank"><b class="entypo-instagrem"></b></a></li>
+                </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+
+                <h2 class="footer-title">FIQUE POR DENTRO DA EC</h2>
+                <form action="" method="post" class="newsletter-form ajax-form" novalidate="">
+                    <div class="form-row">
+                        <input name="nome_newsletter_2" id="nome" type="text" class="form-control" placeholder="Seu nome" required>
+                    </div>
+                    <div class="form-row">
+                        <input name="email_newsletter_2" id="email" type="text" class="form-control" placeholder="Seu e-mail" required>
+                    </div>
+                    <div class="form-row">
+                        <button type="submit" class="btn btn-default btn-block">Enviar</button>
+                    </div>
+                    <div id="erro_newsletter_2"> </div>
+                </form>
+            </div>
+        </div>
+        <hr>
+        
+        
+        <div class="row footer-bottom">
+            <div class="col-sm-6 col-sm-push-6 text-right">
+                <span class="selo-es sprite sprite-selo-es"></span>
+                <span class="cartoes sprite sprite-cartoes"></span>
+                <img src="/web-files/img/bandeiras.png" alt=""/>
+            </div>
+            <div class="col-sm-6 col-sm-pull-6">
+                <p class="copy">Desenvolvido por <span id="dl"></span></p>
+                <script type="text/javascript">
+                    var _dl = _dl || {};
+                    _dl.width = "80";
+                    _dl.color = "gray";
+                    (function () {
+                        var a = document.createElement("script");
+                        a.type = "text/javascript";
+                        a.async = !0;
+                        a.src = "//static.designlab.com.br/js/bydl.js";
+                        var b = document.getElementsByTagName("script")[0];
+                        b.parentNode.insertBefore(a, b)
+                    })();
+                </script>
+            </div>
+                    
+        </div>
+                <hr>
+                    
+                    <div class="row footer-content text-center">
+            <p style="line-height: 1.8em;font-size: 1.2rem;">
+                <strong>RMGSPORT COMERCIO EIRELI - ME</strong>
+                <br>CNPJ: 21.468.076/0001-16
+                <br>&copy; Todos os direitos reservados - Rua Gazzi de Sá, nº17 - Lote 17 Quadra G , Barra da Tijuca / RJ - CEP: 22.793-210 
+                <br>Atendimento ao cliente: rodrigo@estilocarioca.com.br - 21 3326.1986
+            </p>
+        </div>
+    </div>
+</footer>                
+
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script language="javascript" src="/web-files/js/funcoes.js"></script>
+<script src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/js/plugins/slick.min.js"></script>
+<script src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/js/plugins/jquery.raty.js"></script>
+<script src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/js/plugins/underscore-min.js"></script>
+<script src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/js/plugins/mustache.min.js"></script>
+<script src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/js/plugins/jquery.magnific-popup.min.js"></script>
+<script src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/js/scripts.js"></script>
+<script language="javascript" src="/web-files/bootstrap/js/bootstrap.js"></script>
+<script language="javascript" src="/web-files/js/jQuery-Mask-Plugin.js"></script>
+<script language="javascript" src="/web-files/js/vendor/jquery.payment.js"></script>
+<script language="javascript" src="/web-files/js/vendor/jquery.mask.min.js"></script>
+<script language="javascript" src="/web-files/js/joker.js"></script>
+<script language="javascript" src="/web-files/js/default.js"></script>
+<script language="javascript" src="/web-files/js/sweet-alert.js"></script>
+<script language="javascript" src="/web-files/js/stickyfloat.js"></script>
+ <script language="javascript"> jQuery('.checkout-panel-2').stickyfloat({ duration: 0, easing:"linear",   startOffset: 60,   }); </script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/es5-shim/2.3.0/es5-shim.js'></script>
+
+
+
+</body>
 </html>
     <script>
 

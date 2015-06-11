@@ -50,70 +50,70 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'unifunc' => 'content_54ef73057f9569_90516188',
   'cache_lifetime' => 120,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_54ef73057f9569_90516188')) {function content_54ef73057f9569_90516188($_smarty_tpl) {?><!DOCTYPE HTML>
-<html lang="pt-br">
-
-    <head>
-        <meta charset="UTF-8">
-        <title>Estilo Carioca | Termos de serviço</title>
-
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-
-        <link rel="shortcut icon" href="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/img/favicon.png?v=5">
-        <link rel="shortcut icon" type="image/x-icon" href="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/img/favicon.png?v=5"/>
-
-        <link rel="stylesheet" href="/web-files/font-awesome-4.1.0/css/font-awesome.min.css"/>
-        <link rel="stylesheet" href="/web-files/bootstrap/css/bootstrap.css"/>
-        <link rel="stylesheet" href="/web-files/bootstrap/css/bootstrap-theme.css"/>		
-        <link rel="stylesheet" href="/web-files/css/docs.min.css"/>
-        <link rel="stylesheet" href="/web-files/css/style.css"/>
-
-        <script language="javascript" src="/web-files/js/funcoes.js"></script>
-        <script language="javascript" src="/web-files/js/jquery-2.1.1.min.js"></script>
-        <script language="javascript" src="/web-files/js/jQuery-Mask-Plugin.js"></script>
-        <script language="javascript" src="/web-files/bootstrap/js/bootstrap.js"></script>
-        <script language="javascript" src="/web-files/bootstrap/js/bootstrap-tooltip.js"></script>
-        <!-- Add fancyBox -->
-        <link rel="stylesheet" href="/web-files/fancyapps-fancyBox-18d1712/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
-        <script type="text/javascript" src="/web-files/fancyapps-fancyBox-18d1712/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-        <!-- Upload -->
-        <script type="text/javascript" src="/web-files/js/jquery.uploadfile.js"></script>
-        <link rel="stylesheet" href="/web-files/css/uploadfile.css" type="text/css" media="screen" />
-        <!-- JQuery UI -->
-        <script type="text/javascript" src="/web-files/jquery-ui-1.11.1.custom/jquery-ui.js"></script>
-        <link rel="stylesheet" href="/web-files/jquery-ui-1.11.1.custom/jquery-ui.css"/>
-        <link rel="stylesheet" href="/web-files/jquery-ui-1.11.1.custom/jquery-ui.structure.css"/>
-        <link rel="stylesheet" href="/web-files/jquery-ui-1.11.1.custom/jquery-ui.theme.css"/>
-        <!-- Drag -->
-        <script type="text/javascript" src="/web-files/js/jquery-sortable.js"></script>
-        <!-- PLUGIN CROP -->
-        <link rel="stylesheet" href="/web-files/crop/cropper.css" type="text/css" media="screen" />
-        <script type="text/javascript" src="/web-files/crop/cropper.js"></script>
-        <script type="text/javascript" src="/web-files/js/highlight.min.js"></script>
-        <script type="text/javascript" src="/web-files/js/jquery.tablednd.0.7.js"></script>
-        <script type="text/javascript" src="/web-files/js/default.js"></script>
-        
-        <!-- //CSS DO TEMA RESPONSIVO EM BOOTSTRAP -->
-        <link href="/web-files/startbootstrap-sb-admin-1.0.2/css/sb-admin.css" rel="stylesheet">
-        <link href="/web-files/startbootstrap-sb-admin-1.0.2/css/plugins/morris.css" rel="stylesheet">
-        
-        
-
-        <script type="text/javascript">
-            if (window.hljs) {
-                hljs.tabReplace = '    ';
-                hljs.initHighlightingOnLoad();
-            }
-        </script>
-
-        <style>
-
-
-        </style>
-
-    </head>
-    <body>
+<?php if ($_valid && !is_callable('content_54ef73057f9569_90516188')) {function content_54ef73057f9569_90516188($_smarty_tpl) {?><!DOCTYPE HTML>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Estilo Carioca | Termos de serviço</title>
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+
+        <link rel="shortcut icon" href="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/img/favicon.png?v=5">
+        <link rel="shortcut icon" type="image/x-icon" href="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/img/favicon.png?v=5"/>
+
+        <link rel="stylesheet" href="/web-files/font-awesome-4.1.0/css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="/web-files/bootstrap/css/bootstrap.css"/>
+        <link rel="stylesheet" href="/web-files/bootstrap/css/bootstrap-theme.css"/>		
+        <link rel="stylesheet" href="/web-files/css/docs.min.css"/>
+        <link rel="stylesheet" href="/web-files/css/style.css"/>
+
+        <script language="javascript" src="/web-files/js/funcoes.js"></script>
+        <script language="javascript" src="/web-files/js/jquery-2.1.1.min.js"></script>
+        <script language="javascript" src="/web-files/js/jQuery-Mask-Plugin.js"></script>
+        <script language="javascript" src="/web-files/bootstrap/js/bootstrap.js"></script>
+        <script language="javascript" src="/web-files/bootstrap/js/bootstrap-tooltip.js"></script>
+        <!-- Add fancyBox -->
+        <link rel="stylesheet" href="/web-files/fancyapps-fancyBox-18d1712/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+        <script type="text/javascript" src="/web-files/fancyapps-fancyBox-18d1712/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+        <!-- Upload -->
+        <script type="text/javascript" src="/web-files/js/jquery.uploadfile.js"></script>
+        <link rel="stylesheet" href="/web-files/css/uploadfile.css" type="text/css" media="screen" />
+        <!-- JQuery UI -->
+        <script type="text/javascript" src="/web-files/jquery-ui-1.11.1.custom/jquery-ui.js"></script>
+        <link rel="stylesheet" href="/web-files/jquery-ui-1.11.1.custom/jquery-ui.css"/>
+        <link rel="stylesheet" href="/web-files/jquery-ui-1.11.1.custom/jquery-ui.structure.css"/>
+        <link rel="stylesheet" href="/web-files/jquery-ui-1.11.1.custom/jquery-ui.theme.css"/>
+        <!-- Drag -->
+        <script type="text/javascript" src="/web-files/js/jquery-sortable.js"></script>
+        <!-- PLUGIN CROP -->
+        <link rel="stylesheet" href="/web-files/crop/cropper.css" type="text/css" media="screen" />
+        <script type="text/javascript" src="/web-files/crop/cropper.js"></script>
+        <script type="text/javascript" src="/web-files/js/highlight.min.js"></script>
+        <script type="text/javascript" src="/web-files/js/jquery.tablednd.0.7.js"></script>
+        <script type="text/javascript" src="/web-files/js/default.js"></script>
+        
+        <!-- //CSS DO TEMA RESPONSIVO EM BOOTSTRAP -->
+        <link href="/web-files/startbootstrap-sb-admin-1.0.2/css/sb-admin.css" rel="stylesheet">
+        <link href="/web-files/startbootstrap-sb-admin-1.0.2/css/plugins/morris.css" rel="stylesheet">
+        
+        
+
+        <script type="text/javascript">
+            if (window.hljs) {
+                hljs.tabReplace = '    ';
+                hljs.initHighlightingOnLoad();
+            }
+        </script>
+
+        <style>
+
+
+        </style>
+
+    </head>
+    <body>
         <div id="wrapper"><div id="page-wrapper"><div class="container-fluid">
 
 <div class="sidebar">
@@ -282,36 +282,36 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                     </div>
                 </div>
                 <br/>
-                <p><textarea class="form-control" rows="25" style="min-width: 100%" id="conteudo" name="conteudo"><h2><span>Bem-vinda &agrave; Estilo Carioca!</span></h2>
-<p><span>A presta&ccedil;&atilde;o de servi&ccedil;os da Estilo Carioca est&aacute; sujeita &agrave;s condi&ccedil;&otilde;es listadas nesta p&aacute;gina. Ao visitar o site ou comprar na Estilo Carioca, voc&ecirc; automaticamente aceita essas condi&ccedil;&otilde;es. Leia com cuidado essas condi&ccedil;&otilde;es, que detalham o que nossos usu&aacute;rios podem esperar de n&oacute;s e o que esperamos de nossos usu&aacute;rios. Ao acessar qualquer se&ccedil;&atilde;o do site, voc&ecirc; aceita o contrato vinculante e os termos estabelecidos abaixo.</span></p>
-<p><span>&nbsp;</span></p>
-<p><strong><span>SUA CONTA</span></strong></p>
-<p><span>A RMGSPORT COMERCIO EIRELI - ME&nbsp;reserva-se o direito de, &agrave; sua discri&ccedil;&atilde;o, recusar o servi&ccedil;o, encerrar contas, remover ou editar conte&uacute;do e cancelar pedidos.</span></p>
-<p><span>&nbsp;</span></p>
-<p><strong><span>Copyright</span></strong></p>
-<p><span>Todo o design do site, textos, gr&aacute;ficos, logotipos, &iacute;cones, imagens, clipes de &aacute;udio, v&iacute;deos, a sele&ccedil;&atilde;o e organiza&ccedil;&atilde;o dos mesmos s&atilde;o de propriedade da RMGSPORT COMERCIO EIRELI - ME, TODOS OS DIREITOS RESERVADOS. N&atilde;o &eacute; dada permiss&atilde;o para copiar e reproduzir para fins comerciais sem a pr&eacute;via autoriza&ccedil;&atilde;o da RMGSPORT COMERCIO EIRELI - ME. Todo o material e informa&ccedil;&atilde;o apresentados pela RMGSPORT COMERCIO EIRELI - ME&nbsp;se destina a ser utilizado para fins informativos e descri&ccedil;&atilde;o de produtos. O uso deste site est&aacute; sujeito a estes termos e condi&ccedil;&otilde;es. Este site &eacute; apenas uma loja online de artigos esportivos. Conte&uacute;do de Terceiros: RMGSPORT COMERCIO EIRELI - ME&nbsp;pode fornecer conte&uacute;do de terceiros como um servi&ccedil;o para aqueles interessados em informa&ccedil;&otilde;es. RMGSPORT COMERCIO EIRELI - ME&nbsp;n&atilde;o acompanha, aprova ou tem qualquer controle sobre qualquer conte&uacute;do de terceiro. RMGSPORT COMERCIO EIRELI - ME&nbsp;n&atilde;o garante, endossa ou aprova com precis&atilde;o ou integridade de qualquer conte&uacute;do de Terceiro conte&uacute;do. RMGSPORT COMERCIO EIRELI - ME&nbsp;n&atilde;o &eacute; respons&aacute;vel pela atualiza&ccedil;&atilde;o ou revis&atilde;o do conte&uacute;do de terceiros. Todos os links de terceiros citados no site ou no blog da RMGSPORT COMERCIO EIRELI - ME&nbsp;n&atilde;o s&atilde;o de nossa responsabilidade e n&atilde;o garantimos que o conte&uacute;do ainda esteja dispon&iacute;vel.</span></p>
-<p><span>&nbsp;</span></p>
-<p><strong><span>Responsabilidade</span></strong></p>
-<p><span>A RMGSPORT COMERCIO EIRELI - ME&nbsp;N&Atilde;O GARANTE QUE AS INFORMA&Ccedil;&Otilde;ES publicadas neste site s&atilde;o exatas, completas ou correntes. As informa&ccedil;&otilde;es sobre pre&ccedil;os e disponibilidade est&atilde;o sujeitas a altera&ccedil;&otilde;es sem aviso pr&eacute;vio. RMGSPORT COMERCIO EIRELI - ME&nbsp;N&Atilde;O SER&Aacute; RESPONS&Aacute;VEL POR DANOS DE QUALQUER TIPO DECORRENTES DE CONEX&Atilde;O COM O USO DO SITE. Este site foi criado e &eacute; controlado por RMGSPORT COMERCIO EIRELI - ME&nbsp;e reserva-se o direito de fazer mudan&ccedil;as em seu site, em sua pol&iacute;tica de privacidade e nos termos e condi&ccedil;&otilde;es a qualquer momento.</span></p>
-<p><span>Nosso dados:&nbsp;</span></p>
-<p><span>RMGSPORT COMERCIO EIRELI - ME</span></p>
-<p>CNPJ: 21.468.076/0001-16</p>
-<p><span>Rua Gazzi de S&aacute;, n&ordm;17 - Lote 17 Quadra G , Barra da Tijuca / RJ - CEP: 22.793-210</span></p>
-<p><span>Atendimento ao cliente: rodrigo@estilocarioca.com.br - 21 3326.1986</span></p>
-<p><strong><span>Informa&ccedil;&otilde;es sobre o produto</span></strong></p>
-<p><span>As descri&ccedil;&otilde;es dos produtos oferecidos pela RMGSPORT COMERCIO EIRELI - ME&nbsp;s&atilde;o as mais corretas poss&iacute;veis. Se um produto vendido pela RMGSPORT COMERCIO EIRELI - ME&nbsp;n&atilde;o corresponder &agrave; descri&ccedil;&atilde;o fornecida, solicitamos que o devolva sem uso e em perfeitas condi&ccedil;&otilde;es. Os produtos apresentados neste site podem ser encomendados e entregues somente dentro do Brasil, desde que seja uma &aacute;rea coberta pelos Correios.</span></p>
-<p><span>As refer&ecirc;ncias a produtos, servi&ccedil;os, processos ou outras informa&ccedil;&otilde;es pelo nome comercial, marca registrada, fabricante, fornecedor ou de outra forma, seja em nosso site ou em nosso blog, n&atilde;o constituem nem implicam endosso, patroc&iacute;nio ou recomenda&ccedil;&atilde;o por parte da RMGSPORT COMERCIO EIRELI - ME. Alguns produtos possuem imagens meramente ilustrativas, para que os usu&aacute;rios possam ter ideia de tamanho ou detalhes dos produtos.</span></p>
-<p><span>&nbsp;</span></p>
-<p><strong><span>Cores dos produtos</span></strong></p>
-<p><span>A RMGSPORT COMERCIO EIRELI - ME&nbsp;tenta reproduzir e exibir com precis&atilde;o as cores dos produtos, mas sabemos que as cores reais dos produtos est&atilde;o sujeitas a pequenas varia&ccedil;&otilde;es por conta do seu monitor. Cada monitor est&aacute; configurado de uma forma diferente.</span></p>
-<p><span>&nbsp;</span></p>
-<p><strong><span>Ofertas e Promo&ccedil;&otilde;es</span></strong></p>
-<p><span>As ofertas ser&atilde;o v&aacute;lidas durante determinado tempo ou enquanto houver estoque dispon&iacute;vel. Todos os produtos est&atilde;o sujeitos &agrave; disponibilidade de entrega.</span></p>
-<p><span>&nbsp;</span></p>
-<p><strong><span>Programa de prote&ccedil;&atilde;o &agrave; fraude e atividades n&atilde;o autorizadas</span></strong></p>
-<p><span>Como parte de nossos procedimentos de prote&ccedil;&atilde;o &agrave; fraude ou outros tipos de atividades n&atilde;o autorizadas, nos reservamos no direito de recusar a processar uma compra, devido &agrave; suspeita de fraude, ato il&iacute;cito, atividade ilegal ou em casos que haja suspeita de m&aacute; f&eacute;. Caso ocorra alguma suspeita, podemos rejeitar o seu pedido e cancelar a sua compra, ou o nosso Servi&ccedil;o de Atendimento ao Cliente pode entrar em contato com voc&ecirc; no n&uacute;mero de telefone ou atrav&eacute;s do e-mail fornecido para confirmar o seu pedido e solicitar documentos para comprova&ccedil;&atilde;o/aprova&ccedil;&atilde;o da titularidade do propriet&aacute;rio do cart&atilde;o. Tamb&eacute;m nos reservamos o direito de cancelar quaisquer contas, pedidos ou se recusar a enviar para determinados endere&ccedil;os, devido &agrave; suspeita de fraude, ato il&iacute;cito, atividade ilegal ou em casos que haja suspeita de m&aacute; f&eacute;. N&oacute;s tomamos essas medidas para proteger os nossos clientes, bem como nos proteger de fraude ou atividades n&atilde;o autorizadas.</span></p>
-<p><span>&nbsp;</span></p>
-<p><strong><span>Coment&aacute;rios, Sugest&otilde;es e Outros</span></strong></p>
+                <p><textarea class="form-control" rows="25" style="min-width: 100%" id="conteudo" name="conteudo"><h2><span>Bem-vinda &agrave; Estilo Carioca!</span></h2>
+<p><span>A presta&ccedil;&atilde;o de servi&ccedil;os da Estilo Carioca est&aacute; sujeita &agrave;s condi&ccedil;&otilde;es listadas nesta p&aacute;gina. Ao visitar o site ou comprar na Estilo Carioca, voc&ecirc; automaticamente aceita essas condi&ccedil;&otilde;es. Leia com cuidado essas condi&ccedil;&otilde;es, que detalham o que nossos usu&aacute;rios podem esperar de n&oacute;s e o que esperamos de nossos usu&aacute;rios. Ao acessar qualquer se&ccedil;&atilde;o do site, voc&ecirc; aceita o contrato vinculante e os termos estabelecidos abaixo.</span></p>
+<p><span>&nbsp;</span></p>
+<p><strong><span>SUA CONTA</span></strong></p>
+<p><span>A RMGSPORT COMERCIO EIRELI - ME&nbsp;reserva-se o direito de, &agrave; sua discri&ccedil;&atilde;o, recusar o servi&ccedil;o, encerrar contas, remover ou editar conte&uacute;do e cancelar pedidos.</span></p>
+<p><span>&nbsp;</span></p>
+<p><strong><span>Copyright</span></strong></p>
+<p><span>Todo o design do site, textos, gr&aacute;ficos, logotipos, &iacute;cones, imagens, clipes de &aacute;udio, v&iacute;deos, a sele&ccedil;&atilde;o e organiza&ccedil;&atilde;o dos mesmos s&atilde;o de propriedade da RMGSPORT COMERCIO EIRELI - ME, TODOS OS DIREITOS RESERVADOS. N&atilde;o &eacute; dada permiss&atilde;o para copiar e reproduzir para fins comerciais sem a pr&eacute;via autoriza&ccedil;&atilde;o da RMGSPORT COMERCIO EIRELI - ME. Todo o material e informa&ccedil;&atilde;o apresentados pela RMGSPORT COMERCIO EIRELI - ME&nbsp;se destina a ser utilizado para fins informativos e descri&ccedil;&atilde;o de produtos. O uso deste site est&aacute; sujeito a estes termos e condi&ccedil;&otilde;es. Este site &eacute; apenas uma loja online de artigos esportivos. Conte&uacute;do de Terceiros: RMGSPORT COMERCIO EIRELI - ME&nbsp;pode fornecer conte&uacute;do de terceiros como um servi&ccedil;o para aqueles interessados em informa&ccedil;&otilde;es. RMGSPORT COMERCIO EIRELI - ME&nbsp;n&atilde;o acompanha, aprova ou tem qualquer controle sobre qualquer conte&uacute;do de terceiro. RMGSPORT COMERCIO EIRELI - ME&nbsp;n&atilde;o garante, endossa ou aprova com precis&atilde;o ou integridade de qualquer conte&uacute;do de Terceiro conte&uacute;do. RMGSPORT COMERCIO EIRELI - ME&nbsp;n&atilde;o &eacute; respons&aacute;vel pela atualiza&ccedil;&atilde;o ou revis&atilde;o do conte&uacute;do de terceiros. Todos os links de terceiros citados no site ou no blog da RMGSPORT COMERCIO EIRELI - ME&nbsp;n&atilde;o s&atilde;o de nossa responsabilidade e n&atilde;o garantimos que o conte&uacute;do ainda esteja dispon&iacute;vel.</span></p>
+<p><span>&nbsp;</span></p>
+<p><strong><span>Responsabilidade</span></strong></p>
+<p><span>A RMGSPORT COMERCIO EIRELI - ME&nbsp;N&Atilde;O GARANTE QUE AS INFORMA&Ccedil;&Otilde;ES publicadas neste site s&atilde;o exatas, completas ou correntes. As informa&ccedil;&otilde;es sobre pre&ccedil;os e disponibilidade est&atilde;o sujeitas a altera&ccedil;&otilde;es sem aviso pr&eacute;vio. RMGSPORT COMERCIO EIRELI - ME&nbsp;N&Atilde;O SER&Aacute; RESPONS&Aacute;VEL POR DANOS DE QUALQUER TIPO DECORRENTES DE CONEX&Atilde;O COM O USO DO SITE. Este site foi criado e &eacute; controlado por RMGSPORT COMERCIO EIRELI - ME&nbsp;e reserva-se o direito de fazer mudan&ccedil;as em seu site, em sua pol&iacute;tica de privacidade e nos termos e condi&ccedil;&otilde;es a qualquer momento.</span></p>
+<p><span>Nosso dados:&nbsp;</span></p>
+<p><span>RMGSPORT COMERCIO EIRELI - ME</span></p>
+<p>CNPJ: 21.468.076/0001-16</p>
+<p><span>Rua Gazzi de S&aacute;, n&ordm;17 - Lote 17 Quadra G , Barra da Tijuca / RJ - CEP: 22.793-210</span></p>
+<p><span>Atendimento ao cliente: rodrigo@estilocarioca.com.br - 21 3326.1986</span></p>
+<p><strong><span>Informa&ccedil;&otilde;es sobre o produto</span></strong></p>
+<p><span>As descri&ccedil;&otilde;es dos produtos oferecidos pela RMGSPORT COMERCIO EIRELI - ME&nbsp;s&atilde;o as mais corretas poss&iacute;veis. Se um produto vendido pela RMGSPORT COMERCIO EIRELI - ME&nbsp;n&atilde;o corresponder &agrave; descri&ccedil;&atilde;o fornecida, solicitamos que o devolva sem uso e em perfeitas condi&ccedil;&otilde;es. Os produtos apresentados neste site podem ser encomendados e entregues somente dentro do Brasil, desde que seja uma &aacute;rea coberta pelos Correios.</span></p>
+<p><span>As refer&ecirc;ncias a produtos, servi&ccedil;os, processos ou outras informa&ccedil;&otilde;es pelo nome comercial, marca registrada, fabricante, fornecedor ou de outra forma, seja em nosso site ou em nosso blog, n&atilde;o constituem nem implicam endosso, patroc&iacute;nio ou recomenda&ccedil;&atilde;o por parte da RMGSPORT COMERCIO EIRELI - ME. Alguns produtos possuem imagens meramente ilustrativas, para que os usu&aacute;rios possam ter ideia de tamanho ou detalhes dos produtos.</span></p>
+<p><span>&nbsp;</span></p>
+<p><strong><span>Cores dos produtos</span></strong></p>
+<p><span>A RMGSPORT COMERCIO EIRELI - ME&nbsp;tenta reproduzir e exibir com precis&atilde;o as cores dos produtos, mas sabemos que as cores reais dos produtos est&atilde;o sujeitas a pequenas varia&ccedil;&otilde;es por conta do seu monitor. Cada monitor est&aacute; configurado de uma forma diferente.</span></p>
+<p><span>&nbsp;</span></p>
+<p><strong><span>Ofertas e Promo&ccedil;&otilde;es</span></strong></p>
+<p><span>As ofertas ser&atilde;o v&aacute;lidas durante determinado tempo ou enquanto houver estoque dispon&iacute;vel. Todos os produtos est&atilde;o sujeitos &agrave; disponibilidade de entrega.</span></p>
+<p><span>&nbsp;</span></p>
+<p><strong><span>Programa de prote&ccedil;&atilde;o &agrave; fraude e atividades n&atilde;o autorizadas</span></strong></p>
+<p><span>Como parte de nossos procedimentos de prote&ccedil;&atilde;o &agrave; fraude ou outros tipos de atividades n&atilde;o autorizadas, nos reservamos no direito de recusar a processar uma compra, devido &agrave; suspeita de fraude, ato il&iacute;cito, atividade ilegal ou em casos que haja suspeita de m&aacute; f&eacute;. Caso ocorra alguma suspeita, podemos rejeitar o seu pedido e cancelar a sua compra, ou o nosso Servi&ccedil;o de Atendimento ao Cliente pode entrar em contato com voc&ecirc; no n&uacute;mero de telefone ou atrav&eacute;s do e-mail fornecido para confirmar o seu pedido e solicitar documentos para comprova&ccedil;&atilde;o/aprova&ccedil;&atilde;o da titularidade do propriet&aacute;rio do cart&atilde;o. Tamb&eacute;m nos reservamos o direito de cancelar quaisquer contas, pedidos ou se recusar a enviar para determinados endere&ccedil;os, devido &agrave; suspeita de fraude, ato il&iacute;cito, atividade ilegal ou em casos que haja suspeita de m&aacute; f&eacute;. N&oacute;s tomamos essas medidas para proteger os nossos clientes, bem como nos proteger de fraude ou atividades n&atilde;o autorizadas.</span></p>
+<p><span>&nbsp;</span></p>
+<p><strong><span>Coment&aacute;rios, Sugest&otilde;es e Outros</span></strong></p>
 <p><span>RMGSPORT COMERCIO EIRELI - ME&nbsp;agradece seus coment&aacute;rios e feedback sobre este site, nossos produtos e servi&ccedil;os. Todas as informa&ccedil;&otilde;es, materiais, sugest&otilde;es, ideias ou coment&aacute;rios enviados para RMGSPORT COMERCIO EIRELI - ME&nbsp;n&atilde;o ser&atilde;o tratadas como confidenciais, propriet&aacute;rias ou informa&ccedil;&otilde;es sobre segredo comercial e, mediante a apresenta&ccedil;&atilde;o de tais informa&ccedil;&otilde;es, o usu&aacute;rio estar&aacute; concedendo a RMGSPORT COMERCIO EIRELI - ME&nbsp;uma licen&ccedil;a irrevog&aacute;vel e irrestrita para utilizar, modificar, reproduzir, transmitir, exibir e distribuir essas informa&ccedil;&otilde;es para qualquer finalidade. A menos que exigido por lei, a RMGSPORT COMERCIO EIRELI - ME&nbsp;n&atilde;o vai usar seu nome em conex&atilde;o com tais informa&ccedil;&otilde;es, materiais, sugest&otilde;es, ideias ou coment&aacute;rios sem o seu consentimento pr&eacute;vio por escrito.</span></p></textarea></p>
                 <p><button type="submit" class="btn btn-primary btn-primary-maria" name="enviar">ENVIAR</button></p>
 
@@ -365,28 +365,28 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
 </script>
 
- </div>
- <!-- /.container-fluid -->
- </div>
- <!-- /#page-wrapper -->
-</div>
- <!-- /#wrapper -->
-
-<script>
-    $(function() {
-        $("[data-toggle='tooltip']").tooltip();
-    });    
-    $(document).ready(function(){
-        $(".container-fluid").css("height", screen.height);
-    });
-</script>
-
-<!-- //JS DO TEMA RESPONSIVO EM BOOTSTRAP// -->
-<script src="/web-files/startbootstrap-sb-admin-1.0.2/js/plugins/morris/raphael.min.js"></script>
-<script src="/web-files/startbootstrap-sb-admin-1.0.2/js/plugins/morris/morris.min.js"></script>
-<script src="/web-files/startbootstrap-sb-admin-1.0.2/js/plugins/morris/morris-data.js"></script>
-
-
-
-</body>
+ </div>
+ <!-- /.container-fluid -->
+ </div>
+ <!-- /#page-wrapper -->
+</div>
+ <!-- /#wrapper -->
+
+<script>
+    $(function() {
+        $("[data-toggle='tooltip']").tooltip();
+    });    
+    $(document).ready(function(){
+        $(".container-fluid").css("height", screen.height);
+    });
+</script>
+
+<!-- //JS DO TEMA RESPONSIVO EM BOOTSTRAP// -->
+<script src="/web-files/startbootstrap-sb-admin-1.0.2/js/plugins/morris/raphael.min.js"></script>
+<script src="/web-files/startbootstrap-sb-admin-1.0.2/js/plugins/morris/morris.min.js"></script>
+<script src="/web-files/startbootstrap-sb-admin-1.0.2/js/plugins/morris/morris-data.js"></script>
+
+
+
+</body>
 </html><?php }} ?>

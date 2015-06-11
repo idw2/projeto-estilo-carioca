@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2015-03-25 22:19:36
+<?php /* Smarty version Smarty-3.1.19, created on 2015-03-23 18:55:30
          compiled from "/home/estil450/public_html/application/views/admin/navbar.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:5256373355133478e9f9d8-67033568%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:567186022551061a220d9a4-66661683%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '5256373355133478e9f9d8-67033568',
+  'nocache_hash' => '567186022551061a220d9a4-66661683',
   'function' => 
   array (
   ),
@@ -28,9 +28,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_55133479047530_23938553',
+  'unifunc' => 'content_551061a2318707_80662437',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_55133479047530_23938553')) {function content_55133479047530_23938553($_smarty_tpl) {?><!-- Navigation -->
+<?php if ($_valid && !is_callable('content_551061a2318707_80662437')) {function content_551061a2318707_80662437($_smarty_tpl) {?><!-- Navigation -->
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">

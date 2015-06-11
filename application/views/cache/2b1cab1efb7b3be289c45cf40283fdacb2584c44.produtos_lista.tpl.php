@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:2115429912551333df2f27e2-45311548%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1375242388551061a1c594b6-45298972%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -45,7 +45,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '2115429912551333df2f27e2-45311548',
+  'nocache_hash' => '1375242388551061a1c594b6-45298972',
   'variables' => 
   array (
     'language' => 0,
@@ -63,157 +63,157 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_551333df92dbd5_76526842',
+  'unifunc' => 'content_551061a24749a3_52332244',
   'cache_lifetime' => 120,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_551333df92dbd5_76526842')) {function content_551333df92dbd5_76526842($_smarty_tpl) {?><!DOCTYPE HTML>
-<html lang="pt-br">
-
-    <head>
-        <meta charset="UTF-8">
-        <title>Estilo Carioca | Lista de Produtos</title>
-
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-
-        <link rel="shortcut icon" href="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/img/favicon.png?v=5">
-        <link rel="shortcut icon" type="image/x-icon" href="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/img/favicon.png?v=5"/>
-
-        <link rel="stylesheet" href="/web-files/font-awesome-4.1.0/css/font-awesome.min.css"/>
-        <link rel="stylesheet" href="/web-files/bootstrap/css/bootstrap.css"/>
-        <link rel="stylesheet" href="/web-files/bootstrap/css/bootstrap-theme.css"/>		
-        <link rel="stylesheet" href="/web-files/css/docs.min.css"/>
-        <link rel="stylesheet" href="/web-files/css/style.css"/>
-
-        <script language="javascript" src="/web-files/js/funcoes.js"></script>
-        <script language="javascript" src="/web-files/js/jquery-2.1.1.min.js"></script>
-        <script language="javascript" src="/web-files/js/jQuery-Mask-Plugin.js"></script>
-        <script language="javascript" src="/web-files/bootstrap/js/bootstrap.js"></script>
-        <script language="javascript" src="/web-files/bootstrap/js/bootstrap-tooltip.js"></script>
-        <!-- Add fancyBox -->
-        <link rel="stylesheet" href="/web-files/fancyapps-fancyBox-18d1712/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
-        <script type="text/javascript" src="/web-files/fancyapps-fancyBox-18d1712/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-        <!-- Upload -->
-        <script type="text/javascript" src="/web-files/js/jquery.uploadfile.js"></script>
-        <link rel="stylesheet" href="/web-files/css/uploadfile.css" type="text/css" media="screen" />
-        <!-- JQuery UI -->
-        <script type="text/javascript" src="/web-files/jquery-ui-1.11.1.custom/jquery-ui.js"></script>
-        <link rel="stylesheet" href="/web-files/jquery-ui-1.11.1.custom/jquery-ui.css"/>
-        <link rel="stylesheet" href="/web-files/jquery-ui-1.11.1.custom/jquery-ui.structure.css"/>
-        <link rel="stylesheet" href="/web-files/jquery-ui-1.11.1.custom/jquery-ui.theme.css"/>
-        <!-- Drag -->
-        <script type="text/javascript" src="/web-files/js/jquery-sortable.js"></script>
-        <!-- PLUGIN CROP -->
-        <link rel="stylesheet" href="/web-files/crop/cropper.css" type="text/css" media="screen" />
-        <script type="text/javascript" src="/web-files/crop/cropper.js"></script>
-        <script type="text/javascript" src="/web-files/js/highlight.min.js"></script>
-        <script type="text/javascript" src="/web-files/js/jquery.tablednd.0.7.js"></script>
-        <script type="text/javascript" src="/web-files/js/default.js"></script>
-
-        <!-- //COLOR PICKER BOOTSTRAP// -->
-        <link href="/web-files/bootstrap-colorpicker-master/dist/css/bootstrap-colorpicker.min.css" rel="stylesheet">
-        <link href="/web-files/bootstrap-colorpicker-master/src/css/docs.css" rel="stylesheet">
-        
-                    <!-- //CSS DO TEMA RESPONSIVO EM BOOTSTRAP -->
-            <link href="/web-files/startbootstrap-sb-admin-1.0.2/css/sb-admin.css" rel="stylesheet">
-            <link href="/web-files/startbootstrap-sb-admin-1.0.2/css/plugins/morris.css" rel="stylesheet">
-        
-
-        <script type="text/javascript">
-            if (window.hljs) {
-                hljs.tabReplace = '    ';
-                hljs.initHighlightingOnLoad();
-            }
-        </script>
-
-        <style>
-            
-            .ico-default-trophy, .ico-default-dolar, .ico-default-heart, .ico-default-star, .ico-default-eye, .ico-default-trash, .ico-default-photo, .ico-default-edit{
-                display: inline-block;
-                width: 32px;
-                height: 29px;
-                border-radius: 50%;
-                background: #e9c92e;
-                cursor: pointer;
-                color: #fff;
-                text-align:  center;
-                font-size: 14px;
-                line-height: 26px;
-                padding: 0 0 0 1px;
-
-            }
-
-            .ico-default-trash{  background: #58595A; }
-
-            .ico-default-heart{ background: #EC8ED6; color: #fff;  border: none; }            
-            .ico-default-heart i{ color: #fff; }            
-            .ico-default-heart.desative{ background: #fff; border: 1px solid #57574b; }
-            .ico-default-heart.desative i{ color: #57574b; }
-
-            .ico-default-eye{ background: #e9c92e; color: #fff;  border: none; }            
-            .ico-default-eye i{ color: #fff; }            
-            .ico-default-eye.desative{ background: #fff; border: 1px solid #57574b; }
-            .ico-default-eye.desative i{ color: #57574b; }
-
-            .ico-default-dolar{ background: #81B4D1; color: #fff;  border: none; }            
-            .ico-default-dolar i{ color: #fff; }            
-            .ico-default-dolar.desative{ background: #fff; border: 1px solid #57574b; }
-            .ico-default-dolar.desative i{ color: #57574b; }
-
-            .ico-default-trophy{ background: #D1819B; color: #fff;  border: none; }            
-            .ico-default-trophy i{ color: #fff; }            
-            .ico-default-trophy.desative{ background: #fff; border: 1px solid #57574b; }
-            .ico-default-trophy.desative i{ color: #57574b; }
-
-            .ico-default-photo{
-                background: #395aa4;                
-            }
-
-            .ico-default-edit{
-                background: #18CAEC;
-            }
-
-            .ico-default-star{ background: #2ac364; color: #fff;  border: none; }            
-            .ico-default-star i{ color: #fff; }            
-            .ico-default-star.desative{ background: #fff; border: 1px solid #57574b; }
-            .ico-default-star.desative i{ color: #57574b; }
-
-            .ico-default-eye a, .ico-default-trash a, .ico-default-photo a, .ico-default-edit a{ 
-                color: #fff;
-                text-decoration: none;
-            } 
-
-            .ico-default-star a:hover, .ico-default-eye a:hover, .ico-default-trash a:hover, .ico-default-photo a:hover{ 
-                text-decoration: none;
-            } 
-
-            .ico-default-trash.desative, .ico-default-photo.desative{
-                background: #ad2138;
-            }
-
-
-            .aviso-balao{
-                display: inline-block;
-                padding: 3px 10px;
-                position: absolute;
-                bottom: 11px;
-                right: 13px;
-            }
-            .hidex{
-                max-height: 0;
-                overflow: hidden;
-                box-shadow: none;
-                opacity: 0;
-                margin-bottom: 0;
-            }
-            
-
-        </style>
-
-    </head>
-    <body>
-        <div id="wrapper">
-            <div id="page-wrapper">
+<?php if ($_valid && !is_callable('content_551061a24749a3_52332244')) {function content_551061a24749a3_52332244($_smarty_tpl) {?><!DOCTYPE HTML>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Estilo Carioca | Lista de Produtos</title>
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+
+        <link rel="shortcut icon" href="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/img/favicon.png?v=5">
+        <link rel="shortcut icon" type="image/x-icon" href="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/img/favicon.png?v=5"/>
+
+        <link rel="stylesheet" href="/web-files/font-awesome-4.1.0/css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="/web-files/bootstrap/css/bootstrap.css"/>
+        <link rel="stylesheet" href="/web-files/bootstrap/css/bootstrap-theme.css"/>		
+        <link rel="stylesheet" href="/web-files/css/docs.min.css"/>
+        <link rel="stylesheet" href="/web-files/css/style.css"/>
+
+        <script language="javascript" src="/web-files/js/funcoes.js"></script>
+        <script language="javascript" src="/web-files/js/jquery-2.1.1.min.js"></script>
+        <script language="javascript" src="/web-files/js/jQuery-Mask-Plugin.js"></script>
+        <script language="javascript" src="/web-files/bootstrap/js/bootstrap.js"></script>
+        <script language="javascript" src="/web-files/bootstrap/js/bootstrap-tooltip.js"></script>
+        <!-- Add fancyBox -->
+        <link rel="stylesheet" href="/web-files/fancyapps-fancyBox-18d1712/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+        <script type="text/javascript" src="/web-files/fancyapps-fancyBox-18d1712/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+        <!-- Upload -->
+        <script type="text/javascript" src="/web-files/js/jquery.uploadfile.js"></script>
+        <link rel="stylesheet" href="/web-files/css/uploadfile.css" type="text/css" media="screen" />
+        <!-- JQuery UI -->
+        <script type="text/javascript" src="/web-files/jquery-ui-1.11.1.custom/jquery-ui.js"></script>
+        <link rel="stylesheet" href="/web-files/jquery-ui-1.11.1.custom/jquery-ui.css"/>
+        <link rel="stylesheet" href="/web-files/jquery-ui-1.11.1.custom/jquery-ui.structure.css"/>
+        <link rel="stylesheet" href="/web-files/jquery-ui-1.11.1.custom/jquery-ui.theme.css"/>
+        <!-- Drag -->
+        <script type="text/javascript" src="/web-files/js/jquery-sortable.js"></script>
+        <!-- PLUGIN CROP -->
+        <link rel="stylesheet" href="/web-files/crop/cropper.css" type="text/css" media="screen" />
+        <script type="text/javascript" src="/web-files/crop/cropper.js"></script>
+        <script type="text/javascript" src="/web-files/js/highlight.min.js"></script>
+        <script type="text/javascript" src="/web-files/js/jquery.tablednd.0.7.js"></script>
+        <script type="text/javascript" src="/web-files/js/default.js"></script>
+
+        <!-- //COLOR PICKER BOOTSTRAP// -->
+        <link href="/web-files/bootstrap-colorpicker-master/dist/css/bootstrap-colorpicker.min.css" rel="stylesheet">
+        <link href="/web-files/bootstrap-colorpicker-master/src/css/docs.css" rel="stylesheet">
+        
+                    <!-- //CSS DO TEMA RESPONSIVO EM BOOTSTRAP -->
+            <link href="/web-files/startbootstrap-sb-admin-1.0.2/css/sb-admin.css" rel="stylesheet">
+            <link href="/web-files/startbootstrap-sb-admin-1.0.2/css/plugins/morris.css" rel="stylesheet">
+        
+
+        <script type="text/javascript">
+            if (window.hljs) {
+                hljs.tabReplace = '    ';
+                hljs.initHighlightingOnLoad();
+            }
+        </script>
+
+        <style>
+            
+            .ico-default-trophy, .ico-default-dolar, .ico-default-heart, .ico-default-star, .ico-default-eye, .ico-default-trash, .ico-default-photo, .ico-default-edit{
+                display: inline-block;
+                width: 32px;
+                height: 29px;
+                border-radius: 50%;
+                background: #e9c92e;
+                cursor: pointer;
+                color: #fff;
+                text-align:  center;
+                font-size: 14px;
+                line-height: 26px;
+                padding: 0 0 0 1px;
+
+            }
+
+            .ico-default-trash{  background: #58595A; }
+
+            .ico-default-heart{ background: #EC8ED6; color: #fff;  border: none; }            
+            .ico-default-heart i{ color: #fff; }            
+            .ico-default-heart.desative{ background: #fff; border: 1px solid #57574b; }
+            .ico-default-heart.desative i{ color: #57574b; }
+
+            .ico-default-eye{ background: #e9c92e; color: #fff;  border: none; }            
+            .ico-default-eye i{ color: #fff; }            
+            .ico-default-eye.desative{ background: #fff; border: 1px solid #57574b; }
+            .ico-default-eye.desative i{ color: #57574b; }
+
+            .ico-default-dolar{ background: #81B4D1; color: #fff;  border: none; }            
+            .ico-default-dolar i{ color: #fff; }            
+            .ico-default-dolar.desative{ background: #fff; border: 1px solid #57574b; }
+            .ico-default-dolar.desative i{ color: #57574b; }
+
+            .ico-default-trophy{ background: #D1819B; color: #fff;  border: none; }            
+            .ico-default-trophy i{ color: #fff; }            
+            .ico-default-trophy.desative{ background: #fff; border: 1px solid #57574b; }
+            .ico-default-trophy.desative i{ color: #57574b; }
+
+            .ico-default-photo{
+                background: #395aa4;                
+            }
+
+            .ico-default-edit{
+                background: #18CAEC;
+            }
+
+            .ico-default-star{ background: #2ac364; color: #fff;  border: none; }            
+            .ico-default-star i{ color: #fff; }            
+            .ico-default-star.desative{ background: #fff; border: 1px solid #57574b; }
+            .ico-default-star.desative i{ color: #57574b; }
+
+            .ico-default-eye a, .ico-default-trash a, .ico-default-photo a, .ico-default-edit a{ 
+                color: #fff;
+                text-decoration: none;
+            } 
+
+            .ico-default-star a:hover, .ico-default-eye a:hover, .ico-default-trash a:hover, .ico-default-photo a:hover{ 
+                text-decoration: none;
+            } 
+
+            .ico-default-trash.desative, .ico-default-photo.desative{
+                background: #ad2138;
+            }
+
+
+            .aviso-balao{
+                display: inline-block;
+                padding: 3px 10px;
+                position: absolute;
+                bottom: 11px;
+                right: 13px;
+            }
+            .hidex{
+                max-height: 0;
+                overflow: hidden;
+                box-shadow: none;
+                opacity: 0;
+                margin-bottom: 0;
+            }
+            
+
+        </style>
+
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="page-wrapper">
                 <div class="container-fluid">
 
 <div class="sidebar">
@@ -282,7 +282,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             </li>
             
             <li >
-                <a href="/en/nota-fiscal/exportar" style="position: relative;"><i class="fa fa-expand"></i> Exportar Nota Fiscal <span class="btn btn-sm btn-danger aviso-balao">17</span> </a>
+                <a href="/en/nota-fiscal/exportar" style="position: relative;"><i class="fa fa-expand"></i> Exportar Nota Fiscal <span class="btn btn-sm btn-danger aviso-balao">16</span> </a>
             </li>
             
         </ul>
@@ -370,10 +370,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                         <td>Junior</td><td>11</td>
                                     </tr>
                                     <tr>
-                                        <td>Nilton Santos</td><td>6</td>
+                                        <td>Nilton Santos</td><td>5</td>
                                     </tr>
                                     <tr>
-                                        <td><strong>Total Geral</strong></td><td>17</td>
+                                        <td><strong>Total Geral</strong></td><td>16</td>
                                     </tr>   
                                 </table>
 
@@ -604,7 +604,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                                     <div class="col-xs-6">
                                                         <div><b>Para: </b> </div>
                                                         <div class="input-group">    
-                                                            <input type="text" class="form-control pNameImput" name="PRECOPARA_9AAC2CCDEE44AC8FE37529830C9EA1EC" id="PRECOPARA_9AAC2CCDEE44AC8FE37529830C9EA1EC" value="139,00" onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" value="189,00" />
+                                                            <input type="text" class="form-control pNameImput" name="PRECOPARA_9AAC2CCDEE44AC8FE37529830C9EA1EC" id="PRECOPARA_9AAC2CCDEE44AC8FE37529830C9EA1EC" value="159,00" onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" value="189,00" />
                                                             <span class="input-group-btn">
                                                                 <span class="btn btn-default" type="button" onclick="javascript:pPrecoparaUpdate('PRECOPARA_9AAC2CCDEE44AC8FE37529830C9EA1EC', '9AAC2CCDEE44AC8FE37529830C9EA1EC')"><i class="glyphicon glyphicon-refresh"></i></span>
                                                             </span>
@@ -622,7 +622,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                                     <div class="col-xs-6">
                                                         <b>Ordem: </b> 
                                                         <div class="input-group">
-                                                <input type="text" class="form-control pNameImput" name="ORDEM_9AAC2CCDEE44AC8FE37529830C9EA1EC" id="ORDEM_9AAC2CCDEE44AC8FE37529830C9EA1EC" value="2" style="width: 120px;"/>
+                                                <input type="text" class="form-control pNameImput" name="ORDEM_9AAC2CCDEE44AC8FE37529830C9EA1EC" id="ORDEM_9AAC2CCDEE44AC8FE37529830C9EA1EC" value="16" style="width: 120px;"/>
                                                 <span class="input-group-btn">
                                                     <span class="btn btn-default" type="button" onclick="javascript:pOrdemUpdate('ORDEM_9AAC2CCDEE44AC8FE37529830C9EA1EC', '9AAC2CCDEE44AC8FE37529830C9EA1EC')"><i class="glyphicon glyphicon-refresh"></i></span>
                                                 </span>
@@ -641,14 +641,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                                 <table style="width: 173px">
                                                     <tr> 
                                                         
-                                                        <td><a style="cursor: pointer;" onclick="javascript:pStatusUpdate('9AAC2CCDEE44AC8FE37529830C9EA1EC', 'en/produtos/status/0/camisa-mangueira-1')"><span class="ico-default-eye status-return-9AAC2CCDEE44AC8FE37529830C9EA1EC " data-toggle="tooltip" title="Status"><i class="fa fa-eye"></i></span></a></td>
+                                                        <td><a style="cursor: pointer;" onclick="javascript:pStatusUpdate('9AAC2CCDEE44AC8FE37529830C9EA1EC', 'en/produtos/status/0/camisa-mangueira')"><span class="ico-default-eye status-return-9AAC2CCDEE44AC8FE37529830C9EA1EC " data-toggle="tooltip" title="Status"><i class="fa fa-eye"></i></span></a></td>
                                                                     
                                                                     
                                                                     
-                                                        <td><a href="/en/produtos/editar/camisa-mangueira-1"><span class="ico-default-edit" data-toggle="tooltip" title="Editar"><i class="fa fa-edit"></i></span></a></td>                                
-                                                        <td><a style="cursor: pointer;" onclick="javascript:pTextAreaUpdate('9AAC2CCDEE44AC8FE37529830C9EA1EC', 'en/produtos/editar-textarea/camisa-mangueira-1')"><span class="ico-default-edit" data-toggle="tooltip" title="Editores" style="background: #62ACBA"><i class="fa fa-file-text"></i></span></a></td>                                
-                                                        <td><a href="/en/produtos/fotos/camisa-mangueira-1"><span class="ico-default-photo" data-toggle="tooltip" title="Imagens"><i class="fa fa-photo"></i></span></a></td>
-                                                        <td><a style="cursor: pointer;" onclick="pDeleteUpdate('9AAC2CCDEE44AC8FE37529830C9EA1EC', 'en/produtos/delete/camisa-mangueira-1')"><span class="ico-default-trash" data-toggle="tooltip" title="Excluir"><i class="fa fa-trash-o"></i></span></a></td>
+                                                        <td><a href="/en/produtos/editar/camisa-mangueira"><span class="ico-default-edit" data-toggle="tooltip" title="Editar"><i class="fa fa-edit"></i></span></a></td>                                
+                                                        <td><a style="cursor: pointer;" onclick="javascript:pTextAreaUpdate('9AAC2CCDEE44AC8FE37529830C9EA1EC', 'en/produtos/editar-textarea/camisa-mangueira')"><span class="ico-default-edit" data-toggle="tooltip" title="Editores" style="background: #62ACBA"><i class="fa fa-file-text"></i></span></a></td>                                
+                                                        <td><a href="/en/produtos/fotos/camisa-mangueira"><span class="ico-default-photo" data-toggle="tooltip" title="Imagens"><i class="fa fa-photo"></i></span></a></td>
+                                                        <td><a style="cursor: pointer;" onclick="pDeleteUpdate('9AAC2CCDEE44AC8FE37529830C9EA1EC', 'en/produtos/delete/camisa-mangueira')"><span class="ico-default-trash" data-toggle="tooltip" title="Excluir"><i class="fa fa-trash-o"></i></span></a></td>
                                                     </tr>  
                                                     <tr>
                                                         
@@ -663,18 +663,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                                     </tr>
                                                 </table>
                                             </td>
-                                        </tr>
-                                                                            
-                                  
-                                                                                                                                                            
-                                                                                                                                                              
-                                                                                                                                                         
-                                                                                                                                                                                                                                                                                                                
-
-                                        
-
-                                                                                <tr class="delete-return-9AAC2CCDEE44AC8FE37529830C9EA1EC yes hide">
-                                            <td colspan="9"><img src="/web-files/img/no-image.png" style="width: 80px;" border="0" alt="Camisa Mangueira" title="Camisa Mangueira"></td>
                                         </tr>
                                                                             
                                   
@@ -766,7 +754,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                                     <div class="col-xs-6">
                                                         <b>Ordem: </b> 
                                                         <div class="input-group">
-                                                <input type="text" class="form-control pNameImput" name="ORDEM_2A5B5F9F7B309CC071BEE1D49CE92998" id="ORDEM_2A5B5F9F7B309CC071BEE1D49CE92998" value="6" style="width: 120px;"/>
+                                                <input type="text" class="form-control pNameImput" name="ORDEM_2A5B5F9F7B309CC071BEE1D49CE92998" id="ORDEM_2A5B5F9F7B309CC071BEE1D49CE92998" value="5" style="width: 120px;"/>
                                                 <span class="input-group-btn">
                                                     <span class="btn btn-default" type="button" onclick="javascript:pOrdemUpdate('ORDEM_2A5B5F9F7B309CC071BEE1D49CE92998', '2A5B5F9F7B309CC071BEE1D49CE92998')"><i class="glyphicon glyphicon-refresh"></i></span>
                                                 </span>
@@ -910,7 +898,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                                     <div class="col-xs-6">
                                                         <b>Ordem: </b> 
                                                         <div class="input-group">
-                                                <input type="text" class="form-control pNameImput" name="ORDEM_4D8F2A4C874712676CD2B07543BBFC2A" id="ORDEM_4D8F2A4C874712676CD2B07543BBFC2A" value="3" style="width: 120px;"/>
+                                                <input type="text" class="form-control pNameImput" name="ORDEM_4D8F2A4C874712676CD2B07543BBFC2A" id="ORDEM_4D8F2A4C874712676CD2B07543BBFC2A" value="2" style="width: 120px;"/>
                                                 <span class="input-group-btn">
                                                     <span class="btn btn-default" type="button" onclick="javascript:pOrdemUpdate('ORDEM_4D8F2A4C874712676CD2B07543BBFC2A', '4D8F2A4C874712676CD2B07543BBFC2A')"><i class="glyphicon glyphicon-refresh"></i></span>
                                                 </span>
@@ -1630,7 +1618,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                                     <div class="col-xs-6">
                                                         <b>Ordem: </b> 
                                                         <div class="input-group">
-                                                <input type="text" class="form-control pNameImput" name="ORDEM_39A78598BB76D5C5ED0B0AB0D9AB37F6" id="ORDEM_39A78598BB76D5C5ED0B0AB0D9AB37F6" value="5" style="width: 120px;"/>
+                                                <input type="text" class="form-control pNameImput" name="ORDEM_39A78598BB76D5C5ED0B0AB0D9AB37F6" id="ORDEM_39A78598BB76D5C5ED0B0AB0D9AB37F6" value="3" style="width: 120px;"/>
                                                 <span class="input-group-btn">
                                                     <span class="btn btn-default" type="button" onclick="javascript:pOrdemUpdate('ORDEM_39A78598BB76D5C5ED0B0AB0D9AB37F6', '39A78598BB76D5C5ED0B0AB0D9AB37F6')"><i class="glyphicon glyphicon-refresh"></i></span>
                                                 </span>
@@ -1972,7 +1960,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                                                                 <tr  class="delete-return-AC495248300239DADE219113A0265587 no">
                                             <td>
                                                 <span style="cursor: pointer; position: relative; display: block; width: 80px;" onclick="javascript:pGetImagesShow('AC495248300239DADE219113A0265587', 'NS-0001')">
-                                                                                                            <img src="/web-files/upload/thumbs/5D8444F91CF4EEC43E4D73A79564A552/6F785979D3DF825B8BB647D1FDFDDBBD.jpg" border="0" style="width: 80px;" alt="Camisa Bi Mundial" title="Camisa Bi Mundial">
+                                                                                                            <img src="/web-files/upload/thumbs/5D8444F91CF4EEC43E4D73A79564A552/6F785979D3DF825B8BB647D1FDFDDBBD.jpg" border="0" style="width: 80px;" alt="Camisa Masculina" title="Camisa Masculina">
                                                                                                         <span style="display: none;min-width: 80px;position: absolute;left: 100%;bottom: 0px;cursor: default;width: 300px;zoom: 115%;background: rgb(255, 255, 255);border: 1px solid #ccc;border-radius: 20px; padding: 10px 0px 0px 15px; z-index: 1000;">teste</span>
                                                 </span>
                                             </td>
@@ -2006,7 +1994,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                             </td>
                                             <td>
                                                 <div class="input-group">
-                                                    <input type="text" class="form-control pNameImput" id="pName_AC495248300239DADE219113A0265587" value="Camisa Bi Mundial"/>
+                                                    <input type="text" class="form-control pNameImput" id="pName_AC495248300239DADE219113A0265587" value="Camisa Masculina"/>
                                                     <span class="input-group-btn">
                                                         <span class="btn btn-default" type="button" onclick="javascript:pNameUpdate('pName_AC495248300239DADE219113A0265587', 'AC495248300239DADE219113A0265587')"><i class="glyphicon glyphicon-refresh"></i></span>
                                                     </span>
@@ -2066,7 +2054,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                         
 
                                                                                 <tr class="delete-return-AC495248300239DADE219113A0265587 yes hide">
-                                            <td colspan="9"><img src="/web-files/img/no-image.png" style="width: 80px;" border="0" alt="Camisa Bi Mundial" title="Camisa Bi Mundial"></td>
+                                            <td colspan="9"><img src="/web-files/img/no-image.png" style="width: 80px;" border="0" alt="Camisa Masculina" title="Camisa Masculina"></td>
                                         </tr>
                                                                             
                                   
@@ -2078,7 +2066,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                         
 
                                                                                 <tr class="delete-return-AC495248300239DADE219113A0265587 yes hide">
-                                            <td colspan="9"><img src="/web-files/img/no-image.png" style="width: 80px;" border="0" alt="Camisa Bi Mundial" title="Camisa Bi Mundial"></td>
+                                            <td colspan="9"><img src="/web-files/img/no-image.png" style="width: 80px;" border="0" alt="Camisa Masculina" title="Camisa Masculina"></td>
                                         </tr>
                                                                             
                                   
@@ -2090,7 +2078,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                         
 
                                                                                 <tr class="delete-return-AC495248300239DADE219113A0265587 yes hide">
-                                            <td colspan="9"><img src="/web-files/img/no-image.png" style="width: 80px;" border="0" alt="Camisa Bi Mundial" title="Camisa Bi Mundial"></td>
+                                            <td colspan="9"><img src="/web-files/img/no-image.png" style="width: 80px;" border="0" alt="Camisa Masculina" title="Camisa Masculina"></td>
                                         </tr>
                                                                             
                                   
@@ -2102,7 +2090,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                         
 
                                                                                 <tr class="delete-return-AC495248300239DADE219113A0265587 yes hide">
-                                            <td colspan="9"><img src="/web-files/img/no-image.png" style="width: 80px;" border="0" alt="Camisa Bi Mundial" title="Camisa Bi Mundial"></td>
+                                            <td colspan="9"><img src="/web-files/img/no-image.png" style="width: 80px;" border="0" alt="Camisa Masculina" title="Camisa Masculina"></td>
                                         </tr>
                                                                             
                                   
@@ -2681,150 +2669,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                             <td colspan="9"><img src="/web-files/img/no-image.png" style="width: 80px;" border="0" alt="Camisa Masculina" title="Camisa Masculina"></td>
                                         </tr>
                                                                             
-                                  
-                                                                                                                                                            
-                                                                                                                                                              
-                                                                                                                                                         
-                                                                                                                                                                                                                                                                                                                
-
-                                        
-
-                                                                                <tr  class="delete-return-21957ACCA13AFC2F1593984B8882361F no">
-                                            <td>
-                                                <span style="cursor: pointer; position: relative; display: block; width: 80px;" onclick="javascript:pGetImagesShow('21957ACCA13AFC2F1593984B8882361F', 'NS-0006')">
-                                                                                                            <img src="/web-files/img/no-image.png" style="width: 80px;" border="0" alt="Camisa Maculina" title="Camisa Maculina">
-                                                                                                        <span style="display: none;min-width: 80px;position: absolute;left: 100%;bottom: 0px;cursor: default;width: 300px;zoom: 115%;background: rgb(255, 255, 255);border: 1px solid #ccc;border-radius: 20px; padding: 10px 0px 0px 15px; z-index: 1000;">teste</span>
-                                                </span>
-                                            </td>
-                                            <td>
-                                                <div class="input-group">
-                                                    <input type="text" class="form-control pNameImput" name="REFERENCIA_21957ACCA13AFC2F1593984B8882361F" id="REFERENCIA_21957ACCA13AFC2F1593984B8882361F" value="NS-0006"/>
-                                                    <span class="input-group-btn">
-                                                        <span class="btn btn-default" type="button" onclick="javascript:pReferenciaUpdate('REFERENCIA_21957ACCA13AFC2F1593984B8882361F', '21957ACCA13AFC2F1593984B8882361F')"><i class="glyphicon glyphicon-refresh"></i></span>
-                                                    </span>
-                                                </div>
-                                                <div class="row" style="margin-bottom: 25px;">
-                                                    <div class="col-xs-6">
-                                                        <b>De: </b> 
-                                                        <div class="input-group">
-                                                            <input type="text" class="form-control pNameImput" name="PRECODE_21957ACCA13AFC2F1593984B8882361F" id="PRECODE_21957ACCA13AFC2F1593984B8882361F" value="189,00" onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" value="189,00" />
-                                                            <span class="input-group-btn">
-                                                                <span class="btn btn-default" type="button" onclick="javascript:pPrecodeUpdate('PRECODE_21957ACCA13AFC2F1593984B8882361F', '21957ACCA13AFC2F1593984B8882361F')"><i class="glyphicon glyphicon-refresh"></i></span>
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-xs-6">
-                                                        <div><b>Para: </b> </div>
-                                                        <div class="input-group">    
-                                                            <input type="text" class="form-control pNameImput" name="PRECOPARA_21957ACCA13AFC2F1593984B8882361F" id="PRECOPARA_21957ACCA13AFC2F1593984B8882361F" value="149,90" onkeypress="formataValor(event, this, 12);" onkeydown="backspaceFormataValor(event, this)" value="189,00" />
-                                                            <span class="input-group-btn">
-                                                                <span class="btn btn-default" type="button" onclick="javascript:pPrecoparaUpdate('PRECOPARA_21957ACCA13AFC2F1593984B8882361F', '21957ACCA13AFC2F1593984B8882361F')"><i class="glyphicon glyphicon-refresh"></i></span>
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div class="input-group">
-                                                    <input type="text" class="form-control pNameImput" id="pName_21957ACCA13AFC2F1593984B8882361F" value="Camisa Maculina"/>
-                                                    <span class="input-group-btn">
-                                                        <span class="btn btn-default" type="button" onclick="javascript:pNameUpdate('pName_21957ACCA13AFC2F1593984B8882361F', '21957ACCA13AFC2F1593984B8882361F')"><i class="glyphicon glyphicon-refresh"></i></span>
-                                                    </span>
-                                                </div>  
-                                                    <div class="col-xs-6">
-                                                        <b>Ordem: </b> 
-                                                        <div class="input-group">
-                                                <input type="text" class="form-control pNameImput" name="ORDEM_21957ACCA13AFC2F1593984B8882361F" id="ORDEM_21957ACCA13AFC2F1593984B8882361F" value="17" style="width: 120px;"/>
-                                                <span class="input-group-btn">
-                                                    <span class="btn btn-default" type="button" onclick="javascript:pOrdemUpdate('ORDEM_21957ACCA13AFC2F1593984B8882361F', '21957ACCA13AFC2F1593984B8882361F')"><i class="glyphicon glyphicon-refresh"></i></span>
-                                                </span>
-                                            </div>
-                                                    </div>
-                                            </td>
-                                            <td>
-                                                <b>Categoria: </b> Nilton Santos<br/>
-                                                <b>Peso: </b> 0.300Kg.<br/>
-                                                <b>Quantidade: </b> 10<br/>
-                                                <b>Preço Unitário: </b> <br>
-                                            </td>
-                                            
-                                            
-                                            <td>
-                                                <table style="width: 173px">
-                                                    <tr> 
-                                                        
-                                                        <td><a style="cursor: pointer;" onclick="javascript:pStatusUpdate('21957ACCA13AFC2F1593984B8882361F', 'en/produtos/status/0/camisa-maculina')"><span class="ico-default-eye status-return-21957ACCA13AFC2F1593984B8882361F " data-toggle="tooltip" title="Status"><i class="fa fa-eye"></i></span></a></td>
-                                                                    
-                                                                    
-                                                                    
-                                                        <td><a href="/en/produtos/editar/camisa-maculina"><span class="ico-default-edit" data-toggle="tooltip" title="Editar"><i class="fa fa-edit"></i></span></a></td>                                
-                                                        <td><a style="cursor: pointer;" onclick="javascript:pTextAreaUpdate('21957ACCA13AFC2F1593984B8882361F', 'en/produtos/editar-textarea/camisa-maculina')"><span class="ico-default-edit" data-toggle="tooltip" title="Editores" style="background: #62ACBA"><i class="fa fa-file-text"></i></span></a></td>                                
-                                                        <td><a href="/en/produtos/fotos/camisa-maculina"><span class="ico-default-photo" data-toggle="tooltip" title="Imagens"><i class="fa fa-photo"></i></span></a></td>
-                                                        <td><a style="cursor: pointer;" onclick="pDeleteUpdate('21957ACCA13AFC2F1593984B8882361F', 'en/produtos/delete/camisa-maculina')"><span class="ico-default-trash" data-toggle="tooltip" title="Excluir"><i class="fa fa-trash-o"></i></span></a></td>
-                                                    </tr>  
-                                                    <tr>
-                                                        
-                                                        <td class="status-21957ACCA13AFC2F1593984B8882361F"></td>
-                                                        
-                                                        
-                                                        
-                                                        <td class="editar-21957ACCA13AFC2F1593984B8882361F"></td>
-                                                        <td></td>
-                                                        <td class="fotos-21957ACCA13AFC2F1593984B8882361F"></td>
-                                                        <td class="delete-21957ACCA13AFC2F1593984B8882361F"></td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                        </tr>
-                                                                            
-                                  
-                                                                                                                                                            
-                                                                                                                                                              
-                                                                                                                                                         
-                                                                                                                                                                                                                                                                                                                
-
-                                        
-
-                                                                                <tr class="delete-return-21957ACCA13AFC2F1593984B8882361F yes hide">
-                                            <td colspan="9"><img src="/web-files/img/no-image.png" style="width: 80px;" border="0" alt="Camisa Maculina" title="Camisa Maculina"></td>
-                                        </tr>
-                                                                            
-                                  
-                                                                                                                                                            
-                                                                                                                                                              
-                                                                                                                                                         
-                                                                                                                                                                                                                                                                                                                
-
-                                        
-
-                                                                                <tr class="delete-return-21957ACCA13AFC2F1593984B8882361F yes hide">
-                                            <td colspan="9"><img src="/web-files/img/no-image.png" style="width: 80px;" border="0" alt="Camisa Maculina" title="Camisa Maculina"></td>
-                                        </tr>
-                                                                            
-                                  
-                                                                                                                                                            
-                                                                                                                                                              
-                                                                                                                                                         
-                                                                                                                                                                                                                                                                                                                
-
-                                        
-
-                                                                                <tr class="delete-return-21957ACCA13AFC2F1593984B8882361F yes hide">
-                                            <td colspan="9"><img src="/web-files/img/no-image.png" style="width: 80px;" border="0" alt="Camisa Maculina" title="Camisa Maculina"></td>
-                                        </tr>
-                                                                            
-                                  
-                                                                                                                                                            
-                                                                                                                                                              
-                                                                                                                                                         
-                                                                                                                                                                                                                                                                                                                
-
-                                        
-
-                                                                                <tr class="delete-return-21957ACCA13AFC2F1593984B8882361F yes hide">
-                                            <td colspan="9"><img src="/web-files/img/no-image.png" style="width: 80px;" border="0" alt="Camisa Maculina" title="Camisa Maculina"></td>
-                                        </tr>
-                                                                            
                                 
                             </table>
                         </div>
@@ -2885,32 +2729,32 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
 </script>
 
-</div>
-<!-- /.container-fluid -->
-</div>
-<!-- /#page-wrapper -->
-</div>
-<!-- /#wrapper -->
-
-<script>
-    $(function() {
-        $("[data-toggle='tooltip']").tooltip();
-    });
-    
-</script>
-
-<!-- //COLOR PICKER BOOTSTRAP// -->
-
-<script src="/web-files/bootstrap-colorpicker-master/dist/js/bootstrap-colorpicker.js"></script>
-<script src="/web-files/bootstrap-colorpicker-master/src/js/docs.js"></script>
-
-<!-- //JS DO TEMA RESPONSIVO EM BOOTSTRAP// -->
-<script src="/web-files/startbootstrap-sb-admin-1.0.2/js/plugins/morris/raphael.min.js"></script>
-<script src="/web-files/startbootstrap-sb-admin-1.0.2/js/plugins/morris/morris.min.js"></script>
-<script src="/web-files/startbootstrap-sb-admin-1.0.2/js/plugins/morris/morris-data.js"></script>
-
-
-
-</body>
+</div>
+<!-- /.container-fluid -->
+</div>
+<!-- /#page-wrapper -->
+</div>
+<!-- /#wrapper -->
+
+<script>
+    $(function() {
+        $("[data-toggle='tooltip']").tooltip();
+    });
+    
+</script>
+
+<!-- //COLOR PICKER BOOTSTRAP// -->
+
+<script src="/web-files/bootstrap-colorpicker-master/dist/js/bootstrap-colorpicker.js"></script>
+<script src="/web-files/bootstrap-colorpicker-master/src/js/docs.js"></script>
+
+<!-- //JS DO TEMA RESPONSIVO EM BOOTSTRAP// -->
+<script src="/web-files/startbootstrap-sb-admin-1.0.2/js/plugins/morris/raphael.min.js"></script>
+<script src="/web-files/startbootstrap-sb-admin-1.0.2/js/plugins/morris/morris.min.js"></script>
+<script src="/web-files/startbootstrap-sb-admin-1.0.2/js/plugins/morris/morris-data.js"></script>
+
+
+
+</body>
 </html>
 <?php }} ?>

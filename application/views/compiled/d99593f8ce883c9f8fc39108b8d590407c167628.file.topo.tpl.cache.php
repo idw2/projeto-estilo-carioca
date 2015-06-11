@@ -19,7 +19,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'version' => 'Smarty-3.1.19',
   'unifunc' => 'content_53ea25788dd978_88445932',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_53ea25788dd978_88445932')) {function content_53ea25788dd978_88445932($_smarty_tpl) {?><button type="button" class="btn btn-info" onclick="javascript:window.location='/conta/assinaturas'">PESQUISAR POR ASSINATURAS</button>
-<button type="button" class="btn btn-primary" onclick="javascript:window.location='/conta/cadastro'">CRIAR CONTA</button>
-<button type="button" class="btn btn-success" onclick="javascript:window.location='/conta/login'">ACESSAR CONTA</button>
+<?php if ($_valid && !is_callable('content_53ea25788dd978_88445932')) {function content_53ea25788dd978_88445932($_smarty_tpl) {?><button type="button" class="btn btn-info" onclick="javascript:window.location='/conta/assinaturas'">PESQUISAR POR ASSINATURAS</button>
+<button type="button" class="btn btn-primary" onclick="javascript:window.location='/conta/cadastro'">CRIAR CONTA</button>
+<button type="button" class="btn btn-success" onclick="javascript:window.location='/conta/login'">ACESSAR CONTA</button>
 	<?php }} ?>

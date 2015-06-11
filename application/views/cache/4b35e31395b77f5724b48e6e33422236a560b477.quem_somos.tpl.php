@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:11766379185512f07a17c379-27008930%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:31884134255104b1db5fe18-16691323%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -17,7 +17,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '21ad6c09fd0cb3d807b70a3f24dfe7c8b337e8c6' => 
     array (
       0 => '/home/estil450/public_html/application/views/top.tpl',
-      1 => 1427303322,
+      1 => 1426628688,
       2 => 'file',
     ),
     '176fac5985d5dc4b43edea6c0618ca1f6996d998' => 
@@ -33,17 +33,17 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '11766379185512f07a17c379-27008930',
+  'nocache_hash' => '31884134255104b1db5fe18-16691323',
   'variables' => 
   array (
     'conteudo' => 0,
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5512f07a50cbb7_33107784',
+  'unifunc' => 'content_55104b1df04a88_05474370',
   'cache_lifetime' => 120,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5512f07a50cbb7_33107784')) {function content_5512f07a50cbb7_33107784($_smarty_tpl) {?><!DOCTYPE HTML>
+<?php if ($_valid && !is_callable('content_55104b1df04a88_05474370')) {function content_55104b1df04a88_05474370($_smarty_tpl) {?><!DOCTYPE HTML>
 <html lang="pt-br">
 
     <head>
@@ -123,7 +123,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                 <div class="search-popup-inner">
                     <div class="search-popup-container">
                         <div class="relative">
-                            <form class="form search-popup-form" role="search" action="/en/novos-produtos" method="post">
+                            <form class="form search-popup-form" role="search" action="/pt/novos-produtos" method="post">
                                 <input type="search" placeholder="Buscar" name="search" class="input" autocomplete="off">
                                 <button type="submit"><i class="sprite sprite-search"></i></button>
                                  
@@ -136,63 +136,63 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         </div>
 
         <section id="stt_logado_print">
-            <header id="header" class="navbar navbar-fixed-top navbar-default" role="navigation">
-    <div class="header-bar"></div>
-    <div class="container">
-        <div class="navbar-header">
-            <a href="#" class="hamburger"><span></span></a>
-            <a class="brand" href="/en/">
-                <img src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/img/estilocarioca2.png" width="71" height="68">
-            </a>
-        </div>
-        <nav class="navbar-collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li class="navbar-social">
-                    <a class="face" href="https://www.facebook.com/estilocarioca">
-                        <b class="entypo-facebook"></b>
-                    </a>
-                    <a class="insta" href="https://instagram.com/estilocarioca/">
-                        <b class="entypo-instagrem"></b>
-                    </a>
-                    
-                    <!--<a href="">
-                        <i class="sprite sprite-twitter"></i>
-                    </a>-->
-                </li>
-                <li class="navbar-search">
-                    <a href="" class="search">
-                        <i class="sprite sprite-search"></i>
-                    </a>
-                </li>
-                                    <li>
-                        <a href="/en/conta/login-cadastro/">
-                            <i class="icon sprite sprite-user"></i>
-                        </a>
-                    </li>
-                                <li class="navbar-cart">
-                    <a href="/en/produtos/checkout/">
-                        <i class="icon sprite sprite-cart"></i>
-                        <span class="value">3</span>
-                    </a>
-                </li>
-            </ul>
-                    
-            <ul class="nav navbar-nav">
-                <li >
-                    <a href="/en/">Home</a>
-                </li>
-                <li  class="active">
-                    <a href="/en/informacoes/quem-somos">A Estilo Carioca</a>
-                </li>
-                <li >
-                    <a href="/en/junior/">Junior</a>
-                </li>
-                <li >
-                    <a href="/en/nilton-santos">Nilton Santos</a>
-                </li>
-            </ul>
-        </nav>
-    </div>
+            <header id="header" class="navbar navbar-fixed-top navbar-default" role="navigation">
+    <div class="header-bar"></div>
+    <div class="container">
+        <div class="navbar-header">
+            <a href="#" class="hamburger"><span></span></a>
+            <a class="brand" href="/pt/">
+                <img src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/img/estilocarioca2.png" width="71" height="68">
+            </a>
+        </div>
+        <nav class="navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="navbar-social">
+                    <a href="https://www.facebook.com/estilocarioca">
+                        <b class="entypo-facebook"></b>
+                    </a>
+                    <a href="https://instagram.com/estilocarioca/">
+                        <b class="entypo-instagrem"></b>
+                    </a>
+                    
+                    <!--<a href="">
+                        <i class="sprite sprite-twitter"></i>
+                    </a>-->
+                </li>
+                <li class="navbar-search">
+                    <a href="" class="search">
+                        <i class="sprite sprite-search"></i>
+                    </a>
+                </li>
+                                    <li>
+                        <a href="/pt/conta/login-cadastro/">
+                            <i class="icon sprite sprite-user"></i>
+                        </a>
+                    </li>
+                                <li class="navbar-cart">
+                    <a href="/pt/produtos/checkout/">
+                        <i class="icon sprite sprite-cart"></i>
+                        <span class="value">7</span>
+                    </a>
+                </li>
+            </ul>
+                    
+            <ul class="nav navbar-nav">
+                <li >
+                    <a href="/pt/">Home</a>
+                </li>
+                <li  class="active">
+                    <a href="/pt/informacoes/quem-somos">A Estilo Carioca</a>
+                </li>
+                <li >
+                    <a href="/pt/junior/">Junior</a>
+                </li>
+                <li >
+                    <a href="/pt/nilton-santos">Nilton Santos</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
 </header>  
         </section>
 
@@ -213,114 +213,114 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     </div>
 </section>
 
-<!-- FOOTER  -->
-
-
-
-<footer class="footer ">
-    <div class="container ">
-
-        <div class="row footer-content">
-            <div class="col-sm-6 col-md-3">
-                <h2 class="footer-title">LOGIN E CADASTRO</h2>
-                <ul class="list-unstyled">
-                    <li><a href="/en/conta/">Acompanhe seu pedido</a></li>
-                    <li><a href="/en/conta/login-cadastro/">Login e Cadastro</a></li>
-                </ul>
-            </div>
-            <div class="col-sm-6 col-md-3">
-                <h2 class="footer-title">ATENDIMENTO AO CLIENTE</h2>
-                <ul class="list-unstyled">
-                    <li><a href="/en/informacoes/contato">Entre em contato</a></li>
-                    <li><a href="/en/informacoes/trocas-e-devolucoes">Trocas e devoluções</a></li>
-                    <li><a href="/en/informacoes/termos-servicos">Termos de serviço</a></li>
-                </ul>
-            </div>
-            <div class="col-sm-6 col-md-3">
-                <h2 class="footer-title">SIGA A EC</h2>
-                <ul class="list-unstyled list-inline list-social">
-                    <!--<li><a href=""><i class="sprite sprite-twitter-2"></i></a></li>-->
-                    <li><a href="https://www.facebook.com/estilocarioca" target="blank"><b class="entypo-facebook"></b></a></li>
-                    <li><a href="https://instagram.com/estilocarioca/" target="blank"><b class="entypo-instagrem"></b></a></li>
-                </ul>
-            </div>
-            <div class="col-sm-6 col-md-3">
-
-                <h2 class="footer-title">FIQUE POR DENTRO DA EC</h2>
-                <form action="" method="post" class="newsletter-form ajax-form" novalidate="">
-                    <div class="form-row">
-                        <input name="nome_newsletter_2" id="nome" type="text" class="form-control" placeholder="Seu nome" required>
-                    </div>
-                    <div class="form-row">
-                        <input name="email_newsletter_2" id="email" type="text" class="form-control" placeholder="Seu e-mail" required>
-                    </div>
-                    <div class="form-row">
-                        <button type="submit" class="btn btn-default btn-block">Enviar</button>
-                    </div>
-                    <div id="erro_newsletter_2"> </div>
-                </form>
-            </div>
-        </div>
-        <hr>
-        
-        
-        <div class="row footer-bottom">
-            <div class="col-sm-6 col-sm-push-6 text-right">
-                <span class="selo-es sprite sprite-selo-es"></span>
-                <span class="cartoes sprite sprite-cartoes"></span>
-                <img src="/web-files/img/bandeiras.png" alt=""/>
-            </div>
-            <div class="col-sm-6 col-sm-pull-6">
-                <p class="copy">Desenvolvido por <span id="dl"></span></p>
-                <script type="text/javascript">
-                    var _dl = _dl || {};
-                    _dl.width = "80";
-                    _dl.color = "gray";
-                    (function () {
-                        var a = document.createElement("script");
-                        a.type = "text/javascript";
-                        a.async = !0;
-                        a.src = "//static.designlab.com.br/js/bydl.js";
-                        var b = document.getElementsByTagName("script")[0];
-                        b.parentNode.insertBefore(a, b)
-                    })();
-                </script>
-            </div>
-                    
-        </div>
-                <hr>
-                    
-                    <div class="row footer-content text-center">
-            <p style="line-height: 1.8em;font-size: 1.2rem;">
-                <strong>RMGSPORT COMERCIO EIRELI - ME</strong>
-                <br>CNPJ: 21.468.076/0001-16
-                <br>&copy; Todos os direitos reservados - Rua Gazzi de Sá, nº17 - Lote 17 Quadra G , Barra da Tijuca / RJ - CEP: 22.793-210 
-                <br>Atendimento ao cliente: rodrigo@estilocarioca.com.br - 21 3326.1986
-            </p>
-        </div>
-    </div>
-</footer>                
-
-<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
-<script language="javascript" src="/web-files/js/funcoes.js"></script>
-<script src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/js/plugins/slick.min.js"></script>
-<script src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/js/plugins/jquery.raty.js"></script>
-<script src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/js/plugins/underscore-min.js"></script>
-<script src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/js/plugins/mustache.min.js"></script>
-<script src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/js/plugins/jquery.magnific-popup.min.js"></script>
-<script src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/js/scripts.js"></script>
-<script language="javascript" src="/web-files/bootstrap/js/bootstrap.js"></script>
-<script language="javascript" src="/web-files/js/jQuery-Mask-Plugin.js"></script>
-<script language="javascript" src="/web-files/js/vendor/jquery.payment.js"></script>
-<script language="javascript" src="/web-files/js/vendor/jquery.mask.min.js"></script>
-<script language="javascript" src="/web-files/js/joker.js"></script>
-<script language="javascript" src="/web-files/js/default.js"></script>
-<script language="javascript" src="/web-files/js/sweet-alert.js"></script>
-<script language="javascript" src="/web-files/js/stickyfloat.js"></script>
- <script language="javascript"> jQuery('.checkout-panel-2').stickyfloat({ duration: 0, easing:"linear",   startOffset: 60,   }); </script>
-<script src='http://cdnjs.cloudflare.com/ajax/libs/es5-shim/2.3.0/es5-shim.js'></script>
-
-
-
-</body>
+<!-- FOOTER  -->
+
+
+
+<footer class="footer ">
+    <div class="container ">
+
+        <div class="row footer-content">
+            <div class="col-sm-6 col-md-3">
+                <h2 class="footer-title">LOGIN E CADASTRO</h2>
+                <ul class="list-unstyled">
+                    <li><a href="/pt/conta/">Acompanhe seu pedido</a></li>
+                    <li><a href="/pt/conta/login-cadastro/">Login e Cadastro</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <h2 class="footer-title">ATENDIMENTO AO CLIENTE</h2>
+                <ul class="list-unstyled">
+                    <li><a href="/pt/informacoes/contato">Entre em contato</a></li>
+                    <li><a href="/pt/informacoes/trocas-e-devolucoes">Trocas e devoluções</a></li>
+                    <li><a href="/pt/informacoes/termos-servicos">Termos de serviço</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <h2 class="footer-title">SIGA A EC</h2>
+                <ul class="list-unstyled list-inline list-social">
+                    <!--<li><a href=""><i class="sprite sprite-twitter-2"></i></a></li>-->
+                    <li><a href="https://www.facebook.com/estilocarioca" target="blank"><b class="entypo-facebook"></b></a></li>
+                    <li><a href="https://instagram.com/estilocarioca/" target="blank"><b class="entypo-instagrem"></b></a></li>
+                </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+
+                <h2 class="footer-title">FIQUE POR DENTRO DA EC</h2>
+                <form action="" method="post" class="newsletter-form ajax-form" novalidate="">
+                    <div class="form-row">
+                        <input name="nome_newsletter_2" id="nome" type="text" class="form-control" placeholder="Seu nome" required>
+                    </div>
+                    <div class="form-row">
+                        <input name="email_newsletter_2" id="email" type="text" class="form-control" placeholder="Seu e-mail" required>
+                    </div>
+                    <div class="form-row">
+                        <button type="submit" class="btn btn-default btn-block">Enviar</button>
+                    </div>
+                    <div id="erro_newsletter_2"> </div>
+                </form>
+            </div>
+        </div>
+        <hr>
+        
+        
+        <div class="row footer-bottom">
+            <div class="col-sm-6 col-sm-push-6 text-right">
+                <span class="selo-es sprite sprite-selo-es"></span>
+                <span class="cartoes sprite sprite-cartoes"></span>
+                <img src="/web-files/img/bandeiras.png" alt=""/>
+            </div>
+            <div class="col-sm-6 col-sm-pull-6">
+                <p class="copy">Desenvolvido por <span id="dl"></span></p>
+                <script type="text/javascript">
+                    var _dl = _dl || {};
+                    _dl.width = "80";
+                    _dl.color = "gray";
+                    (function () {
+                        var a = document.createElement("script");
+                        a.type = "text/javascript";
+                        a.async = !0;
+                        a.src = "//static.designlab.com.br/js/bydl.js";
+                        var b = document.getElementsByTagName("script")[0];
+                        b.parentNode.insertBefore(a, b)
+                    })();
+                </script>
+            </div>
+                    
+        </div>
+                <hr>
+                    
+                    <div class="row footer-content text-center">
+            <p style="line-height: 1.8em;font-size: 1.2rem;">
+                <strong>RMGSPORT COMERCIO EIRELI - ME</strong>
+                <br>CNPJ: 21.468.076/0001-16
+                <br>&copy; Todos os direitos reservados - Rua Gazzi de Sá, nº17 - Lote 17 Quadra G , Barra da Tijuca / RJ - CEP: 22.793-210 
+                <br>Atendimento ao cliente: rodrigo@estilocarioca.com.br - 21 3326.1986
+            </p>
+        </div>
+    </div>
+</footer>                
+
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script language="javascript" src="/web-files/js/funcoes.js"></script>
+<script src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/js/plugins/slick.min.js"></script>
+<script src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/js/plugins/jquery.raty.js"></script>
+<script src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/js/plugins/underscore-min.js"></script>
+<script src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/js/plugins/mustache.min.js"></script>
+<script src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/js/plugins/jquery.magnific-popup.min.js"></script>
+<script src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/js/scripts.js"></script>
+<script language="javascript" src="/web-files/bootstrap/js/bootstrap.js"></script>
+<script language="javascript" src="/web-files/js/jQuery-Mask-Plugin.js"></script>
+<script language="javascript" src="/web-files/js/vendor/jquery.payment.js"></script>
+<script language="javascript" src="/web-files/js/vendor/jquery.mask.min.js"></script>
+<script language="javascript" src="/web-files/js/joker.js"></script>
+<script language="javascript" src="/web-files/js/default.js"></script>
+<script language="javascript" src="/web-files/js/sweet-alert.js"></script>
+<script language="javascript" src="/web-files/js/stickyfloat.js"></script>
+ <script language="javascript"> jQuery('.checkout-panel-2').stickyfloat({ duration: 0, easing:"linear",   startOffset: 60,   }); </script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/es5-shim/2.3.0/es5-shim.js'></script>
+
+
+
+</body>
 </html><?php }} ?>

@@ -26,51 +26,51 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'unifunc' => 'content_53ea24f03b0678_42839415',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_53ea24f03b0678_42839415')) {function content_53ea24f03b0678_42839415($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ("header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 9999, null, array(), 0);?>
-
-
-
-<div class="col-md-6">
-
-    <div class="jumbotron">
-        <div class="container">
-
-            <!-- h1 e p que já tínhamos -->
-            <h2>Não lembra?</h2>
-            <br/>
-            <p>Lhe enviaremos um e-mail com o lembrete da conta que você deixou ao se cadastrar.<br/>
-            
-        </div>
-    </div>
-</div> 
-
-<div class="col-md-6">
-    <form class="navbar-form navbar-left" style="width: 100%" action="/conta/nao_lembro" method="post">
-
-            <?php if ($_smarty_tpl->tpl_vars['erro']->value=='') {?>
-            <div class="alert alert-success" role="alert"><strong>Atenção: </strong>Preencher todos os campos!</div>
-            <?php } else { ?>
-
-                    <?php if ($_smarty_tpl->tpl_vars['sucesso']->value=="FALSE") {?>
+
+
+
+<div class="col-md-6">
+
+    <div class="jumbotron">
+        <div class="container">
+
+            <!-- h1 e p que já tínhamos -->
+            <h2>Não lembra?</h2>
+            <br/>
+            <p>Lhe enviaremos um e-mail com o lembrete da conta que você deixou ao se cadastrar.<br/>
+            
+        </div>
+    </div>
+</div> 
+
+<div class="col-md-6">
+    <form class="navbar-form navbar-left" style="width: 100%" action="/conta/nao_lembro" method="post">
+
+            <?php if ($_smarty_tpl->tpl_vars['erro']->value=='') {?>
+            <div class="alert alert-success" role="alert"><strong>Atenção: </strong>Preencher todos os campos!</div>
+            <?php } else { ?>
+
+                    <?php if ($_smarty_tpl->tpl_vars['sucesso']->value=="FALSE") {?>
                     <div class="alert alert-danger" role="alert"><strong>Atenção: </strong><?php echo $_smarty_tpl->tpl_vars['erro']->value;?>
-</div>
-                    <?php } else { ?>
+</div>
+                    <?php } else { ?>
                     <div class="alert alert-success" role="alert"><strong>Atenção: </strong><?php echo $_smarty_tpl->tpl_vars['erro']->value;?>
-</div>	
-                    <?php }?>
-
-            <?php }?>
-
-            <h2><span class="label label-default">Não lembro</span></h2>
-            <br/>
-
+</div>	
+                    <?php }?>
+
+            <?php }?>
+
+            <h2><span class="label label-default">Não lembro</span></h2>
+            <br/>
+
             <p><input type="text" class="form-control" style="min-width: 60%" id="email" name="email" maxlength="70" value="<?php echo $_smarty_tpl->tpl_vars['email']->value;?>
-" placeholder="E-mail" /></p>
-            <br/>
-
-            <p><button type="submit" class="btn btn-primary" name="enviar">ENVIAR</button></p>
-
-    </form>
-</div>
-	
+" placeholder="E-mail" /></p>
+            <br/>
+
+            <p><button type="submit" class="btn btn-primary" name="enviar">ENVIAR</button></p>
+
+    </form>
+</div>
+	
 <?php echo $_smarty_tpl->getSubTemplate ("footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 9999, null, array(), 0);?>
 <?php }} ?>

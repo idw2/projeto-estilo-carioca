@@ -8,11 +8,11 @@ Date   : 14/09/2014 10h
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
-@import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,600);
-@import url(//fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
-@import url(//fonts.googleapis.com/css?family=Roboto+Slab:100,300);
-@import url(//weloveiconfonts.com/api/?family=entypo);
-@import url(//weloveiconfonts.com/api/?family=fontawesome);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:100,300);
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -1407,7 +1407,7 @@ pre code {
 
 @media (min-width: 768px) {
   .container {
-    width: 768px; } }
+    width: 750px; } }
 @media (min-width: 992px) {
   .container {
     width: 970px; } }
@@ -6750,7 +6750,8 @@ body.search-open .search-popup {
 
 .hamburger {
   display: none;
-  /*    @include opacity(0);*/
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
   float: right;
   height: 50px;
   width: 50px;
@@ -6859,234 +6860,62 @@ body.search-open .search-popup {
 
   .card-pen .card-text {
     margin-top: 35px; } }
-@media (max-width: 992px) {
-  .hero .panel {
-    padding: 30px 10px !important; }
-
-  .hero .panel p {
-    font-size: 1.5rem !important;
-    line-height: 2.4rem !important; }
-
-  .thumb-holder .price {
-    font-size: 2.9rem;
-    margin: 0 0 7px; }
-
-  .thumb-holder .name {
-    font-size: 1.8rem;
-    line-height: 2.3rem; }
-
-  .thumb_desc {
-    margin-right: 5px !important; }
-
-  .checkout-panel {
-    display: none !important; } }
 @media screen and (max-width: 767px) {
   .card {
-    text-align: center; }
+    text-align: center; } }
+@media screen and (max-width: 767px) {
+  .navbar {
+    border-top-width: 4px;
+    padding: 8px 0; }
+
+  .brand img {
+    width: 60px;
+    height: auto; } }
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 8px; }
+
+  .hamburger {
+    display: block;
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+    opacity: 1; }
 
   .hero .panel {
-    margin: 20px 1rem 0;
-    padding: 35px 10px; } }
-@media screen and (min-width: 768px) {
-  .navbar-header {
-    float: left;
-    margin-right: 4em; }
-
-  .navbar .brand {
-    margin-left: 10px; }
+    padding: 20px 10px;
+    margin: 20px 0 0; }
 
   .hero .panel .btn {
-    font-size: 16px;
-    padding: 12px;
-    max-width: 55% !important; }
+    max-width: none !important; }
 
-  body .nav-collapse, body .nav-collapse.collapse {
-    height: auto;
-    overflow: visible; }
+  body {
+    padding-top: 76px; }
 
-  body .navbar .nav > li {
-    float: left; }
+  .footer .list-unstyled {
+    margin-bottom: 30px; }
 
-  body .navbar-right {
-    float: right !important; } }
-@media screen and (max-width: 768px) {
-  body .hamburger {
-    display: block; }
-  body .navbar-header {
-    display: inline-block;
-    width: 100%; }
+  #nome_newsletter_2,
+  #email_newsletter_1 {
+    margin-bottom: 10px; }
 
-  .img-hero {
-    margin: 0 0 0 10%; }
-
-  .hero .panel .btn {
-    font-size: 16px;
-    padding: 12px;
-    max-width: 55% !important; }
-
-  body .navbar .navbar-inner {
-    position: relative;
+  .navbar-collapse {
+    max-height: 0 !important;
+    -webkit-transition: max-height 0.33s ease-out;
+    -moz-transition: max-height 0.33s ease-out;
+    -ms-transition: max-height 0.33s ease-out;
+    -o-transition: max-height 0.33s ease-out;
+    transition: max-height 0.33s ease-out;
     padding: 0;
-    position: relative; }
+    overflow: hidden;
+    border: none; }
+    body.menu-open .navbar-collapse {
+      max-height: 500px !important; }
 
-  body .navbar-collapse, body .navbar-collapse.collapse {
-    position: absolute;
-    top: 69px;
-    height: 290px;
-    overflow: auto;
-    visibility: hidden;
-    right: 0;
-    float: right;
-    background: #fff;
-    z-index: 100;
-    padding: 10px 8px;
-    opacity: 0; }
-
-  .hero .panel p {
-    font-size: 1.1em;
-    line-height: 2.4rem; }
-
-  .navbar-scroll .navbar .navbar-nav {
-    top: 0;
-    margin: 10px 0 !important; }
-
-  .thumb-img {
-    margin-bottom: 15px; }
-
-  body.menu-open .navbar-collapse,
-  body.menu-open .navbar-collapse.collapse {
-    opacity: 1;
-    visibility: visible;
-    border-top: 2px solid #e1e1e1;
-    border-bottom: 2px solid #e1e1e1;
-    padding: 10px 25px 0 12px; }
-
-  .navbar .navbar-nav.navbar-right > li.navbar-search {
-    margin-right: 10px; }
-
-  .sprite-user {
-    float: left; }
-
-  .table-update {
-    overflow-x: auto;
-    display: block; }
-
-  .lock {
-    width: 15% !important;
-    margin-top: 15px; }
-
-  .entypo-facebook:before {
-    float: left;
-    font-size: 26px;
-    margin-left: 15px; }
-
-  .nome {
-    font-size: 2.3rem; }
-
-  .myFormaEnvio {
-    margin-top: 11px;
-    margin-left: -10px;
-    width: 160px; }
-
-  #cep_destinatario {
-    width: 110px !important; }
-
-  #cartaoValidade {
-    width: 110px !important;
-    margin-right: 10px; }
-
-  #cartaoCodigoSeguranca {
-    width: 110px !important; }
-
-  .nav-tabs > li {
-    float: none !important; }
-
-  .navbar .navbar-nav.navbar-right > li.navbar-social {
-    position: absolute;
-    top: 245px; }
-
-  .theme-default .btn-default2 {
-    margin-top: 1px !important;
-    width: 100% !important; }
-
-  .entypo-instagrem:before {
-    float: left;
-    font-size: 26px;
-    margin-left: 25px; }
-
-  .thumb-holder .price {
-    font-size: 2.3rem;
-    font-size: 20px;
-    margin: 0 0 7px; }
-
-  .thumb-holder .name {
-    font-size: 6vw;
-    font-size: 14px;
-    line-height: 2.3rem; }
-
-  .thumb-holder {
-    padding: 10px 0;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px; }
-
-  .form-control, .theme-default .btn, input[type=text], input[type=password], input[type=email] {
-    margin-top: 10px; }
-
-  .product-infos .btn-buy {
-    font-size: 2.2rem;
-    font-size: 22px; }
-
-  .escolha {
-    width: 110px !important;
-    margin-right: 7px; }
-
-  .comprar-popup h3 {
-    text-align: right; }
-
-  .select2 {
-    margin-top: 11px; }
-
-  .presente {
-    width: 38px !important; }
-
-  .txt_presente {
-    font-size: 12px !important; }
-
-  .pull-left {
-    font-size: 12px; }
-
-  .pull-right {
-    margin-top: -25px; }
-
-  .sprite-cart {
-    float: left;
-    margin: 0px 10px 0 10px; }
-
-  #nav-login {
-    font-size: 14px;
-    float: left; }
-
-  .navbar .navbar-nav.navbar-right > li.navbar-cart .value {
-    vertical-align: top;
-    float: left; }
-
-  .theme-default .section-title3 > h2 {
-    font-size: 1.6rem; }
-
-  .auth-form-title {
-    margin: 20px 0 20px; }
-
-  .verificar {
-    font-size: 11px !important; }
-
-  .indisponivel {
-    font-size: 11px !important; }
-
-  body .navbar-collapse {
-    clear: none; }
-    body .navbar-collapse .nav {
-      margin: 5px 0; } }
-
-/*# sourceMappingURL=style.css.map */
+  .navbar-nav.navbar-right {
+    text-align: right;
+    margin: 10px 0;
+    border-bottom: solid 1px #f1f1f1; }
+    .navbar-nav.navbar-right .navbar-social {
+      float: left; }
+    .navbar-nav.navbar-right > li {
+      display: inline-block;
+      vertical-align: top; } }
