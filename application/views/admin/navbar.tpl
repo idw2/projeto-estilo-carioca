@@ -42,6 +42,9 @@
             <li {if $page eq "produtos_lista"} class="active"{/if}><a href="/{$language}/produtos/produtos-lista">
                     <i class="fa fa-paper-plane"></i> Produtos</a>
             </li> 
+            {*<li {if $page eq "promocao"} class="active"{/if}><a href="/{$language}/produtos/promocao">
+                    <i class="fa fa-smile-o"></i> Promoção</a>
+            </li>*} 
             <li {if $page eq "pedidos_lista"} class="active"{/if}>
                 <a href="/{$language}/pedidos/pedidos-lista"><i class="fa fa-file-text"></i> Pedidos</a>
             </li>

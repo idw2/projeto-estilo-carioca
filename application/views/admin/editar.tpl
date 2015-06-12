@@ -131,6 +131,7 @@
                                                 <select name="categoria" class="form-control">
                                                     <option value="junior" {if $produto->CATEGORIA eq "junior"}selected{/if}>Junior</option>
                                                     <option value="nilton-santos" {if $produto->CATEGORIA eq "nilton-santos"}selected{/if}>Nilton Santos</option>
+                                                    <option value="promocao" {if $categoria == "promocao"}selected{/if}>Promoção</option>
                                                 </select>
                                             </div>
                                         </div>

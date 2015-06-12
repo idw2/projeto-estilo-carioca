@@ -62,7 +62,7 @@
         <div class="panel panel-default">
             <div class="panel-body">
                 <div class="page-header">
-                    <h1>Preview - {$produto->NOME} - R$ {$produto->PRECO} </h1>
+                    <h1>Preview - {$produto->NOME} - R$ {if $produto->PRECO eq ""}0,00{else}{$produto->PRECO}{/if} </h1>
                 </div>
                 {if $foto_destaque eq ""}
                     <img src="http://placehold.it/400x400" alt="" border="0" title="" class="img-thumbnail"/>

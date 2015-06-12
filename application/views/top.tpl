@@ -4,23 +4,11 @@
         <div class="navbar-header">
             <a href="#" class="hamburger"><span></span></a>
             <a class="brand" href="/{$language}/">
-                <img src="http://homolog.estilocarioca.com.br/application/template/estilocarioca/assets/img/estilocarioca2.png" width="71" height="68">
+                <img src="https://www.estilocarioca.com.br/application/template/estilocarioca/assets/img/estilocarioca2.png" width="71" height="68">
             </a>
         </div>
         <nav class="navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li class="navbar-social">
-                    <a href="https://www.facebook.com/estilocarioca">
-                        <b class="entypo-facebook"></b>
-                    </a>
-                    <a href="https://instagram.com/estilocarioca/">
-                        <b class="entypo-instagrem"></b>
-                    </a>
-                    
-                    <!--<a href="">
-                        <i class="sprite sprite-twitter"></i>
-                    </a>-->
-                </li>
                 <li class="navbar-search">
                     <a href="" class="search">
                         <i class="sprite sprite-search"></i>
@@ -52,14 +40,17 @@
                 <li {if $page eq "index"} class="active"{/if}>
                     <a href="/{$language}/">Home</a>
                 </li>
-                <li {if $page eq "quem_somos"} class="active"{/if}>
+               {* <li {if $page eq "quem_somos"} class="active"{/if}>
                     <a href="/{$language}/informacoes/quem-somos">A Estilo Carioca</a>
-                </li>
+                </li>*}
                 <li {if $page eq "junior"} class="active"{/if}>
                     <a href="/{$language}/junior/">Junior</a>
                 </li>
                 <li {if $page eq "nilton-santos"} class="active"{/if}>
                     <a href="/{$language}/nilton-santos">Nilton Santos</a>
+                </li>
+                <li {if $page eq "contato"} class="active"{/if}>
+                    <a href="/{$language}/informacoes/contato">Contato</a>
                 </li>
             </ul>
         </nav>

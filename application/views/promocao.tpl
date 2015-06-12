@@ -128,87 +128,25 @@
 
                         <input type="hidden" id="client_hidden" name="client_hidden" value="{$client_hidden}"/>
                         <input type="hidden" id="codproduto" name="codproduto" value="{$codproduto}"/>
+                        <table class="table table-datagrid">
+                            <thead>
+                                <tr>
+                                    {*<span style="margin-right:15px;margin-top: 7px; margin-left: 1em;font-family: 'Roboto Slab', 'Helvetica', 'sans-serif';">CLIQUE PARA INCLUIR</span>*}
+                                </tr>
+                                {*<tr>
+                                <img src="{$web_files}/img/plus_1.png" width="25" height="25" style="margin-right:7px; cursor: pointer !important" id="plus" data-toggle="tooltip" border="0" alt="" title="Adicionar Linha"> <img src="{$web_files}/img/less_1.png" id="less" style=" cursor: pointer !important" data-toggle="tooltip" border="0" alt="" width="25" height="25"  title="Retirar Linha">
+                                </tr>*}
 
-                        {if $categoria != "promocao"}
-
-                            <table class="table table-datagrid">    
-                                <thead>
-                                    <tr>
-                                        {*<span style="margin-right:15px;margin-top: 7px; margin-left: 1em;font-family: 'Roboto Slab', 'Helvetica', 'sans-serif';">CLIQUE PARA INCLUIR</span>*}
-                                    </tr>
-                                    {*<tr>
-                                    <img src="{$web_files}/img/plus_1.png" width="25" height="25" style="margin-right:7px; cursor: pointer !important" id="plus" data-toggle="tooltip" border="0" alt="" title="Adicionar Linha"> <img src="{$web_files}/img/less_1.png" id="less" style=" cursor: pointer !important" data-toggle="tooltip" border="0" alt="" width="25" height="25"  title="Retirar Linha">
-                                    </tr>*}
-
-                                    <tr>
-                                        <th style="border: 0; text-align: left; font-family: 'Roboto Condensed', 'Helvetica', 'sans-serif';font-weight: 400; letter-spacing: 1px;">TAMANHO</th>
-                                        <th style="border: 0; text-align: left; font-family: 'Roboto Condensed', 'Helvetica', 'sans-serif';font-weight: 400; letter-spacing: 1px;"">QUANTIDADE</th>
-                                        <th style="border: 0; text-align: center;font-family: 'Roboto Condensed', 'Helvetica', 'sans-serif';font-weight: 400; letter-spacing: 1px;"">{*DISPONIBILIDADE*}</th>
-                                    </tr>
-                                </thead>
-
-                                <tbody id="data">
-                                    <tr class="datagrid">
-                                        <td>
-                                            <div class='label-top inline-middle'>
-                                                <select name='tamanho_0' id='tamanho_0' class='select select-loop' onchange='javascript:is_disponibilidade(this.value, this.name);'>
-                                                    {counter assign=i start=0 print=false}
-                                                    <option value='' selected></option>
-                                                    {foreach item=rotulo from=$rotulos}
-                                                        <option value='{$rotulo->CODQUANTIDADE}' >{$rotulo->ROTULO}{if $rotulo->ESPECIFICACAO != ""} - {$rotulo->ESPECIFICACAO}{/if}</option>
-                                                        {counter}
-                                                    {/foreach}
-                                                </select>
-                                            </div>
-                                        </td>
-                                        <td valign='left'>
-                                            <div class='label-top inline-middle'>
-                                                <select name='quantidade_0' id='quantidade_0' class='select select-loop' onchange='javascript:is_disponibilidade_row(0);'/>
-                                                <option value='' selected></option>
-                                                {counter assign=i start=1 print=false}
-                                                {while $i < 11}
-                                                    <option style='margin-left:20px; position: absolute;' value='{$i}'>{if strlen($i) == 1}0{$i}{else}{$i}{/if}</option>
-                                                    {counter}
-                                                {/while}
-                                                </select> 
-                                            </div>
-                                        </td>
-                                        <td id='verificar_0' style='width: 30%;'> <div style='line-height: 35px; color: #8795ae;'>VERIFICAR!</div> </td>
-
-                                    </tr>
-                                    {* <tr class='avise-me-hide-0 hide'> 
-                                    <td colspan='3'>
-                                    <div class='product-infos-row hide-email'>
-                                    <label style="text-align: center!important; font-family: 'Roboto Condensed', 'Helvetica', 'sans-serif'; font-weight: 400; letter-spacing: 1px; text-transform: uppercase;">Avise-me ao chegar: </label> 
-                                    <div class="input-group">
-                                    <input type='hidden' class='form-control avise-me-ao-referencia' value='{$referencia}'>
-                                    <input type="text" class='form-control avise-me-ao-chegar-0' id='' value='{$email_logon}' placeholder='E-mail'>
-                                    <span class='input-group-btn'>
-                                    <button class='btn btn-default avise-me-ao-chegar-button-0' type='button' onclick=''><b>ENVIAR</b></button>
-                                    </span>
-                                    </div>
-                                    </div>
-                                    <span class='avise-me-load-0 Loader hide'><img src="{$web_files}/img/Loader.GIF" alt='Carregando...' title='Carregando...'  style='width: 20px'/></span>
-                                    <div class='avise-me-ao-chegar-error-0' style='color: #df5d65; font-weight: bold; line-height: 4;'></div>
-                                    <div style='clear: both'> </div>
-                                    </td>
-                                    </tr>*}
-                                </tbody> 
-                            </table>
-                        {else}
-
-                            <table class="table table-datagrid">
-                                <thead>
-                                    <tr>
-                                        <th style="border: 0; text-align: left; font-family: 'Roboto Condensed', 'Helvetica', 'sans-serif';font-weight: 400; letter-spacing: 1px;">TAMANHO RUBRO NEGRA</th>
-                                        <th style="border: 0; text-align: left; font-family: 'Roboto Condensed', 'Helvetica', 'sans-serif';font-weight: 400; letter-spacing: 1px;">TAMANHO BRANCA</th>
-                                        <th style="border: 0; text-align: center;font-family: 'Roboto Condensed', 'Helvetica', 'sans-serif';font-weight: 400; letter-spacing: 1px;"">{*DISPONIBILIDADE*}</th>
-                                    </tr>
-                                </thead>
-                                <tbody id="data">
-                                      <tr class="datagrid">
-                                        <td>
-                                            <div class='label-top inline-middle'>
+                                <tr >
+                                    <th style="border: 0; text-align: center; font-family: 'Roboto Condensed', 'Helvetica', 'sans-serif';font-weight: 400; letter-spacing: 1px;">TAMANHO</th>
+                                    <th style="border: 0; text-align: center!important;font-family: 'Roboto Condensed', 'Helvetica', 'sans-serif';font-weight: 400; letter-spacing: 1px;"">QUANTIDADE</th>
+                                    <th style="border: 0; text-align: center;font-family: 'Roboto Condensed', 'Helvetica', 'sans-serif';font-weight: 400; letter-spacing: 1px;"">{*DISPONIBILIDADE*}</th>
+                                </tr>
+                            </thead>
+                            <tbody id="data">
+                                <tr class="datagrid">
+                                    <td>
+                                        <div class='label-top inline-middle'>
                                             <select name='tamanho_0' id='tamanho_0' class='select select-loop' onchange='javascript:is_disponibilidade(this.value, this.name);'>
                                                 {counter assign=i start=0 print=false}
                                                 <option value='' selected></option>
@@ -217,34 +155,42 @@
                                                     {counter}
                                                 {/foreach}
                                             </select>
-                                            </div>
-                                        </td>
-                                         <td valign='left'>
-                                            <div class='label-top inline-middle'>
-                                            <input type='hidden' class='select select-loop' name='quantidade_0' id='quantidade_0' value='1'/>
-                                            
-                                            <select name='tamanho_b' id='tamanho_b' class='select select-loop' onchange='javascript:is_disponibilidade(this.value, this.name);'>
-                                                {counter assign=i start=0 print=false}
-                                                <option value='' selected></option>
-                                                {foreach item=rotulo from=$rotulos}
-                                                    <option value='<br/><b>Tamanho: </b> {$rotulo->ROTULO} - {$rotulo->ESPECIFICACAO}' >{$rotulo->ROTULO}{if $rotulo->ESPECIFICACAO != ""} - {$rotulo->ESPECIFICACAO}{/if}</option>
-                                                    {counter}
-                                                {/foreach}
-                                            </select>
-                                            </div>
-                                        </td>
-                                        <td id='verificar_0' style='width: 30%;'> <div style='line-height: 35px; color: #8795ae;'>VERIFICAR!</div> </td>
-                                    </tr>
-                                </tbody>
+                                        </div>
+                                    </td>
+                                    <td valign='left'>
+                                        <div class='label-top inline-middle'>
+                                            <select name='quantidade_0' id='quantidade_0' class='select select-loop' onchange='javascript:is_disponibilidade_row(0);'/>
+                                            <option value='' selected></option>
+                                            {counter assign=i start=1 print=false}
+                                            {while $i < 11}
+                                                <option style='margin-left:20px; position: absolute;' value='{$i}'>{if strlen($i) == 1}0{$i}{else}{$i}{/if}</option>
+                                                {counter}
+                                            {/while}
+                                            </select> 
+                                        </div>
+                                    </td>
+                                    <td id='verificar_0' style='width: 30%;'> <div style='line-height: 35px; color: #8795ae;'>VERIFICAR!</div> </td>
 
-
-                            </table>
-                                            
-                                            <p style="font-size: 1.2rem;">
-                                               Observaçäo: A quantidade para itens promocionais é de apenas um item.
-                                            </p>
-
-                        {/if}
+                                </tr>
+                                {* <tr class='avise-me-hide-0 hide'> 
+                                <td colspan='3'>
+                                <div class='product-infos-row hide-email'>
+                                <label style="text-align: center!important; font-family: 'Roboto Condensed', 'Helvetica', 'sans-serif'; font-weight: 400; letter-spacing: 1px; text-transform: uppercase;">Avise-me ao chegar: </label> 
+                                <div class="input-group">
+                                <input type='hidden' class='form-control avise-me-ao-referencia' value='{$referencia}'>
+                                <input type="text" class='form-control avise-me-ao-chegar-0' id='' value='{$email_logon}' placeholder='E-mail'>
+                                <span class='input-group-btn'>
+                                <button class='btn btn-default avise-me-ao-chegar-button-0' type='button' onclick=''><b>ENVIAR</b></button>
+                                </span>
+                                </div>
+                                </div>
+                                <span class='avise-me-load-0 Loader hide'><img src="{$web_files}/img/Loader.GIF" alt='Carregando...' title='Carregando...'  style='width: 20px'/></span>
+                                <div class='avise-me-ao-chegar-error-0' style='color: #df5d65; font-weight: bold; line-height: 4;'></div>
+                                <div style='clear: both'> </div>
+                                </td>
+                                </tr>*}
+                            </tbody> 
+                        </table>
 
 
                     </div>   

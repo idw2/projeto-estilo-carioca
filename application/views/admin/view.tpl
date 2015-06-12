@@ -138,7 +138,7 @@
 
                                             <tr>
                                                 <td><a href="/{$language}/descricao/categoria/{$lista_desejo->CATEG}/{$lista_desejo->URL_AMIGAVEL}"><img src="{$lista_desejo->FOTO}" alt="{$lista_desejo->NOME}" title="{$lista_desejo->NOME}" border="0"/></a><br/></td>
-                                                <td style="text-transform: uppercase;">{$lista_desejo->NOME}<br/><b>Tamanho: </b> {$lista_desejo->ROTULO} - {$lista_desejo->ESPECIFICACAO}</td>
+                                                <td style="text-transform: uppercase;">{$lista_desejo->NOME}<br/><b>Tamanho: </b> {$lista_desejo->ROTULO} - {$lista_desejo->ESPECIFICACAO} {$lista_desejo->TAMANHO_B}</td>
                                                 <td>{$lista_desejo->CATEGORIA}</td>
                                                 <td>{$lista_desejo->REFERENCIA}</td>
                                                 <td>{$lista_desejo->PRECO}</td>

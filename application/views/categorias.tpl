@@ -117,7 +117,18 @@
 
         <div class="row">
             <div class="col-lg-12 section-title">
-                <h2 class="title">{if $page == "junior"}Junior{else}{if $page == "index"}Conheça a Estilo Carioca{else}Nilton Santos{/if}{/if}</h2>
+                <h2 class="title">
+                    {if $page == "junior"}
+                        Junior
+                    {elseif $page == "promocao"}
+                        Promoções                        
+                    {else}
+                        {if $page == "index"}
+                            Conheça a Estilo Carioca
+                        {else}
+                            Nilton Santos
+                        {/if}
+                    {/if}</h2>
                 <p class="subtitle">Produtos</p>
             </div>
         </div>            
@@ -129,15 +140,15 @@
                     <div class="col-xs-6 col-sm-3" style="margin-bottom: 30px;">
                         <div class="thumb">
                             <div class="thumb-img">
-                                <a href="/{$language}/{$produto->CATEGORIA}/{$produto->URL_AMIGAVEL}">
-                                    <img src="{$produto->CROP268}" alt="{$produto->NOME}" title="{$produto->NOME}" width="312" height="312">
-                                </a>
+
+                                <img src="{$produto->CROP268}" alt="{$produto->NOME}" title="{$produto->NOME}" width="312" height="312">
+
                             </div>
                             <div class="thumb-holder">
                                 <div class="thumb-holder-out">
                                     <div class="thumb-holder-in">
                                         <h2 class="price">R$ {$produto->PRECO}</h2>
-                                        <p class="name">{if $produto->CATEGORIA == "junior"}Junior{else}Nilton Santos{/if}<br/><span style="font-size: 18px !important;">{$produto->NOME}</span></p>
+                                        <p class="name hidden-sm">{if $produto->CATEGORIA == "junior"}Junior{else}Nilton Santos{/if}<br/><span style="font-size: 18px !important;">{$produto->NOME}</span></p>
                                         <a href="/{$language}/{$produto->CATEGORIA}/{$produto->URL_AMIGAVEL}" class="btn btn-default btn-buy">COMPRAR</a>
                                     </div>
                                 </div>

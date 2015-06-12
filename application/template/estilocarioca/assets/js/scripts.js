@@ -31,7 +31,7 @@ Common = (function () {
         slidesToScroll: 1,
         asNavFor: '.slider-for',
         dots: false,
-        centerMode: false,
+        centerMode: true,
         focusOnSelect: true
     });
 

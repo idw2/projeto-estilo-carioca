@@ -42,6 +42,10 @@
                                                 <td><a href="/{$language}/descricao/categoria/{$lista_desejo->CATEG}/{$lista_desejo->URL_AMIGAVEL}"><img src="{$lista_desejo->FOTO}" alt="{$lista_desejo->NOME}" title="{$lista_desejo->NOME}" border="0"/></a><br/></td>
                                                 <td style="text-transform: uppercase;">
                                                     {$lista_desejo->NOME}<br/><b>Tamanho: </b> {$lista_desejo->ROTULO} - {$lista_desejo->ESPECIFICACAO}
+                                                    {if $lista_desejo->CATEG == 'promocao'}
+                                                        {$lista_desejo->TAMANHO_B}
+                                                    {/if}
+                                                    
                                                     {if $lista_desejo->ALERT != ""}
                                                         <br/><span style="color: #df5d65; font-size: 10px; font-weight: bold;">{$lista_desejo->ALERT}</span>
                                                     {/if}
@@ -51,9 +55,19 @@
                                                 <td id="n_input">
                                                     <table>
                                                         <tr>
-                                                            <td><span style="cursor: pointer;" class="minus" onclick="javascript:plus_wishlist_checkout('{$url_checkout}{$lista_desejo->CODPRODUTO}&COMANDO=menos&CODLISTADESEJOS={$lista_desejo->CODLISTADESEJOS}&imposto={$imposto}&CODQUANTIDADE={$lista_desejo->CODQUANTIDADE}', '{$lista_desejo->CODLISTADESEJOS}');" title="Menos item"><i class="fa fa-minus-square"></i></span>&nbsp;</td>
-                                                            <td><input type="text" name="quantidade" id="input_{$lista_desejo->CODLISTADESEJOS}"  style="width: 44px; text-align: center;" value="{$lista_desejo->QUANTIDADE}" readonly="readonly"/></td>
-                                                            <td>&nbsp;<span style="cursor: pointer;" class="plus" onclick="javascript:plus_wishlist_checkout('{$url_checkout}{$lista_desejo->CODPRODUTO}&COMANDO=mais&CODLISTADESEJOS={$lista_desejo->CODLISTADESEJOS}&imposto={$imposto}&CODQUANTIDADE={$lista_desejo->CODQUANTIDADE}', '{$lista_desejo->CODLISTADESEJOS}');" title="Mais item"><i class="fa fa-plus-square"></i></span></td>
+                                                            <td>
+                                                                {if $lista_desejo->CATEG != 'promocao'}
+                                                                    <span style="cursor: pointer;" class="minus" onclick="javascript:plus_wishlist_checkout('{$url_checkout}{$lista_desejo->CODPRODUTO}&COMANDO=menos&CODLISTADESEJOS={$lista_desejo->CODLISTADESEJOS}&imposto={$imposto}&CODQUANTIDADE={$lista_desejo->CODQUANTIDADE}', '{$lista_desejo->CODLISTADESEJOS}');" title="Menos item"><i class="fa fa-minus-square"></i></span>&nbsp;
+                                                                    {/if}
+                                                            </td>
+                                                            <td>
+                                                                <input type="text" name="quantidade" id="input_{$lista_desejo->CODLISTADESEJOS}"  style="width: 44px; text-align: center;" value="{$lista_desejo->QUANTIDADE}" readonly="readonly"/>
+                                                            </td>
+                                                            <td>
+                                                                {if $lista_desejo->CATEG != 'promocao'}
+                                                                    &nbsp;<span style="cursor: pointer;" class="plus" onclick="javascript:plus_wishlist_checkout('{$url_checkout}{$lista_desejo->CODPRODUTO}&COMANDO=mais&CODLISTADESEJOS={$lista_desejo->CODLISTADESEJOS}&imposto={$imposto}&CODQUANTIDADE={$lista_desejo->CODQUANTIDADE}', '{$lista_desejo->CODLISTADESEJOS}');" title="Mais item"><i class="fa fa-plus-square"></i></span>
+                                                                    {/if}
+                                                            </td>
                                                         </tr>
                                                     </table>                
                                                 </td>
