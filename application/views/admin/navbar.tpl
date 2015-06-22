@@ -37,7 +37,7 @@
 
 
             <li {if $page eq "dashboard"} class="active" {else} class="" {/if}>
-                <a href="/{$language}/admin/dashboard"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
+                <a href="/{$language}/admin/welcome"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
             </li>
             <li {if $page eq "produtos_lista"} class="active"{/if}><a href="/{$language}/produtos/produtos-lista">
                     <i class="fa fa-paper-plane"></i> Produtos</a>

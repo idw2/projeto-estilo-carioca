@@ -5,7 +5,7 @@ session_start();
 
 
 define("DIR", getcwd());
-define("PROTOCOLO", "http://");
+define("PROTOCOLO", "https://");
 #define("SOURCE", "homolog");
 define("SOURCE", "");
 
@@ -21,8 +21,8 @@ if (strlen(SOURCE) > 0) {
 
 
 
-define("SITE", "homolog.estilocarioca.com.br/");
-define("DOMINIO_COOKIES", "homolog.estilocarioca.com.br");
+define("SITE", "www.estilocarioca.com.br/");
+define("DOMINIO_COOKIES", "www.estilocarioca.com.br");
 define("MEU_SITE", PROTOCOLO . SITE . LANGUAGE . "/");
 define("CONTROLLERS", "application/controllers/");
 define("VIEWS", "application/views/");
@@ -65,13 +65,14 @@ define("BONUS", "0.95");
 
 
 #Ambiente final da loja Cielo
-#define("CIELO_N", "1056840215");
-#define("CIELO_KEY", "c6409f497ff3bcfeb3f802ac6719fdba34cdb54ec36fe4bcd568bd5ddebd9bb9");
-#define("CIELO_URL", "https://ecommerce.cielo.com.br/servicos/ecommwsec.do");
+define("CIELO_N", "1060502671");
+define("CIELO_KEY", "1fe5c08b978fc1820318dc3938b4aef32c84a4b5688918fb0481d7e4c7e69b9b");
+define("CIELO_URL", "https://ecommerce.cbmp.com.br/servicos/ecommwsec.do");
+#
 #Ambiente de testes da loja Cielo
-define("CIELO_N", "1006993069");
-define("CIELO_KEY", "25fbb99741c739dd84d7b06ec78c9bac718838630f30b112d033ce2e621b34f3 ");
-define("CIELO_URL", "https://qasecommerce.cielo.com.br/servicos/ecommwsec.do");
+//define("CIELO_N", "1006993069");
+//define("CIELO_KEY", "1fe5c08b978fc1820318dc3938b4aef32c84a4b5688918fb0481d7e4c7e69b9b");
+//define("CIELO_URL", "https://qasecommerce.cielo.com.br/servicos/ecommwsec.do");
 
 if ($_SESSION) {
     foreach ($_SESSION as $name => $valor) {
@@ -79,7 +80,7 @@ if ($_SESSION) {
     }
 }
 
-$_SERVER['EMAIL_IMG_FOLDER'] = "http://homolog.estilocarioca.com.br/emails/images";
+$_SERVER['EMAIL_IMG_FOLDER'] = "https://www.estilocarioca.com.br/emails/images";
 define("REMOTE_ADDR", $_SERVER["REMOTE_ADDR"]);
 define("SERVER_ADDR", $_SERVER["SERVER_ADDR"]);
 define("HOSTNAME_LOCAL", gethostbyaddr($_SERVER["REMOTE_ADDR"]));

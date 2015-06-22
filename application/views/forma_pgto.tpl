@@ -20,10 +20,10 @@
         <br/>
         <form name="CieloForm" id="CieloForm" onsubmit="return false" class="form-cielo" style="display:block;max-width:450px;margin: 0 auto;text-align: left;">
 
-            {*            <div class="alert alert-danger" role="alert">
-            <div style="margin-bottom: 3px;"><strong><u>ATENÇÃO</u></strong></div>Este produto irá finalizar em R$ <strong>1,00</strong> para homologação do sistema junto a Cielo.
-            </div>
-            *}
+            {*<div class="alert alert-danger" role="alert">
+                <div style="margin-bottom: 3px;"><strong><u>ATENÇÃO</u></strong></div>Este produto irá finalizar em R$ <strong>1,00</strong> para homologação do sistema junto a Cielo.
+            </div>*}
+
             <div id="tableCielo" style="display: block;">
                 <h2 style="margin-bottom: 45px;">
                     <img src="{$web_files}/img/cielo.jpg" alt="Cielo" title="Cielo" border="0"/>
