@@ -122,6 +122,8 @@
                         Junior
                     {elseif $page == "promocao"}
                         Promoções                        
+                    {elseif $page == "botafogo"}
+                        Botafogo                        
                     {else}
                         {if $page == "index"}
                             Conheça a Estilo Carioca
@@ -148,7 +150,15 @@
                                 <div class="thumb-holder-out">
                                     <div class="thumb-holder-in">
                                         <h2 class="price">R$ {$produto->PRECO}</h2>
-                                        <p class="name hidden-sm">{if $produto->CATEGORIA == "junior"}Junior{else}Nilton Santos{/if}<br/><span style="font-size: 18px !important;">{$produto->NOME}</span></p>
+                                        <p class="name hidden-sm">
+                                            {if $produto->CATEGORIA == "junior"}
+                                                Junior
+                                            {elseif $produto->CATEGORIA == "botafogo"}
+                                                Botafogo
+                                            {else}
+                                                Nilton Santos
+                                            {/if}
+                                            <br/><span style="font-size: 18px !important;">{$produto->NOME}</span></p>
                                         <a href="/{$language}/{$produto->CATEGORIA}/{$produto->URL_AMIGAVEL}" class="btn btn-default btn-buy">COMPRAR</a>
                                     </div>
                                 </div>
@@ -226,10 +236,6 @@
                 </div>
             </div>
         </div>
-
-
-
-
 
     </div>
 </section>

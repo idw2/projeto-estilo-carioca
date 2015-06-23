@@ -107,6 +107,7 @@
                                                 <select name="categoria" class="form-control">
                                                     <option value="junior" {if $categoria == "junior"}selected{/if}>Junior</option>
                                                     <option value="nilton-santos" {if $categoria == "nilton-santos"}selected{/if}>Nilton Santos</option>
+                                                    <option value="botafogo" {if $categoria == "botafogo"}selected{/if}>Botafogo</option>
                                                     <option value="promocao" {if $categoria == "promocao"}selected{/if}>Promoção</option>
                                                 </select>
                                             </div>
