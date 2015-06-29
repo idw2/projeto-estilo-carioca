@@ -131,8 +131,8 @@
                                                 <select name="categoria" class="form-control">
                                                     <option value="junior" {if $produto->CATEGORIA eq "junior"}selected{/if}>Junior</option>
                                                     <option value="nilton-santos" {if $produto->CATEGORIA eq "nilton-santos"}selected{/if}>Nilton Santos</option>
-                                                    <option value="botafogo" {if $categoria == "botafogo"}selected{/if}>Botafogo</option>
-                                                    <option value="promocao" {if $categoria == "promocao"}selected{/if}>Promoção</option>
+                                                    <option value="botafogo" {if $produto->CATEGORIA == "botafogo"}selected{/if}>Botafogo</option>
+                                                    <option value="promocao" {if $produto->CATEGORIA == "promocao"}selected{/if}>Promoção</option>
                                                 </select>
                                             </div>
                                         </div>

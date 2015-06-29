@@ -52,10 +52,10 @@
                 <li {if $page eq "botafogo"} class="active"{/if}>
                     <a href="/{$language}/botafogo">Botafogo</a>
                 </li>
-                <li {if $page eq "promocao"} class="active"{/if}>
-                    <a href="/{$language}/promocao/rubro-negro-e-manga-longa-81">Promoção</a>
+                {*<li {if $page eq "promocao"} class="active"{/if}>
+                    <a href="/{$language}/promocao/promocao-branca-e-rubro-negro">Promoção</a>
                 </li>
-               
+               *}
                 <li {if $page eq "contato"} class="active"{/if}>
                     <a href="/{$language}/informacoes/contato">Contato</a>
                 </li>

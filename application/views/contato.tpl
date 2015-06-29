@@ -20,7 +20,7 @@
                     <h2>Ainda está com problemas?</h2>
                     <br/>
                     <p><strong>E-mail:</strong><br/>
-                        <span style='font-size: 20'>contato@estilocarioca.com.br</span>
+                        <span style='font-size: 20'>suporte@estilocarioca.com.br</span>
                     </p><br/>
                     <br/>
                     <p><strong>Obs:</strong><br/>O prazo de respostas para as solicitações é de até 24h.</p><br/>

@@ -83,21 +83,21 @@
 <!-- /3 PRODUTOS  -->
 <!-- RECEM CHEGADOS  -->
 
-<section class="hero ">
-    <div class="container ">
+<section class="hero">
+    <div class="container">
         <div class="row">
             <div class="col-sm-6">
                 <div class="panel">
                     <h2>CONHEÇA A ESTILO CARIOCA</h2>
-                    <p style='font-family: "Roboto Condensed", Helvetica, sans-serif; font-weight: 300'>Andar para frente é fundamental na vida, traz mudanças, novidades e acompanha evolução. E, como bom carioca, ESTILO CARIOCA não se opõem a esse pensamento, nem tão pouco a evolução. </p>
+                    <p>Andar para frente é fundamental na vida, traz mudanças, novidades e acompanha evolução. E, como bom carioca, ESTILO CARIOCA não se opõem a esse pensamento, nem tão pouco a evolução. </p>
                     <div class="hr"></div>
                     <p>
-                        <a style="display: inline-block; max-width: 42%;" href='/{$language}/nossos-produtos' class="btn btn-lg">Compre agora</a>
+                        <a href="/{$language}/nossos-produtos" class="btn btn-lg">Compre agora</a>
                     </p>
                 </div>
             </div>
             <div class="col-sm-6">
-                <img src="http://homolog.estilocarioca.com.br/application/template/estilocarioca/assets/img/hero.png" width="500">
+                <img src="http://www.estilocarioca.com.br/application/template/estilocarioca/assets/img/hero.png" width="500">
             </div>
         </div>
     </div>
@@ -105,25 +105,25 @@
 </section>
 
 <section class="section">
-    <div class="container ">
-        <div class="row ">
-            <div class="col-lg-12 ">
-                <div class="section-title2 ">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title">
                     <h2 class="title">FIQUE POR DENTRO DAS NOVIDADES</h2>
                     <p class="subtitle">Preencha com seu nome e email para receber nossa Newsletter.</p>
                 </div>
             </div>
         </div>
-       
+
         <form action="" method="post"  novalidate="" class="ajax-form">
-            <div class="row ">
-                <div class="col-sm-4  ">
+            <div class="row">
+                <div class="col-sm-4">
                     <input type="text" placeholder="Seu Nome" name="nome" id="nome_newsletter_2" class="form-control" required>
                 </div>
-                <div class="col-sm-4 ">
+                <div class="col-sm-4">
                     <input type="email" placeholder="Seu Email" name="email" id="email_newsletter_1" class="form-control" required>
                 </div>
-                <div class="col-sm-4 ">
+                <div class="col-sm-4">
                     <button type="submit" class="btn btn-default btn-block" style="width: 100%; border-radius: 0;">Enviar</button>
                 </div>
                 <div id="erro_newsletter_1"> </div>
@@ -132,46 +132,47 @@
     </div>
 </section>
 
-<div class="container "><hr></div>
+<div class="container"><hr></div>
 
 <section class="section">
-    <div class="container ">
+    <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <div class="section-title2">
+                <div class="section-title">
                     <h2 class="title">Nossos Produtos</h2>
                     <p class="subtitle">COMPRE AGORA</p>
                 </div>
             </div>
         </div>
-        <div class="row ">
+        <div class="row">
             {foreach item=produto from=$arr}
                 {if $produto->CODPRODUTO != ""}
-                <div class="col-sm-3">
-                    <div class="thumb">
-                        <div class="thumb-img ">
-                            <a href="/{$language}/{$produto->CATEGORIA}/{$produto->URL_AMIGAVEL}">
-                            <img src="{$produto->CROP268}" alt="{$produto->NOME}" title="{$produto->NOME}" width="312" height="312">
-                            </a>
-                        </div>
-                        <div class="thumb-holder">
-                            <div class="thumb-holder-out">
-                                <div class="thumb-holder-in">
-                                    <h2 class="price">R$ {$produto->PRECO}</h2>
-                                    <p class="name">{if $produto->CATEGORIA}Junior{else}Nilton Santos{/if}<br/><span style="font-size: 18px !important;">{$produto->NOME}</span></p>
-                                    <a href="/{$language}/{$produto->CATEGORIA}/{$produto->URL_AMIGAVEL}" class="btn btn-default btn-buy">COMPRAR</a>
+                    <div class="col-sm-3">
+                        <div class="thumb">
+                            <div class="thumb-img">
+                                <a href="/{$language}/{$produto->CATEGORIA}/{$produto->URL_AMIGAVEL}">
+                                    <img src="{$produto->CROP268}" alt="{$produto->NOME}" title="{$produto->NOME}" width="312" height="312">
+                                </a>
+                            </div>
+                            <div class="thumb-holder">
+                                <div class="thumb-holder-out">
+                                    <div class="thumb-holder-in">
+                                        <h2 class="price">R$ {$produto->PRECO}</h2>
+                                        <p class="name">{$produto->NOME}<br/>
+                                            {if $produto->CATEGORIA eq 'junior'}Junior{else}Nilton Santos{/if}
+                                        </p>
+                                        <a href="/{$language}/{$produto->CATEGORIA}/{$produto->URL_AMIGAVEL}" class="btn btn-default btn-buy">COMPRAR</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-             {/if}
+                {/if}
             {/foreach}
         </div>
-    </div>
+    </div><hr style="margin-top: 5%;">
 </section>
-        <div style="margin-bottom: 5%;"></div>
-        <!--
+<!--
 <section class="pag-section">
     <div class="container">
 
@@ -188,62 +189,62 @@
         </div>
 
         <div class="row">
-            {foreach item=produto from=$arr}
-                {if $produto->CODPRODUTO != ""}
-                    <div class="col-thumb col-xs-6 col-sm-3">
-                        <div class="thumbnail">
-                            <div class="thumbnail-img">
-                                <a href="/{$language}/{$produto->CATEGORIA}/{$produto->URL_AMIGAVEL}">
-                                    {if $produto->IS_NOVO eq "1"}
-                                        <span class="thumbnail-tag">Novo</span>
-                                    {/if}
-                                    <img src="{$produto->CROP268}" alt="{$produto->NOME}" title="{$produto->NOME}"/>
-                                </a>
-                            </div>
-                            <div class="thumbnail-infos">
-                                <a href="/{$language}/{$produto->CATEGORIA}/{$produto->URL_AMIGAVEL}">
-                                    <div class="thumbnail-title">{if $produto->IS_PROMOCAO eq 1}<span class="price-through">R$ {$produto->DE}</span>{/if} R$ {$produto->PRECO}</div>
-                                </a>
-                                <a href="/{$language}/{$produto->CATEGORIA}/{$produto->URL_AMIGAVEL}">
-                                    <div class="thumbnail-subtitle">{$produto->NOME}</div>
-                                </a>
-                                
-                                <span class="seis-vezes"><b>6x</b> de <b>R$ {$produto->PRECO_6}</b></span>
-                                
-                                {*<div class="thumbnail-btn">
-                                <a onclick="javascript:add_checkout_list('{$lista_desejos}{$produto->CODPRODUTO}', '/{$language}/produtos/checkout/', 'Loader_{$produto->CODPRODUTO}')" class="btn btn-light eu-quero" data-id="{$produto->CODPRODUTO}">
-                                <span>Eu quero</span>
-                                </a>
-                                <span class="Loader_{$produto->CODPRODUTO} Load_paralelo hide">
-                                <img src="/web-files/img/Loader.GIF" alt="Carregando..." title="Carregando..." border="0" width="25" height="25"/>
-                                </span>
-                                </div>*}
-                            </div>
-                        </div>
-                    </div>
-                {/if}
-            {/foreach}
-        </div>
-        {*<div class="row">
-        <div class="col-lg-12">
-        <ul class="pagination">
-        <li class="disabled"><a href="#">«</a></li>
-
-        {counter assign=i start=1 print=false} 
-        {foreach item=pgn from=$paginacao}  
-        {if $acao == "geral"}
-        {if $compara_paginacao == $pgn}
-        <li class="active"><a href="/{$language}/categoria/{$acao}/mais_produtos/{$pgn}">{$i}</a></li>
-        {else}
-        <li><a href="/{$language}/categoria/{$acao}/mais_produtos/{$pgn}">{$i}</a></li>
-        {/if}   
-        {/if}   
-        {counter}    
-        {/foreach}
-        </ul>
-        </div>
+{foreach item=produto from=$arr}
+    {if $produto->CODPRODUTO != ""}
+        <div class="col-thumb col-xs-6 col-sm-3">
+            <div class="thumbnail">
+                <div class="thumbnail-img">
+                    <a href="/{$language}/{$produto->CATEGORIA}/{$produto->URL_AMIGAVEL}">
+        {if $produto->IS_NOVO eq "1"}
+            <span class="thumbnail-tag">Novo</span>
+        {/if}
+        <img src="{$produto->CROP268}" alt="{$produto->NOME}" title="{$produto->NOME}"/>
+    </a>
+</div>
+<div class="thumbnail-infos">
+    <a href="/{$language}/{$produto->CATEGORIA}/{$produto->URL_AMIGAVEL}">
+        <div class="thumbnail-title">{if $produto->IS_PROMOCAO eq 1}<span class="price-through">R$ {$produto->DE}</span>{/if} R$ {$produto->PRECO}</div>
+    </a>
+    <a href="/{$language}/{$produto->CATEGORIA}/{$produto->URL_AMIGAVEL}">
+        <div class="thumbnail-subtitle">{$produto->NOME}</div>
+    </a>
+    
+    <span class="seis-vezes"><b>6x</b> de <b>R$ {$produto->PRECO_6}</b></span>
+    
+        {*<div class="thumbnail-btn">
+        <a onclick="javascript:add_checkout_list('{$lista_desejos}{$produto->CODPRODUTO}', '/{$language}/produtos/checkout/', 'Loader_{$produto->CODPRODUTO}')" class="btn btn-light eu-quero" data-id="{$produto->CODPRODUTO}">
+        <span>Eu quero</span>
+        </a>
+        <span class="Loader_{$produto->CODPRODUTO} Load_paralelo hide">
+        <img src="/web-files/img/Loader.GIF" alt="Carregando..." title="Carregando..." border="0" width="25" height="25"/>
+        </span>
         </div>*}
     </div>
+</div>
+</div>
+    {/if}
+{/foreach}
+</div>
+{*<div class="row">
+<div class="col-lg-12">
+<ul class="pagination">
+<li class="disabled"><a href="#">«</a></li>
+
+{counter assign=i start=1 print=false} 
+{foreach item=pgn from=$paginacao}  
+{if $acao == "geral"}
+{if $compara_paginacao == $pgn}
+<li class="active"><a href="/{$language}/categoria/{$acao}/mais_produtos/{$pgn}">{$i}</a></li>
+{else}
+<li><a href="/{$language}/categoria/{$acao}/mais_produtos/{$pgn}">{$i}</a></li>
+{/if}   
+{/if}   
+{counter}    
+{/foreach}
+</ul>
+</div>
+</div>*}
+</div>
 </section>
 
 <!-- /RECEM CHEGADOS  -->
@@ -266,44 +267,44 @@
 
         <div class="row">
 
-            {foreach item=produto from=$arr_mais_vendidos}
-                {if $produto->CODPRODUTO != ""}
-                    <div class="col-thumb col-xs-6 col-sm-3">
-                        <div class="thumbnail">
-                            <div class="thumbnail-img">
-                                <a href="/{$language}/{$produto->CATEGORIA}/{$produto->URL_AMIGAVEL}">
-                                    {if $produto->IS_NOVO eq "1"}
-                                        <span class="thumbnail-tag">Novo</span>
-                                    {/if}
-                                    <img src="{$produto->CROP268}" alt="{$produto->NOME}" border="0" title="{$produto->NOME}" class="img-responsive" width="261" height="289"/>
-                                </a>
-                            </div>
-                            <div class="thumbnail-infos">
-                                <a href="/{$language}/{$produto->CATEGORIA}/{$produto->URL_AMIGAVEL}">
-                                    <div class="thumbnail-title">{if $produto->IS_PROMOCAO eq 1}<span class="price-through">R$ {$produto->DE}</span>{/if} R$ {$produto->PRECO}</div>
-                                </a>
-                                <a href="/{$language}/{$produto->CATEGORIA}/{$produto->URL_AMIGAVEL}">
-                                    <div class="thumbnail-subtitle">{$produto->NOME}</div>
-                                </a>
-                                
-                                <span class="seis-vezes"><b>6x</b> de <b>R$ {$produto->PRECO_6}</b></span>
-                                {*<div class="thumbnail-btn">
-                                <a onclick="javascript:add_checkout_list('{$lista_desejos}{$produto->CODPRODUTO}', '/{$language}/produtos/checkout/', 'Loader_{$produto->CODPRODUTO}')" class="btn btn-light eu-quero" data-id="{$produto->CODPRODUTO}">
-                                <span>Eu quero</span>
-                                </a>
-                                <span class="Loader_{$produto->CODPRODUTO} Load_paralelo hide">
-                                <img src="/web-files/img/Loader.GIF" alt="Carregando..." title="Carregando..." border="0" width="25" height="25"/>
-                                </span>
-                                </div>*}
-                            </div>
-                        </div>
-                    </div>
-                {/if}
-            {/foreach}
-
-
-        </div>
+{foreach item=produto from=$arr_mais_vendidos}
+    {if $produto->CODPRODUTO != ""}
+        <div class="col-thumb col-xs-6 col-sm-3">
+            <div class="thumbnail">
+                <div class="thumbnail-img">
+                    <a href="/{$language}/{$produto->CATEGORIA}/{$produto->URL_AMIGAVEL}">
+        {if $produto->IS_NOVO eq "1"}
+            <span class="thumbnail-tag">Novo</span>
+        {/if}
+        <img src="{$produto->CROP268}" alt="{$produto->NOME}" border="0" title="{$produto->NOME}" class="img-responsive" width="261" height="289"/>
+    </a>
+</div>
+<div class="thumbnail-infos">
+    <a href="/{$language}/{$produto->CATEGORIA}/{$produto->URL_AMIGAVEL}">
+        <div class="thumbnail-title">{if $produto->IS_PROMOCAO eq 1}<span class="price-through">R$ {$produto->DE}</span>{/if} R$ {$produto->PRECO}</div>
+    </a>
+    <a href="/{$language}/{$produto->CATEGORIA}/{$produto->URL_AMIGAVEL}">
+        <div class="thumbnail-subtitle">{$produto->NOME}</div>
+    </a>
+    
+    <span class="seis-vezes"><b>6x</b> de <b>R$ {$produto->PRECO_6}</b></span>
+        {*<div class="thumbnail-btn">
+        <a onclick="javascript:add_checkout_list('{$lista_desejos}{$produto->CODPRODUTO}', '/{$language}/produtos/checkout/', 'Loader_{$produto->CODPRODUTO}')" class="btn btn-light eu-quero" data-id="{$produto->CODPRODUTO}">
+        <span>Eu quero</span>
+        </a>
+        <span class="Loader_{$produto->CODPRODUTO} Load_paralelo hide">
+        <img src="/web-files/img/Loader.GIF" alt="Carregando..." title="Carregando..." border="0" width="25" height="25"/>
+        </span>
+        </div>*}
     </div>
+</div>
+</div>
+    {/if}
+{/foreach}
+
+
+</div>
+</div>
 </section>
 
 <!-- /MAIS VENDIDOS  -->
@@ -326,44 +327,44 @@
 
         <div class="row">
 
-            {foreach item=produto from=$arr_promocoes}
-                {if $produto->CODPRODUTO != ""}
-                    <div class="col-thumb col-xs-6 col-sm-3">
-                        <div class="thumbnail">
-                            <div class="thumbnail-img">
-                                <a href="/{$language}/{$produto->CATEGORIA}/{$produto->URL_AMIGAVEL}">
-                                    {if $produto->IS_NOVO eq "1"}
-                                        <span class="thumbnail-tag">Novo</span>
-                                    {/if}
-                                    <img src="{$produto->CROP268}" alt="{$produto->NOME}" border="0" title="{$produto->NOME}" class="img-responsive" width="261" height="289"/>
-                                </a>
-                            </div>
-                            <div class="thumbnail-infos">
-                                <a href="/{$language}/{$produto->CATEGORIA}/{$produto->URL_AMIGAVEL}">
-                                    <div class="thumbnail-title">{if $produto->IS_PROMOCAO eq 1}<span class="price-through">R$ {$produto->DE}</span>{/if} R$ {$produto->PRECO}</div>
-                                </a>
-                                <a href="/{$language}/{$produto->CATEGORIA}/{$produto->URL_AMIGAVEL}">
-                                    <div class="thumbnail-subtitle">{$produto->NOME}</div>
-                                </a>
-                                
-                                <span class="seis-vezes"><b>6x</b> de <b>R$ {$produto->PRECO_6}</b></span>
-                                {*<div class="thumbnail-btn">
-                                <a onclick="javascript:add_checkout_list('{$lista_desejos}{$produto->CODPRODUTO}', '/{$language}/produtos/checkout/', 'Loader_{$produto->CODPRODUTO}')" class="btn btn-light eu-quero" data-id="{$produto->CODPRODUTO}">
-                                <span>Eu quero</span>
-                                </a>
-                                <span class="Loader_{$produto->CODPRODUTO} Load_paralelo hide">
-                                <img src="/web-files/img/Loader.GIF" alt="Carregando..." title="Carregando..." border="0" width="25" height="25"/>
-                                </span>
-                                </div>*}
-                            </div>
-                        </div>
-                    </div>
-                {/if}
-            {/foreach}
-
-
-        </div>
+{foreach item=produto from=$arr_promocoes}
+    {if $produto->CODPRODUTO != ""}
+        <div class="col-thumb col-xs-6 col-sm-3">
+            <div class="thumbnail">
+                <div class="thumbnail-img">
+                    <a href="/{$language}/{$produto->CATEGORIA}/{$produto->URL_AMIGAVEL}">
+        {if $produto->IS_NOVO eq "1"}
+            <span class="thumbnail-tag">Novo</span>
+        {/if}
+        <img src="{$produto->CROP268}" alt="{$produto->NOME}" border="0" title="{$produto->NOME}" class="img-responsive" width="261" height="289"/>
+    </a>
+</div>
+<div class="thumbnail-infos">
+    <a href="/{$language}/{$produto->CATEGORIA}/{$produto->URL_AMIGAVEL}">
+        <div class="thumbnail-title">{if $produto->IS_PROMOCAO eq 1}<span class="price-through">R$ {$produto->DE}</span>{/if} R$ {$produto->PRECO}</div>
+    </a>
+    <a href="/{$language}/{$produto->CATEGORIA}/{$produto->URL_AMIGAVEL}">
+        <div class="thumbnail-subtitle">{$produto->NOME}</div>
+    </a>
+    
+    <span class="seis-vezes"><b>6x</b> de <b>R$ {$produto->PRECO_6}</b></span>
+        {*<div class="thumbnail-btn">
+        <a onclick="javascript:add_checkout_list('{$lista_desejos}{$produto->CODPRODUTO}', '/{$language}/produtos/checkout/', 'Loader_{$produto->CODPRODUTO}')" class="btn btn-light eu-quero" data-id="{$produto->CODPRODUTO}">
+        <span>Eu quero</span>
+        </a>
+        <span class="Loader_{$produto->CODPRODUTO} Load_paralelo hide">
+        <img src="/web-files/img/Loader.GIF" alt="Carregando..." title="Carregando..." border="0" width="25" height="25"/>
+        </span>
+        </div>*}
     </div>
+</div>
+</div>
+    {/if}
+{/foreach}
+
+
+</div>
+</div>
 </section>
 
 <!-- /EM PROMOCÃO  -->
