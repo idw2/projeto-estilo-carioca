@@ -64,6 +64,8 @@
                                                     <th>#</th>
                                                     <th>Nome</th>
                                                     <th>Referência</th>
+                                                    <th>Tamanho</th>
+                                                    <th>Quantidade</th>
                                                     <th>Preço</th>
                                                     <th>Categoria</th>
                                                     <th>Ações</th>
@@ -74,8 +76,10 @@
                                                 <tbody>
                                                     <tr>
                                                         <td><a href="/pt/produtos/editar/{$it->URL_AMIGAVEL}" target="_blank"><img src="{$it->CROP80}" border="0" title="{$it->NOME}" alt="{$it->NOME}"></a></td>
-                                                        <td style="width: 50%">{$it->NOME}<br/><b>Tamanho: </b> {$it->ROTULO} - {$it->ESPECIFICACAO}</td>
+                                                        <td style="width: 50%">{$it->NOME}</td>
                                                         <td style="width: 10%">{$it->REFERENCIA}</td>
+                                                        <td style="width: 10%">{$it->TAMANHO}</td>
+                                                        <td style="width: 10%">{$it->QUANTIDADE}</td>
                                                         <td style="width: 10%">{$it->PRECO}</td>
                                                         <td style="width: 10%">{$it->CATEGORIA}</td>
                                                         <td style="width: 5%"><a class="ico-default-edit" data-toggle="tooltip" title="Enviar aviso deste produto ao cliente?" href="/pt/produtos/enviar-aviso/{$it->CODAVISEME}/{$ame->EMAIL_B64}"><i class="fa fa-paper-plane"></i></a></td>

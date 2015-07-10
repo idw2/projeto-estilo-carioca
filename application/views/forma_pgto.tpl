@@ -85,6 +85,7 @@
                         <div class="cont-forma push-right">
                             <label style="margin-top: 10px;" for="formaPagamento">Forma de Pagamento</label>
                             <select name="formaPagamento" id="formaPagamento" class="form-control">
+                                <option value="A" selected="">Débito em conta</option>
                                 <option value="1" selected="">Crédito à Vista</option>
                                 <option value='2'>2x</option>
                                 <option value='3'>3x</option>

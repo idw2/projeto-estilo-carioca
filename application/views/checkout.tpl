@@ -346,7 +346,7 @@
                     </div>
                     <div id="eseguro"> 
                         <h6>É UM SITE SEGURO?</h6>
-                        <p>Sim, a Estilo Carioca utiliza criptografia (SSL) e tem auditoria diária da empresa Site Blindado.</p>
+                        <p>Sim, a Estilo Carioca utiliza criptografia (SSL) e tem auditoria diária.</p>
                         <div style=" margin-top: 12px; ">
                             <div class="selo-top-cart-cartao">
                                 <div id="armored_website" style="display: inline-block;">

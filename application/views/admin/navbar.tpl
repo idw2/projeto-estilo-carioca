@@ -69,7 +69,7 @@
                 <a href="/{$language}/conta/aniversariantes" style="position: relative;"><i class="fa fa-users"></i> Aniversariantes {if $existe_aniversariantes != 0} <span class="btn btn-sm btn-danger aviso-balao">{$existe_aniversariantes}</span> {/if}</a>
             </li>
             <li {if $page eq "exportar"} class="active"{/if}>
-                <a href="/{$language}/pedidos/exportar"><i class="fa fa-expand"></i> Exportar Pedidos</a>
+                <a href="/{$language}/pedidos/exportar"><i class="fa fa-expand"></i> Exportar Endereços</a>
             </li>
             {*<li {if $page eq "atendentes_lista"} class="active" {else} class="" {/if}><a href="/{$language}/admin/atendentes-lista">Lista</a></li>*}
             <li {if $page eq "nota-fiscal"} class="active"{/if}>
